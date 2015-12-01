@@ -1,0 +1,214 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "+"
+- "+="
+- "-"
+- "-="
+- "*"
+- "*="
+- "/"
+- "/="
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "*"
+- "-="
+- "Float"
+- "+="
+- "*="
+- "Size2D"
+- "+"
+- "/="
+- "-"
+- "/"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "Stride"]
+- !private ["PSs9AnyObject", "height"]
+- !private ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "width"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs22BidirectionalIndexType", "Stride"]
+- !private ["PSs22BidirectionalIndexType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Stride"]
+- !private ["PSs21BitwiseOperationsType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "Stride"]
+- !private ["PSs11CVarArgType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "Stride"]
+- !private ["PSs10Comparable", "_DisallowMixedSignArithmetic"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "Stride"]
+- !private ["PSs23CustomStringConvertible", "_DisallowMixedSignArithmetic"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "Stride"]
+- !private ["PSs9Equatable", "_DisallowMixedSignArithmetic"]
+- !private ["Sf", "Stride"]
+- !private ["Sf", "deinit"]
+- !private ["PSs23FloatLiteralConvertible", "Stride"]
+- !private ["PSs17FloatingPointType", "Stride"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs16ForwardIndexType", "Stride"]
+- !private ["PSs16ForwardIndexType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "Stride"]
+- !private ["PSs8Hashable", "_DisallowMixedSignArithmetic"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "Stride"]
+- !private ["Si", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "Stride"]
+- !private ["PSs21IntegerArithmeticType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Stride"]
+- !private ["PSs25IntegerLiteralConvertible", "_DisallowMixedSignArithmetic"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Stride"]
+- !private ["PSs11IntegerType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "Stride"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs21RandomAccessIndexType", "Stride"]
+- !private ["PSs21RandomAccessIndexType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs17SignedIntegerType", "Stride"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Stride"]
+- !private ["C7Drakken6Size2D", "height"]
+- !private ["C7Drakken6Size2D", "init"]
+- !private ["C7Drakken6Size2D", "width"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "Stride"]
+- !private ["PSs10Strideable", "_DisallowMixedSignArithmetic"]
+- !private ["VSs6UInt32", "Distance"]
+- !private ["VSs6UInt32", "IntegerLiteralType"]
+- !private ["VSs6UInt32", "Stride"]
+- !private ["VSs6UInt32", "_DisallowMixedSignArithmetic"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["PSs19UnsignedIntegerType", "Distance"]
+- !private ["PSs19UnsignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs19UnsignedIntegerType", "Stride"]
+- !private ["PSs19UnsignedIntegerType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "Stride"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Stride"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "_DisallowMixedSignArithmetic"]
+- !private ["PSs19_CVarArgAlignedType", "Stride"]
+- !private ["PSs22_CVarArgPassedAsDouble", "Stride"]
+- !private ["PSs28_DisallowMixedSignArithmetic", "Distance"]
+- !private ["PSs28_DisallowMixedSignArithmetic", "IntegerLiteralType"]
+- !private ["PSs28_DisallowMixedSignArithmetic", "Stride"]
+- !private ["PSs28_DisallowMixedSignArithmetic", "_DisallowMixedSignArithmetic"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "Stride"]
+- !private ["PSs14_Incrementable", "_DisallowMixedSignArithmetic"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Stride"]
+- !private ["PSs22_IntegerArithmeticType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Stride"]
+- !private ["PSs12_IntegerType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Stride"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs22_RandomAccessAmbiguity", "Stride"]
+- !private ["PSs22_RandomAccessAmbiguity", "_DisallowMixedSignArithmetic"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Stride"]
+- !private ["PSs12_Reflectable", "_DisallowMixedSignArithmetic"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs18_SignedIntegerType", "Stride"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Stride"]
+- !private ["PSs11_Strideable", "_DisallowMixedSignArithmetic"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- !private "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "PSs11CVarArgType"
+- !private "PSs10Comparable"
+- !private "PSs23CustomStringConvertible"
+- !private "PSs9Equatable"
+- !private "Sf"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- !private "PSs16ForwardIndexType"
+- !private "PSs8Hashable"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "C7Drakken6Size2D"
+- !private "PSs10Strideable"
+- !private "VSs6UInt32"
+- !private "PSs19UnsignedIntegerType"
+- !private "PSs31_BuiltinFloatLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs28_DisallowMixedSignArithmetic"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/GlobalHeader.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Engine/Textures Generator/MaskTexture.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Shapes/Shape.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/FluidType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/Fluid.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/RigidbodyProtocol.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Bodies/BodyType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/Rigidbody.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/World.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Header.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Drakken.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/RSClipperWrapper.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-Swift.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
+interface-hash: "cb6b9dadd2fea1b80c0b27f11d6c474c"

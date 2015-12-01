@@ -1,0 +1,183 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Collidable"
+- "Physical"
+- "Scriptable"
+- "OtherComponent"
+- "InternalComponent"
+- "Component"
+- "Transformable"
+provides-nominal:
+- "P7Drakken10Collidable"
+- "P7Drakken8Physical"
+- "P7Drakken10Scriptable"
+- "P7Drakken14OtherComponent"
+- "P7Drakken17InternalComponent"
+- "P7Drakken9Component"
+- "P7Drakken13Transformable"
+provides-member:
+- ["P7Drakken10Collidable", ""]
+- ["P7Drakken8Physical", ""]
+- ["P7Drakken10Scriptable", ""]
+- ["P7Drakken14OtherComponent", ""]
+- ["P7Drakken17InternalComponent", ""]
+- ["P7Drakken9Component", ""]
+- ["P7Drakken13Transformable", ""]
+provides-dynamic-lookup:
+- "getMeshScale"
+- "component"
+- "setMeshScale"
+- "getPosition"
+- "setZRotationRadian"
+- "onCollisionExitWithTerrain"
+- "getScale"
+- "setZRotationDegree"
+- "onCollisionEnterWithTerrain"
+- "descriptor"
+- "descriptor"
+- "getZRotationRadian"
+- "getPivo"
+- "setPivo"
+- "onCollisionEnter"
+- "onCollisionExit"
+- "onCollisionEnterWithFluid"
+- "rigidbody"
+- "transform"
+- "transform"
+- "getZPosition"
+- "getZRotationDegree"
+- "setZPosition"
+- "setScale"
+- "setPosition"
+depends-top-level:
+- "Descriptor"
+- "CFTimeInterval"
+- "Float"
+- "Collidable"
+- "NSObjectProtocol"
+- "Int"
+- "Transformable"
+- "Renderer"
+- "CGPoint"
+- "Scene"
+- "Script"
+- "OtherComponent"
+- "InternalComponent"
+- "Component"
+- "float2"
+- "Physical"
+- "Transform"
+- "World"
+- "Scriptable"
+- "RigidbodyProtocol"
+depends-member:
+- ["P7Drakken10Collidable", "CGPoint"]
+- ["P7Drakken10Collidable", "Descriptor"]
+- ["P7Drakken10Collidable", "OtherComponent"]
+- ["P7Drakken10Collidable", "onCollisionEnter"]
+- ["P7Drakken10Collidable", "onCollisionEnterWithFluid"]
+- ["P7Drakken10Collidable", "onCollisionEnterWithTerrain"]
+- ["P7Drakken10Collidable", "onCollisionExit"]
+- ["P7Drakken10Collidable", "onCollisionExitWithTerrain"]
+- ["P7Drakken9Component", "Descriptor"]
+- ["P7Drakken9Component", "Transformable"]
+- ["P7Drakken9Component", "descriptor"]
+- ["P7Drakken9Component", "transform"]
+- ["P7Drakken17InternalComponent", "CFTimeInterval"]
+- ["P7Drakken17InternalComponent", "Component"]
+- ["P7Drakken17InternalComponent", "Int"]
+- ["P7Drakken17InternalComponent", "InternalComponent"]
+- ["P7Drakken17InternalComponent", "Renderer"]
+- ["P7Drakken17InternalComponent", "Transform"]
+- ["P7Drakken17InternalComponent", "_transform"]
+- ["P7Drakken17InternalComponent", "draw"]
+- ["P7Drakken17InternalComponent", "getComponent"]
+- ["P7Drakken17InternalComponent", "index"]
+- ["P7Drakken17InternalComponent", "update"]
+- ["P7Drakken17InternalComponent", "updateWorldQuad"]
+- ["PSo16NSObjectProtocol", "CFTimeInterval"]
+- ["PSo16NSObjectProtocol", "CGPoint"]
+- ["PSo16NSObjectProtocol", "Component"]
+- ["PSo16NSObjectProtocol", "Descriptor"]
+- ["PSo16NSObjectProtocol", "Float"]
+- ["PSo16NSObjectProtocol", "Int"]
+- ["PSo16NSObjectProtocol", "InternalComponent"]
+- ["PSo16NSObjectProtocol", "OtherComponent"]
+- ["PSo16NSObjectProtocol", "Renderer"]
+- ["PSo16NSObjectProtocol", "RigidbodyProtocol"]
+- ["PSo16NSObjectProtocol", "Scene"]
+- ["PSo16NSObjectProtocol", "Script"]
+- ["PSo16NSObjectProtocol", "Transform"]
+- ["PSo16NSObjectProtocol", "Transformable"]
+- ["PSo16NSObjectProtocol", "World"]
+- ["PSo16NSObjectProtocol", "float2"]
+- ["PSo16NSObjectProtocol", ""]
+- ["P7Drakken14OtherComponent", "Component"]
+- ["P7Drakken14OtherComponent", "Descriptor"]
+- ["P7Drakken14OtherComponent", "RigidbodyProtocol"]
+- ["P7Drakken14OtherComponent", "Transformable"]
+- ["P7Drakken14OtherComponent", "component"]
+- ["P7Drakken14OtherComponent", "descriptor"]
+- ["P7Drakken14OtherComponent", "rigidbody"]
+- ["P7Drakken14OtherComponent", "transform"]
+- ["P7Drakken8Physical", "World"]
+- ["P7Drakken8Physical", "createInWorld"]
+- ["P7Drakken10Scriptable", "Scene"]
+- ["P7Drakken10Scriptable", "Script"]
+- ["P7Drakken10Scriptable", "addScript"]
+- ["P7Drakken10Scriptable", "scene"]
+- ["P7Drakken13Transformable", "Float"]
+- ["P7Drakken13Transformable", "float2"]
+- ["P7Drakken13Transformable", "getMeshScale"]
+- ["P7Drakken13Transformable", "getPivo"]
+- ["P7Drakken13Transformable", "getPosition"]
+- ["P7Drakken13Transformable", "getScale"]
+- ["P7Drakken13Transformable", "getZPosition"]
+- ["P7Drakken13Transformable", "getZRotationDegree"]
+- ["P7Drakken13Transformable", "getZRotationRadian"]
+- ["P7Drakken13Transformable", "setMeshScale"]
+- ["P7Drakken13Transformable", "setPivo"]
+- ["P7Drakken13Transformable", "setPosition"]
+- ["P7Drakken13Transformable", "setScale"]
+- ["P7Drakken13Transformable", "setZPosition"]
+- ["P7Drakken13Transformable", "setZRotationDegree"]
+- ["P7Drakken13Transformable", "setZRotationRadian"]
+depends-nominal:
+- "P7Drakken10Collidable"
+- "P7Drakken9Component"
+- "P7Drakken17InternalComponent"
+- "PSo16NSObjectProtocol"
+- "P7Drakken14OtherComponent"
+- "P7Drakken8Physical"
+- "P7Drakken10Scriptable"
+- "P7Drakken13Transformable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/GlobalHeader.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Engine/Textures Generator/MaskTexture.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Shapes/Shape.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/FluidType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/Fluid.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/RigidbodyProtocol.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Bodies/BodyType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/Rigidbody.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/World.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Header.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Drakken.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/RSClipperWrapper.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-Swift.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
+interface-hash: "de0a0b82a25684aff96bf3e7d6c08650"

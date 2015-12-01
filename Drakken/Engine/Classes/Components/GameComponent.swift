@@ -16,7 +16,7 @@ public class Script {
 	public var deltaTime: CFTimeInterval = 0.0
 
 	public func instantiateNode(node: Component) {
-		component.scene.addNodeToInstantiate(node)
+		component.scene.addComponentToInstantiate(node)
 	}
 
 	public func delete() {
@@ -111,7 +111,7 @@ public class GameComponent: NSObject, InternalComponent, Component, Scriptable, 
 		_rigidbody?.deleteBodyFromWorld(world)
 	}
 	
-	public func setRigibody(rigidbody: Rigidbody) {
+	public func addRigibody(rigidbody: Rigidbody) {
 		rigidbody.setNode(self)
 		_transform.setRigidbody(rigidbody)
 
@@ -199,6 +199,15 @@ public class GameComponent: NSObject, InternalComponent, Component, Scriptable, 
 		}
 	}
 
+	internal func updateWorldQuad(var worldQuad: [Int: [Int: [Component]]]) {
+		if _rigidbody.getBodyType() != BodyType.Static {
+			let x = Int(_transform.getPosition().x) / Int(kWorldQuadSize)
+			let y = Int(_transform.getPosition().y) / Int(kWorldQuadSize)
+			
+			worldQuad[x]![y]!.append(self)
+		}
+	}
+
 	public func update(deltaTime: CFTimeInterval) {
 		if rigidbody != nil && _hasRigidbody {
 			if rigidbody!.created {
@@ -225,11 +234,13 @@ public class GameComponent: NSObject, InternalComponent, Component, Scriptable, 
 
 	public func draw(renderer: Renderer) {
 		if !hidden {
-			_mesh.drawMode = .Triangle
-			_mesh.texture1 = _animator.getCurrentFrameTexture()
-			_mesh.prepareToDraw(renderer, transform: _transform)
-			_mesh.draw(renderer)
-
+			if transform.getMeshScale().x > 0 && transform.getMeshScale().y > 0 {
+				_mesh.drawMode = .Triangle
+				_mesh.texture1 = _animator.getCurrentFrameTexture()
+				_mesh.prepareToDraw(renderer, transform: _transform)
+				_mesh.draw(renderer)
+			}
+			
 			for child: InternalComponent in _children {
 				child._transform.setParentModelMatrix(_transform.getModelMatrix())
 				child.draw(renderer)

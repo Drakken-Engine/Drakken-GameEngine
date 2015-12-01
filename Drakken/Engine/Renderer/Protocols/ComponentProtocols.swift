@@ -39,7 +39,8 @@ internal protocol InternalComponent: NSObjectProtocol {
 	
 	var index: Int { get set }
 	func getComponent() -> InternalComponent
-	
+
+	func updateWorldQuad(var worldQuad: [Int: [Int: [Component]]])
 	func update(deltaTime: CFTimeInterval)
 	func draw(renderer: Renderer)
 }

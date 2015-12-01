@@ -83,6 +83,9 @@ import Metal
 	func addNode(node: Component) {
 		_canvas.addNode(node)
 	}
+	
+	internal func updateWorldQuad(var worldQuad: [Int: [Int: [Component]]]) {
+	}
 
 	func update(deltaTime: CFTimeInterval) {
 		_canvas.update(deltaTime)

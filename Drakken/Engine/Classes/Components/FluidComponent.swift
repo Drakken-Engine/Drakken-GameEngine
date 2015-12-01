@@ -9,7 +9,7 @@
 import Foundation
 import simd
 
-@objc class FluidComponent: NSObject, InternalComponent, Component {
+@objc public class FluidComponent: NSObject, InternalComponent, Component {
 	
 	private var _fluids: [String: FluidMesh]!
 	private var _fluidCanvas: EffectCanvasComponent!
@@ -18,13 +18,13 @@ import simd
 
 	private(set) var _transform: Transform!
 
-	var transform: Transformable!
+	public var transform: Transformable!
 
-	var descriptor: Descriptor!
+	public var descriptor: Descriptor!
 
-	var index: Int = 0
+	internal var index: Int = 0
 	
-	init(world: World) {
+	public init(world: World) {
 		_fluids = [String: FluidMesh]()
 		
 		_world = world
@@ -41,15 +41,15 @@ import simd
 		_fluidCanvas.addNode(self)
 	}
 	
-	func getComponent() -> InternalComponent {
+	internal func getComponent() -> InternalComponent {
 		return _fluidCanvas
 	}
 
-	func getCanvas() -> EffectCanvasComponent {
+	internal func getCanvas() -> EffectCanvasComponent {
 		return _fluidCanvas
 	}
 	
-	func addNewFluid(radius: Float, dampingStrength: Float, gravityScale: Float, density: Float, label: String) {
+	public func addNewFluid(radius: Float, dampingStrength: Float, gravityScale: Float, density: Float, label: String) {
 		let fluid = FluidMesh(
 			materialName: "fluid",
 			radius: radius,
@@ -63,15 +63,22 @@ import simd
 		_fluids.updateValue(fluid, forKey: label)
 	}
 	
-	func getFluid(label: String) -> Fluid {
+	public func getFluid(label: String) -> Fluid {
 		return _fluids[label]!.getFluid()
 	}
+	
+	internal func updateWorldQuad(var worldQuad: [Int: [Int: [Component]]]) {
+	}
 
-	func update(deltaTime: CFTimeInterval) {
+	internal func update(deltaTime: CFTimeInterval) {
+		for fluid: (String, FluidMesh) in _fluids {
+			fluid.1.getFluid().update()
+		}
+		
 		_fluidCanvas.transform.setZPosition(_transform.getZPosition())
 	}
 
-	func draw(renderer: Renderer) {
+	internal func draw(renderer: Renderer) {
 		for fluid: (String, FluidMesh) in _fluids {
 			fluid.1.prepareToDraw(renderer, transform: _transform)
 			fluid.1.draw(renderer)

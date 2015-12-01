@@ -80,13 +80,9 @@ fragment float4 white_particle_fragment (			VertexOut			vert		[[ stage_in ]],
 	float4 color = float4(1.0, 1.0, 1.0, 1.0);
 
 	float2 pt = pointCoord - float2(0.5);
-	if(pt.x*pt.x+pt.y*pt.y > 0.25)
+	if(pt.x*pt.x + pt.y*pt.y > 0.20)
 	{
 		discard_fragment();
-	} else if (pt.x*pt.x+pt.y*pt.y > 0.18) {
-		color = float4(1.0, 1.0, 1.0, 0.6);
-	} else if (pt.x*pt.x+pt.y*pt.y > 0.16) {
-		color = float4(1.0, 1.0, 1.0, 0.8);
 	}
 	
 	return color;

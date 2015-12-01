@@ -89,8 +89,8 @@ fragment float4 fluid_fragment (			VertexOut			vert		[[ stage_in ]],
 	float dx = (1.0 / width) * 2.0;
 	float dy = (1.0 / height) * 2.0;
 	
-	float4 color = float4(0.0, 0.0, 0.0, 0.0);
-	
+	float4 color = float4(0.0, 0.0, 0.0, 1.0);
+
 	// ---------------------------------------------------------------------------------------
 	
 	color += texture1.sample(s, texcoord - float2(  0.0 * dx, -5.0 * dy));
@@ -173,25 +173,25 @@ fragment float4 fluid_fragment (			VertexOut			vert		[[ stage_in ]],
 		
 		color /= n;
 		
-		float range = 0.75;
+		float range = 0.85;
 		
 		float grayScale = color.r;
 		
 		if ((grayScale) >= range)
 		{
-			color = float4(0.3, 0.3, 0.9, 0.55);
+			color = float4(0.3, 0.3, 0.9, 0.60);
 		}
 		else if ((grayScale) >= range - 0.1)
 		{
-			color = float4(0.25, 0.25, 0.9, 0.58);
+			color = float4(0.25, 0.25, 0.9, 0.55);
 		}
 		else if ((grayScale) >= range - 0.25)
 		{
-			color = float4(0.225, 0.225, 0.9, 0.63);
+			color = float4(0.225, 0.225, 0.9, 0.50);
 		}
 		else if ((grayScale) >= range - 0.3)
 		{
-			color = float4(0.2, 0.2, 0.9, 0.6);
+			color = float4(0.2, 0.2, 0.9, 0.40);
 		}
 		else {
 			discard_fragment();

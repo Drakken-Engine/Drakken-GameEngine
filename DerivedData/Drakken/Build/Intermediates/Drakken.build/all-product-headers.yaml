@@ -1,0 +1,83 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/Drakken.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "BodyType.h",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Bodies/BodyType.h"
+        },
+        {
+          'type': 'file',
+          'name': "Drakken-Swift.h",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/Drakken.framework/Headers/Drakken-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Drakken.h",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Drakken.h"
+        },
+        {
+          'type': 'file',
+          'name': "Fluid.h",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/Fluid.h"
+        },
+        {
+          'type': 'file',
+          'name': "FluidType.h",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/FluidType.h"
+        },
+        {
+          'type': 'file',
+          'name': "GlobalHeader.h",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/GlobalHeader.h"
+        },
+        {
+          'type': 'file',
+          'name': "Header.h",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Header.h"
+        },
+        {
+          'type': 'file',
+          'name': "MaskTexture.h",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Engine/Textures Generator/MaskTexture.h"
+        },
+        {
+          'type': 'file',
+          'name': "Rigidbody.h",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/Rigidbody.h"
+        },
+        {
+          'type': 'file',
+          'name': "RigidbodyProtocol.h",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/RigidbodyProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "Shape.h",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Shapes/Shape.h"
+        },
+        {
+          'type': 'file',
+          'name': "World.h",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/World.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/Drakken.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

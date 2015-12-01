@@ -1,0 +1,19 @@
+PODS:
+  - RSClipperWrapper (1.1)
+
+DEPENDENCIES:
+  - RSClipperWrapper (from `https://github.com/rusty1s/RSClipperWrapper.git`)
+
+EXTERNAL SOURCES:
+  RSClipperWrapper:
+    :git: https://github.com/rusty1s/RSClipperWrapper.git
+
+CHECKOUT OPTIONS:
+  RSClipperWrapper:
+    :commit: 78f258d92549c5770495b5297f5964c82b94fd84
+    :git: https://github.com/rusty1s/RSClipperWrapper.git
+
+SPEC CHECKSUMS:
+  RSClipperWrapper: 2ca0ac5541d74f93ff710ecdd2a9a4d96bb178ac
+
+COCOAPODS: 0.38.2

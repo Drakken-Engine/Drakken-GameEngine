@@ -170,6 +170,9 @@ import RSClipperWrapper
 		}
 	}
 	
+	internal func updateWorldQuad(var worldQuad: [Int: [Int: [Component]]]) {
+	}
+	
 	internal func update(deltaTime: CFTimeInterval) {
 		for explosion: ExplosionPolygon in _explosionsQueue {
 			executeExplosion(explosion)
@@ -178,6 +181,7 @@ import RSClipperWrapper
 	}
 	
 	internal func draw(renderer: Renderer) {
+		_drawComponent.transform.setZPosition(transform.getZPosition())
 		_drawComponent.draw(renderer)
 	}
 }

@@ -32,8 +32,9 @@ class FluidMesh: Mesh {
 		)
 		_component = node
 
-		super.init(materialName: "white_particle")
-
+		super.init(materialName: "texture_particle")
+		
+		self.texture1 = Texture(fileName: "circle")
 		pointSize = radius * 1.8
 		modelMatrix = newScale(1)
 	}
@@ -43,13 +44,21 @@ class FluidMesh: Mesh {
 	}
 	
 	func updatePositionBuffer() {
-		let _particleBuffer = Core.device.newBufferWithBytes(
-											_fluid.getPositionBuffer(),
-											length: sizeof(Float) * 2 * Int(_fluid.getParticleCount()),
-											options: MTLResourceOptions.CPUCacheModeDefaultCache
-										)
-		
-		particlesPositions = _particleBuffer
+		if _fluid.getParticleCount() > 0 {
+			let _particleBuffer = Core.device.newBufferWithBytes(
+												_fluid.getPositionBuffer(),
+												length: sizeof(Float) * 2 * Int(_fluid.getParticleCount()),
+												options: MTLResourceOptions.CPUCacheModeDefaultCache
+											)
+			
+			particlesPositions = _particleBuffer
+		} else {
+			let _particleBuffer = Core.device.newBufferWithBytes(
+				UnsafeMutablePointer(bitPattern: 0), length: 0, options: MTLResourceOptions.CPUCacheModeDefaultCache
+			)
+			
+			particlesPositions = _particleBuffer
+		}
 	}
 	
 	override func prepareToDraw(renderer: Renderer, transform: Transform) {

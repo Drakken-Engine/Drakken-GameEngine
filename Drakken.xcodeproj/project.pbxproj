@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E2DFC171C04F1DE000AC3F4 /* TextureParticleShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 2E2DFC161C04F1DE000AC3F4 /* TextureParticleShader.metal */; };
+		2E2DFC191C04F3FF000AC3F4 /* ellipse.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2DFC181C04F3FF000AC3F4 /* ellipse.png */; };
+		2E2DFC1B1C04F6C2000AC3F4 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2DFC1A1C04F6C2000AC3F4 /* circle.png */; };
 		2EC3861E1BFFE87D00720FD6 /* Box2D.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EC384E51BFFE87D00720FD6 /* Box2D.h */; };
 		2EC3861F1BFFE87D00720FD6 /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EC384E71BFFE87D00720FD6 /* b2BroadPhase.cpp */; };
 		2EC386201BFFE87D00720FD6 /* b2BroadPhase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EC384E81BFFE87D00720FD6 /* b2BroadPhase.h */; };
@@ -216,6 +219,9 @@
 
 /* Begin PBXFileReference section */
 		266609E1ACEA814AAC0DE2C3 /* Pods-Drakken.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drakken.release.xcconfig"; path = "Pods/Target Support Files/Pods-Drakken/Pods-Drakken.release.xcconfig"; sourceTree = "<group>"; };
+		2E2DFC161C04F1DE000AC3F4 /* TextureParticleShader.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = TextureParticleShader.metal; sourceTree = "<group>"; };
+		2E2DFC181C04F3FF000AC3F4 /* ellipse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ellipse.png; sourceTree = "<group>"; };
+		2E2DFC1A1C04F6C2000AC3F4 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
 		2EC384D91BFFE85000720FD6 /* Drakken.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Drakken.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC384DE1BFFE85000720FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EC384E51BFFE87D00720FD6 /* Box2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2D.h; sourceTree = "<group>"; };
@@ -673,7 +679,7 @@
 				2EC385B11BFFE87D00720FD6 /* Components */,
 				2EC385B71BFFE87D00720FD6 /* Scripting */,
 				2EC385BA1BFFE87D00720FD6 /* Utils */,
-				2EC385BE1BFFE87D00720FD6 /* ViewController */,
+				2EC385BE1BFFE87D00720FD6 /* View */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -720,12 +726,13 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		2EC385BE1BFFE87D00720FD6 /* ViewController */ = {
+		2EC385BE1BFFE87D00720FD6 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				2EC385BF1BFFE87D00720FD6 /* GameViewController.swift */,
 				2EC385C01BFFE87D00720FD6 /* Scene.swift */,
 			);
+			name = View;
 			path = ViewController;
 			sourceTree = "<group>";
 		};
@@ -735,9 +742,9 @@
 				2EC385C21BFFE87D00720FD6 /* Math.swift */,
 				2EC385C31BFFE87D00720FD6 /* QuadTree.swift */,
 				2EC385C41BFFE87D00720FD6 /* Simplifier.swift */,
+				2EC385D61BFFE87D00720FD6 /* Vertex.swift */,
 				2EC385C51BFFE87D00720FD6 /* Size2D */,
 				2EC385CD1BFFE87D00720FD6 /* Vector2D */,
-				2EC385D61BFFE87D00720FD6 /* Vertex.swift */,
 			);
 			path = Math;
 			sourceTree = "<group>";
@@ -829,8 +836,8 @@
 				2EC385E91BFFE87D00720FD6 /* BaseShader.swift */,
 				2EC385EA1BFFE87D00720FD6 /* DataBuffer.swift */,
 				2EC385EB1BFFE87D00720FD6 /* IndexBuffer.swift */,
-				2EC385EC1BFFE87D00720FD6 /* Shaders.metal */,
 				2EC385F11BFFE87D00720FD6 /* TextureBuffer.swift */,
+				2EC385EC1BFFE87D00720FD6 /* Shaders.metal */,
 			);
 			path = Shaders;
 			sourceTree = "<group>";
@@ -842,6 +849,7 @@
 				2EC385EE1BFFE87D00720FD6 /* FluidShader.metal */,
 				2EC385EF1BFFE87D00720FD6 /* WhiteParticleShader.metal */,
 				2EC385F01BFFE87D00720FD6 /* WhiteShader.metal */,
+				2E2DFC161C04F1DE000AC3F4 /* TextureParticleShader.metal */,
 			);
 			path = Shaders.metal;
 			sourceTree = "<group>";
@@ -950,6 +958,8 @@
 		2EC3861B1BFFE87D00720FD6 /* Internal */ = {
 			isa = PBXGroup;
 			children = (
+				2E2DFC1A1C04F6C2000AC3F4 /* circle.png */,
+				2E2DFC181C04F3FF000AC3F4 /* ellipse.png */,
 				2EC3861C1BFFE87D00720FD6 /* black_pixel.png */,
 				2EC3861D1BFFE87D00720FD6 /* white_pixel.png */,
 			);
@@ -1123,8 +1133,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E2DFC191C04F3FF000AC3F4 /* ellipse.png in Resources */,
 				2EC3872C1BFFE87D00720FD6 /* white_pixel.png in Resources */,
 				2EC3872B1BFFE87D00720FD6 /* black_pixel.png in Resources */,
+				2E2DFC1B1C04F6C2000AC3F4 /* circle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1264,6 +1276,7 @@
 				2EC386E51BFFE87D00720FD6 /* QuadTree.swift in Sources */,
 				2EC386471BFFE87D00720FD6 /* b2Timer.cpp in Sources */,
 				2EC386DD1BFFE87D00720FD6 /* Descriptor.swift in Sources */,
+				2E2DFC171C04F1DE000AC3F4 /* TextureParticleShader.metal in Sources */,
 				2EC386F91BFFE87D00720FD6 /* ShaderManager.swift in Sources */,
 				2EC3872A1BFFE87D00720FD6 /* World.mm in Sources */,
 				2EC386EA1BFFE87D00720FD6 /* Size2D+float2.swift in Sources */,
@@ -1448,7 +1461,7 @@
 				2EC384E01BFFE85000720FD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		2EC384E11BFFE85000720FD6 /* Build configuration list for PBXNativeTarget "Drakken" */ = {
 			isa = XCConfigurationList;
@@ -1457,7 +1470,7 @@
 				2EC384E31BFFE85000720FD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

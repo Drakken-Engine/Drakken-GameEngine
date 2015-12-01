@@ -286,4 +286,8 @@
 	return [_body getMass];
 }
 
+- (BodyType) getBodyType {
+	return [_body getBodyType];
+}
+
 @end

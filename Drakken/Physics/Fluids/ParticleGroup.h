@@ -20,4 +20,11 @@
 	   forParticleSystem:(ParticleSystem *) particleSystem
 				userData:(void *) userData;
 
++ (void) createWithShape:(Shape *) shape
+			  atPosition:(CGPoint) position
+				  ofType:(FluidType) type
+	   forParticleSystem:(ParticleSystem *) particleSystem
+				userData:(void *) userData
+				lifetime:(float) lifetime;
+
 @end

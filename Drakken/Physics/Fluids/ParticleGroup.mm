@@ -35,4 +35,26 @@
 	_particleGroup->SetUserData(userData);
 }
 
++ (void) createWithShape:(Shape *) shape
+			  atPosition:(CGPoint) position
+				  ofType:(FluidType) type
+	   forParticleSystem:(ParticleSystem *) particleSystem
+				userData:(void *) userData
+				lifetime:(float) lifetime
+{
+	b2ParticleGroup * _particleGroup;
+	b2ParticleGroupDef _particleGroupDef;
+	
+	_particleGroupDef.flags = b2_waterParticle;
+	_particleGroupDef.position.Set(position.x, position.y);
+	_particleGroupDef.shape = (b2Shape *) [shape getShape];
+	_particleGroupDef.flags = b2_fixtureContactListenerParticle | b2_fixtureContactFilterParticle;
+	_particleGroupDef.lifetime = lifetime;
+	
+	b2ParticleSystem * _particleSystem = (b2ParticleSystem *)[particleSystem getParticleSystem];
+	
+	_particleGroup = _particleSystem->CreateParticleGroup(_particleGroupDef);
+	_particleGroup->SetUserData(userData);
+}
+
 @end

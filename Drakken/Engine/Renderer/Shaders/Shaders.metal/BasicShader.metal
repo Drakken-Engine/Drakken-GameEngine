@@ -14,7 +14,7 @@ struct VertexOut
 	float4 position		[[ position ]];
 	float3 normal		[[ user(normal) ]];
 	float2 texcoord		[[ user(tex_coord) ]];
-	float4 color		[[ user(color) ]];
+	float4 color			[[ user(color) ]];
 	float  pointSize	[[ point_size ]];
 };
 
@@ -65,13 +65,13 @@ vertex VertexOut basic_vertex ( constant	SharedUniforms	&sharedUniforms		[[ buff
 	return v_out;
 }
 
-fragment float4 basic_fragment (			VertexOut			vert		[[ stage_in ]],
+fragment float4 basic_fragment (			VertexOut			vert			[[ stage_in ]],
 								constant	Light				&light		[[ buffer(0) ]],
 								constant	Material			&material	[[ buffer(1) ]],
 								constant	float2				&texRepeat	[[ buffer(2) ]],
 								constant	bool				&repeatMask	[[ buffer(3) ]],
-											texture2d<float>	texture1	[[ texture(3) ]],
-											texture2d<float>	texture2	[[ texture(4) ]],
+											texture2d<float>	texture1		[[ texture(3) ]],
+											texture2d<float>	texture2		[[ texture(4) ]],
 											texture2d<float>	maskTexture	[[ texture(5) ]],
 											sampler				s			[[ sampler(0) ]] )
 {
@@ -84,7 +84,7 @@ fragment float4 basic_fragment (			VertexOut			vert		[[ stage_in ]],
 	}
 
 	float4 maskColor = maskTexture.sample(s, mask_texcoord);
-	if(maskColor.r == 0.0) {
+	if(maskColor.r <= 0.2) {
 		discard_fragment();
 	}
 	

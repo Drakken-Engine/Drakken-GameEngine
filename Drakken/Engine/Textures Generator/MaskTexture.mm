@@ -81,7 +81,7 @@
 							 Friction:(float) friction
 						  Restitution:(float) restitution
 {
-	uint8_t *rawData = (uint8_t *)calloc(metalTexture.height * metalTexture.width * 4, sizeof(uint8_t));
+	UInt8 *rawData = (UInt8 *)calloc(metalTexture.height * metalTexture.width * 4, sizeof(UInt8));
 	[metalTexture getBytes: rawData
 			   bytesPerRow: 4 * metalTexture.width
 				fromRegion: MTLRegionMake2D(0, 0, metalTexture.width, metalTexture.height)
@@ -129,7 +129,7 @@
 }
 
 + (NSArray *) getContoursFromMaskTexture:(id<MTLTexture>) metalTexture withGridSize:(CGSize) size {
-	uint8_t *rawData = (uint8_t *)calloc(metalTexture.height * metalTexture.width * 4, sizeof(uint8_t));
+	UInt8 *rawData = (UInt8 *)calloc(metalTexture.height * metalTexture.width * 4, sizeof(UInt8));
 	if(size.width > metalTexture.width) {
 		size.width = metalTexture.width;
 	}
@@ -139,24 +139,24 @@
 
 	int totalStepsWidth = cvCeil(metalTexture.width / size.width);
 	int totalStepsHeight = cvCeil(metalTexture.height / size.height);
-	int lastSliceWidth = (int)metalTexture.width - ((int)size.width * totalStepsWidth);
-	int lastSliceHeight = (int)metalTexture.height - ((int)size.height * totalStepsHeight);
+	int lastSliceWidth = size.width - (((int)size.width * totalStepsWidth) - (int)metalTexture.width);
+	int lastSliceHeight = size.height - (((int)size.height * totalStepsHeight) - (int)metalTexture.height);
 
 	int stepWidth = 0;
 	int stepHeight = 0;
 	NSMutableArray *contours = [[NSMutableArray alloc] init];
 	for(stepHeight = 0; stepHeight < totalStepsHeight; stepHeight++) {
 		for(stepWidth = 0; stepWidth < totalStepsWidth; stepWidth++) {
-			int sizeWidth = (uint)stepWidth * (int)size.width;
-			int sizeHeight = (uint)stepHeight * (int)size.height;
+			int sizeWidth = (stepWidth) * (int)size.width;
+			int sizeHeight = (stepHeight) * (int)size.height;
 
-			if(sizeWidth > metalTexture.width) {
+			if(stepWidth == totalStepsWidth - 1) {
 				sizeWidth = lastSliceWidth;
 			} else {
 				sizeWidth = (int)size.width;
 			}
 
-			if(sizeHeight > metalTexture.height) {
+			if(stepHeight == totalStepsHeight - 1) {
 				sizeHeight = lastSliceHeight;
 			} else {
 				sizeHeight = (int)size.height;
@@ -194,8 +194,12 @@
 			if(contoursSlice.count > 0) {
 				[contours addObject:contoursSlice];
 			}
+			
+			texture.release();
 		}
 	}
+	
+	delete [] rawData;
 	return contours;
 }
 

@@ -8,12 +8,14 @@
 
 import UIKit
 import simd
+import Metal
+import MetalKit
 
 public class Scene: NSObject {
-	private var _metalLayer: CAMetalLayer!
+//	private var _metalLayer: CAMetalLayer!
 	private var _renderer: Renderer!
 
-	private var _nodes: [Int: InternalComponent]!
+	private var _components: [Int: InternalComponent]!
 
 	private var _projectionMatrix: float4x4!
 	private var _viewMatrix: float4x4!
@@ -21,13 +23,18 @@ public class Scene: NSObject {
 	private var _sharedUniform: SharedUniforms!
 	private var _sharedUniformBuffer: MTLBuffer!
 	
-	private var _displayLink: CADisplayLink!
+//	private var _displayLink: CADisplayLink!
 	
-	private var _instantiateNodeQueue: [Component]!
-	private var _deleteNodeQueue: [InternalComponent]!
+	private var _instantiateComponentQueue: [Component]!
+	private var _deleteComponentQueue: [InternalComponent]!
 	private var _transform: Transform!
 
 	private var _indexCount: Int = 0
+	
+	private var _destroied: Bool = false
+	
+	private var _beforeUpdateHandler: () -> Void
+	private var _afterUpdateHandler: () -> Void
 	
 	//##############################################//
 	//##########         PHYSICS         ###########//
@@ -38,6 +45,12 @@ public class Scene: NSObject {
 	
 	//##############################################//
 	//##############################################//
+
+	private var _worldSize: Size2D
+	private var _worldQuads: [Int: [Int: [Component]]]!
+	
+	public var deltaTime: CFTimeInterval = 0.016
+	private var _frameStartTime: CFTimeInterval = 0.0
 
 	var modelMatrix: float4x4 {
 		return _transform.getModelMatrix()
@@ -51,19 +64,20 @@ public class Scene: NSObject {
 		return _transform.getPosition()
 	}
 
-	override init() {
+	init(_ beforeUpdateHandler: () -> Void, _ afterUpdateHandler: () -> Void) {
 		world = World(gravity: CGVectorMake(0.0, -9.8))
 		
 		_renderer = Renderer()
-		_nodes = [Int: InternalComponent]()
-		_instantiateNodeQueue = [Component]()
-		_deleteNodeQueue = [InternalComponent]()
+		_components = [Int: InternalComponent]()
+		_instantiateComponentQueue = [Component]()
+		_deleteComponentQueue = [InternalComponent]()
 		_transform = Transform()
+		_worldSize = Size2D(1000000, 1000000)
 
 		let screenSize = Core.screenSize
 		let screenScale = Core.screenScale
 
-		_transform.setZPosition(-500.0)
+		_transform.setZPosition(-1.0)
 		
 		_projectionMatrix = newOrtho(
 					-Float(screenSize.width/2.0)  * screenScale,
@@ -76,17 +90,33 @@ public class Scene: NSObject {
 		
 		_viewMatrix = _transform.getModelMatrix()
 		
+		_beforeUpdateHandler = beforeUpdateHandler
+		_afterUpdateHandler = afterUpdateHandler
+		
 		super.init()
 		
 		updateSharedUniformBuffer()
 	}
 
 	func setupGameLoop(metalLayer: CAMetalLayer) {
-		_displayLink = CADisplayLink(target: self, selector: Selector("draw"))
-		_displayLink.frameInterval = 1
-		_displayLink.addToRunLoop(NSRunLoop.mainRunLoop(), forMode: NSDefaultRunLoopMode)
+//		_displayLink = CADisplayLink(target: self, selector: Selector("draw"))
+//		_displayLink.frameInterval = 1
+//		_displayLink.addToRunLoop(NSRunLoop.mainRunLoop(), forMode: NSDefaultRunLoopMode)
 
-		_metalLayer = metalLayer
+//		_metalLayer = metalLayer
+	}
+
+	func defineWorldSize(width: Float, _ heigth: Float) {
+		_worldSize.width = width
+		_worldSize.height = heigth
+	}
+
+	private func divideSpaceQuads() {
+		_worldQuads = [Int: [Int: [Component]]]()
+
+		if _components.count > 0 {
+
+		}
 	}
 
 	func setCameraPosition(x: Float, _ y: Float, _ z: Float) {
@@ -127,15 +157,15 @@ public class Scene: NSObject {
 		}
 		let index = _indexCount++
 		mutableComponent.index = index
-		self._nodes.updateValue(mutableComponent, forKey: index)
+		self._components.updateValue(mutableComponent, forKey: index)
 	}
 
 	public func removeComponent(component: Component) {
-		self._deleteNodeQueue.append(component as! InternalComponent)
+		self._deleteComponentQueue.append(component as! InternalComponent)
 	}
 	
-	internal func addNodeToInstantiate(node: Component) {
-		self._instantiateNodeQueue.append(node)
+	internal func addComponentToInstantiate(component: Component) {
+		self._instantiateComponentQueue.append(component)
 	}
 	
 	internal func updateSharedUniformBuffer() {
@@ -157,44 +187,55 @@ public class Scene: NSObject {
 	}
 	
 	internal func update() {
-		for nodeToInstantiate: Component in _instantiateNodeQueue {
-			addComponent(nodeToInstantiate)
-			if nodeToInstantiate is Physical {
-				(nodeToInstantiate as! Physical).createInWorld(world)
+		if !_destroied {
+			for nodeToInstantiate: Component in _instantiateComponentQueue {
+				addComponent(nodeToInstantiate)
+				if nodeToInstantiate is Physical {
+					(nodeToInstantiate as! Physical).createInWorld(world)
+				}
 			}
-		}
-		_instantiateNodeQueue.removeAll(keepCapacity: true)
+			_instantiateComponentQueue.removeAll(keepCapacity: true)
 
-		for nodeToDelete: InternalComponent in _deleteNodeQueue {
-			if nodeToDelete is GameComponent {
-				(nodeToDelete as! GameComponent).deleteRigidbody(world)
+			for nodeToDelete: InternalComponent in _deleteComponentQueue {
+				if nodeToDelete is GameComponent {
+					(nodeToDelete as! GameComponent).deleteRigidbody(world)
+				}
+				_components.removeValueForKey(nodeToDelete.index)
 			}
-			_nodes.removeValueForKey(nodeToDelete.index)
-		}
-		_deleteNodeQueue.removeAll(keepCapacity: true)
+			_deleteComponentQueue.removeAll(keepCapacity: true)
 
-		world.step()
+			world.step()
 
-		for node: (Int, InternalComponent) in _nodes {
-			node.1.update(_displayLink.duration)
+			for node: (Int, InternalComponent) in _components {
+				node.1.update(Double(deltaTime))
+			}
 		}
 	}
 	
-	internal func draw() {
+	internal func draw(mtkView: MTKView) {
+		_frameStartTime = CACurrentMediaTime()
+		_beforeUpdateHandler()
 		update()
-
-		guard let drawable = _metalLayer.nextDrawable() else {
-			print("Error!! metalLayer.nextDrawable() fail")
+		_afterUpdateHandler()
+		
+		guard let drawable = mtkView.currentDrawable else {
+			print("Error!! mtkView.currentDrawable fail")
 			exit(1)
 		}
-
+		
 		_renderer.startFrame(drawable: drawable)
 		_renderer.renderCommandEncoder.setVertexBuffer(_sharedUniformBuffer, offset: 0, atIndex: 0)
 		
-		for node: (Int, InternalComponent) in _nodes {
+		for node: (Int, InternalComponent) in _components {
 			node.1.draw(_renderer)
 		}
 		
 		_renderer.endFrame(drawable: drawable)
+		deltaTime = CACurrentMediaTime() - _frameStartTime
+	}
+	
+	public func destroy() {
+		_destroied = true
+		world.destroy()
 	}
 }

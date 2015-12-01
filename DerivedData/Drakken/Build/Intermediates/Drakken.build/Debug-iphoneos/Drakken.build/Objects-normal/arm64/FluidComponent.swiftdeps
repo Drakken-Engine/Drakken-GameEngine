@@ -1,0 +1,547 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FluidComponent"
+provides-nominal:
+- "C7Drakken14FluidComponent"
+provides-member:
+- ["C7Drakken14FluidComponent", ""]
+provides-dynamic-lookup:
+- "update"
+- "updateWorldQuad"
+- "getFluid"
+- "addNewFluid"
+- "transform"
+- "descriptor"
+- "draw"
+- "index"
+- "getCanvas"
+- "_transform"
+depends-top-level:
+- !private "CGPointZero"
+- "CFTimeInterval"
+- !private "Core"
+- !private "StringLiteralType"
+- "NSObject"
+- "Int"
+- "String"
+- "Component"
+- "FluidComponent"
+- "InternalComponent"
+- "Transformable"
+- "World"
+- "EffectCanvasComponent"
+- "Transform"
+- "Float"
+- "Renderer"
+- "FluidMesh"
+- "Fluid"
+- "Descriptor"
+depends-member:
+- !private ["PSs9AnyObject", "CGPointZero"]
+- !private ["PSs9AnyObject", "Core"]
+- !private ["PSs9AnyObject", "Descriptor"]
+- !private ["PSs9AnyObject", "EffectCanvasComponent"]
+- !private ["PSs9AnyObject", "FluidMesh"]
+- !private ["PSs9AnyObject", "String"]
+- !private ["PSs9AnyObject", "Transform"]
+- ["PSs9AnyObject", "_fluidCanvas"]
+- ["PSs9AnyObject", "_fluids"]
+- ["PSs9AnyObject", "_transform"]
+- ["PSs9AnyObject", "_world"]
+- ["PSs9AnyObject", "addNewFluid"]
+- !private ["PSs9AnyObject", "addNode"]
+- ["PSs9AnyObject", "descriptor"]
+- ["PSs9AnyObject", "draw"]
+- ["PSs9AnyObject", "getCanvas"]
+- ["PSs9AnyObject", "getComponent"]
+- ["PSs9AnyObject", "getFluid"]
+- !private ["PSs9AnyObject", "getZPosition"]
+- ["PSs9AnyObject", "index"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "prepareToDraw"]
+- !private ["PSs9AnyObject", "screenSize"]
+- !private ["PSs9AnyObject", "setEffectMaterial"]
+- ["PSs9AnyObject", "transform"]
+- ["PSs9AnyObject", "update"]
+- ["PSs9AnyObject", "updateWorldQuad"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "CGPointZero"]
+- !private ["PSs11CVarArgType", "Core"]
+- !private ["PSs11CVarArgType", "Descriptor"]
+- !private ["PSs11CVarArgType", "EffectCanvasComponent"]
+- !private ["PSs11CVarArgType", "FluidMesh"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "String"]
+- !private ["PSs11CVarArgType", "Transform"]
+- ["PSs11CVarArgType", "_fluidCanvas"]
+- ["PSs11CVarArgType", "_fluids"]
+- ["PSs11CVarArgType", "_transform"]
+- ["PSs11CVarArgType", "_world"]
+- ["PSs11CVarArgType", "addNewFluid"]
+- !private ["PSs11CVarArgType", "addNode"]
+- ["PSs11CVarArgType", "descriptor"]
+- ["PSs11CVarArgType", "draw"]
+- ["PSs11CVarArgType", "getCanvas"]
+- ["PSs11CVarArgType", "getComponent"]
+- ["PSs11CVarArgType", "getFluid"]
+- !private ["PSs11CVarArgType", "getZPosition"]
+- ["PSs11CVarArgType", "index"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "screenSize"]
+- !private ["PSs11CVarArgType", "setEffectMaterial"]
+- ["PSs11CVarArgType", "transform"]
+- ["PSs11CVarArgType", "update"]
+- ["PSs11CVarArgType", "updateWorldQuad"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "init"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs14CollectionType", "updateValue"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "_DisabledRangeIndex"]
+- !private ["P7Drakken9Component", "CGPointZero"]
+- !private ["P7Drakken9Component", "Core"]
+- !private ["P7Drakken9Component", "Descriptor"]
+- !private ["P7Drakken9Component", "EffectCanvasComponent"]
+- !private ["P7Drakken9Component", "FluidMesh"]
+- !private ["P7Drakken9Component", "String"]
+- !private ["P7Drakken9Component", "Transform"]
+- !private ["P7Drakken9Component", "_fluidCanvas"]
+- !private ["P7Drakken9Component", "_fluids"]
+- ["P7Drakken9Component", "_transform"]
+- !private ["P7Drakken9Component", "_world"]
+- !private ["P7Drakken9Component", "addNode"]
+- ["P7Drakken9Component", "descriptor"]
+- ["P7Drakken9Component", "draw"]
+- ["P7Drakken9Component", "getComponent"]
+- ["P7Drakken9Component", "index"]
+- !private ["P7Drakken9Component", "init"]
+- !private ["P7Drakken9Component", "setEffectMaterial"]
+- ["P7Drakken9Component", "transform"]
+- ["P7Drakken9Component", "update"]
+- ["P7Drakken9Component", "updateWorldQuad"]
+- ["P7Drakken9Component", ""]
+- !private ["C7Drakken4Core", "screenSize"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs28CustomDebugStringConvertible", "updateValue"]
+- !private ["PSs23CustomStringConvertible", "CGPointZero"]
+- !private ["PSs23CustomStringConvertible", "Core"]
+- !private ["PSs23CustomStringConvertible", "Descriptor"]
+- !private ["PSs23CustomStringConvertible", "EffectCanvasComponent"]
+- !private ["PSs23CustomStringConvertible", "FluidMesh"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "String"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "Transform"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- ["PSs23CustomStringConvertible", "_fluidCanvas"]
+- ["PSs23CustomStringConvertible", "_fluids"]
+- ["PSs23CustomStringConvertible", "_transform"]
+- ["PSs23CustomStringConvertible", "_world"]
+- ["PSs23CustomStringConvertible", "addNewFluid"]
+- !private ["PSs23CustomStringConvertible", "addNode"]
+- ["PSs23CustomStringConvertible", "descriptor"]
+- ["PSs23CustomStringConvertible", "draw"]
+- ["PSs23CustomStringConvertible", "getCanvas"]
+- ["PSs23CustomStringConvertible", "getComponent"]
+- ["PSs23CustomStringConvertible", "getFluid"]
+- !private ["PSs23CustomStringConvertible", "getZPosition"]
+- ["PSs23CustomStringConvertible", "index"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "screenSize"]
+- !private ["PSs23CustomStringConvertible", "setEffectMaterial"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", "transform"]
+- ["PSs23CustomStringConvertible", "update"]
+- !private ["PSs23CustomStringConvertible", "updateValue"]
+- ["PSs23CustomStringConvertible", "updateWorldQuad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["C7Drakken10Descriptor", "init"]
+- !private ["VSs10Dictionary", "Generator"]
+- !private ["VSs10Dictionary", "Index"]
+- !private ["VSs10Dictionary", "SubSequence"]
+- !private ["VSs10Dictionary", "_Element"]
+- !private ["VSs10Dictionary", "deinit"]
+- !private ["VSs10Dictionary", "init"]
+- !private ["VSs10Dictionary", "subscript"]
+- !private ["VSs10Dictionary", "updateValue"]
+- !private ["VSs19DictionaryGenerator", "Element"]
+- !private ["VSs15DictionaryIndex", "Distance"]
+- !private ["VSs15DictionaryIndex", "_DisabledRangeIndex"]
+- !private ["PSs28DictionaryLiteralConvertible", "Generator"]
+- !private ["PSs28DictionaryLiteralConvertible", "Index"]
+- !private ["PSs28DictionaryLiteralConvertible", "SubSequence"]
+- !private ["PSs28DictionaryLiteralConvertible", "_Element"]
+- !private ["PSs28DictionaryLiteralConvertible", "init"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["PSs28DictionaryLiteralConvertible", "updateValue"]
+- !private ["C7Drakken21EffectCanvasComponent", "addNode"]
+- !private ["C7Drakken21EffectCanvasComponent", "deinit"]
+- !private ["C7Drakken21EffectCanvasComponent", "init"]
+- !private ["C7Drakken21EffectCanvasComponent", "setEffectMaterial"]
+- !private ["C7Drakken21EffectCanvasComponent", "transform"]
+- !private ["PSs9Equatable", "CGPointZero"]
+- !private ["PSs9Equatable", "Core"]
+- !private ["PSs9Equatable", "Descriptor"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "EffectCanvasComponent"]
+- !private ["PSs9Equatable", "FluidMesh"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "String"]
+- !private ["PSs9Equatable", "Transform"]
+- !private ["PSs9Equatable", "_DisabledRangeIndex"]
+- ["PSs9Equatable", "_fluidCanvas"]
+- ["PSs9Equatable", "_fluids"]
+- ["PSs9Equatable", "_transform"]
+- ["PSs9Equatable", "_world"]
+- ["PSs9Equatable", "addNewFluid"]
+- !private ["PSs9Equatable", "addNode"]
+- ["PSs9Equatable", "descriptor"]
+- ["PSs9Equatable", "draw"]
+- ["PSs9Equatable", "getCanvas"]
+- ["PSs9Equatable", "getComponent"]
+- ["PSs9Equatable", "getFluid"]
+- !private ["PSs9Equatable", "getZPosition"]
+- ["PSs9Equatable", "index"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "screenSize"]
+- !private ["PSs9Equatable", "setEffectMaterial"]
+- ["PSs9Equatable", "transform"]
+- ["PSs9Equatable", "update"]
+- ["PSs9Equatable", "updateWorldQuad"]
+- ["PSs9Equatable", ""]
+- !private ["CSo5Fluid", "update"]
+- ["C7Drakken14FluidComponent", "CFTimeInterval"]
+- !private ["C7Drakken14FluidComponent", "CGPointZero"]
+- ["C7Drakken14FluidComponent", "Component"]
+- !private ["C7Drakken14FluidComponent", "Core"]
+- ["C7Drakken14FluidComponent", "Descriptor"]
+- ["C7Drakken14FluidComponent", "EffectCanvasComponent"]
+- ["C7Drakken14FluidComponent", "Float"]
+- ["C7Drakken14FluidComponent", "Fluid"]
+- ["C7Drakken14FluidComponent", "FluidMesh"]
+- ["C7Drakken14FluidComponent", "Int"]
+- ["C7Drakken14FluidComponent", "InternalComponent"]
+- ["C7Drakken14FluidComponent", "Renderer"]
+- ["C7Drakken14FluidComponent", "String"]
+- ["C7Drakken14FluidComponent", "Transform"]
+- ["C7Drakken14FluidComponent", "Transformable"]
+- ["C7Drakken14FluidComponent", "World"]
+- !private ["C7Drakken14FluidComponent", "_fluidCanvas"]
+- !private ["C7Drakken14FluidComponent", "_fluids"]
+- ["C7Drakken14FluidComponent", "_transform"]
+- !private ["C7Drakken14FluidComponent", "_world"]
+- ["C7Drakken14FluidComponent", "addNewFluid"]
+- ["C7Drakken14FluidComponent", "deinit"]
+- ["C7Drakken14FluidComponent", "descriptor"]
+- ["C7Drakken14FluidComponent", "draw"]
+- ["C7Drakken14FluidComponent", "getCanvas"]
+- ["C7Drakken14FluidComponent", "getComponent"]
+- ["C7Drakken14FluidComponent", "getFluid"]
+- ["C7Drakken14FluidComponent", "index"]
+- ["C7Drakken14FluidComponent", "init"]
+- ["C7Drakken14FluidComponent", "transform"]
+- ["C7Drakken14FluidComponent", "update"]
+- ["C7Drakken14FluidComponent", "updateWorldQuad"]
+- !private ["C7Drakken9FluidMesh", "draw"]
+- !private ["C7Drakken9FluidMesh", "getFluid"]
+- !private ["C7Drakken9FluidMesh", "init"]
+- !private ["C7Drakken9FluidMesh", "prepareToDraw"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs16ForwardIndexType", "_DisabledRangeIndex"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "CGPointZero"]
+- !private ["PSs8Hashable", "Core"]
+- !private ["PSs8Hashable", "Descriptor"]
+- !private ["PSs8Hashable", "EffectCanvasComponent"]
+- !private ["PSs8Hashable", "FluidMesh"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "String"]
+- !private ["PSs8Hashable", "Transform"]
+- ["PSs8Hashable", "_fluidCanvas"]
+- ["PSs8Hashable", "_fluids"]
+- ["PSs8Hashable", "_transform"]
+- ["PSs8Hashable", "_world"]
+- ["PSs8Hashable", "addNewFluid"]
+- !private ["PSs8Hashable", "addNode"]
+- ["PSs8Hashable", "descriptor"]
+- ["PSs8Hashable", "draw"]
+- ["PSs8Hashable", "getCanvas"]
+- ["PSs8Hashable", "getComponent"]
+- ["PSs8Hashable", "getFluid"]
+- !private ["PSs8Hashable", "getZPosition"]
+- ["PSs8Hashable", "index"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "screenSize"]
+- !private ["PSs8Hashable", "setEffectMaterial"]
+- ["PSs8Hashable", "transform"]
+- ["PSs8Hashable", "update"]
+- ["PSs8Hashable", "updateWorldQuad"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "Generator"]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "init"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["PSs9Indexable", "updateValue"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["P7Drakken17InternalComponent", "CGPointZero"]
+- !private ["P7Drakken17InternalComponent", "Core"]
+- !private ["P7Drakken17InternalComponent", "Descriptor"]
+- !private ["P7Drakken17InternalComponent", "EffectCanvasComponent"]
+- !private ["P7Drakken17InternalComponent", "FluidMesh"]
+- !private ["P7Drakken17InternalComponent", "String"]
+- !private ["P7Drakken17InternalComponent", "Transform"]
+- !private ["P7Drakken17InternalComponent", "_fluidCanvas"]
+- !private ["P7Drakken17InternalComponent", "_fluids"]
+- ["P7Drakken17InternalComponent", "_transform"]
+- !private ["P7Drakken17InternalComponent", "_world"]
+- !private ["P7Drakken17InternalComponent", "addNode"]
+- ["P7Drakken17InternalComponent", "descriptor"]
+- ["P7Drakken17InternalComponent", "draw"]
+- ["P7Drakken17InternalComponent", "getComponent"]
+- ["P7Drakken17InternalComponent", "index"]
+- !private ["P7Drakken17InternalComponent", "init"]
+- !private ["P7Drakken17InternalComponent", "setEffectMaterial"]
+- ["P7Drakken17InternalComponent", "transform"]
+- ["P7Drakken17InternalComponent", "update"]
+- ["P7Drakken17InternalComponent", "updateWorldQuad"]
+- ["P7Drakken17InternalComponent", ""]
+- !private ["C7Drakken4Mesh", "draw"]
+- !private ["C7Drakken4Mesh", "getFluid"]
+- !private ["C7Drakken4Mesh", "prepareToDraw"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- ["CSo8NSObject", "CFTimeInterval"]
+- !private ["CSo8NSObject", "CGPointZero"]
+- ["CSo8NSObject", "Component"]
+- !private ["CSo8NSObject", "Core"]
+- ["CSo8NSObject", "Descriptor"]
+- ["CSo8NSObject", "EffectCanvasComponent"]
+- ["CSo8NSObject", "Float"]
+- ["CSo8NSObject", "Fluid"]
+- ["CSo8NSObject", "FluidMesh"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "InternalComponent"]
+- ["CSo8NSObject", "Renderer"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Transform"]
+- ["CSo8NSObject", "Transformable"]
+- ["CSo8NSObject", "World"]
+- ["CSo8NSObject", "_fluidCanvas"]
+- ["CSo8NSObject", "_fluids"]
+- ["CSo8NSObject", "_transform"]
+- ["CSo8NSObject", "_world"]
+- ["CSo8NSObject", "addNewFluid"]
+- !private ["CSo8NSObject", "addNode"]
+- ["CSo8NSObject", "descriptor"]
+- ["CSo8NSObject", "draw"]
+- ["CSo8NSObject", "getCanvas"]
+- ["CSo8NSObject", "getComponent"]
+- ["CSo8NSObject", "getFluid"]
+- !private ["CSo8NSObject", "getZPosition"]
+- ["CSo8NSObject", "index"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "screenSize"]
+- !private ["CSo8NSObject", "setEffectMaterial"]
+- ["CSo8NSObject", "transform"]
+- ["CSo8NSObject", "update"]
+- ["CSo8NSObject", "updateWorldQuad"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "CGPointZero"]
+- !private ["PSo16NSObjectProtocol", "Core"]
+- !private ["PSo16NSObjectProtocol", "Descriptor"]
+- !private ["PSo16NSObjectProtocol", "EffectCanvasComponent"]
+- !private ["PSo16NSObjectProtocol", "FluidMesh"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "Transform"]
+- ["PSo16NSObjectProtocol", "_fluidCanvas"]
+- ["PSo16NSObjectProtocol", "_fluids"]
+- ["PSo16NSObjectProtocol", "_transform"]
+- ["PSo16NSObjectProtocol", "_world"]
+- ["PSo16NSObjectProtocol", "addNewFluid"]
+- !private ["PSo16NSObjectProtocol", "addNode"]
+- ["PSo16NSObjectProtocol", "descriptor"]
+- ["PSo16NSObjectProtocol", "draw"]
+- ["PSo16NSObjectProtocol", "getCanvas"]
+- ["PSo16NSObjectProtocol", "getComponent"]
+- ["PSo16NSObjectProtocol", "getFluid"]
+- !private ["PSo16NSObjectProtocol", "getZPosition"]
+- ["PSo16NSObjectProtocol", "index"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "screenSize"]
+- !private ["PSo16NSObjectProtocol", "setEffectMaterial"]
+- !private ["PSo16NSObjectProtocol", "setZPosition"]
+- ["PSo16NSObjectProtocol", "transform"]
+- ["PSo16NSObjectProtocol", "update"]
+- ["PSo16NSObjectProtocol", "updateWorldQuad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSs21NilLiteralConvertible", "Generator"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "init"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs12SequenceType", "updateValue"]
+- !private ["P7Drakken24ShaderFragmentBufferData", "draw"]
+- !private ["P7Drakken24ShaderFragmentBufferData", "getFluid"]
+- !private ["P7Drakken24ShaderFragmentBufferData", "init"]
+- !private ["P7Drakken24ShaderFragmentBufferData", "prepareToDraw"]
+- !private ["P7Drakken25ShaderFragmentTextureData", "draw"]
+- !private ["P7Drakken25ShaderFragmentTextureData", "getFluid"]
+- !private ["P7Drakken25ShaderFragmentTextureData", "init"]
+- !private ["P7Drakken25ShaderFragmentTextureData", "prepareToDraw"]
+- !private ["P7Drakken16ShaderVertexData", "draw"]
+- !private ["P7Drakken16ShaderVertexData", "getFluid"]
+- !private ["P7Drakken16ShaderVertexData", "init"]
+- !private ["P7Drakken16ShaderVertexData", "prepareToDraw"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["C7Drakken9Transform", "deinit"]
+- !private ["C7Drakken9Transform", "getZPosition"]
+- !private ["C7Drakken9Transform", "init"]
+- !private ["P7Drakken13Transformable", "getZPosition"]
+- !private ["P7Drakken13Transformable", "init"]
+- !private ["P7Drakken13Transformable", "setZPosition"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "_DisabledRangeIndex"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["PSs21_ObjectiveCBridgeable", "updateValue"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs12_Reflectable", "updateValue"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "P7Drakken9Component"
+- !private "C7Drakken4Core"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "C7Drakken10Descriptor"
+- !private "VSs10Dictionary"
+- !private "VSs19DictionaryGenerator"
+- !private "VSs15DictionaryIndex"
+- !private "PSs28DictionaryLiteralConvertible"
+- !private "C7Drakken21EffectCanvasComponent"
+- "PSs9Equatable"
+- !private "CSo5Fluid"
+- "C7Drakken14FluidComponent"
+- !private "C7Drakken9FluidMesh"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- "P7Drakken17InternalComponent"
+- !private "C7Drakken4Mesh"
+- !private "PSs14MirrorPathType"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSs21NilLiteralConvertible"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs12SequenceType"
+- !private "P7Drakken24ShaderFragmentBufferData"
+- !private "P7Drakken25ShaderFragmentTextureData"
+- !private "P7Drakken16ShaderVertexData"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- !private "VSs12StaticString"
+- !private "PSs10Strideable"
+- !private "C7Drakken9Transform"
+- !private "P7Drakken13Transformable"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/GlobalHeader.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Engine/Textures Generator/MaskTexture.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Shapes/Shape.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/FluidType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/Fluid.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/RigidbodyProtocol.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Bodies/BodyType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/Rigidbody.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/World.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Header.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Drakken.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/RSClipperWrapper.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-Swift.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
+interface-hash: "efc7e1973671018125f885c9a2fa4a4e"

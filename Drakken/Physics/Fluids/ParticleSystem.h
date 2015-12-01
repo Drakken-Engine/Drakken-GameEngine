@@ -22,5 +22,6 @@
 - (int) getParticleCount;
 - (void *) getPositionBuffer;
 - (void *) getColorBuffer;
+- (void) removeAll;
 
 @end

@@ -9,39 +9,59 @@
 import UIKit
 import simd
 import Metal
+import MetalKit
 
-public class GameViewController: UIViewController {
+internal class GameView: MTKView {
+	internal var scene: Scene!
 	
-	var metalLayer: CAMetalLayer!
-	
-	public var scene: Scene!
-	
-	func setupMetalLayer() {
-		metalLayer = CAMetalLayer()
-		metalLayer.device = Core.device
-		metalLayer.framebufferOnly = true
-		metalLayer.frame = self.view.frame
-		
+	init(frame frameRect: CGRect, device: MTLDevice?, viewController: GameViewController) {
 		let scale = UIScreen.mainScreen().scale
-		let size = self.view.bounds.size
-
+		let size = frameRect.size
+		
 		Core.screenSize = size
 		Core.screenScale = Float(scale)
-			
-		metalLayer.drawableSize = CGSize(width: size.width * scale,
-										 height: size.height * scale)
+		
+		scene = Scene(viewController.beforeUpdate, viewController.afterUpdate)
+		
+		super.init(frame: frameRect, device: device)
+		
+		self.colorPixelFormat = .BGRA8Unorm
+		self.clearColor = MTLClearColorMake(0.0, 0.0, 0.0, 1.0)
+		self.layer.zPosition = -10
+	}
 
-		self.view.layer.addSublayer(metalLayer)
+	required internal init(coder: NSCoder) {
+		super.init(coder: coder)
+	}
+	
+	internal override func drawRect(rect: CGRect) {
+		scene.draw(self)
+	}
+}
+
+public class GameViewController: UIViewController {
+	var metalLayer: CAMetalLayer!
+	private var _gameView: GameView!
+	
+	public var scene: Scene {
+		return _gameView.scene
 	}
 	
     override public func viewDidLoad() {
-		super.viewDidLoad()
+		_gameView = GameView(frame: self.view.frame, device: Core.device, viewController: self)
 		
-		setupMetalLayer()
-		scene = Scene()
-
-		scene.setupGameLoop(metalLayer)
-    }
+		super.view.layer.addSublayer(_gameView.layer)
+		
+		super.viewDidLoad()
+	}
+	
+	public func afterUpdate() {
+		
+	}
+	
+	public func beforeUpdate() {
+		
+	}
 
     override public func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

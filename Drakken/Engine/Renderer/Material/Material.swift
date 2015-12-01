@@ -54,22 +54,26 @@ public class Material: NSObject {
 	}
 	
 	func buildRenderPipelineDescriptor() -> MTLRenderPipelineDescriptor {
-		let renderPipelineDescriptor = MTLRenderPipelineDescriptor()
+		let rpDescriptor = MTLRenderPipelineDescriptor()
 		
-		renderPipelineDescriptor.colorAttachments[0].pixelFormat = .BGRA8Unorm
-		renderPipelineDescriptor.colorAttachments[0].blendingEnabled = true
-		renderPipelineDescriptor.colorAttachments[0].alphaBlendOperation = MTLBlendOperation.Add
-		renderPipelineDescriptor.colorAttachments[0].sourceAlphaBlendFactor = MTLBlendFactor.SourceAlpha
-		renderPipelineDescriptor.colorAttachments[0].destinationAlphaBlendFactor = MTLBlendFactor.OneMinusSourceAlpha
-		renderPipelineDescriptor.colorAttachments[0].sourceRGBBlendFactor = MTLBlendFactor.SourceAlpha
-		renderPipelineDescriptor.colorAttachments[0].destinationRGBBlendFactor = MTLBlendFactor.OneMinusSourceAlpha
+		rpDescriptor.colorAttachments[0].pixelFormat = .BGRA8Unorm
+		rpDescriptor.colorAttachments[0].blendingEnabled = true
 		
-		renderPipelineDescriptor.depthAttachmentPixelFormat = .Depth32Float_Stencil8
-		renderPipelineDescriptor.stencilAttachmentPixelFormat = .Depth32Float_Stencil8
+		rpDescriptor.colorAttachments[0].alphaBlendOperation = MTLBlendOperation.Add
+		rpDescriptor.colorAttachments[0].rgbBlendOperation = MTLBlendOperation.Add
 		
-		renderPipelineDescriptor.fragmentFunction = fragmentShaderFunction
-		renderPipelineDescriptor.vertexFunction = vertexShaderFunction
+		rpDescriptor.colorAttachments[0].sourceAlphaBlendFactor = MTLBlendFactor.SourceAlpha
+		rpDescriptor.colorAttachments[0].destinationAlphaBlendFactor = MTLBlendFactor.OneMinusSourceAlpha
 		
-		return renderPipelineDescriptor
+		rpDescriptor.colorAttachments[0].sourceRGBBlendFactor = MTLBlendFactor.SourceAlpha
+		rpDescriptor.colorAttachments[0].destinationRGBBlendFactor = MTLBlendFactor.OneMinusSourceAlpha
+		
+		rpDescriptor.depthAttachmentPixelFormat = .Depth32Float_Stencil8
+		rpDescriptor.stencilAttachmentPixelFormat = .Depth32Float_Stencil8
+		
+		rpDescriptor.fragmentFunction = fragmentShaderFunction
+		rpDescriptor.vertexFunction = vertexShaderFunction
+		
+		return rpDescriptor
 	}
 }

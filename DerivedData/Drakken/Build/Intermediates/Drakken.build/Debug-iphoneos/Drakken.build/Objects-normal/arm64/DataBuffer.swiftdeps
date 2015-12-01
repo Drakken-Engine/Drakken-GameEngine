@@ -1,0 +1,107 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DataBuffer"
+provides-nominal:
+- "C7Drakken10DataBuffer"
+provides-member:
+- ["C7Drakken10DataBuffer", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "DataBuffer"
+- "Int"
+- "float3"
+- "Void"
+- !private "Core"
+- "MTLBuffer"
+- !private "MTLResourceOptions"
+- "Float"
+- "UnsafeMutablePointer"
+- "float2"
+- "float4"
+depends-member:
+- !private ["PSs9AnyObject", "Core"]
+- !private ["PSs9AnyObject", "MTLResourceOptions"]
+- !private ["PSs9AnyObject", "buffer"]
+- !private ["PSs9AnyObject", "device"]
+- !private ["PSs9AnyObject", "index"]
+- !private ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs23ArrayLiteralConvertible", "CPUCacheModeDefaultCache"]
+- !private ["PSs11CVarArgType", "device"]
+- !private ["C7Drakken4Core", "device"]
+- !private ["PSs23CustomStringConvertible", "device"]
+- ["C7Drakken10DataBuffer", "Bool"]
+- !private ["C7Drakken10DataBuffer", "Core"]
+- ["C7Drakken10DataBuffer", "Float"]
+- ["C7Drakken10DataBuffer", "Int"]
+- ["C7Drakken10DataBuffer", "MTLBuffer"]
+- !private ["C7Drakken10DataBuffer", "MTLResourceOptions"]
+- ["C7Drakken10DataBuffer", "UnsafeMutablePointer"]
+- ["C7Drakken10DataBuffer", "Void"]
+- ["C7Drakken10DataBuffer", "buffer"]
+- ["C7Drakken10DataBuffer", "deinit"]
+- ["C7Drakken10DataBuffer", "float2"]
+- ["C7Drakken10DataBuffer", "float3"]
+- ["C7Drakken10DataBuffer", "float4"]
+- ["C7Drakken10DataBuffer", "index"]
+- ["C7Drakken10DataBuffer", "init"]
+- !private ["PSs9Equatable", "CPUCacheModeDefaultCache"]
+- !private ["PSs9Equatable", "device"]
+- !private ["PSs8Hashable", "device"]
+- !private ["PSo9MTLDevice", "newBufferWithBytes"]
+- !private ["PSo9MTLDevice", "newBufferWithLength"]
+- !private ["VSC18MTLResourceOptions", "CPUCacheModeDefaultCache"]
+- !private ["CSo8NSObject", "device"]
+- !private ["PSo16NSObjectProtocol", "device"]
+- !private ["PSo16NSObjectProtocol", "newBufferWithBytes"]
+- !private ["PSo16NSObjectProtocol", "newBufferWithLength"]
+- !private ["PSs13OptionSetType", "CPUCacheModeDefaultCache"]
+- !private ["PSs16RawRepresentable", "CPUCacheModeDefaultCache"]
+- !private ["PSs14SetAlgebraType", "CPUCacheModeDefaultCache"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "PSs11CVarArgType"
+- !private "C7Drakken4Core"
+- !private "PSs23CustomStringConvertible"
+- "C7Drakken10DataBuffer"
+- !private "PSs9Equatable"
+- !private "PSs8Hashable"
+- !private "PSo9MTLDevice"
+- !private "VSC18MTLResourceOptions"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSs13OptionSetType"
+- !private "PSs16RawRepresentable"
+- !private "PSs14SetAlgebraType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/GlobalHeader.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Engine/Textures Generator/MaskTexture.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Shapes/Shape.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/FluidType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/Fluid.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/RigidbodyProtocol.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Bodies/BodyType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/Rigidbody.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/World.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Header.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Drakken.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/RSClipperWrapper.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-Swift.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
+interface-hash: "3e163ae3c2cf84d17fb5376e548aec9b"

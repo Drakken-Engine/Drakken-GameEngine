@@ -1,0 +1,506 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Transform"
+provides-nominal:
+- "C7Drakken9Transform"
+provides-member:
+- ["C7Drakken9Transform", ""]
+provides-dynamic-lookup:
+- "setZRotationRadian"
+- "getZPosition"
+- "setMeshScale"
+- "setPosition"
+- "setPivo"
+- "setScale"
+- "getMeshScale"
+- "getPivo"
+- "getZRotationDegree"
+- "setRigidbody"
+- "getScale"
+- "setZRotationDegree"
+- "getZRotationRadian"
+- "setZPosition"
+- "getPosition"
+depends-top-level:
+- "float2"
+- "Transformable"
+- "float3"
+- "RigidbodyProtocol"
+- "Float"
+- !private "toDegrees"
+- !private "CGPointMake"
+- "float4x4"
+- !private "newRotation"
+- !private "toRadians"
+- !private "CGFloat"
+- !private "newScale"
+- "NSObject"
+- "Transform"
+- !private "!="
+- !private "*"
+- !private "newTranslation"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "CGFloat"]
+- !private ["PSs9AnyObject", "CGPointMake"]
+- !private ["PSs9AnyObject", "Float"]
+- ["PSs9AnyObject", "_meshScale"]
+- ["PSs9AnyObject", "_modelMatrix"]
+- ["PSs9AnyObject", "_pivo"]
+- ["PSs9AnyObject", "_position"]
+- ["PSs9AnyObject", "_rigidbody"]
+- ["PSs9AnyObject", "_rotationAngles"]
+- ["PSs9AnyObject", "_scale"]
+- !private ["PSs9AnyObject", "float2"]
+- !private ["PSs9AnyObject", "float3"]
+- ["PSs9AnyObject", "getMeshScale"]
+- ["PSs9AnyObject", "getModelMatrix"]
+- ["PSs9AnyObject", "getPivo"]
+- ["PSs9AnyObject", "getPosition"]
+- ["PSs9AnyObject", "getScale"]
+- ["PSs9AnyObject", "getZPosition"]
+- ["PSs9AnyObject", "getZRotationDegree"]
+- ["PSs9AnyObject", "getZRotationRadian"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "newRotation"]
+- !private ["PSs9AnyObject", "newScale"]
+- !private ["PSs9AnyObject", "newTranslation"]
+- ["PSs9AnyObject", "parentModelMatrix"]
+- ["PSs9AnyObject", "setMeshScale"]
+- ["PSs9AnyObject", "setParentModelMatrix"]
+- ["PSs9AnyObject", "setPivo"]
+- ["PSs9AnyObject", "setPosition"]
+- ["PSs9AnyObject", "setRigidbody"]
+- ["PSs9AnyObject", "setScale"]
+- ["PSs9AnyObject", "setZPosition"]
+- ["PSs9AnyObject", "setZRotationDegree"]
+- ["PSs9AnyObject", "setZRotationRadian"]
+- !private ["PSs9AnyObject", "toDegrees"]
+- !private ["PSs9AnyObject", "toRadians"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "deinit"]
+- !private ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "x"]
+- !private ["PSs23ArrayLiteralConvertible", "y"]
+- !private ["PSs23ArrayLiteralConvertible", "z"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["PSs11CVarArgType", "CGFloat"]
+- !private ["PSs11CVarArgType", "CGPointMake"]
+- !private ["PSs11CVarArgType", "Float"]
+- ["PSs11CVarArgType", "_meshScale"]
+- ["PSs11CVarArgType", "_modelMatrix"]
+- ["PSs11CVarArgType", "_pivo"]
+- ["PSs11CVarArgType", "_position"]
+- ["PSs11CVarArgType", "_rigidbody"]
+- ["PSs11CVarArgType", "_rotationAngles"]
+- ["PSs11CVarArgType", "_scale"]
+- !private ["PSs11CVarArgType", "float2"]
+- !private ["PSs11CVarArgType", "float3"]
+- ["PSs11CVarArgType", "getMeshScale"]
+- ["PSs11CVarArgType", "getModelMatrix"]
+- ["PSs11CVarArgType", "getPivo"]
+- ["PSs11CVarArgType", "getPosition"]
+- ["PSs11CVarArgType", "getScale"]
+- ["PSs11CVarArgType", "getZPosition"]
+- ["PSs11CVarArgType", "getZRotationDegree"]
+- ["PSs11CVarArgType", "getZRotationRadian"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "newRotation"]
+- !private ["PSs11CVarArgType", "newScale"]
+- !private ["PSs11CVarArgType", "newTranslation"]
+- ["PSs11CVarArgType", "parentModelMatrix"]
+- ["PSs11CVarArgType", "setMeshScale"]
+- ["PSs11CVarArgType", "setParentModelMatrix"]
+- ["PSs11CVarArgType", "setPivo"]
+- ["PSs11CVarArgType", "setPosition"]
+- ["PSs11CVarArgType", "setRigidbody"]
+- ["PSs11CVarArgType", "setScale"]
+- ["PSs11CVarArgType", "setZPosition"]
+- ["PSs11CVarArgType", "setZRotationDegree"]
+- ["PSs11CVarArgType", "setZRotationRadian"]
+- !private ["PSs11CVarArgType", "toDegrees"]
+- !private ["PSs11CVarArgType", "toRadians"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs10Comparable", "init"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "x"]
+- !private ["PSs28CustomDebugStringConvertible", "y"]
+- !private ["PSs28CustomDebugStringConvertible", "z"]
+- !private ["PSs23CustomStringConvertible", "CGFloat"]
+- !private ["PSs23CustomStringConvertible", "CGPointMake"]
+- !private ["PSs23CustomStringConvertible", "Float"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "_meshScale"]
+- ["PSs23CustomStringConvertible", "_modelMatrix"]
+- ["PSs23CustomStringConvertible", "_pivo"]
+- ["PSs23CustomStringConvertible", "_position"]
+- ["PSs23CustomStringConvertible", "_rigidbody"]
+- ["PSs23CustomStringConvertible", "_rotationAngles"]
+- ["PSs23CustomStringConvertible", "_scale"]
+- !private ["PSs23CustomStringConvertible", "float2"]
+- !private ["PSs23CustomStringConvertible", "float3"]
+- ["PSs23CustomStringConvertible", "getMeshScale"]
+- ["PSs23CustomStringConvertible", "getModelMatrix"]
+- ["PSs23CustomStringConvertible", "getPivo"]
+- ["PSs23CustomStringConvertible", "getPosition"]
+- ["PSs23CustomStringConvertible", "getScale"]
+- ["PSs23CustomStringConvertible", "getZPosition"]
+- ["PSs23CustomStringConvertible", "getZRotationDegree"]
+- ["PSs23CustomStringConvertible", "getZRotationRadian"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "newRotation"]
+- !private ["PSs23CustomStringConvertible", "newScale"]
+- !private ["PSs23CustomStringConvertible", "newTranslation"]
+- ["PSs23CustomStringConvertible", "parentModelMatrix"]
+- ["PSs23CustomStringConvertible", "setMeshScale"]
+- ["PSs23CustomStringConvertible", "setParentModelMatrix"]
+- ["PSs23CustomStringConvertible", "setPivo"]
+- ["PSs23CustomStringConvertible", "setPosition"]
+- ["PSs23CustomStringConvertible", "setRigidbody"]
+- ["PSs23CustomStringConvertible", "setScale"]
+- ["PSs23CustomStringConvertible", "setZPosition"]
+- ["PSs23CustomStringConvertible", "setZRotationDegree"]
+- ["PSs23CustomStringConvertible", "setZRotationRadian"]
+- !private ["PSs23CustomStringConvertible", "toDegrees"]
+- !private ["PSs23CustomStringConvertible", "toRadians"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "CGFloat"]
+- !private ["PSs9Equatable", "CGPointMake"]
+- !private ["PSs9Equatable", "Float"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "_meshScale"]
+- ["PSs9Equatable", "_modelMatrix"]
+- ["PSs9Equatable", "_pivo"]
+- ["PSs9Equatable", "_position"]
+- ["PSs9Equatable", "_rigidbody"]
+- ["PSs9Equatable", "_rotationAngles"]
+- ["PSs9Equatable", "_scale"]
+- !private ["PSs9Equatable", "float2"]
+- !private ["PSs9Equatable", "float3"]
+- ["PSs9Equatable", "getMeshScale"]
+- ["PSs9Equatable", "getModelMatrix"]
+- ["PSs9Equatable", "getPivo"]
+- ["PSs9Equatable", "getPosition"]
+- ["PSs9Equatable", "getScale"]
+- ["PSs9Equatable", "getZPosition"]
+- ["PSs9Equatable", "getZRotationDegree"]
+- ["PSs9Equatable", "getZRotationRadian"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "newRotation"]
+- !private ["PSs9Equatable", "newScale"]
+- !private ["PSs9Equatable", "newTranslation"]
+- ["PSs9Equatable", "parentModelMatrix"]
+- ["PSs9Equatable", "setMeshScale"]
+- ["PSs9Equatable", "setParentModelMatrix"]
+- ["PSs9Equatable", "setPivo"]
+- ["PSs9Equatable", "setPosition"]
+- ["PSs9Equatable", "setRigidbody"]
+- ["PSs9Equatable", "setScale"]
+- ["PSs9Equatable", "setZPosition"]
+- ["PSs9Equatable", "setZRotationDegree"]
+- ["PSs9Equatable", "setZRotationRadian"]
+- !private ["PSs9Equatable", "toDegrees"]
+- !private ["PSs9Equatable", "toRadians"]
+- !private ["PSs9Equatable", "x"]
+- !private ["PSs9Equatable", "y"]
+- ["PSs9Equatable", ""]
+- !private ["Sf", "init"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs8Hashable", "CGFloat"]
+- !private ["PSs8Hashable", "CGPointMake"]
+- !private ["PSs8Hashable", "Float"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "_meshScale"]
+- ["PSs8Hashable", "_modelMatrix"]
+- ["PSs8Hashable", "_pivo"]
+- ["PSs8Hashable", "_position"]
+- ["PSs8Hashable", "_rigidbody"]
+- ["PSs8Hashable", "_rotationAngles"]
+- ["PSs8Hashable", "_scale"]
+- !private ["PSs8Hashable", "float2"]
+- !private ["PSs8Hashable", "float3"]
+- ["PSs8Hashable", "getMeshScale"]
+- ["PSs8Hashable", "getModelMatrix"]
+- ["PSs8Hashable", "getPivo"]
+- ["PSs8Hashable", "getPosition"]
+- ["PSs8Hashable", "getScale"]
+- ["PSs8Hashable", "getZPosition"]
+- ["PSs8Hashable", "getZRotationDegree"]
+- ["PSs8Hashable", "getZRotationRadian"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "newRotation"]
+- !private ["PSs8Hashable", "newScale"]
+- !private ["PSs8Hashable", "newTranslation"]
+- ["PSs8Hashable", "parentModelMatrix"]
+- ["PSs8Hashable", "setMeshScale"]
+- ["PSs8Hashable", "setParentModelMatrix"]
+- ["PSs8Hashable", "setPivo"]
+- ["PSs8Hashable", "setPosition"]
+- ["PSs8Hashable", "setRigidbody"]
+- ["PSs8Hashable", "setScale"]
+- ["PSs8Hashable", "setZPosition"]
+- ["PSs8Hashable", "setZRotationDegree"]
+- ["PSs8Hashable", "setZRotationRadian"]
+- !private ["PSs8Hashable", "toDegrees"]
+- !private ["PSs8Hashable", "toRadians"]
+- ["PSs8Hashable", ""]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CGPointMake"]
+- ["CSo8NSObject", "Float"]
+- ["CSo8NSObject", "RigidbodyProtocol"]
+- ["CSo8NSObject", "_meshScale"]
+- ["CSo8NSObject", "_modelMatrix"]
+- ["CSo8NSObject", "_pivo"]
+- ["CSo8NSObject", "_position"]
+- ["CSo8NSObject", "_rigidbody"]
+- ["CSo8NSObject", "_rotationAngles"]
+- ["CSo8NSObject", "_scale"]
+- ["CSo8NSObject", "float2"]
+- ["CSo8NSObject", "float3"]
+- ["CSo8NSObject", "float4x4"]
+- ["CSo8NSObject", "getMeshScale"]
+- ["CSo8NSObject", "getModelMatrix"]
+- ["CSo8NSObject", "getPivo"]
+- ["CSo8NSObject", "getPosition"]
+- ["CSo8NSObject", "getScale"]
+- ["CSo8NSObject", "getZPosition"]
+- ["CSo8NSObject", "getZRotationDegree"]
+- ["CSo8NSObject", "getZRotationRadian"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "newRotation"]
+- !private ["CSo8NSObject", "newScale"]
+- !private ["CSo8NSObject", "newTranslation"]
+- ["CSo8NSObject", "parentModelMatrix"]
+- ["CSo8NSObject", "setMeshScale"]
+- ["CSo8NSObject", "setParentModelMatrix"]
+- ["CSo8NSObject", "setPivo"]
+- ["CSo8NSObject", "setPosition"]
+- ["CSo8NSObject", "setRigidbody"]
+- ["CSo8NSObject", "setScale"]
+- ["CSo8NSObject", "setZPosition"]
+- ["CSo8NSObject", "setZRotationDegree"]
+- ["CSo8NSObject", "setZRotationRadian"]
+- !private ["CSo8NSObject", "toDegrees"]
+- !private ["CSo8NSObject", "toRadians"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "CGPointMake"]
+- !private ["PSo16NSObjectProtocol", "Float"]
+- ["PSo16NSObjectProtocol", "_meshScale"]
+- ["PSo16NSObjectProtocol", "_modelMatrix"]
+- ["PSo16NSObjectProtocol", "_pivo"]
+- ["PSo16NSObjectProtocol", "_position"]
+- ["PSo16NSObjectProtocol", "_rigidbody"]
+- ["PSo16NSObjectProtocol", "_rotationAngles"]
+- ["PSo16NSObjectProtocol", "_scale"]
+- !private ["PSo16NSObjectProtocol", "created"]
+- !private ["PSo16NSObjectProtocol", "float2"]
+- !private ["PSo16NSObjectProtocol", "float3"]
+- ["PSo16NSObjectProtocol", "getMeshScale"]
+- ["PSo16NSObjectProtocol", "getModelMatrix"]
+- ["PSo16NSObjectProtocol", "getPivo"]
+- ["PSo16NSObjectProtocol", "getPosition"]
+- ["PSo16NSObjectProtocol", "getScale"]
+- ["PSo16NSObjectProtocol", "getZPosition"]
+- !private ["PSo16NSObjectProtocol", "getZRotation"]
+- ["PSo16NSObjectProtocol", "getZRotationDegree"]
+- ["PSo16NSObjectProtocol", "getZRotationRadian"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "newRotation"]
+- !private ["PSo16NSObjectProtocol", "newScale"]
+- !private ["PSo16NSObjectProtocol", "newTranslation"]
+- ["PSo16NSObjectProtocol", "parentModelMatrix"]
+- ["PSo16NSObjectProtocol", "setMeshScale"]
+- ["PSo16NSObjectProtocol", "setParentModelMatrix"]
+- ["PSo16NSObjectProtocol", "setPivo"]
+- ["PSo16NSObjectProtocol", "setPosition"]
+- ["PSo16NSObjectProtocol", "setRigidbody"]
+- ["PSo16NSObjectProtocol", "setScale"]
+- ["PSo16NSObjectProtocol", "setZPosition"]
+- !private ["PSo16NSObjectProtocol", "setZRotation"]
+- ["PSo16NSObjectProtocol", "setZRotationDegree"]
+- ["PSo16NSObjectProtocol", "setZRotationRadian"]
+- !private ["PSo16NSObjectProtocol", "toDegrees"]
+- !private ["PSo16NSObjectProtocol", "toRadians"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSo17RigidbodyProtocol", "created"]
+- !private ["PSo17RigidbodyProtocol", "getPosition"]
+- !private ["PSo17RigidbodyProtocol", "getZRotation"]
+- !private ["PSo17RigidbodyProtocol", "setPosition"]
+- !private ["PSo17RigidbodyProtocol", "setZRotation"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs10Strideable", "init"]
+- !private ["C7Drakken9Transform", "CGFloat"]
+- !private ["C7Drakken9Transform", "CGPointMake"]
+- ["C7Drakken9Transform", "Float"]
+- ["C7Drakken9Transform", "RigidbodyProtocol"]
+- !private ["C7Drakken9Transform", "_meshScale"]
+- !private ["C7Drakken9Transform", "_modelMatrix"]
+- !private ["C7Drakken9Transform", "_pivo"]
+- !private ["C7Drakken9Transform", "_position"]
+- !private ["C7Drakken9Transform", "_rigidbody"]
+- !private ["C7Drakken9Transform", "_rotationAngles"]
+- !private ["C7Drakken9Transform", "_scale"]
+- ["C7Drakken9Transform", "deinit"]
+- ["C7Drakken9Transform", "float2"]
+- ["C7Drakken9Transform", "float3"]
+- ["C7Drakken9Transform", "float4x4"]
+- ["C7Drakken9Transform", "getMeshScale"]
+- ["C7Drakken9Transform", "getModelMatrix"]
+- ["C7Drakken9Transform", "getPivo"]
+- ["C7Drakken9Transform", "getPosition"]
+- ["C7Drakken9Transform", "getScale"]
+- ["C7Drakken9Transform", "getZPosition"]
+- ["C7Drakken9Transform", "getZRotationDegree"]
+- ["C7Drakken9Transform", "getZRotationRadian"]
+- ["C7Drakken9Transform", "init"]
+- !private ["C7Drakken9Transform", "newRotation"]
+- !private ["C7Drakken9Transform", "newScale"]
+- !private ["C7Drakken9Transform", "newTranslation"]
+- ["C7Drakken9Transform", "parentModelMatrix"]
+- ["C7Drakken9Transform", "setMeshScale"]
+- ["C7Drakken9Transform", "setParentModelMatrix"]
+- ["C7Drakken9Transform", "setPivo"]
+- ["C7Drakken9Transform", "setPosition"]
+- ["C7Drakken9Transform", "setRigidbody"]
+- ["C7Drakken9Transform", "setScale"]
+- ["C7Drakken9Transform", "setZPosition"]
+- ["C7Drakken9Transform", "setZRotationDegree"]
+- ["C7Drakken9Transform", "setZRotationRadian"]
+- !private ["C7Drakken9Transform", "toDegrees"]
+- !private ["C7Drakken9Transform", "toRadians"]
+- !private ["P7Drakken13Transformable", "CGFloat"]
+- !private ["P7Drakken13Transformable", "CGPointMake"]
+- !private ["P7Drakken13Transformable", "Float"]
+- !private ["P7Drakken13Transformable", "_meshScale"]
+- !private ["P7Drakken13Transformable", "_modelMatrix"]
+- !private ["P7Drakken13Transformable", "_pivo"]
+- !private ["P7Drakken13Transformable", "_position"]
+- !private ["P7Drakken13Transformable", "_rigidbody"]
+- !private ["P7Drakken13Transformable", "_rotationAngles"]
+- !private ["P7Drakken13Transformable", "_scale"]
+- !private ["P7Drakken13Transformable", "float2"]
+- !private ["P7Drakken13Transformable", "float3"]
+- ["P7Drakken13Transformable", "getMeshScale"]
+- ["P7Drakken13Transformable", "getPivo"]
+- ["P7Drakken13Transformable", "getPosition"]
+- ["P7Drakken13Transformable", "getScale"]
+- ["P7Drakken13Transformable", "getZPosition"]
+- ["P7Drakken13Transformable", "getZRotationDegree"]
+- ["P7Drakken13Transformable", "getZRotationRadian"]
+- !private ["P7Drakken13Transformable", "newRotation"]
+- !private ["P7Drakken13Transformable", "newScale"]
+- !private ["P7Drakken13Transformable", "newTranslation"]
+- !private ["P7Drakken13Transformable", "parentModelMatrix"]
+- ["P7Drakken13Transformable", "setMeshScale"]
+- ["P7Drakken13Transformable", "setPivo"]
+- ["P7Drakken13Transformable", "setPosition"]
+- ["P7Drakken13Transformable", "setScale"]
+- ["P7Drakken13Transformable", "setZPosition"]
+- ["P7Drakken13Transformable", "setZRotationDegree"]
+- ["P7Drakken13Transformable", "setZRotationRadian"]
+- !private ["P7Drakken13Transformable", "toDegrees"]
+- !private ["P7Drakken13Transformable", "toRadians"]
+- ["P7Drakken13Transformable", ""]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "x"]
+- !private ["PSs12_Reflectable", "y"]
+- !private ["PSs11_Strideable", "init"]
+- !private ["V4simd6float2", "init"]
+- !private ["V4simd6float2", "x"]
+- !private ["V4simd6float2", "y"]
+- !private ["V4simd6float3", "init"]
+- !private ["V4simd6float3", "x"]
+- !private ["V4simd6float3", "y"]
+- !private ["V4simd6float3", "z"]
+- !private ["V4simd8float4x4", "deinit"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- "PSs11CVarArgType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "Sf"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- "PSs8Hashable"
+- !private "PSs25IntegerLiteralConvertible"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- !private "PSo17RigidbodyProtocol"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- "C7Drakken9Transform"
+- "P7Drakken13Transformable"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs31_BuiltinFloatLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+- !private "PSs11_Strideable"
+- !private "V4simd6float2"
+- !private "V4simd6float3"
+- !private "V4simd8float4x4"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/GlobalHeader.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Engine/Textures Generator/MaskTexture.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Shapes/Shape.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/FluidType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/Fluid.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/RigidbodyProtocol.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Bodies/BodyType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/Rigidbody.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/World.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Header.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Drakken.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/RSClipperWrapper.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-Swift.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
+interface-hash: "6a518f0de57d30cb3c15fdc0255b09c8"

@@ -125,4 +125,14 @@
 	return _body->GetMass();
 }
 
+- (BodyType) getBodyType {
+	if (_body->GetType() == b2BodyType::b2_dynamicBody) {
+		return BodyType::Dynamic;
+	} else if (_body->GetType() == b2BodyType::b2_staticBody) {
+		return BodyType::Static;
+	} else {
+		return BodyType::Kinematic;
+	}
+}
+
 @end

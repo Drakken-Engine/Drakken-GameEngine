@@ -9,6 +9,7 @@
 #import "World.h"
 #import "CollisionListener.h"
 #import "b2World.h"
+#import "b2WorldCallbacks.h"
 #import <Box2D/Box2D.h>
 
 @implementation World {
@@ -37,7 +38,16 @@
 }
 
 - (void) step {
-	_world->Step(0.016f, 6, 3);
+	_world->Step(0.016f, 3, 3);
+}
+
+- (void) step:(float) timeInterval {
+	_world->Step(timeInterval, 3, 3);
+}
+
+- (void) destroy {
+	_world->~b2World();
+	_world = nullptr;
 }
 
 @end

@@ -92,6 +92,9 @@ import simd
 		_children.append(node as! InternalComponent)
 	}
 
+	internal func updateWorldQuad(var worldQuad: [Int: [Int: [Component]]]) {
+	}
+	
 	func update(deltaTime: CFTimeInterval) {
 		for child: InternalComponent in _children {
 			child.update(deltaTime)

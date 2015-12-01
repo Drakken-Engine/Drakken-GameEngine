@@ -1,0 +1,81 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/Pods_Drakken.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Drakken-umbrella.h",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Pods/Target Support Files/Pods-Drakken/Pods-Drakken-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Drakken-Swift.h",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/Pods_Drakken.framework/Headers/Pods_Drakken-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/Pods_Drakken.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-Drakken.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RSClipperWrapper-Swift.h",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RSClipperWrapper-umbrella.h",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Pods/Target Support Files/RSClipperWrapper/RSClipperWrapper-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "RSClipperWrapper.h",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Pods/RSClipperWrapper/RSClipperWrapper/RSClipperWrapper/RSClipperWrapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "_Clipper.h",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Pods/RSClipperWrapper/RSClipperWrapper/RSClipperWrapper/_Clipper.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "clipper.hpp",
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Pods/RSClipperWrapper/RSClipperWrapper/RSClipperWrapper/Clipper 6.2.1/clipper.hpp"
+        }
+      ]
+    }
+  ]
+}

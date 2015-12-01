@@ -41,5 +41,6 @@
 - (void) setBullet:(BOOL) flag;
 - (void) setFixedRotation: (BOOL) flag;
 - (float) getMass;
+- (BodyType) getBodyType;
 
 @end

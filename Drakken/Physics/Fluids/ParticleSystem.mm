@@ -50,4 +50,12 @@
 	return (void *) _particleSystem->GetColorBuffer();
 }
 
+- (void) removeAll {
+	if ([self getParticleCount] > 0) {
+		for(int i = 0; i < [self getParticleCount]; i++) {
+			_particleSystem->DestroyParticle(i);
+		}
+	}
+}
+
 @end
