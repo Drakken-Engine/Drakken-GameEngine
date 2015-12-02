@@ -6,64 +6,65 @@ provides-nominal:
 provides-member:
 - ["C7Drakken16TerrainComponent", ""]
 provides-dynamic-lookup:
-- "update"
-- "setTexture2"
-- "createWithMaskTexture"
-- "descriptor"
-- "updateWorldQuad"
-- "draw"
 - "setTexture"
 - "setTexture1"
 - "transform"
-- "index"
+- "setMaskTexture"
+- "setMaskTexture"
+- "updateWorldQuad"
 - "_transform"
-- "setMaskTexture"
-- "setMaskTexture"
+- "descriptor"
+- "update"
+- "index"
 - "createInWorld"
+- "setTexture2"
+- "draw"
+- "createWithMaskTexture"
+- "setTextureCoordOffset"
 depends-top-level:
-- "QuadTree"
-- "TerrainMesh"
-- "GameComponent"
+- !private "+"
+- !private "NSValue"
 - !private "-"
-- !private "Float"
-- "Core"
-- "Descriptor"
+- "ExplosionPolygon"
 - "Texture"
 - "CFTimeInterval"
-- !private "NSArray"
-- !private "StringLiteralType"
-- !private "MaskTexture"
-- "Transformable"
-- !private "<"
-- "TerrainComponent"
-- !private "Int32"
-- "CGPoint"
-- !private "DistanceSimplifier"
-- !private "float2"
-- "Script"
-- "Int"
-- !private "CGSizeMake"
-- !private "CGRectMake"
-- "Renderer"
-- !private "++"
-- !private "Array"
-- "World"
-- "String"
-- !private "/"
-- "ExplosionPolygon"
-- "_Clipper"
-- "NSObject"
-- !private "Grid"
 - "Physical"
 - !private "CGPointMake"
-- !private "*"
-- !private "Clipper"
+- !private "Array"
+- !private "Grid"
+- "Int"
+- "InternalComponent"
+- !private "Float"
+- "_Clipper"
 - "Component"
 - "Transform"
 - !private "CGFloat"
-- !private "NSValue"
-- "InternalComponent"
-- !private "+"
+- !private "++"
+- !private "CGSizeMake"
+- "World"
+- !private "Int32"
+- "Script"
+- "String"
+- "GameComponent"
+- "float2"
+- "Core"
+- "Descriptor"
+- "CGPoint"
+- "Renderer"
+- !private "/"
+- !private "*"
+- !private "NSArray"
+- "NSObject"
+- "TerrainComponent"
+- !private "<"
+- !private "StringLiteralType"
+- !private "Clipper"
+- "TerrainMesh"
+- "QuadTree"
+- "Transformable"
+- !private "MaskTexture"
+- !private "CGRectMake"
+- !private "DistanceSimplifier"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "IntegerLiteralType"]
 - !private ["PSs16AbsoluteValuable", "init"]
@@ -130,6 +131,7 @@ depends-member:
 - ["PSs9AnyObject", "setTexture"]
 - ["PSs9AnyObject", "setTexture1"]
 - ["PSs9AnyObject", "setTexture2"]
+- ["PSs9AnyObject", "setTextureCoordOffset"]
 - !private ["PSs9AnyObject", "size"]
 - !private ["PSs9AnyObject", "texture"]
 - ["PSs9AnyObject", "transform"]
@@ -235,6 +237,7 @@ depends-member:
 - ["PSs11CVarArgType", "setTexture"]
 - ["PSs11CVarArgType", "setTexture1"]
 - ["PSs11CVarArgType", "setTexture2"]
+- ["PSs11CVarArgType", "setTextureCoordOffset"]
 - !private ["PSs11CVarArgType", "size"]
 - !private ["PSs11CVarArgType", "texture"]
 - ["PSs11CVarArgType", "transform"]
@@ -258,6 +261,7 @@ depends-member:
 - !private ["P7Drakken10Collidable", "setTexture"]
 - !private ["P7Drakken10Collidable", "setTexture1"]
 - !private ["P7Drakken10Collidable", "setTexture2"]
+- !private ["P7Drakken10Collidable", "setTextureCoordOffset"]
 - !private ["P7Drakken10Collidable", "transform"]
 - !private ["PSs10Comparable", "Distance"]
 - !private ["PSs10Comparable", "IntegerLiteralType"]
@@ -305,6 +309,7 @@ depends-member:
 - !private ["P7Drakken9Component", "setTexture"]
 - !private ["P7Drakken9Component", "setTexture1"]
 - !private ["P7Drakken9Component", "setTexture2"]
+- !private ["P7Drakken9Component", "setTextureCoordOffset"]
 - ["P7Drakken9Component", "transform"]
 - ["P7Drakken9Component", "update"]
 - ["P7Drakken9Component", "updateWorldQuad"]
@@ -379,6 +384,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "setTexture"]
 - ["PSs23CustomStringConvertible", "setTexture1"]
 - ["PSs23CustomStringConvertible", "setTexture2"]
+- ["PSs23CustomStringConvertible", "setTextureCoordOffset"]
 - !private ["PSs23CustomStringConvertible", "size"]
 - !private ["PSs23CustomStringConvertible", "texture"]
 - ["PSs23CustomStringConvertible", "transform"]
@@ -445,6 +451,7 @@ depends-member:
 - ["PSs9Equatable", "setTexture"]
 - ["PSs9Equatable", "setTexture1"]
 - ["PSs9Equatable", "setTexture2"]
+- ["PSs9Equatable", "setTextureCoordOffset"]
 - !private ["PSs9Equatable", "size"]
 - !private ["PSs9Equatable", "texture"]
 - ["PSs9Equatable", "transform"]
@@ -474,6 +481,7 @@ depends-member:
 - !private ["C7Drakken13GameComponent", "setTexture"]
 - !private ["C7Drakken13GameComponent", "setTexture1"]
 - !private ["C7Drakken13GameComponent", "setTexture2"]
+- !private ["C7Drakken13GameComponent", "setTextureCoordOffset"]
 - !private ["C7Drakken13GameComponent", "transform"]
 - !private ["PSs13GeneratorType", "Element"]
 - !private ["C7Drakken4Grid", "init"]
@@ -532,6 +540,7 @@ depends-member:
 - ["PSs8Hashable", "setTexture"]
 - ["PSs8Hashable", "setTexture1"]
 - ["PSs8Hashable", "setTexture2"]
+- ["PSs8Hashable", "setTextureCoordOffset"]
 - !private ["PSs8Hashable", "size"]
 - !private ["PSs8Hashable", "texture"]
 - ["PSs8Hashable", "transform"]
@@ -607,6 +616,7 @@ depends-member:
 - !private ["P7Drakken17InternalComponent", "setTexture"]
 - !private ["P7Drakken17InternalComponent", "setTexture1"]
 - !private ["P7Drakken17InternalComponent", "setTexture2"]
+- !private ["P7Drakken17InternalComponent", "setTextureCoordOffset"]
 - ["P7Drakken17InternalComponent", "transform"]
 - ["P7Drakken17InternalComponent", "update"]
 - ["P7Drakken17InternalComponent", "updateWorldQuad"]
@@ -707,7 +717,7 @@ depends-member:
 - ["CSo8NSObject", "descriptor"]
 - ["CSo8NSObject", "draw"]
 - ["CSo8NSObject", "executeExplosion"]
-- !private ["CSo8NSObject", "float2"]
+- ["CSo8NSObject", "float2"]
 - ["CSo8NSObject", "getComponent"]
 - !private ["CSo8NSObject", "getContoursFromMaskTexture"]
 - ["CSo8NSObject", "index"]
@@ -719,6 +729,7 @@ depends-member:
 - ["CSo8NSObject", "setTexture"]
 - ["CSo8NSObject", "setTexture1"]
 - ["CSo8NSObject", "setTexture2"]
+- ["CSo8NSObject", "setTextureCoordOffset"]
 - !private ["CSo8NSObject", "size"]
 - !private ["CSo8NSObject", "texture"]
 - ["CSo8NSObject", "transform"]
@@ -768,6 +779,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "float2"]
 - ["PSo16NSObjectProtocol", "getComponent"]
 - !private ["PSo16NSObjectProtocol", "getContoursFromMaskTexture"]
+- !private ["PSo16NSObjectProtocol", "getPosition"]
 - !private ["PSo16NSObjectProtocol", "getZPosition"]
 - ["PSo16NSObjectProtocol", "index"]
 - ["PSo16NSObjectProtocol", "init"]
@@ -776,9 +788,11 @@ depends-member:
 - ["PSo16NSObjectProtocol", "setMaskTexture"]
 - !private ["PSo16NSObjectProtocol", "setMesh"]
 - !private ["PSo16NSObjectProtocol", "setMeshScale"]
+- !private ["PSo16NSObjectProtocol", "setPosition"]
 - ["PSo16NSObjectProtocol", "setTexture"]
 - ["PSo16NSObjectProtocol", "setTexture1"]
 - ["PSo16NSObjectProtocol", "setTexture2"]
+- ["PSo16NSObjectProtocol", "setTextureCoordOffset"]
 - !private ["PSo16NSObjectProtocol", "setZPosition"]
 - !private ["PSo16NSObjectProtocol", "size"]
 - !private ["PSo16NSObjectProtocol", "texture"]
@@ -833,6 +847,7 @@ depends-member:
 - !private ["P7Drakken8Physical", "setTexture"]
 - !private ["P7Drakken8Physical", "setTexture1"]
 - !private ["P7Drakken8Physical", "setTexture2"]
+- !private ["P7Drakken8Physical", "setTextureCoordOffset"]
 - ["P7Drakken8Physical", "transform"]
 - ["P7Drakken8Physical", "update"]
 - ["P7Drakken8Physical", "updateWorldQuad"]
@@ -861,6 +876,7 @@ depends-member:
 - !private ["P7Drakken10Scriptable", "setTexture"]
 - !private ["P7Drakken10Scriptable", "setTexture1"]
 - !private ["P7Drakken10Scriptable", "setTexture2"]
+- !private ["P7Drakken10Scriptable", "setTextureCoordOffset"]
 - !private ["P7Drakken10Scriptable", "transform"]
 - !private ["PSs12SequenceType", "Element"]
 - !private ["PSs12SequenceType", "Generator"]
@@ -948,7 +964,7 @@ depends-member:
 - ["C7Drakken16TerrainComponent", "descriptor"]
 - ["C7Drakken16TerrainComponent", "draw"]
 - !private ["C7Drakken16TerrainComponent", "executeExplosion"]
-- !private ["C7Drakken16TerrainComponent", "float2"]
+- ["C7Drakken16TerrainComponent", "float2"]
 - ["C7Drakken16TerrainComponent", "getComponent"]
 - ["C7Drakken16TerrainComponent", "index"]
 - ["C7Drakken16TerrainComponent", "init"]
@@ -956,6 +972,7 @@ depends-member:
 - ["C7Drakken16TerrainComponent", "setTexture"]
 - ["C7Drakken16TerrainComponent", "setTexture1"]
 - ["C7Drakken16TerrainComponent", "setTexture2"]
+- ["C7Drakken16TerrainComponent", "setTextureCoordOffset"]
 - ["C7Drakken16TerrainComponent", "transform"]
 - ["C7Drakken16TerrainComponent", "update"]
 - ["C7Drakken16TerrainComponent", "updateWorldQuad"]
@@ -969,9 +986,11 @@ depends-member:
 - !private ["C7Drakken7Texture", "texture"]
 - !private ["C7Drakken9Transform", "deinit"]
 - !private ["C7Drakken9Transform", "init"]
+- !private ["P7Drakken13Transformable", "getPosition"]
 - !private ["P7Drakken13Transformable", "getZPosition"]
 - !private ["P7Drakken13Transformable", "init"]
 - !private ["P7Drakken13Transformable", "setMeshScale"]
+- !private ["P7Drakken13Transformable", "setPosition"]
 - !private ["P7Drakken13Transformable", "setZPosition"]
 - !private ["Su", "deinit"]
 - !private ["VSs6UInt16", "deinit"]
@@ -1184,4 +1203,4 @@ depends-external:
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
-interface-hash: "7494c559ee139df35fccf7b1f7dd04ac"
+interface-hash: "422935e60cbc39e77dd288b40391b769"

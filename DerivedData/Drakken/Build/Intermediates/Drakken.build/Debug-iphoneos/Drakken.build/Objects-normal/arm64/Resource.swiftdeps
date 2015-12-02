@@ -7,23 +7,23 @@ provides-member:
 - ["C7Drakken8Resource", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "print"
-- !private "*"
-- !private "MTLTextureDescriptor"
-- !private "!="
-- !private "Core"
-- !private "Int"
 - !private "NSBundle"
+- !private "MTLPixelFormat"
 - !private "BooleanLiteralType"
-- !private "MTKTextureLoader"
+- !private "Core"
 - "MTLTexture"
-- !private "=="
+- !private "MTLTextureDescriptor"
+- !private "Int"
+- !private "*"
+- !private "UIImage"
+- !private "print"
 - "Resource"
+- !private "=="
+- !private "MTKTextureLoader"
+- "CGSize"
+- !private "!="
 - !private "StringLiteralType"
 - "String"
-- "CGSize"
-- !private "UIImage"
-- !private "MTLPixelFormat"
 depends-member:
 - !private ["PSs9AnyObject", "CGImage"]
 - !private ["PSs9AnyObject", "Core"]

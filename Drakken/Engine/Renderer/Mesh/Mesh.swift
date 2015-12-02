@@ -95,7 +95,17 @@ public class Mesh: ShaderVertexData, ShaderFragmentTextureData, ShaderFragmentBu
 			_shaderBuffers.fragmentBuffer[1] = DataBuffer(boolData: &_repeatMask, length: sizeof(Bool), index: 3)
 		}
 	}
-
+	private var _texcoordsOffset: float2
+	internal var texcoordsOffset: float2 {
+		get {
+			return self._texcoordsOffset
+		}
+		set {
+			self._texcoordsOffset = newValue
+			_shaderBuffers.fragmentBuffer[2] = DataBuffer(float2Data: &_texcoordsOffset, length: sizeof(float2), index: 4)
+		}
+	}
+	
 	private var _texture1: Texture
 	internal var texture1: Texture {
 		get {
@@ -162,6 +172,7 @@ public class Mesh: ShaderVertexData, ShaderFragmentTextureData, ShaderFragmentBu
 		_particlesPositions = Core.device.newBufferWithLength(0, options: MTLResourceOptions.CPUCacheModeDefaultCache);
 
 		_textureRepeat = float2(0.0)
+		_texcoordsOffset = float2(0.0)
 		_repeatMask = false
 
 		_texture1 = Texture(fileName: "black_pixel.png")

@@ -21,5 +21,6 @@
 							 Friction:(float) friction
 						  Restitution:(float) restitution;
 + (NSArray *) getContoursFromMaskTexture:(id<MTLTexture>) metalTexture withGridSize:(CGSize) size;
++ (Texture *)binary:(id<MTLTexture>) metalTexture;
 
 @end

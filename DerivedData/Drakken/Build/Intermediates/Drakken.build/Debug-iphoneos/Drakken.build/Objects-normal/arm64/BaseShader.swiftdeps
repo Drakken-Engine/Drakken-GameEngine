@@ -7,22 +7,22 @@ provides-member:
 - ["C7Drakken10BaseShader", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "<"
-- "IndexBuffer"
-- "Int"
-- "BaseShader"
-- !private "DataBuffer"
-- "MTLSamplerState"
-- "MTLPrimitiveType"
 - !private ">"
-- !private "BooleanLiteralType"
+- !private "DataBuffer"
+- !private "Core"
+- "MTLPrimitiveType"
 - !private "MTLSamplerDescriptor"
+- "Renderer"
+- "ShaderBuffers"
+- !private "BooleanLiteralType"
+- "BaseShader"
+- "Int"
 - !private "TextureBuffer"
 - "MTLBuffer"
-- "Renderer"
+- "MTLSamplerState"
+- !private "<"
 - !private "FLT_MAX"
-- "ShaderBuffers"
-- !private "Core"
+- "IndexBuffer"
 depends-member:
 - !private ["PSs9AnyObject", "Core"]
 - !private ["PSs9AnyObject", "FLT_MAX"]

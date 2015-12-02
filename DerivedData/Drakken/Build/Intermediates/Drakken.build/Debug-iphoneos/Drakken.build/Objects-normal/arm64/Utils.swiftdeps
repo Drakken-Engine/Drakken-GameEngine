@@ -8,22 +8,22 @@ provides-member:
 - ["P7Drakken9Component", "hasProperty"]
 provides-dynamic-lookup:
 depends-top-level:
-- "..."
-- "Component"
-- !private "++"
-- "Bool"
-- !private "BooleanLiteralType"
-- !private "print"
-- "String"
-- !private ">="
-- !private "=="
-- !private "Mirror"
 - !private "<="
-- !private "StringLiteralType"
-- "inspect"
 - "Int"
+- "String"
+- !private "BooleanLiteralType"
+- !private ">="
+- "inspect"
+- !private "=="
 - "Any"
+- "..."
+- !private "StringLiteralType"
 - !private "--"
+- "Bool"
+- !private "Mirror"
+- "Component"
+- !private "print"
+- !private "++"
 depends-member:
 - !private ["PSs17AnyCollectionType", "Generator"]
 - !private ["PSs17AnyCollectionType", "Index"]

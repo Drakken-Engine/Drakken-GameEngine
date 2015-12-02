@@ -153,6 +153,11 @@ public class GameComponent: NSObject, InternalComponent, Component, Scriptable, 
 	public func setMaterial(materialName: String) {
 		_mesh.setMaterial(materialName)
 	}
+	
+	public func setTextureCoordOffset(offset: float2) {
+		_mesh.texcoordsOffset = float2(	offset.x / _transform.getMeshScale().x,
+										offset.y / _transform.getMeshScale().y)
+	}
 
 	public func addScript(script: Script) {
 		script.transform = transform

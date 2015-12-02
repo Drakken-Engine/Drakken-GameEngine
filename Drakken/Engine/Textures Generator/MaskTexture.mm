@@ -75,6 +75,44 @@
 	return [[Texture alloc] initWithMetalTexture: _metalTexture];
 }
 
++ (Texture *)binary:(id<MTLTexture>) metalTexture {
+	uint8_t *rawData = (uint8_t *)calloc(metalTexture.height * metalTexture.width * 4, sizeof(uint8_t));
+	[metalTexture getBytes: rawData
+			   bytesPerRow: 4 * metalTexture.width
+				fromRegion: MTLRegionMake2D(0, 0, metalTexture.width, metalTexture.height)
+			   mipmapLevel: 0];
+	
+	cv::Mat texture = cv::Mat::Mat(
+								   cv::Size((int)metalTexture.width, (int)metalTexture.height),
+								   CV_8UC4,
+								   rawData,
+								   sizeof(UInt8) * metalTexture.width * 4
+								   );
+	
+	std::vector<cv::Mat> rgbaChannels(4);
+	cv::split(texture, rgbaChannels);
+	
+	std::vector<cv::Mat> alphaChannel = rgbaChannels[3];
+	
+	cv::threshold(alphaChannel, texture, 1, 255, CV_THRESH_BINARY);
+	
+	MTLTextureDescriptor * metalTextureDescriptor =
+	[MTLTextureDescriptor texture2DDescriptorWithPixelFormat:MTLPixelFormatBGRA8Unorm
+													   width:metalTexture.width
+													  height:metalTexture.height
+												   mipmapped:false];
+	id<MTLTexture> _metalTexture = [[Core device] newTextureWithDescriptor:metalTextureDescriptor];
+	
+	[_metalTexture replaceRegion: MTLRegionMake2D(0, 0, metalTexture.width, metalTexture.height)
+					 mipmapLevel: 0
+					   withBytes: texture.ptr()
+					 bytesPerRow: sizeof(CV_8UC4) * texture.cols];
+	
+	texture.release();
+	delete [] rawData;
+	return [[Texture alloc] initWithMetalTexture: _metalTexture];
+}
+
 + (Rigidbody *)createRigidBodyInWorld:(World *) world
 				   withEdgesOfTexture:(id<MTLTexture>) metalTexture
 							  Density:(float) density

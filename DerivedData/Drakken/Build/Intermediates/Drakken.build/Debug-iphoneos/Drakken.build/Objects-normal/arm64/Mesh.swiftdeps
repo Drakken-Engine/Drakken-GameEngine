@@ -7,41 +7,41 @@ provides-member:
 - ["C7Drakken4Mesh", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Float"
-- !private "Core"
-- "float2"
-- "Renderer"
-- "BaseShader"
-- "float4x4"
-- !private "IndexBuffer"
-- "String"
-- "ShaderFragmentTextureData"
-- "Int"
-- "Bool"
-- !private "sizeof"
 - "Material"
-- "MTLBuffer"
-- "Texture"
-- !private "!="
-- "UInt32"
-- !private "TextureBuffer"
-- !private "!"
-- "ShaderFragmentBufferData"
-- !private "BooleanLiteralType"
-- "float4"
 - !private "DataBuffer"
-- !private "newScale"
-- "Mesh"
+- !private "!="
+- "float3"
+- "MTLBuffer"
+- !private "Core"
+- "ShaderFragmentBufferData"
+- "Int"
+- !private "TextureBuffer"
+- "ModelUniforms"
+- "Renderer"
+- "Texture"
+- "ShaderBuffers"
 - "Transform"
-- "MTLPrimitiveType"
+- !private "BooleanLiteralType"
+- "float2"
+- "float4x4"
+- "String"
+- !private "!"
+- "BaseShader"
+- "Mesh"
+- !private "*"
+- "float4"
 - !private "MTLResourceOptions"
 - !private "StringLiteralType"
+- "Float"
+- !private "IndexBuffer"
+- "Bool"
+- "UInt32"
+- !private "newScale"
 - !private ">"
-- "ModelUniforms"
 - "ShaderVertexData"
-- "float3"
-- !private "*"
-- "ShaderBuffers"
+- "ShaderFragmentTextureData"
+- "MTLPrimitiveType"
+- !private "sizeof"
 depends-member:
 - !private ["PSs9AnyObject", "BaseShader"]
 - !private ["PSs9AnyObject", "Bool"]
@@ -67,6 +67,7 @@ depends-member:
 - !private ["PSs9AnyObject", "_shader"]
 - !private ["PSs9AnyObject", "_shaderBuffers"]
 - !private ["PSs9AnyObject", "_texcoords"]
+- !private ["PSs9AnyObject", "_texcoordsOffset"]
 - !private ["PSs9AnyObject", "_texture1"]
 - !private ["PSs9AnyObject", "_texture2"]
 - !private ["PSs9AnyObject", "_textureRepeat"]
@@ -99,6 +100,7 @@ depends-member:
 - ["PSs9AnyObject", "repeatMask"]
 - !private ["PSs9AnyObject", "sizeof"]
 - ["PSs9AnyObject", "texcoords"]
+- ["PSs9AnyObject", "texcoordsOffset"]
 - ["PSs9AnyObject", "texture1"]
 - ["PSs9AnyObject", "texture2"]
 - ["PSs9AnyObject", "textureRepeat"]
@@ -281,6 +283,7 @@ depends-member:
 - !private ["C7Drakken4Mesh", "_shader"]
 - !private ["C7Drakken4Mesh", "_shaderBuffers"]
 - !private ["C7Drakken4Mesh", "_texcoords"]
+- !private ["C7Drakken4Mesh", "_texcoordsOffset"]
 - !private ["C7Drakken4Mesh", "_texture1"]
 - !private ["C7Drakken4Mesh", "_texture2"]
 - !private ["C7Drakken4Mesh", "_textureRepeat"]
@@ -306,6 +309,7 @@ depends-member:
 - ["C7Drakken4Mesh", "setMaterial"]
 - !private ["C7Drakken4Mesh", "sizeof"]
 - ["C7Drakken4Mesh", "texcoords"]
+- ["C7Drakken4Mesh", "texcoordsOffset"]
 - ["C7Drakken4Mesh", "texture1"]
 - ["C7Drakken4Mesh", "texture2"]
 - ["C7Drakken4Mesh", "textureRepeat"]
@@ -409,6 +413,7 @@ depends-member:
 - !private ["P7Drakken24ShaderFragmentBufferData", "_shader"]
 - !private ["P7Drakken24ShaderFragmentBufferData", "_shaderBuffers"]
 - !private ["P7Drakken24ShaderFragmentBufferData", "_texcoords"]
+- !private ["P7Drakken24ShaderFragmentBufferData", "_texcoordsOffset"]
 - !private ["P7Drakken24ShaderFragmentBufferData", "_texture1"]
 - !private ["P7Drakken24ShaderFragmentBufferData", "_texture2"]
 - !private ["P7Drakken24ShaderFragmentBufferData", "_textureRepeat"]
@@ -430,6 +435,7 @@ depends-member:
 - ["P7Drakken24ShaderFragmentBufferData", "repeatMask"]
 - !private ["P7Drakken24ShaderFragmentBufferData", "sizeof"]
 - ["P7Drakken24ShaderFragmentBufferData", "texcoords"]
+- ["P7Drakken24ShaderFragmentBufferData", "texcoordsOffset"]
 - ["P7Drakken24ShaderFragmentBufferData", "texture1"]
 - ["P7Drakken24ShaderFragmentBufferData", "texture2"]
 - ["P7Drakken24ShaderFragmentBufferData", "textureRepeat"]
@@ -460,6 +466,7 @@ depends-member:
 - !private ["P7Drakken25ShaderFragmentTextureData", "_shader"]
 - !private ["P7Drakken25ShaderFragmentTextureData", "_shaderBuffers"]
 - !private ["P7Drakken25ShaderFragmentTextureData", "_texcoords"]
+- !private ["P7Drakken25ShaderFragmentTextureData", "_texcoordsOffset"]
 - !private ["P7Drakken25ShaderFragmentTextureData", "_texture1"]
 - !private ["P7Drakken25ShaderFragmentTextureData", "_texture2"]
 - !private ["P7Drakken25ShaderFragmentTextureData", "_textureRepeat"]
@@ -481,6 +488,7 @@ depends-member:
 - ["P7Drakken25ShaderFragmentTextureData", "repeatMask"]
 - !private ["P7Drakken25ShaderFragmentTextureData", "sizeof"]
 - ["P7Drakken25ShaderFragmentTextureData", "texcoords"]
+- ["P7Drakken25ShaderFragmentTextureData", "texcoordsOffset"]
 - ["P7Drakken25ShaderFragmentTextureData", "texture1"]
 - ["P7Drakken25ShaderFragmentTextureData", "texture2"]
 - ["P7Drakken25ShaderFragmentTextureData", "textureRepeat"]
@@ -511,6 +519,7 @@ depends-member:
 - !private ["P7Drakken16ShaderVertexData", "_shader"]
 - !private ["P7Drakken16ShaderVertexData", "_shaderBuffers"]
 - !private ["P7Drakken16ShaderVertexData", "_texcoords"]
+- !private ["P7Drakken16ShaderVertexData", "_texcoordsOffset"]
 - !private ["P7Drakken16ShaderVertexData", "_texture1"]
 - !private ["P7Drakken16ShaderVertexData", "_texture2"]
 - !private ["P7Drakken16ShaderVertexData", "_textureRepeat"]
@@ -532,6 +541,7 @@ depends-member:
 - ["P7Drakken16ShaderVertexData", "repeatMask"]
 - !private ["P7Drakken16ShaderVertexData", "sizeof"]
 - ["P7Drakken16ShaderVertexData", "texcoords"]
+- ["P7Drakken16ShaderVertexData", "texcoordsOffset"]
 - ["P7Drakken16ShaderVertexData", "texture1"]
 - ["P7Drakken16ShaderVertexData", "texture2"]
 - ["P7Drakken16ShaderVertexData", "textureRepeat"]
@@ -713,4 +723,4 @@ depends-external:
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
-interface-hash: "aea99093f30d0b4378123ea424977fe6"
+interface-hash: "241935750d883170d21342dbe11764c5"

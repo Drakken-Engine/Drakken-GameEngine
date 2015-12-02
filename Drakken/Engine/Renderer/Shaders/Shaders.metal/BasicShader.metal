@@ -11,11 +11,11 @@ using namespace metal;
 
 struct VertexOut
 {
-	float4 position		[[ position ]];
-	float3 normal		[[ user(normal) ]];
-	float2 texcoord		[[ user(tex_coord) ]];
-	float4 color			[[ user(color) ]];
-	float  pointSize	[[ point_size ]];
+	float4 position			[[ position ]];
+	float3 normal			[[ user(normal) ]];
+	float2 texcoord			[[ user(tex_coord) ]];
+	float4 color				[[ user(color) ]];
+	float  pointSize		[[ point_size ]];
 };
 
 struct SharedUniforms
@@ -65,15 +65,16 @@ vertex VertexOut basic_vertex ( constant	SharedUniforms	&sharedUniforms		[[ buff
 	return v_out;
 }
 
-fragment float4 basic_fragment (			VertexOut			vert			[[ stage_in ]],
-								constant	Light				&light		[[ buffer(0) ]],
-								constant	Material			&material	[[ buffer(1) ]],
-								constant	float2				&texRepeat	[[ buffer(2) ]],
-								constant	bool				&repeatMask	[[ buffer(3) ]],
-											texture2d<float>	texture1		[[ texture(3) ]],
-											texture2d<float>	texture2		[[ texture(4) ]],
-											texture2d<float>	maskTexture	[[ texture(5) ]],
-											sampler				s			[[ sampler(0) ]] )
+fragment float4 basic_fragment (			VertexOut			vert				[[ stage_in ]],
+								constant	Light				&light			[[ buffer(0) ]],
+								constant	Material			&material		[[ buffer(1) ]],
+								constant	float2				&texRepeat		[[ buffer(2) ]],
+								constant	bool				&repeatMask		[[ buffer(3) ]],
+								constant	float2				&texcoordOffset	[[ buffer(4) ]],
+											texture2d<float>	texture1			[[ texture(3) ]],
+											texture2d<float>	texture2			[[ texture(4) ]],
+											texture2d<float>	maskTexture		[[ texture(5) ]],
+											sampler				s				[[ sampler(0) ]] )
 {
 	float2 texcoord = vert.texcoord;
 	float2 mask_texcoord = vert.texcoord;
@@ -88,7 +89,7 @@ fragment float4 basic_fragment (			VertexOut			vert			[[ stage_in ]],
 		discard_fragment();
 	}
 	
-	float4 color = texture1.sample(s, texcoord);
+	float4 color = texture1.sample(s, float2(texcoord.x + texcoordOffset.x, texcoord.y + texcoordOffset.y));
 	
 	if(color.a == 0) {
 		discard_fragment();

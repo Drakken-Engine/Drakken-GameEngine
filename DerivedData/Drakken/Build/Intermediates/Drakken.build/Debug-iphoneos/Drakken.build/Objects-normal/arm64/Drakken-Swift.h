@@ -176,6 +176,7 @@ SWIFT_CLASS("_TtC7Drakken13GameComponent")
 - (void)setTextureWithTexture2:(Texture * __nonnull)texture;
 - (void)setMaskTexture:(Texture * __nonnull)texture;
 - (void)setMaterial:(NSString * __nonnull)materialName;
+- (void)setTextureCoordOffset:(swift_float2)offset;
 - (void)addNode:(GameComponent * __nonnull)node;
 - (void)onCollisionEnter:(id <OtherComponent> __nonnull)other collisionPoint:(CGPoint)collisionPoint;
 - (void)onCollisionExit:(id <OtherComponent> __nonnull)other collisionPoint:(CGPoint)collisionPoint;
@@ -258,13 +259,14 @@ SWIFT_CLASS("_TtC7Drakken16TerrainComponent")
 @interface TerrainComponent : NSObject <Component>
 @property (nonatomic, strong) id <Transformable> __null_unspecified transform;
 @property (nonatomic, strong) Descriptor * __null_unspecified descriptor;
-- (nonnull instancetype)initWithMaskTexture:(Texture * __nonnull)maskTexture world:(World * __nonnull)world texture1:(Texture * __nonnull)texture1 gridScale:(NSInteger)gridScale OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithCollisionMaskTexture:(Texture * __nonnull)collisionMaskTexture world:(World * __nonnull)world renderMaskTexture:(Texture * __nonnull)renderMaskTexture texture1:(Texture * __nonnull)texture1 textureRepeatXCount:(NSInteger)textureRepeatXCount textureRepeatYCount:(NSInteger)textureRepeatYCount gridScale:(NSInteger)gridScale OBJC_DESIGNATED_INITIALIZER;
 - (void)createWithMaskTexture:(Texture * __nonnull)texture;
 - (void)setTextureWithTexture:(Texture * __nonnull)texture;
 - (void)setTexture1WithFileName:(NSString * __nonnull)file fileExtension:(NSString * __nonnull)ext;
 - (void)setTexture2WithFileName:(NSString * __nonnull)file fileExtension:(NSString * __nonnull)ext;
 - (void)setMaskTextureWithTexture:(Texture * __nonnull)texture;
 - (void)setMaskTextureWithFileName:(NSString * __nonnull)file fileExtension:(NSString * __nonnull)ext;
+- (void)setTextureCoordOffset:(swift_float2)offset;
 - (void)createInWorld:(World * __nonnull)world;
 @end
 

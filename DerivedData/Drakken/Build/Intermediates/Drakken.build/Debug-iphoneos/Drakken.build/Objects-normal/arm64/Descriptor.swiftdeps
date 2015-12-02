@@ -6,13 +6,13 @@ provides-nominal:
 provides-member:
 - ["C7Drakken10Descriptor", ""]
 provides-dynamic-lookup:
-- "tag"
 - "label"
+- "tag"
 depends-top-level:
+- "String"
 - "Descriptor"
 - !private "StringLiteralType"
 - "NSObject"
-- "String"
 depends-member:
 - ["PSs9AnyObject", "init"]
 - ["PSs9AnyObject", "label"]

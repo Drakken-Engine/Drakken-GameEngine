@@ -31,13 +31,13 @@ import RSClipperWrapper
 
 	internal var index: Int = 0
 	
-	public init(maskTexture: Texture, world: World, texture1: Texture, gridScale: Int = 150) {
+	public init(collisionMaskTexture: Texture, world: World, renderMaskTexture: Texture, texture1: Texture, textureRepeatXCount: Int = 1, textureRepeatYCount: Int = 1, gridScale: Int = 150) {
 		_polygonsTree = QuadTree<TerrainMesh>(
 		size: CGRectMake(
-				CGFloat(-maskTexture.size.width),
-				CGFloat(-maskTexture.size.height),
-				CGFloat(2 * maskTexture.size.width),
-				CGFloat(2 * maskTexture.size.height)
+				CGFloat(-collisionMaskTexture.size.width),
+				CGFloat(-collisionMaskTexture.size.height),
+				CGFloat(2 * collisionMaskTexture.size.width),
+				CGFloat(2 * collisionMaskTexture.size.height)
 			), minSize: 100.0
 		)
 
@@ -45,10 +45,10 @@ import RSClipperWrapper
 		_explosionsQueue = [ExplosionPolygon]()
 
 		_drawComponent = GameComponent()
-		_drawComponent.setMesh(Grid(width: 2, height: 2, textureRepeatXCount: 10, textureRepeatYCount: 8))
+		_drawComponent.setMesh(Grid(width: 2, height: 2, textureRepeatXCount: textureRepeatXCount, textureRepeatYCount: textureRepeatYCount))
 		_drawComponent.setTexture(texture1: texture1)
-		_drawComponent.setMaskTexture(maskTexture)
-		_drawComponent.transform.setMeshScale(float2(Float(maskTexture.size.width), Float(maskTexture.size.height)))
+		_drawComponent.setMaskTexture(renderMaskTexture)
+		_drawComponent.transform.setMeshScale(float2(Float(renderMaskTexture.size.width), Float(renderMaskTexture.size.height)))
 
 		_gridScale = gridScale
 		_world = world
@@ -59,7 +59,7 @@ import RSClipperWrapper
 		
 		super.init()
 
-		createWithMaskTexture(maskTexture)
+		createWithMaskTexture(collisionMaskTexture)
 	}
 	
 	internal func getComponent() -> InternalComponent {
@@ -116,6 +116,10 @@ import RSClipperWrapper
 
 	public func setMaskTexture(fileName file: String, fileExtension ext: String) {
 		_drawComponent.setMaskTexture(Texture(fileName: file, fileExtension: ext))
+	}
+	
+	public func setTextureCoordOffset(offset: float2) {
+		_drawComponent.setTextureCoordOffset(offset)
 	}
 	
 	internal func addMeshArray(polygonArray: [[CGPoint]]) {
@@ -182,6 +186,7 @@ import RSClipperWrapper
 	
 	internal func draw(renderer: Renderer) {
 		_drawComponent.transform.setZPosition(transform.getZPosition())
+		_drawComponent.transform.setPosition(transform.getPosition())
 		_drawComponent.draw(renderer)
 	}
 }

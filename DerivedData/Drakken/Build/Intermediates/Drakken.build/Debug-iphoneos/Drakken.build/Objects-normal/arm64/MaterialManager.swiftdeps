@@ -8,14 +8,14 @@ provides-member:
 provides-dynamic-lookup:
 - "getMaterial"
 depends-top-level:
-- !private "!="
-- "Dictionary"
-- !private "+"
-- "MaterialManager"
 - "String"
+- "MaterialManager"
 - !private "StringLiteralType"
 - "NSObject"
+- "Dictionary"
+- !private "+"
 - "Material"
+- !private "!="
 depends-member:
 - !private ["PSs9AnyObject", "Dictionary"]
 - !private ["PSs9AnyObject", "Material"]

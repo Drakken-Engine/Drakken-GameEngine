@@ -6,26 +6,26 @@ provides-nominal:
 provides-member:
 - ["C7Drakken8Material", ""]
 provides-dynamic-lookup:
-- "buildRenderPipelineDescriptor"
 - "renderPipelineState"
 - "materialPropertiesUniformBuffer"
+- "buildRenderPipelineDescriptor"
 depends-top-level:
+- "MTLRenderPipelineReflection"
 - "MTLRenderPipelineDescriptor"
-- "MTLBuffer"
-- "MTLRenderPipelineState"
-- "String"
-- !private "MTLBlendOperation"
-- !private "BooleanLiteralType"
-- "Material"
-- !private "print"
-- !private "MTLBlendFactor"
 - !private "Core"
-- !private "StringLiteralType"
-- "NSObject"
+- "String"
+- "MTLRenderPipelineState"
+- !private "BooleanLiteralType"
 - "MaterialProperties"
 - "MTLFunction"
+- "Material"
+- "NSObject"
+- !private "StringLiteralType"
+- !private "MTLBlendFactor"
+- !private "MTLBlendOperation"
+- "MTLBuffer"
 - !private "MTLArgument"
-- "MTLRenderPipelineReflection"
+- !private "print"
 depends-member:
 - !private ["PSs9AnyObject", "Core"]
 - !private ["PSs9AnyObject", "MTLBlendFactor"]

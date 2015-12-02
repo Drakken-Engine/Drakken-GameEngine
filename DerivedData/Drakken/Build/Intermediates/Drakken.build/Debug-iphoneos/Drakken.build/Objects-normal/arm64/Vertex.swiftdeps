@@ -31,32 +31,34 @@ provides-member:
 - ["V7Drakken15LightProperties", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "ShaderVertexData"
-- "float4x4"
-- "Float"
-- "float3"
-- "ShaderBuffers"
 - "ParticlesPositions"
-- "LightProperties"
-- "IndexBuffer"
-- "DataBuffer"
-- "ShaderFragmentTextureData"
-- "Bool"
-- "ShaderFragmentBufferData"
-- "Int"
-- "SharedUniforms"
-- "float4"
-- !private "StringLiteralType"
-- "Void"
-- "TextureBuffer"
-- "MaterialProperties"
-- "Texture"
 - "UnsafeMutablePointer"
-- "MTLBuffer"
 - "float2"
+- "Void"
+- "SharedUniforms"
+- "ShaderFragmentTextureData"
+- "ShaderVertexData"
+- "float4"
 - "ModelUniforms"
+- !private "sizeof"
+- "DataBuffer"
+- "IndexBuffer"
+- "MTLBuffer"
+- "Texture"
+- "MaterialProperties"
+- "ShaderFragmentBufferData"
+- "LightProperties"
+- "Bool"
+- "float3"
+- !private "StringLiteralType"
+- "float4x4"
+- "Int"
+- "TextureBuffer"
+- "Float"
+- "ShaderBuffers"
 depends-member:
 - !private ["PSs9AnyObject", "init"]
+- !private ["Sa", "deinit"]
 - !private ["Sa", "init"]
 - !private ["Sa", "subscript"]
 - !private ["PSs23ArrayLiteralConvertible", "init"]
@@ -132,15 +134,18 @@ depends-member:
 - ["V7Drakken13ShaderBuffers", "Int"]
 - !private ["V7Drakken13ShaderBuffers", "Texture"]
 - ["V7Drakken13ShaderBuffers", "TextureBuffer"]
+- !private ["V7Drakken13ShaderBuffers", "float2"]
 - ["V7Drakken13ShaderBuffers", "fragmentBuffer"]
 - ["V7Drakken13ShaderBuffers", "indexBuffer"]
 - ["V7Drakken13ShaderBuffers", "init"]
+- !private ["V7Drakken13ShaderBuffers", "sizeof"]
 - ["V7Drakken13ShaderBuffers", "textureBuffer"]
 - ["V7Drakken13ShaderBuffers", "vertexBuffer"]
 - ["V7Drakken13ShaderBuffers", "vertexCount"]
 - ["P7Drakken24ShaderFragmentBufferData", "Bool"]
 - ["P7Drakken24ShaderFragmentBufferData", "float2"]
 - ["P7Drakken24ShaderFragmentBufferData", "repeatMask"]
+- ["P7Drakken24ShaderFragmentBufferData", "texcoordsOffset"]
 - ["P7Drakken24ShaderFragmentBufferData", "textureRepeat"]
 - ["P7Drakken25ShaderFragmentTextureData", "Texture"]
 - ["P7Drakken25ShaderFragmentTextureData", "maskTexture"]
@@ -181,6 +186,7 @@ depends-member:
 - !private ["PSs12_Reflectable", "init"]
 - !private ["PSs12_Reflectable", "subscript"]
 - !private ["PSs11_Strideable", "init"]
+- !private ["V4simd6float2", "init"]
 depends-nominal:
 - !private "PSs9AnyObject"
 - !private "Sa"
@@ -230,6 +236,7 @@ depends-nominal:
 - !private "PSs22_RandomAccessAmbiguity"
 - !private "PSs12_Reflectable"
 - !private "PSs11_Strideable"
+- !private "V4simd6float2"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
@@ -259,4 +266,4 @@ depends-external:
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
-interface-hash: "28e272343785d173560f8ee401870a42"
+interface-hash: "f3e843c4b69b4f19f32320086e44859d"

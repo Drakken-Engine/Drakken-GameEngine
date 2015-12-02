@@ -7,18 +7,18 @@ provides-member:
 - ["C7Drakken10DataBuffer", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Bool"
-- "DataBuffer"
-- "Int"
-- "float3"
-- "Void"
 - !private "Core"
-- "MTLBuffer"
 - !private "MTLResourceOptions"
-- "Float"
+- "Void"
+- "DataBuffer"
+- "float4"
+- "Bool"
 - "UnsafeMutablePointer"
 - "float2"
-- "float4"
+- "Float"
+- "MTLBuffer"
+- "Int"
+- "float3"
 depends-member:
 - !private ["PSs9AnyObject", "Core"]
 - !private ["PSs9AnyObject", "MTLResourceOptions"]

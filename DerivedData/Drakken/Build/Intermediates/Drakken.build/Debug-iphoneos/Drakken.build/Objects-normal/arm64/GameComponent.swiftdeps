@@ -9,74 +9,75 @@ provides-member:
 - ["C7Drakken6Script", ""]
 - ["C7Drakken13GameComponent", ""]
 provides-dynamic-lookup:
-- "hidden"
-- "setMaskTexture"
-- "setMaterial"
-- "setTexture1"
-- "animated"
-- "descriptor"
-- "delete"
-- "maskTexture"
-- "updateWorldQuad"
-- "index"
-- "deleteRigidbody"
-- "onCollisionEnter"
-- "onCollisionExit"
-- "onCollisionEnterWithFluid"
-- "rigidbody"
-- "setTexture"
-- "setTexture"
-- "update"
-- "setTexture2"
 - "_transform"
-- "onCollisionEnterWithTerrain"
-- "addRigibody"
-- "createInWorld"
-- "draw"
-- "scene"
+- "setTexture1"
+- "hidden"
+- "animated"
 - "transform"
+- "createInWorld"
+- "update"
+- "setMaterial"
 - "addNode"
+- "onCollisionEnter"
+- "draw"
+- "setMaskTexture"
+- "descriptor"
+- "index"
+- "onCollisionEnterWithFluid"
+- "delete"
+- "setTexture"
+- "setTexture"
+- "scene"
+- "updateWorldQuad"
+- "deleteRigidbody"
 - "onCollisionExitWithTerrain"
+- "maskTexture"
+- "addRigibody"
+- "setTexture2"
+- "onCollisionExit"
+- "rigidbody"
+- "setTextureCoordOffset"
+- "onCollisionEnterWithTerrain"
 depends-top-level:
-- "Transformable"
-- !private "Grid"
-- "Rigidbody"
-- "BooleanLiteralType"
-- "Physical"
-- "CGPoint"
-- !private "CGPointMake"
-- "Scriptable"
-- "Component"
-- !private "!="
-- "Script"
-- !private "!"
-- "InternalComponent"
-- !private "&&"
-- !private "float2"
-- "GameComponent"
-- !private "/"
-- "CFTimeInterval"
-- "String"
-- "Descriptor"
-- !private ">"
-- !private "BodyType"
-- "Bool"
-- "Animator"
-- "Texture"
-- "NSObject"
 - "Transform"
-- "Scene"
-- !private "StringLiteralType"
-- "RigidbodyProtocol"
 - "OtherComponent"
-- "World"
-- "Mesh"
-- "Renderer"
-- "Collidable"
-- "float4x4"
-- !private "Float"
+- !private "!"
 - !private "kWorldQuadSize"
+- !private ">"
+- "float2"
+- "CFTimeInterval"
+- "NSObject"
+- !private "StringLiteralType"
+- "Mesh"
+- !private "Float"
+- "Component"
+- "Collidable"
+- "World"
+- "Scriptable"
+- "InternalComponent"
+- "Animator"
+- "RigidbodyProtocol"
+- !private "&&"
+- "Physical"
+- "Bool"
+- !private "CGPointMake"
+- "Script"
 - "Int"
+- "String"
+- "Renderer"
+- "float4x4"
+- "Rigidbody"
+- "Transformable"
+- "BooleanLiteralType"
+- !private "Grid"
+- "CGPoint"
+- "Descriptor"
+- !private "!="
+- "Scene"
+- !private "/"
+- "GameComponent"
+- "Texture"
+- !private "BodyType"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["C7Drakken8Animator", "_defaultTexture"]
@@ -125,6 +126,7 @@ depends-member:
 - !private ["PSs9AnyObject", "getBodyType"]
 - ["PSs9AnyObject", "getComponent"]
 - !private ["PSs9AnyObject", "getCurrentFrameTexture"]
+- !private ["PSs9AnyObject", "getMeshScale"]
 - !private ["PSs9AnyObject", "getModelMatrix"]
 - !private ["PSs9AnyObject", "getPosition"]
 - ["PSs9AnyObject", "hidden"]
@@ -153,7 +155,9 @@ depends-member:
 - ["PSs9AnyObject", "setTexture"]
 - ["PSs9AnyObject", "setTexture1"]
 - ["PSs9AnyObject", "setTexture2"]
+- ["PSs9AnyObject", "setTextureCoordOffset"]
 - !private ["PSs9AnyObject", "start"]
+- !private ["PSs9AnyObject", "texcoordsOffset"]
 - !private ["PSs9AnyObject", "texture1"]
 - !private ["PSs9AnyObject", "texture2"]
 - ["PSs9AnyObject", "transform"]
@@ -227,6 +231,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "float2"]
 - !private ["PSs11CVarArgType", "getBodyType"]
 - ["PSs11CVarArgType", "getComponent"]
+- !private ["PSs11CVarArgType", "getMeshScale"]
 - !private ["PSs11CVarArgType", "getModelMatrix"]
 - !private ["PSs11CVarArgType", "getPosition"]
 - ["PSs11CVarArgType", "hidden"]
@@ -252,6 +257,7 @@ depends-member:
 - ["PSs11CVarArgType", "setTexture"]
 - ["PSs11CVarArgType", "setTexture1"]
 - ["PSs11CVarArgType", "setTexture2"]
+- ["PSs11CVarArgType", "setTextureCoordOffset"]
 - ["PSs11CVarArgType", "transform"]
 - ["PSs11CVarArgType", "update"]
 - ["PSs11CVarArgType", "updateWorldQuad"]
@@ -407,6 +413,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "float2"]
 - !private ["PSs23CustomStringConvertible", "getBodyType"]
 - ["PSs23CustomStringConvertible", "getComponent"]
+- !private ["PSs23CustomStringConvertible", "getMeshScale"]
 - !private ["PSs23CustomStringConvertible", "getModelMatrix"]
 - !private ["PSs23CustomStringConvertible", "getPosition"]
 - ["PSs23CustomStringConvertible", "hidden"]
@@ -432,6 +439,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "setTexture"]
 - ["PSs23CustomStringConvertible", "setTexture1"]
 - ["PSs23CustomStringConvertible", "setTexture2"]
+- ["PSs23CustomStringConvertible", "setTextureCoordOffset"]
 - !private ["PSs23CustomStringConvertible", "subscript"]
 - ["PSs23CustomStringConvertible", "transform"]
 - ["PSs23CustomStringConvertible", "update"]
@@ -480,6 +488,7 @@ depends-member:
 - !private ["PSs9Equatable", "float2"]
 - !private ["PSs9Equatable", "getBodyType"]
 - ["PSs9Equatable", "getComponent"]
+- !private ["PSs9Equatable", "getMeshScale"]
 - !private ["PSs9Equatable", "getModelMatrix"]
 - !private ["PSs9Equatable", "getPosition"]
 - ["PSs9Equatable", "hidden"]
@@ -505,6 +514,7 @@ depends-member:
 - ["PSs9Equatable", "setTexture"]
 - ["PSs9Equatable", "setTexture1"]
 - ["PSs9Equatable", "setTexture2"]
+- ["PSs9Equatable", "setTextureCoordOffset"]
 - ["PSs9Equatable", "transform"]
 - ["PSs9Equatable", "update"]
 - ["PSs9Equatable", "updateWorldQuad"]
@@ -560,7 +570,7 @@ depends-member:
 - ["C7Drakken13GameComponent", "deleteRigidbody"]
 - ["C7Drakken13GameComponent", "descriptor"]
 - ["C7Drakken13GameComponent", "draw"]
-- !private ["C7Drakken13GameComponent", "float2"]
+- ["C7Drakken13GameComponent", "float2"]
 - ["C7Drakken13GameComponent", "float4x4"]
 - ["C7Drakken13GameComponent", "getComponent"]
 - ["C7Drakken13GameComponent", "hidden"]
@@ -583,6 +593,7 @@ depends-member:
 - ["C7Drakken13GameComponent", "setTexture"]
 - ["C7Drakken13GameComponent", "setTexture1"]
 - ["C7Drakken13GameComponent", "setTexture2"]
+- ["C7Drakken13GameComponent", "setTextureCoordOffset"]
 - ["C7Drakken13GameComponent", "transform"]
 - ["C7Drakken13GameComponent", "update"]
 - ["C7Drakken13GameComponent", "updateWorldQuad"]
@@ -628,6 +639,7 @@ depends-member:
 - !private ["PSs8Hashable", "float2"]
 - !private ["PSs8Hashable", "getBodyType"]
 - ["PSs8Hashable", "getComponent"]
+- !private ["PSs8Hashable", "getMeshScale"]
 - !private ["PSs8Hashable", "getModelMatrix"]
 - !private ["PSs8Hashable", "getPosition"]
 - ["PSs8Hashable", "hidden"]
@@ -653,6 +665,7 @@ depends-member:
 - ["PSs8Hashable", "setTexture"]
 - ["PSs8Hashable", "setTexture1"]
 - ["PSs8Hashable", "setTexture2"]
+- ["PSs8Hashable", "setTextureCoordOffset"]
 - ["PSs8Hashable", "transform"]
 - ["PSs8Hashable", "update"]
 - ["PSs8Hashable", "updateWorldQuad"]
@@ -731,6 +744,7 @@ depends-member:
 - !private ["C7Drakken4Mesh", "maskTexture"]
 - !private ["C7Drakken4Mesh", "prepareToDraw"]
 - !private ["C7Drakken4Mesh", "setMaterial"]
+- !private ["C7Drakken4Mesh", "texcoordsOffset"]
 - !private ["C7Drakken4Mesh", "texture1"]
 - !private ["C7Drakken4Mesh", "texture2"]
 - !private ["PSs14MirrorPathType", "Distance"]
@@ -798,10 +812,11 @@ depends-member:
 - ["CSo8NSObject", "deleteRigidbody"]
 - ["CSo8NSObject", "descriptor"]
 - ["CSo8NSObject", "draw"]
-- !private ["CSo8NSObject", "float2"]
+- ["CSo8NSObject", "float2"]
 - ["CSo8NSObject", "float4x4"]
 - !private ["CSo8NSObject", "getBodyType"]
 - ["CSo8NSObject", "getComponent"]
+- !private ["CSo8NSObject", "getMeshScale"]
 - !private ["CSo8NSObject", "getModelMatrix"]
 - !private ["CSo8NSObject", "getPosition"]
 - ["CSo8NSObject", "hidden"]
@@ -827,6 +842,7 @@ depends-member:
 - ["CSo8NSObject", "setTexture"]
 - ["CSo8NSObject", "setTexture1"]
 - ["CSo8NSObject", "setTexture2"]
+- ["CSo8NSObject", "setTextureCoordOffset"]
 - ["CSo8NSObject", "transform"]
 - ["CSo8NSObject", "update"]
 - ["CSo8NSObject", "updateWorldQuad"]
@@ -894,6 +910,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "setTexture"]
 - ["PSo16NSObjectProtocol", "setTexture1"]
 - ["PSo16NSObjectProtocol", "setTexture2"]
+- ["PSo16NSObjectProtocol", "setTextureCoordOffset"]
 - !private ["PSo16NSObjectProtocol", "setZRotationRadian"]
 - ["PSo16NSObjectProtocol", "transform"]
 - ["PSo16NSObjectProtocol", "update"]
@@ -1057,6 +1074,7 @@ depends-member:
 - !private ["P7Drakken24ShaderFragmentBufferData", "maskTexture"]
 - !private ["P7Drakken24ShaderFragmentBufferData", "prepareToDraw"]
 - !private ["P7Drakken24ShaderFragmentBufferData", "setMaterial"]
+- !private ["P7Drakken24ShaderFragmentBufferData", "texcoordsOffset"]
 - !private ["P7Drakken24ShaderFragmentBufferData", "texture1"]
 - !private ["P7Drakken24ShaderFragmentBufferData", "texture2"]
 - !private ["P7Drakken25ShaderFragmentTextureData", "draw"]
@@ -1065,6 +1083,7 @@ depends-member:
 - !private ["P7Drakken25ShaderFragmentTextureData", "maskTexture"]
 - !private ["P7Drakken25ShaderFragmentTextureData", "prepareToDraw"]
 - !private ["P7Drakken25ShaderFragmentTextureData", "setMaterial"]
+- !private ["P7Drakken25ShaderFragmentTextureData", "texcoordsOffset"]
 - !private ["P7Drakken25ShaderFragmentTextureData", "texture1"]
 - !private ["P7Drakken25ShaderFragmentTextureData", "texture2"]
 - !private ["P7Drakken16ShaderVertexData", "draw"]
@@ -1073,6 +1092,7 @@ depends-member:
 - !private ["P7Drakken16ShaderVertexData", "maskTexture"]
 - !private ["P7Drakken16ShaderVertexData", "prepareToDraw"]
 - !private ["P7Drakken16ShaderVertexData", "setMaterial"]
+- !private ["P7Drakken16ShaderVertexData", "texcoordsOffset"]
 - !private ["P7Drakken16ShaderVertexData", "texture1"]
 - !private ["P7Drakken16ShaderVertexData", "texture2"]
 - !private ["PSs17SignedIntegerType", "Distance"]
@@ -1091,6 +1111,7 @@ depends-member:
 - !private ["PSs10Strideable", "init"]
 - !private ["C7Drakken7Texture", "init"]
 - !private ["C7Drakken9Transform", "deinit"]
+- !private ["C7Drakken9Transform", "getMeshScale"]
 - !private ["C7Drakken9Transform", "getModelMatrix"]
 - !private ["C7Drakken9Transform", "getPosition"]
 - !private ["C7Drakken9Transform", "init"]
@@ -1285,4 +1306,4 @@ depends-external:
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
-interface-hash: "a049e0f954e689434b2ee00a3fc2ceb3"
+interface-hash: "9527a26d3111d7aad0390ad0541746ea"

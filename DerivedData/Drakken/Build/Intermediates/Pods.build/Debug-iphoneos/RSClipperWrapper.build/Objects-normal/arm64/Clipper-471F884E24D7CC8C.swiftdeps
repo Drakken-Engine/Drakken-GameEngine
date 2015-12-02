@@ -9,13 +9,13 @@ provides-member:
 - ["OC16RSClipperWrapper7Clipper8FillType", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "NSValue"
-- "_FillType"
-- "=="
-- "Clipper"
 - "CGPoint"
+- "=="
 - !private "AnyObject"
 - !private "_Clipper"
+- "_FillType"
+- !private "NSValue"
+- "Clipper"
 depends-member:
 - !private ["PSs9AnyObject", "CGPointValue"]
 - !private ["PSs9AnyObject", "NSValue"]

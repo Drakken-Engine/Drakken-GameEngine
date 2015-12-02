@@ -7,9 +7,9 @@ provides-member:
 - ["P7Drakken10Bufferable", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "Bufferable"
 - "Renderer"
 - "Int"
-- "Bufferable"
 depends-member:
 - ["P7Drakken10Bufferable", "Int"]
 - ["P7Drakken10Bufferable", "Renderer"]
