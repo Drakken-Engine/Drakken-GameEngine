@@ -48,12 +48,6 @@ public class Core: NSObject {
 		set { Core.sharedInstance._screenScale = Float(newValue) }
 	}
 
-	private var _materialManager: MaterialManager!
-	public static var materialManager: MaterialManager! {
-		get { return Core.sharedInstance._materialManager }
-		set { Core.sharedInstance._materialManager = newValue }
-	}
-
 	public static var drawableSize: CGSize {
 		return CGSizeMake(Core.screenSize.width * CGFloat(Core.screenScale),
 						  Core.screenSize.height * CGFloat(Core.screenScale))
@@ -72,8 +66,6 @@ public class Core: NSObject {
 		{
 			print("Failed to load!");
 		}
-
-		self._materialManager = MaterialManager()
 
 		super.init()
 	}

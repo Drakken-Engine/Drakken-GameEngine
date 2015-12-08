@@ -236,6 +236,11 @@ public class Scene: NSObject {
 	
 	public func destroy() {
 		_destroied = true
+		
+		for component: (Int, InternalComponent) in _components {
+			component.1.destroy()
+		}
+		
 		world.destroy()
 	}
 }

@@ -2,9 +2,692 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a61f3eec-30aa-44a9-9b44-231ae2480a2e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Animation.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/AnimationMode.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/BaseShader.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/BaseShader.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/BaseShader.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/BaseShader.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/BaseShader~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/BaseShader~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Descriptor.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ExplosionPolygon.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Material.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Material.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Material.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Material.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/MaterialManager.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/MaterialManager.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/MaterialManager.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/MaterialManager.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/MaterialManager~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/MaterialManager~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Material~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Material~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Math.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/QuadTree.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ShaderManager.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Simplifier.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+CGSize.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Double.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Float.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Int.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Size2D.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+float2.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+CGPoint.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+CGVector.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Double.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Float.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Int.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Vector2D.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+float2.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vertex.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Animation.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Animation.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Animation.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Animation.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/AnimationMode.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/AnimationMode.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/AnimationMode.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/AnimationMode.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/AnimationMode~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/AnimationMode~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/AnimationSheet.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/AnimationSheet.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/AnimationSheet.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/AnimationSheet.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/AnimationSheet~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/AnimationSheet~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Animation~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Animation~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Animator.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Animator.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Animator.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Animator.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Animator~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Animator~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/BaseShader.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/BaseShader.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/BaseShader.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/BaseShader.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/BaseShader~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/BaseShader~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/BuffersProtocols.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/BuffersProtocols.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/BuffersProtocols.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/BuffersProtocols.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/BuffersProtocols~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/BuffersProtocols~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/CanvasComponent.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/CanvasComponent.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/CanvasComponent.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/CanvasComponent.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/CanvasComponent~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/CanvasComponent~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/ComponentProtocols.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/ComponentProtocols.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/ComponentProtocols.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/ComponentProtocols.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/ComponentProtocols~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/ComponentProtocols~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Core.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Core.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Core.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Core.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Core~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Core~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/DataBuffer.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/DataBuffer.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/DataBuffer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/DataBuffer.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/DataBuffer~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/DataBuffer~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Descriptor.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Descriptor.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Descriptor.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Descriptor.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Descriptor~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Descriptor~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Drakken-OutputFileMap.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Drakken-Swift.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Drakken-master.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Drakken.LinkFileList" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Drakken.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Drakken.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/EffectCanvasComponent.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/EffectCanvasComponent.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/EffectCanvasComponent.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/EffectCanvasComponent.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/EffectCanvasComponent~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/EffectCanvasComponent~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/ExplosionPolygon.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/ExplosionPolygon.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/ExplosionPolygon.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/ExplosionPolygon.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/ExplosionPolygon~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/ExplosionPolygon~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/FluidComponent.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/FluidComponent.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/FluidComponent.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/FluidComponent.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/FluidComponent~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/FluidComponent~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/FluidMesh.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/FluidMesh.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/FluidMesh.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/FluidMesh.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/FluidMesh~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/FluidMesh~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/GameComponent.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/GameComponent.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/GameComponent.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/GameComponent.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/GameComponent~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/GameComponent~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/GameViewController.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/GameViewController.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/GameViewController.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/GameViewController.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/GameViewController~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/GameViewController~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Grid.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Grid.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Grid.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Grid.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Grid~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Grid~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/IndexBuffer.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/IndexBuffer.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/IndexBuffer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/IndexBuffer.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/IndexBuffer~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/IndexBuffer~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Material.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Material.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Material.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Material.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/MaterialManager.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/MaterialManager.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/MaterialManager.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/MaterialManager.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/MaterialManager~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/MaterialManager~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Material~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Material~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Math.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Math.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Math.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Math.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Math~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Math~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Mesh.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Mesh.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Mesh.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Mesh.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Mesh~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Mesh~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/OtherAbstract.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/OtherAbstract.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/OtherAbstract.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/OtherAbstract.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/OtherAbstract~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/OtherAbstract~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/QuadTree.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/QuadTree.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/QuadTree.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/QuadTree.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/QuadTree~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/QuadTree~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Renderer.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Renderer.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Renderer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Renderer.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Renderer~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Renderer~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Resource.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Resource.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Resource.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Resource.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Resource~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Resource~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Scene.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Scene.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Scene.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Scene.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Scene~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Scene~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/ShaderManager.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/ShaderManager.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/ShaderManager.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/ShaderManager.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/ShaderManager~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/ShaderManager~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Simplifier.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Simplifier.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Simplifier.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Simplifier.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Simplifier~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Simplifier~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+CGSize.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+CGSize.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+CGSize.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+CGSize.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+CGSize~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+CGSize~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Double.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Double.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Double.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Double.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Double~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Double~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Float.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Float.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Float.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Float.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Float~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Float~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Int.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Int.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Int.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Int.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Int~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Int~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Size2D.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Size2D.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Size2D.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Size2D.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Size2D~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+Size2D~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+float2.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+float2.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+float2.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+float2.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+float2~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D+float2~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Size2D~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/TerrainComponent.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/TerrainComponent.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/TerrainComponent.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/TerrainComponent.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/TerrainComponent~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/TerrainComponent~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/TerrainMesh.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/TerrainMesh.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/TerrainMesh.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/TerrainMesh.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/TerrainMesh~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/TerrainMesh~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/TextureBuffer.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/TextureBuffer.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/TextureBuffer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/TextureBuffer.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/TextureBuffer~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/TextureBuffer~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Transform.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Transform.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Transform.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Transform.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Transform~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Transform~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Utils.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Utils.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Utils.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Utils.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Utils~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Utils~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+CGPoint.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+CGPoint.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+CGPoint.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+CGPoint.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+CGPoint~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+CGPoint~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+CGVector.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+CGVector.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+CGVector.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+CGVector.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+CGVector~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+CGVector~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Double.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Double.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Double.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Double.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Double~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Double~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Float.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Float.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Float.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Float.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Float~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Float~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Int.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Int.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Int.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Int.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Int~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Int~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Vector2D.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Vector2D.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Vector2D.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Vector2D.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Vector2D~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+Vector2D~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+float2.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+float2.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+float2.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+float2.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+float2~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D+float2~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vector2D~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vertex.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vertex.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vertex.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vertex.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vertex~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/armv7/Vertex~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-Drakken.build/Objects-normal/armv7/Pods_Drakken.LinkFileList" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/armv7/Clipper-471F884E24D7CC8C.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/armv7/Clipper-471F884E24D7CC8C.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/armv7/Clipper-471F884E24D7CC8C.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/armv7/Clipper-471F884E24D7CC8C.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/armv7/Clipper-471F884E24D7CC8C~partial.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/armv7/Clipper-471F884E24D7CC8C~partial.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/armv7/RSClipperWrapper-OutputFileMap.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/armv7/RSClipperWrapper-Swift.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/armv7/RSClipperWrapper-master.swiftdeps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/armv7/RSClipperWrapper.LinkFileList" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/armv7/RSClipperWrapper.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/armv7/RSClipperWrapper.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/Drakken.framework/Modules/Drakken.swiftmodule/arm.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/Drakken.framework/Modules/Drakken.swiftmodule/arm.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/RSClipperWrapper.swiftmodule/arm.swiftdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/RSClipperWrapper.swiftmodule/arm.swiftmodule" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Logs/Build/26248616-A376-41F0-B2F5-92A9FB9DAF2F.xcactivitylog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Logs/Issues/7A64006C-D113-4002-AC73-24D71467178B.xcactivitylog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Logs/Issues/AB307426-357C-4074-9586-E1C33C3E2914.xcactivitylog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Logs/Issues/F28EFE39-FE8F-4287-82D8-DF57D930E5C2.xcactivitylog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/MetalKit-1ZXV9CJ8O4ET7.pcm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/MetalKit-1ZXV9CJ8O4ET7.pcm.timestamp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/ModelIO-AA883G3UEOLI.pcm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/ModelIO-AA883G3UEOLI.pcm.timestamp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/MetalKit-1ZXV9CJ8O4ET7.pcm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/MetalKit-1ZXV9CJ8O4ET7.pcm.timestamp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/ModelIO-AA883G3UEOLI.pcm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/ModelIO-AA883G3UEOLI.pcm.timestamp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/4DUB90T9CNJJ/MachO-CA7UA9IK83JK.pcm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/4DUB90T9CNJJ/MediaAccessibility-1E043WAOEWHCO.pcm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/4DUB90T9CNJJ/MetalPerformanceShaders-32U4BFQ3A2AZC.pcm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/4DUB90T9CNJJ/RSClipperWrapper-1O23W9SOR3WK2.pcm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/MetalKit-1ZXV9CJ8O4ET7.pcm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/MetalKit-1ZXV9CJ8O4ET7.pcm.timestamp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/ModelIO-AA883G3UEOLI.pcm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/ModelIO-AA883G3UEOLI.pcm.timestamp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Drakken/Engine/Renderer/Core/ShaderManager.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Drakken/Engine/Renderer/Material/MaterialManager.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/BaseShader.swift" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Drakken/Engine/Renderer/Material/Material.swift" afterPath="$PROJECT_DIR$/Drakken/Engine/Renderer/Material/Shader.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Drakken-all-non-framework-target-headers.hmap" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Drakken-all-non-framework-target-headers.hmap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Metal/BasicShader.air" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Metal/BasicShader.air" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Metal/FluidShader.air" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Metal/FluidShader.air" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Metal/TextureParticleShader.air" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Metal/TextureParticleShader.air" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Metal/WhiteParticleShader.air" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Metal/WhiteParticleShader.air" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Metal/WhiteShader.air" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Metal/WhiteShader.air" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Metal/default.metal-ar" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Metal/default.metal-ar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Animation.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Animation.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/AnimationMode.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/AnimationMode.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/AnimationSheet.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/AnimationSheet.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Animator.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Animator.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/BuffersProtocols.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/BuffersProtocols.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/CanvasComponent.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/CanvasComponent.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/CanvasComponent~partial.swiftmodule" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/CanvasComponent~partial.swiftmodule" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ComponentProtocols.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ComponentProtocols.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ComponentProtocols~partial.swiftmodule" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ComponentProtocols~partial.swiftmodule" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Core.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Core.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Core~partial.swiftmodule" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Core~partial.swiftmodule" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/DataBuffer.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/DataBuffer.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Descriptor.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Descriptor.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Drakken.swiftmodule" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Drakken.swiftmodule" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Drakken_dependency_info.dat" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Drakken_dependency_info.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/EffectCanvasComponent.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/EffectCanvasComponent.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/EffectCanvasComponent~partial.swiftmodule" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/EffectCanvasComponent~partial.swiftmodule" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ExplosionPolygon.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ExplosionPolygon.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Fluid.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Fluid.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/FluidComponent.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/FluidComponent.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/FluidComponent~partial.swiftmodule" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/FluidComponent~partial.swiftmodule" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/FluidMesh.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/FluidMesh.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/FluidMesh~partial.swiftmodule" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/FluidMesh~partial.swiftmodule" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/GameComponent.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/GameComponent.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/GameComponent~partial.swiftmodule" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/GameComponent~partial.swiftmodule" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/GameViewController.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/GameViewController.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/GameViewController~partial.swiftmodule" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/GameViewController~partial.swiftmodule" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Grid.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Grid.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Grid~partial.swiftmodule" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Grid~partial.swiftmodule" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/IndexBuffer.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/IndexBuffer.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/MaskTexture.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/MaskTexture.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Math.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Math.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Mesh.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Mesh.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Mesh~partial.swiftmodule" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Mesh~partial.swiftmodule" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/OtherAbstract.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/OtherAbstract.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/QuadTree.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/QuadTree.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Renderer.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Renderer.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Resource.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Resource.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Rigidbody.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Rigidbody.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Scene.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Scene.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ShaderManager.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ShaderManager.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ShaderManager~partial.swiftmodule" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ShaderManager~partial.swiftmodule" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Simplifier.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Simplifier.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+CGSize.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+CGSize.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Double.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Double.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Float.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Float.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Int.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Int.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Size2D.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Size2D.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+float2.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+float2.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TerrainComponent.dia" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TerrainComponent.dia" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TerrainComponent.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TerrainComponent.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TerrainComponent~partial.swiftmodule" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TerrainComponent~partial.swiftmodule" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TerrainMesh.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TerrainMesh.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TerrainMesh~partial.swiftmodule" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TerrainMesh~partial.swiftmodule" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TextureBuffer.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TextureBuffer.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Transform.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Transform.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Utils.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Utils.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+CGPoint.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+CGPoint.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+CGVector.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+CGVector.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Double.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Double.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Float.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Float.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Int.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Int.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Vector2D.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Vector2D.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+float2.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+float2.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vertex.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vertex.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vertex~partial.swiftmodule" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vertex~partial.swiftmodule" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/dgph" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-Drakken.build/Objects-normal/arm64/Pods-Drakken-dummy.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-Drakken.build/Objects-normal/arm64/Pods-Drakken-dummy.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-Drakken.build/Objects-normal/arm64/Pods_Drakken_dependency_info.dat" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-Drakken.build/Objects-normal/arm64/Pods_Drakken_dependency_info.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-Drakken.build/dgph" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-Drakken.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/arm64/RSClipperWrapper-dummy.o" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/arm64/RSClipperWrapper-dummy.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/arm64/RSClipperWrapper_dependency_info.dat" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/arm64/RSClipperWrapper_dependency_info.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/dgph" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/Drakken.framework/Drakken" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/Drakken.framework/Drakken" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/Drakken.framework/Modules/Drakken.swiftmodule/arm64.swiftmodule" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/Drakken.framework/Modules/Drakken.swiftmodule/arm64.swiftmodule" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/Drakken.framework/default.metallib" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/Drakken.framework/default.metallib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/Pods_Drakken.framework/Pods_Drakken" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/Pods_Drakken.framework/Pods_Drakken" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework.dSYM/Contents/Resources/DWARF/RSClipperWrapper" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework.dSYM/Contents/Resources/DWARF/RSClipperWrapper" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/RSClipperWrapper" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/RSClipperWrapper" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Index/Debug/iphoneos9.1-arm64/Drakken.xcindex/db.xcindexdb" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Index/Debug/iphoneos9.1-arm64/Drakken.xcindex/db.xcindexdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Index/Debug/iphoneos9.1-arm64/Drakken.xcindex/db.xcindexdb-shm" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Index/Debug/iphoneos9.1-arm64/Drakken.xcindex/db.xcindexdb-shm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Index/Debug/iphoneos9.1-arm64/Drakken.xcindex/db.xcindexdb-wal" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Index/Debug/iphoneos9.1-arm64/Drakken.xcindex/db.xcindexdb-wal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Index/Debug/iphoneos9.1-arm64/Drakken.xcindex/db.xcindexdb.strings-file" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Index/Debug/iphoneos9.1-arm64/Drakken.xcindex/db.xcindexdb.strings-file" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Index/Debug/iphoneos9.1-arm64/Drakken.xcindex/db.xcindexdb.strings-res" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Index/Debug/iphoneos9.1-arm64/Drakken.xcindex/db.xcindexdb.strings-res" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Index/Debug/iphoneos9.1-arm64/Drakken.xcindex/db.xcindexdb.strings-sym" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Index/Debug/iphoneos9.1-arm64/Drakken.xcindex/db.xcindexdb.strings-sym" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Index/Drakken.hmap" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Index/Drakken.hmap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Logs/Build/Cache.db" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Logs/Build/Cache.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Logs/Issues/Cache.db" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Logs/Issues/Cache.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/TextIndex/text-filter.idx" afterPath="$PROJECT_DIR$/DerivedData/Drakken/TextIndex/text-filter.idx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/177ER57RVGJFV/Drakken-258ZFNONZ44M5.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/177ER57RVGJFV/Drakken-258ZFNONZ44M5.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/177ER57RVGJFV/MetalKit-1ZXV9CJ8O4ET7.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/177ER57RVGJFV/MetalKit-1ZXV9CJ8O4ET7.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/177ER57RVGJFV/ModelIO-AA883G3UEOLI.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/177ER57RVGJFV/ModelIO-AA883G3UEOLI.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/177ER57RVGJFV/RSClipperWrapper-1O23W9SOR3WK2.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/177ER57RVGJFV/RSClipperWrapper-1O23W9SOR3WK2.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/177ER57RVGJFV/RSClipperWrapper-37Z3RK3M9GTR.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/177ER57RVGJFV/RSClipperWrapper-37Z3RK3M9GTR.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/177ER57RVGJFV/_Builtin_intrinsics-1TM9MF00B3JZA.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/177ER57RVGJFV/_Builtin_intrinsics-1TM9MF00B3JZA.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/177ER57RVGJFV/simd-1H01V5RIW7VV6.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/177ER57RVGJFV/simd-1H01V5RIW7VV6.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/1OF6Y35AOYVPT/Drakken-258ZFNONZ44M5.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/1OF6Y35AOYVPT/Drakken-258ZFNONZ44M5.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/1OF6Y35AOYVPT/RSClipperWrapper-1O23W9SOR3WK2.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/1OF6Y35AOYVPT/RSClipperWrapper-1O23W9SOR3WK2.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/1OF6Y35AOYVPT/RSClipperWrapper-37Z3RK3M9GTR.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/1OF6Y35AOYVPT/RSClipperWrapper-37Z3RK3M9GTR.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/CFNetwork-929P33Y1WR7E.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/CFNetwork-929P33Y1WR7E.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/CoreFoundation-10I2D2XL7L7X9.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/CoreFoundation-10I2D2XL7L7X9.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/CoreGraphics-1YQ59ILDR3NYI.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/CoreGraphics-1YQ59ILDR3NYI.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/CoreImage-1YQ59ILDR3NYI.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/CoreImage-1YQ59ILDR3NYI.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/CoreText-33OP6U69KUCI9.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/CoreText-33OP6U69KUCI9.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/CoreVideo-3FAWVAJBVREGF.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/CoreVideo-3FAWVAJBVREGF.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/Darwin-MI6WZSG1PNOM.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/Darwin-MI6WZSG1PNOM.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/Dispatch-12O7S7HHQXK9N.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/Dispatch-12O7S7HHQXK9N.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/Foundation-A3SOD99KJ0S9.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/Foundation-A3SOD99KJ0S9.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/Metal-145CFU14FVBOZ.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/Metal-145CFU14FVBOZ.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/ObjectiveC-2CD0WTQVXITO7.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/ObjectiveC-2CD0WTQVXITO7.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/OpenGLES-1739WO7XX8M93.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/OpenGLES-1739WO7XX8M93.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/QuartzCore-3I7S0M4UEAD0U.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/QuartzCore-3I7S0M4UEAD0U.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/Security-2RJQZ4M3IMERR.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/Security-2RJQZ4M3IMERR.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/UIKit-2LM3EQU7VVY4O.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/UIKit-2LM3EQU7VVY4O.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/_Builtin_intrinsics-1TM9MF00B3JZA.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/_Builtin_intrinsics-1TM9MF00B3JZA.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/modules.idx" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/modules.idx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/os-MI6WZSG1PNOM.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/os-MI6WZSG1PNOM.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/simd-1H01V5RIW7VV6.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2FYWC9L92B8TK/simd-1H01V5RIW7VV6.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/CFNetwork-929P33Y1WR7E.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/CFNetwork-929P33Y1WR7E.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/CoreFoundation-10I2D2XL7L7X9.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/CoreFoundation-10I2D2XL7L7X9.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/CoreGraphics-1YQ59ILDR3NYI.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/CoreGraphics-1YQ59ILDR3NYI.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/CoreImage-1YQ59ILDR3NYI.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/CoreImage-1YQ59ILDR3NYI.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/CoreText-33OP6U69KUCI9.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/CoreText-33OP6U69KUCI9.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/CoreVideo-3FAWVAJBVREGF.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/CoreVideo-3FAWVAJBVREGF.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/Darwin-MI6WZSG1PNOM.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/Darwin-MI6WZSG1PNOM.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/Dispatch-12O7S7HHQXK9N.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/Dispatch-12O7S7HHQXK9N.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/Foundation-A3SOD99KJ0S9.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/Foundation-A3SOD99KJ0S9.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/Metal-145CFU14FVBOZ.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/Metal-145CFU14FVBOZ.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/ObjectiveC-2CD0WTQVXITO7.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/ObjectiveC-2CD0WTQVXITO7.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/OpenGLES-1739WO7XX8M93.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/OpenGLES-1739WO7XX8M93.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/QuartzCore-3I7S0M4UEAD0U.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/QuartzCore-3I7S0M4UEAD0U.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/Security-2RJQZ4M3IMERR.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/Security-2RJQZ4M3IMERR.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/UIKit-2LM3EQU7VVY4O.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/UIKit-2LM3EQU7VVY4O.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/modules.idx" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/modules.idx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/os-MI6WZSG1PNOM.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/os-MI6WZSG1PNOM.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/simd-1H01V5RIW7VV6.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/2P4VNLKNUXD1V/simd-1H01V5RIW7VV6.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/4DUB90T9CNJJ/Drakken-258ZFNONZ44M5.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/4DUB90T9CNJJ/Drakken-258ZFNONZ44M5.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/4DUB90T9CNJJ/RSClipperWrapper-37Z3RK3M9GTR.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/4DUB90T9CNJJ/RSClipperWrapper-37Z3RK3M9GTR.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/CFNetwork-929P33Y1WR7E.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/CFNetwork-929P33Y1WR7E.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/CoreFoundation-10I2D2XL7L7X9.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/CoreFoundation-10I2D2XL7L7X9.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/CoreGraphics-1YQ59ILDR3NYI.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/CoreGraphics-1YQ59ILDR3NYI.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/CoreImage-1YQ59ILDR3NYI.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/CoreImage-1YQ59ILDR3NYI.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/CoreText-33OP6U69KUCI9.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/CoreText-33OP6U69KUCI9.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/CoreVideo-3FAWVAJBVREGF.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/CoreVideo-3FAWVAJBVREGF.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/Darwin-MI6WZSG1PNOM.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/Darwin-MI6WZSG1PNOM.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/Dispatch-12O7S7HHQXK9N.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/Dispatch-12O7S7HHQXK9N.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/Foundation-A3SOD99KJ0S9.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/Foundation-A3SOD99KJ0S9.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/Metal-145CFU14FVBOZ.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/Metal-145CFU14FVBOZ.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/ObjectiveC-2CD0WTQVXITO7.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/ObjectiveC-2CD0WTQVXITO7.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/OpenGLES-1739WO7XX8M93.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/OpenGLES-1739WO7XX8M93.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/QuartzCore-3I7S0M4UEAD0U.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/QuartzCore-3I7S0M4UEAD0U.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/Security-2RJQZ4M3IMERR.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/Security-2RJQZ4M3IMERR.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/UIKit-2LM3EQU7VVY4O.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/UIKit-2LM3EQU7VVY4O.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/modules.idx" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/modules.idx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/os-MI6WZSG1PNOM.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/os-MI6WZSG1PNOM.pcm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/simd-1H01V5RIW7VV6.pcm" afterPath="$PROJECT_DIR$/DerivedData/ModuleCache/CCORTK7D4UZA/simd-1H01V5RIW7VV6.pcm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Drakken.iml" afterPath="$PROJECT_DIR$/.idea/Drakken.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Animation.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Animation.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Animation.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Animation.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/AnimationMode.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/AnimationMode.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/AnimationMode.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/AnimationMode.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/AnimationSheet.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/AnimationSheet.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/AnimationSheet.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/AnimationSheet.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Animator.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Animator.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Animator.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Animator.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/BuffersProtocols.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/BuffersProtocols.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/BuffersProtocols.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/BuffersProtocols.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/CanvasComponent.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/CanvasComponent.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/CanvasComponent.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/CanvasComponent.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ComponentProtocols.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ComponentProtocols.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ComponentProtocols.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ComponentProtocols.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Core.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Core.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Core.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Core.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/DataBuffer.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/DataBuffer.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/DataBuffer.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/DataBuffer.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Descriptor.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Descriptor.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Descriptor.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Descriptor.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Drakken-OutputFileMap.json" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Drakken-OutputFileMap.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Drakken-Swift.h" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Drakken-Swift.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Drakken-master.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Drakken-master.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Drakken.LinkFileList" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Drakken.LinkFileList" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/EffectCanvasComponent.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/EffectCanvasComponent.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/EffectCanvasComponent.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/EffectCanvasComponent.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ExplosionPolygon.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ExplosionPolygon.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ExplosionPolygon.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ExplosionPolygon.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/FluidComponent.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/FluidComponent.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/FluidComponent.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/FluidComponent.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/FluidMesh.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/FluidMesh.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/FluidMesh.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/FluidMesh.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/GameComponent.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/GameComponent.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/GameComponent.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/GameComponent.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/GameViewController.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/GameViewController.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/GameViewController.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/GameViewController.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Grid.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Grid.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Grid.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Grid.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/IndexBuffer.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/IndexBuffer.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/IndexBuffer.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/IndexBuffer.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Math.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Math.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Math.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Math.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Mesh.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Mesh.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Mesh.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Mesh.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/OtherAbstract.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/OtherAbstract.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/OtherAbstract.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/OtherAbstract.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/QuadTree.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/QuadTree.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/QuadTree.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/QuadTree.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Renderer.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Renderer.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Renderer.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Renderer.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Resource.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Resource.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Resource.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Resource.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Scene.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Scene.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Scene.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Scene.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ShaderManager.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ShaderManager.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ShaderManager.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/ShaderManager.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Simplifier.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Simplifier.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Simplifier.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Simplifier.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+CGSize.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+CGSize.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+CGSize.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+CGSize.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Double.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Double.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Double.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Double.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Float.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Float.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Float.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Float.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Int.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Int.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Int.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Int.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Size2D.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Size2D.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Size2D.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+Size2D.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+float2.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+float2.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+float2.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D+float2.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Size2D.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TerrainComponent.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TerrainComponent.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TerrainComponent.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TerrainComponent.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TerrainMesh.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TerrainMesh.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TerrainMesh.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TerrainMesh.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TextureBuffer.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TextureBuffer.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TextureBuffer.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/TextureBuffer.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Transform.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Transform.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Transform.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Transform.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Utils.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Utils.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Utils.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Utils.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+CGPoint.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+CGPoint.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+CGPoint.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+CGPoint.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+CGVector.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+CGVector.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+CGVector.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+CGVector.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Double.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Double.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Double.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Double.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Float.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Float.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Float.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Float.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Int.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Int.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Int.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Int.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Vector2D.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Vector2D.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Vector2D.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+Vector2D.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+float2.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+float2.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+float2.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D+float2.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vector2D.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vertex.d" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vertex.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vertex.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/Objects-normal/arm64/Vertex.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/arm64/Clipper-471F884E24D7CC8C.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/arm64/Clipper-471F884E24D7CC8C.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/arm64/RSClipperWrapper-master.swiftdeps" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Intermediates/Pods.build/Debug-iphoneos/RSClipperWrapper.build/Objects-normal/arm64/RSClipperWrapper-master.swiftdeps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/Drakken.framework/Headers/Drakken-Swift.h" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/Drakken.framework/Headers/Drakken-Swift.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/Drakken.framework/_CodeSignature/CodeResources" afterPath="$PROJECT_DIR$/DerivedData/Drakken/Build/Products/Debug-iphoneos/Drakken.framework/_CodeSignature/CodeResources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Drakken.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken/Engine/Classes/Components/CanvasComponent.swift" afterPath="$PROJECT_DIR$/Drakken/Engine/Classes/Components/CanvasComponent.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken/Engine/Classes/Components/EffectCanvasComponent.swift" afterPath="$PROJECT_DIR$/Drakken/Engine/Classes/Components/EffectCanvasComponent.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken/Engine/Classes/Components/FluidComponent.swift" afterPath="$PROJECT_DIR$/Drakken/Engine/Classes/Components/FluidComponent.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken/Engine/Classes/Components/GameComponent.swift" afterPath="$PROJECT_DIR$/Drakken/Engine/Classes/Components/GameComponent.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken/Engine/Classes/Components/TerrainComponent.swift" afterPath="$PROJECT_DIR$/Drakken/Engine/Classes/Components/TerrainComponent.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken/Engine/Classes/ViewController/GameViewController.swift" afterPath="$PROJECT_DIR$/Drakken/Engine/Classes/ViewController/GameViewController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken/Engine/Classes/ViewController/Scene.swift" afterPath="$PROJECT_DIR$/Drakken/Engine/Classes/ViewController/Scene.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken/Engine/Math/Vertex.swift" afterPath="$PROJECT_DIR$/Drakken/Engine/Math/Vertex.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken/Engine/Renderer/Core/Core.swift" afterPath="$PROJECT_DIR$/Drakken/Engine/Renderer/Core/Core.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/FluidMesh.swift" afterPath="$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/FluidMesh.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/Grid.swift" afterPath="$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/Grid.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/Mesh.swift" afterPath="$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/Mesh.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/TerrainMesh.swift" afterPath="$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/TerrainMesh.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken/Engine/Renderer/Protocols/ComponentProtocols.swift" afterPath="$PROJECT_DIR$/Drakken/Engine/Renderer/Protocols/ComponentProtocols.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/BasicShader.metal" afterPath="$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/BasicShader.metal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/FluidShader.metal" afterPath="$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/FluidShader.metal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/TextureParticleShader.metal" afterPath="$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/TextureParticleShader.metal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/WhiteParticleShader.metal" afterPath="$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/WhiteParticleShader.metal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/WhiteShader.metal" afterPath="$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/WhiteShader.metal" />
     </list>
     <ignored path="Drakken.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,37 +702,27 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_f24cf91861c1634150e8bb72130431eeaad80cd7" />
   <component name="FavoritesManager">
     <favorites_list name="Drakken" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TerrainComponent.swift" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Drakken/Engine/Classes/Components/TerrainComponent.swift">
+      <file leaf-file-name="BasicShader.metal" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/BasicShader.metal">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4095458">
-              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Scene.swift" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Drakken/Engine/Classes/ViewController/Scene.swift">
+      <file leaf-file-name="Shader.swift" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Material/Shader.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ComponentProtocols.swift" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Protocols/ComponentProtocols.swift">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.7225211">
+              <caret line="172" column="5" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -59,17 +732,67 @@
         <entry file="file://$PROJECT_DIR$/Drakken/Engine/Classes/Components/GameComponent.swift">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="210" column="8" selection-start-line="210" selection-start-column="8" selection-end-line="210" selection-end-column="8" />
+              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaskTexture.mm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Drakken/Engine/Textures Generator/MaskTexture.mm">
+      <file leaf-file-name="Grid.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/Grid.swift">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WhiteShader.metal" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/WhiteShader.metal">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TerrainMesh.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/TerrainMesh.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="102" column="1" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextureParticleShader.metal" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/TextureParticleShader.metal">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FluidMesh.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/FluidMesh.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mesh.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/Mesh.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -93,10 +816,28 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Drakken/Engine/Classes/ViewController/Scene.swift" />
-        <option value="$PROJECT_DIR$/Drakken/Engine/Renderer/Protocols/ComponentProtocols.swift" />
-        <option value="$PROJECT_DIR$/Drakken/Engine/Classes/Components/GameComponent.swift" />
         <option value="$PROJECT_DIR$/Drakken/Engine/Textures Generator/MaskTexture.mm" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Renderer/Material/Material.swift" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/ShaderProtocol.swift" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/BaseShader.swift" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Renderer/Material/MaterialManager.swift" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Renderer/Core/Core.swift" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Math/Vertex.swift" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/TerrainMesh.swift" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Renderer/Protocols/ComponentProtocols.swift" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Renderer/Material/Shader.swift" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/Mesh.swift" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Classes/Components/EffectCanvasComponent.swift" />
         <option value="$PROJECT_DIR$/Drakken/Engine/Classes/Components/TerrainComponent.swift" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/BasicShader.metal" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/TextureParticleShader.metal" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/WhiteParticleShader.metal" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/FluidShader.metal" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/FluidMesh.swift" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/WhiteShader.metal" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Classes/Components/GameComponent.swift" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/Grid.swift" />
+        <option value="$PROJECT_DIR$/Drakken/Engine/Renderer/Material/ShaderManager.swift" />
       </list>
     </option>
   </component>
@@ -151,6 +892,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -167,6 +909,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Drakken" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Drakken" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Products" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -535,9 +1291,30 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Drakken" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Drakken" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Internal" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -545,6 +1322,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Drakken" />
   </component>
   <component name="RunManager" selected="Application.Drakken">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Drakken" TARGET_NAME="Drakken" CONFIG_NAME="Debug" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -626,13 +1404,22 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1417" width="2560" height="1417" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14336354" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.128397" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32856065" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -640,13 +1427,13 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16051243" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1335849" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16981132" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
@@ -667,7 +1454,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -675,7 +1464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,7 +1471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,7 +1478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,23 +1493,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Drakken/Engine/Classes/Components/TerrainComponent.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Drakken/Engine/Classes/ViewController/Scene.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding />
+          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -731,7 +1514,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Classes/Components/GameComponent.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="210" column="8" selection-start-line="210" selection-start-column="8" selection-end-line="210" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Textures Generator/MaskTexture.mm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Classes/Components/TerrainComponent.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Classes/ViewController/Scene.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Protocols/ComponentProtocols.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -747,7 +1565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +1572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +1579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +1586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,7 +1601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,7 +1608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="104" column="91" selection-start-line="104" selection-start-column="91" selection-end-line="104" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,7 +1615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,14 +1665,129 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Textures Generator/MaskTexture.mm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Protocols/BuffersProtocols.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28250402">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Core/Core.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Math/Vertex.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Classes/Components/CanvasComponent.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/DataBuffer.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2991632">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Protocols/ComponentProtocols.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Classes/Components/FluidComponent.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Classes/Components/EffectCanvasComponent.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="112" column="27" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Classes/Components/TerrainComponent.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="121" column="5" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/WhiteParticleShader.metal">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/FluidShader.metal">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="67" selection-start-line="63" selection-start-column="67" selection-end-line="63" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/TextureParticleShader.metal">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/FluidMesh.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/TerrainMesh.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="102" column="1" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/BasicShader.metal">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/Mesh.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -869,23 +1795,31 @@
     <entry file="file://$PROJECT_DIR$/Drakken/Engine/Classes/Components/GameComponent.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="210" column="8" selection-start-line="210" selection-start-column="8" selection-end-line="210" selection-end-column="8" />
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Textures Generator/MaskTexture.mm">
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Mesh/Grid.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Classes/Components/TerrainComponent.swift">
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Shaders/Shaders.metal/WhiteShader.metal">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4095458">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drakken/Engine/Renderer/Material/Shader.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7225211">
+          <caret line="172" column="5" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
           <folding />
         </state>
       </provider>

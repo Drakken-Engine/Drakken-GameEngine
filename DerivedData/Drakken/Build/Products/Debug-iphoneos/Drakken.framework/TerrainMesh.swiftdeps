@@ -1,0 +1,525 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TerrainMesh"
+provides-nominal:
+- "C7Drakken11TerrainMesh"
+provides-member:
+- ["C7Drakken11TerrainMesh", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Rigidbody"
+- "TerrainMesh"
+- !private "*"
+- !private "sizeof"
+- !private "Float"
+- "FloatLiteralType"
+- !private "BodyType"
+- !private "<="
+- "Mesh"
+- "Int"
+- !private "CGPointMake"
+- !private "-"
+- "CGPoint"
+- !private "=="
+- "float2"
+- "IntegerLiteralType"
+- "CGRect"
+- "String"
+- "AxisAligned"
+- !private "StringLiteralType"
+- "Physical"
+- !private "UInt32"
+- "World"
+- !private "++"
+- !private ">="
+- !private "CGRectMake"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "BodyType"]
+- !private ["PSs9AnyObject", "CGPointMake"]
+- ["PSs9AnyObject", "CGRect"]
+- !private ["PSs9AnyObject", "CGRectMake"]
+- !private ["PSs9AnyObject", "Float"]
+- !private ["PSs9AnyObject", "Rigidbody"]
+- !private ["PSs9AnyObject", "TerrainMesh"]
+- !private ["PSs9AnyObject", "UInt32"]
+- !private ["PSs9AnyObject", "_shader"]
+- ["PSs9AnyObject", "aabb"]
+- !private ["PSs9AnyObject", "addEdgeFixtureWithVector1"]
+- ["PSs9AnyObject", "createInWorld"]
+- !private ["PSs9AnyObject", "deleteBodyFromWorld"]
+- ["PSs9AnyObject", "deleteRigidbody"]
+- !private ["PSs9AnyObject", "drawMode"]
+- ["PSs9AnyObject", "float2"]
+- ["PSs9AnyObject", "id"]
+- ["PSs9AnyObject", "idCount"]
+- !private ["PSs9AnyObject", "indices"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "polygon"]
+- ["PSs9AnyObject", "positions"]
+- ["PSs9AnyObject", "rigidbody"]
+- !private ["PSs9AnyObject", "setNode"]
+- !private ["PSs9AnyObject", "setVertexData"]
+- !private ["PSs9AnyObject", "sizeof"]
+- ["PSs9AnyObject", "updateVertices"]
+- !private ["PSs9AnyObject", "vertexCount"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "_Element"]
+- !private ["PSs23ArrayLiteralConvertible", "append"]
+- !private ["PSs23ArrayLiteralConvertible", "count"]
+- ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "subscript"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["P7Drakken11AxisAligned", "BodyType"]
+- !private ["P7Drakken11AxisAligned", "CGPointMake"]
+- ["P7Drakken11AxisAligned", "CGRect"]
+- !private ["P7Drakken11AxisAligned", "CGRectMake"]
+- !private ["P7Drakken11AxisAligned", "Float"]
+- !private ["P7Drakken11AxisAligned", "Rigidbody"]
+- !private ["P7Drakken11AxisAligned", "TerrainMesh"]
+- !private ["P7Drakken11AxisAligned", "UInt32"]
+- !private ["P7Drakken11AxisAligned", "_shader"]
+- ["P7Drakken11AxisAligned", "aabb"]
+- !private ["P7Drakken11AxisAligned", "drawMode"]
+- ["P7Drakken11AxisAligned", "float2"]
+- ["P7Drakken11AxisAligned", "id"]
+- !private ["P7Drakken11AxisAligned", "idCount"]
+- !private ["P7Drakken11AxisAligned", "indices"]
+- !private ["P7Drakken11AxisAligned", "init"]
+- !private ["P7Drakken11AxisAligned", "polygon"]
+- !private ["P7Drakken11AxisAligned", "positions"]
+- !private ["P7Drakken11AxisAligned", "rigidbody"]
+- !private ["P7Drakken11AxisAligned", "sizeof"]
+- !private ["P7Drakken11AxisAligned", "updateVertices"]
+- ["P7Drakken11AxisAligned", ""]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["OSC8BodyType", "Static"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- ["VSC6CGRect", "init"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "addEdgeFixtureWithVector1"]
+- !private ["PSs11CVarArgType", "createInWorld"]
+- !private ["PSs11CVarArgType", "deleteBodyFromWorld"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "setNode"]
+- !private ["PSs11CVarArgType", "setVertexData"]
+- !private ["PSs11CVarArgType", "vertexCount"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "append"]
+- !private ["PSs14CollectionType", "count"]
+- ["PSs14CollectionType", "init"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "append"]
+- !private ["PSs28CustomDebugStringConvertible", "count"]
+- ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addEdgeFixtureWithVector1"]
+- !private ["PSs23CustomStringConvertible", "append"]
+- !private ["PSs23CustomStringConvertible", "count"]
+- !private ["PSs23CustomStringConvertible", "createInWorld"]
+- !private ["PSs23CustomStringConvertible", "deleteBodyFromWorld"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "setNode"]
+- !private ["PSs23CustomStringConvertible", "setVertexData"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "vertexCount"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "Line"]
+- !private ["PSs9Equatable", "Static"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addEdgeFixtureWithVector1"]
+- !private ["PSs9Equatable", "createInWorld"]
+- !private ["PSs9Equatable", "deleteBodyFromWorld"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "setNode"]
+- !private ["PSs9Equatable", "setVertexData"]
+- !private ["PSs9Equatable", "vertexCount"]
+- !private ["PSs9Equatable", "x"]
+- !private ["PSs9Equatable", "y"]
+- !private ["Sf", "init"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "Line"]
+- !private ["PSs8Hashable", "Static"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addEdgeFixtureWithVector1"]
+- !private ["PSs8Hashable", "createInWorld"]
+- !private ["PSs8Hashable", "deleteBodyFromWorld"]
+- !private ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "setNode"]
+- !private ["PSs8Hashable", "setVertexData"]
+- !private ["PSs8Hashable", "vertexCount"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "append"]
+- !private ["PSs9Indexable", "count"]
+- ["PSs9Indexable", "init"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["OSC16MTLPrimitiveType", "Line"]
+- !private ["C7Drakken4Mesh", "BodyType"]
+- ["C7Drakken4Mesh", "CGPoint"]
+- !private ["C7Drakken4Mesh", "CGPointMake"]
+- ["C7Drakken4Mesh", "CGRect"]
+- !private ["C7Drakken4Mesh", "CGRectMake"]
+- !private ["C7Drakken4Mesh", "Float"]
+- ["C7Drakken4Mesh", "Int"]
+- ["C7Drakken4Mesh", "Physical"]
+- ["C7Drakken4Mesh", "Rigidbody"]
+- ["C7Drakken4Mesh", "String"]
+- !private ["C7Drakken4Mesh", "TerrainMesh"]
+- !private ["C7Drakken4Mesh", "UInt32"]
+- ["C7Drakken4Mesh", "World"]
+- !private ["C7Drakken4Mesh", "_shader"]
+- ["C7Drakken4Mesh", "aabb"]
+- ["C7Drakken4Mesh", "createInWorld"]
+- ["C7Drakken4Mesh", "deleteRigidbody"]
+- !private ["C7Drakken4Mesh", "drawMode"]
+- ["C7Drakken4Mesh", "float2"]
+- ["C7Drakken4Mesh", "id"]
+- ["C7Drakken4Mesh", "idCount"]
+- !private ["C7Drakken4Mesh", "indices"]
+- ["C7Drakken4Mesh", "init"]
+- ["C7Drakken4Mesh", "polygon"]
+- ["C7Drakken4Mesh", "positions"]
+- ["C7Drakken4Mesh", "rigidbody"]
+- !private ["C7Drakken4Mesh", "sizeof"]
+- ["C7Drakken4Mesh", "updateVertices"]
+- ["C7Drakken4Mesh", ""]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "_Element"]
+- !private ["PSs21MutableCollectionType", "append"]
+- !private ["PSs21MutableCollectionType", "count"]
+- ["PSs21MutableCollectionType", "init"]
+- !private ["PSs21MutableCollectionType", "subscript"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "_Element"]
+- !private ["PSs16MutableIndexable", "append"]
+- !private ["PSs16MutableIndexable", "count"]
+- ["PSs16MutableIndexable", "init"]
+- !private ["PSs16MutableIndexable", "subscript"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "_Element"]
+- !private ["PSs16MutableSliceable", "append"]
+- !private ["PSs16MutableSliceable", "count"]
+- ["PSs16MutableSliceable", "init"]
+- !private ["PSs16MutableSliceable", "subscript"]
+- !private ["CSo8NSObject", "addEdgeFixtureWithVector1"]
+- !private ["CSo8NSObject", "createInWorld"]
+- !private ["CSo8NSObject", "deleteBodyFromWorld"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "setNode"]
+- !private ["CSo8NSObject", "setVertexData"]
+- !private ["CSo8NSObject", "vertexCount"]
+- !private ["PSo16NSObjectProtocol", "addEdgeFixtureWithVector1"]
+- !private ["PSo16NSObjectProtocol", "createInWorld"]
+- !private ["PSo16NSObjectProtocol", "deleteBodyFromWorld"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "setNode"]
+- !private ["PSo16NSObjectProtocol", "setVertexData"]
+- !private ["PSo16NSObjectProtocol", "vertexCount"]
+- !private ["Sq", "deinit"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "append"]
+- !private ["PSs30RangeReplaceableCollectionType", "count"]
+- ["PSs30RangeReplaceableCollectionType", "init"]
+- !private ["PSs30RangeReplaceableCollectionType", "subscript"]
+- !private ["PSs16RawRepresentable", "Line"]
+- !private ["PSs16RawRepresentable", "Static"]
+- !private ["CSo9Rigidbody", "addEdgeFixtureWithVector1"]
+- !private ["CSo9Rigidbody", "createInWorld"]
+- !private ["CSo9Rigidbody", "deleteBodyFromWorld"]
+- !private ["CSo9Rigidbody", "init"]
+- !private ["CSo9Rigidbody", "setNode"]
+- !private ["PSo17RigidbodyProtocol", "addEdgeFixtureWithVector1"]
+- !private ["PSo17RigidbodyProtocol", "createInWorld"]
+- !private ["PSo17RigidbodyProtocol", "deleteBodyFromWorld"]
+- !private ["PSo17RigidbodyProtocol", "init"]
+- !private ["PSo17RigidbodyProtocol", "setNode"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "append"]
+- !private ["PSs12SequenceType", "count"]
+- ["PSs12SequenceType", "init"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["C7Drakken6Shader", "setVertexData"]
+- !private ["C7Drakken6Shader", "vertexCount"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "init"]
+- !private ["C7Drakken11TerrainMesh", "BodyType"]
+- ["C7Drakken11TerrainMesh", "CGPoint"]
+- !private ["C7Drakken11TerrainMesh", "CGPointMake"]
+- ["C7Drakken11TerrainMesh", "CGRect"]
+- !private ["C7Drakken11TerrainMesh", "CGRectMake"]
+- !private ["C7Drakken11TerrainMesh", "Float"]
+- ["C7Drakken11TerrainMesh", "Int"]
+- ["C7Drakken11TerrainMesh", "Physical"]
+- ["C7Drakken11TerrainMesh", "Rigidbody"]
+- ["C7Drakken11TerrainMesh", "String"]
+- !private ["C7Drakken11TerrainMesh", "TerrainMesh"]
+- !private ["C7Drakken11TerrainMesh", "UInt32"]
+- ["C7Drakken11TerrainMesh", "World"]
+- !private ["C7Drakken11TerrainMesh", "_shader"]
+- ["C7Drakken11TerrainMesh", "aabb"]
+- ["C7Drakken11TerrainMesh", "createInWorld"]
+- ["C7Drakken11TerrainMesh", "deinit"]
+- ["C7Drakken11TerrainMesh", "deleteRigidbody"]
+- !private ["C7Drakken11TerrainMesh", "drawMode"]
+- ["C7Drakken11TerrainMesh", "float2"]
+- ["C7Drakken11TerrainMesh", "id"]
+- ["C7Drakken11TerrainMesh", "idCount"]
+- !private ["C7Drakken11TerrainMesh", "indices"]
+- ["C7Drakken11TerrainMesh", "init"]
+- ["C7Drakken11TerrainMesh", "polygon"]
+- !private ["C7Drakken11TerrainMesh", "positions"]
+- !private ["C7Drakken11TerrainMesh", "rigidbody"]
+- !private ["C7Drakken11TerrainMesh", "sizeof"]
+- ["C7Drakken11TerrainMesh", "updateVertices"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "_Element"]
+- !private ["PSs10_ArrayType", "append"]
+- !private ["PSs10_ArrayType", "count"]
+- ["PSs10_ArrayType", "init"]
+- !private ["PSs10_ArrayType", "subscript"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "_Element"]
+- !private ["PSs24_DestructorSafeContainer", "append"]
+- !private ["PSs24_DestructorSafeContainer", "count"]
+- ["PSs24_DestructorSafeContainer", "init"]
+- !private ["PSs24_DestructorSafeContainer", "subscript"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "append"]
+- !private ["PSs21_ObjectiveCBridgeable", "count"]
+- ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "append"]
+- !private ["PSs12_Reflectable", "count"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs12_Reflectable", "x"]
+- !private ["PSs12_Reflectable", "y"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "init"]
+- !private ["V4simd6float2", "init"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- "Sa"
+- "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- "P7Drakken11AxisAligned"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "OSC8BodyType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- "VSC6CGRect"
+- !private "PSs11CVarArgType"
+- "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "Sf"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- !private "PSs8Hashable"
+- "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "OSC16MTLPrimitiveType"
+- "C7Drakken4Mesh"
+- !private "PSs14MirrorPathType"
+- "PSs21MutableCollectionType"
+- "PSs16MutableIndexable"
+- "PSs16MutableSliceable"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "PSs21RandomAccessIndexType"
+- "PSs30RangeReplaceableCollectionType"
+- !private "PSs16RawRepresentable"
+- !private "CSo9Rigidbody"
+- !private "PSo17RigidbodyProtocol"
+- "PSs12SequenceType"
+- !private "C7Drakken6Shader"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- !private "VSs12StaticString"
+- !private "PSs10Strideable"
+- "C7Drakken11TerrainMesh"
+- "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs31_BuiltinFloatLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+- !private "V4simd6float2"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/GlobalHeader.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Engine/Textures Generator/MaskTexture.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Shapes/Shape.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/FluidType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/Fluid.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/RigidbodyProtocol.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Bodies/BodyType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/Rigidbody.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/World.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Header.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Drakken.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/RSClipperWrapper.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-Swift.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
+interface-hash: "b218a77d3ac6f6e739dedce5b12cae72"

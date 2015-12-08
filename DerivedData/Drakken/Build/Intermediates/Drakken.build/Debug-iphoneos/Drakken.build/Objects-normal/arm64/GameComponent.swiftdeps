@@ -9,75 +9,77 @@ provides-member:
 - ["C7Drakken6Script", ""]
 - ["C7Drakken13GameComponent", ""]
 provides-dynamic-lookup:
-- "_transform"
-- "setTexture1"
 - "hidden"
+- "updateWorldQuad"
+- "onCollisionEnterWithTerrain"
+- "setMaskTexture"
+- "setMaskTexture"
+- "scene"
+- "deleteRigidbody"
+- "createInWorld"
+- "draw"
+- "destroy"
+- "onCollisionEnter"
+- "setTexture"
+- "setTexture"
+- "onCollisionEnterWithFluid"
+- "onCollisionExit"
+- "index"
+- "addNode"
+- "rigidbody"
+- "update"
+- "_transform"
+- "_maskTexture"
+- "addRigibody"
+- "descriptor"
+- "delete"
+- "setMaterial"
+- "onCollisionExitWithTerrain"
 - "animated"
 - "transform"
-- "createInWorld"
-- "update"
-- "setMaterial"
-- "addNode"
-- "onCollisionEnter"
-- "draw"
-- "setMaskTexture"
-- "descriptor"
-- "index"
-- "onCollisionEnterWithFluid"
-- "delete"
-- "setTexture"
-- "setTexture"
-- "scene"
-- "updateWorldQuad"
-- "deleteRigidbody"
-- "onCollisionExitWithTerrain"
-- "maskTexture"
-- "addRigibody"
-- "setTexture2"
-- "onCollisionExit"
-- "rigidbody"
-- "setTextureCoordOffset"
-- "onCollisionEnterWithTerrain"
 depends-top-level:
-- "Transform"
-- "OtherComponent"
-- !private "!"
-- !private "kWorldQuadSize"
-- !private ">"
-- "float2"
-- "CFTimeInterval"
-- "NSObject"
-- !private "StringLiteralType"
-- "Mesh"
-- !private "Float"
-- "Component"
-- "Collidable"
-- "World"
-- "Scriptable"
-- "InternalComponent"
-- "Animator"
-- "RigidbodyProtocol"
-- !private "&&"
 - "Physical"
-- "Bool"
-- !private "CGPointMake"
-- "Script"
-- "Int"
-- "String"
-- "Renderer"
-- "float4x4"
-- "Rigidbody"
-- "Transformable"
-- "BooleanLiteralType"
-- !private "Grid"
 - "CGPoint"
-- "Descriptor"
-- !private "!="
 - "Scene"
-- !private "/"
-- "GameComponent"
-- "Texture"
+- !private "Grid"
+- !private "float2"
+- "InternalComponent"
+- "Transformable"
+- "Component"
+- "BooleanLiteralType"
 - !private "BodyType"
+- "GameComponent"
+- "Rigidbody"
+- "Descriptor"
+- "float4x4"
+- !private "/"
+- !private "kWorldQuadSize"
+- "RigidbodyProtocol"
+- "Scriptable"
+- "Bool"
+- "World"
+- "NSObject"
+- "Renderer"
+- !private "CGPointMake"
+- "Vector2D"
+- "CFTimeInterval"
+- !private "!"
+- "String"
+- "Transform"
+- "Int"
+- "OtherComponent"
+- !private "&&"
+- !private "StringLiteralType"
+- "Texture"
+- "Script"
+- "Mesh"
+- "Animator"
+- "Collidable"
+- !private ">"
+- !private "sizeof"
+- !private "=="
+- !private "Float"
+- !private "!="
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["C7Drakken8Animator", "_defaultTexture"]
@@ -98,13 +100,16 @@ depends-member:
 - !private ["PSs9AnyObject", "Script"]
 - !private ["PSs9AnyObject", "Texture"]
 - !private ["PSs9AnyObject", "Transform"]
+- !private ["PSs9AnyObject", "Vector2D"]
 - ["PSs9AnyObject", "_animator"]
 - ["PSs9AnyObject", "_children"]
 - !private ["PSs9AnyObject", "_defaultTexture"]
 - ["PSs9AnyObject", "_hasRigidbody"]
+- ["PSs9AnyObject", "_maskTexture"]
 - ["PSs9AnyObject", "_mesh"]
 - ["PSs9AnyObject", "_rigidbody"]
 - ["PSs9AnyObject", "_scripts"]
+- !private ["PSs9AnyObject", "_shader"]
 - ["PSs9AnyObject", "_transform"]
 - !private ["PSs9AnyObject", "addComponentToInstantiate"]
 - ["PSs9AnyObject", "addNode"]
@@ -120,6 +125,7 @@ depends-member:
 - ["PSs9AnyObject", "deleteRigidbody"]
 - !private ["PSs9AnyObject", "deltaTime"]
 - ["PSs9AnyObject", "descriptor"]
+- ["PSs9AnyObject", "destroy"]
 - ["PSs9AnyObject", "draw"]
 - !private ["PSs9AnyObject", "drawMode"]
 - !private ["PSs9AnyObject", "float2"]
@@ -133,7 +139,6 @@ depends-member:
 - ["PSs9AnyObject", "index"]
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "kWorldQuadSize"]
-- ["PSs9AnyObject", "maskTexture"]
 - !private ["PSs9AnyObject", "nodeDescriptor"]
 - ["PSs9AnyObject", "onCollisionEnter"]
 - ["PSs9AnyObject", "onCollisionEnterWithFluid"]
@@ -146,6 +151,7 @@ depends-member:
 - ["PSs9AnyObject", "scene"]
 - ["PSs9AnyObject", "setAnimator"]
 - !private ["PSs9AnyObject", "setComponent"]
+- !private ["PSs9AnyObject", "setFragmentData"]
 - ["PSs9AnyObject", "setMaskTexture"]
 - ["PSs9AnyObject", "setMaterial"]
 - ["PSs9AnyObject", "setMesh"]
@@ -153,16 +159,15 @@ depends-member:
 - ["PSs9AnyObject", "setParentModelMatrix"]
 - !private ["PSs9AnyObject", "setRigidbody"]
 - ["PSs9AnyObject", "setTexture"]
-- ["PSs9AnyObject", "setTexture1"]
-- ["PSs9AnyObject", "setTexture2"]
 - ["PSs9AnyObject", "setTextureCoordOffset"]
+- !private ["PSs9AnyObject", "sizeof"]
 - !private ["PSs9AnyObject", "start"]
-- !private ["PSs9AnyObject", "texcoordsOffset"]
-- !private ["PSs9AnyObject", "texture1"]
-- !private ["PSs9AnyObject", "texture2"]
+- ["PSs9AnyObject", "textureCoordOffset"]
 - ["PSs9AnyObject", "transform"]
 - ["PSs9AnyObject", "update"]
 - ["PSs9AnyObject", "updateWorldQuad"]
+- !private ["PSs9AnyObject", "x"]
+- !private ["PSs9AnyObject", "y"]
 - ["PSs9AnyObject", ""]
 - !private ["Sa", "Generator"]
 - !private ["Sa", "Index"]
@@ -170,12 +175,14 @@ depends-member:
 - !private ["Sa", "_Element"]
 - !private ["Sa", "append"]
 - !private ["Sa", "init"]
+- !private ["Sa", "removeAll"]
 - !private ["PSs23ArrayLiteralConvertible", "Generator"]
 - !private ["PSs23ArrayLiteralConvertible", "Index"]
 - !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
 - !private ["PSs23ArrayLiteralConvertible", "_Element"]
 - !private ["PSs23ArrayLiteralConvertible", "append"]
 - !private ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "removeAll"]
 - !private ["PSs23ArrayLiteralConvertible", "x"]
 - !private ["PSs23ArrayLiteralConvertible", "y"]
 - !private ["VSs10ArraySlice", "Generator"]
@@ -209,9 +216,11 @@ depends-member:
 - !private ["PSs11CVarArgType", "Script"]
 - !private ["PSs11CVarArgType", "Texture"]
 - !private ["PSs11CVarArgType", "Transform"]
+- !private ["PSs11CVarArgType", "Vector2D"]
 - ["PSs11CVarArgType", "_animator"]
 - ["PSs11CVarArgType", "_children"]
 - ["PSs11CVarArgType", "_hasRigidbody"]
+- ["PSs11CVarArgType", "_maskTexture"]
 - ["PSs11CVarArgType", "_mesh"]
 - ["PSs11CVarArgType", "_rigidbody"]
 - ["PSs11CVarArgType", "_scripts"]
@@ -227,6 +236,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "deleteBodyFromWorld"]
 - ["PSs11CVarArgType", "deleteRigidbody"]
 - ["PSs11CVarArgType", "descriptor"]
+- ["PSs11CVarArgType", "destroy"]
 - ["PSs11CVarArgType", "draw"]
 - !private ["PSs11CVarArgType", "float2"]
 - !private ["PSs11CVarArgType", "getBodyType"]
@@ -238,7 +248,6 @@ depends-member:
 - ["PSs11CVarArgType", "index"]
 - ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "kWorldQuadSize"]
-- ["PSs11CVarArgType", "maskTexture"]
 - ["PSs11CVarArgType", "onCollisionEnter"]
 - ["PSs11CVarArgType", "onCollisionEnterWithFluid"]
 - ["PSs11CVarArgType", "onCollisionEnterWithTerrain"]
@@ -248,6 +257,7 @@ depends-member:
 - ["PSs11CVarArgType", "rigidbody"]
 - ["PSs11CVarArgType", "scene"]
 - ["PSs11CVarArgType", "setAnimator"]
+- !private ["PSs11CVarArgType", "setFragmentData"]
 - ["PSs11CVarArgType", "setMaskTexture"]
 - ["PSs11CVarArgType", "setMaterial"]
 - ["PSs11CVarArgType", "setMesh"]
@@ -255,9 +265,9 @@ depends-member:
 - ["PSs11CVarArgType", "setParentModelMatrix"]
 - !private ["PSs11CVarArgType", "setRigidbody"]
 - ["PSs11CVarArgType", "setTexture"]
-- ["PSs11CVarArgType", "setTexture1"]
-- ["PSs11CVarArgType", "setTexture2"]
 - ["PSs11CVarArgType", "setTextureCoordOffset"]
+- !private ["PSs11CVarArgType", "sizeof"]
+- ["PSs11CVarArgType", "textureCoordOffset"]
 - ["PSs11CVarArgType", "transform"]
 - ["PSs11CVarArgType", "update"]
 - ["PSs11CVarArgType", "updateWorldQuad"]
@@ -268,6 +278,7 @@ depends-member:
 - !private ["PSs14CollectionType", "_Element"]
 - !private ["PSs14CollectionType", "append"]
 - !private ["PSs14CollectionType", "init"]
+- !private ["PSs14CollectionType", "removeAll"]
 - !private ["PSs14CollectionType", "subscript"]
 - !private ["P7Drakken10Collidable", "Animator"]
 - !private ["P7Drakken10Collidable", "BodyType"]
@@ -281,9 +292,11 @@ depends-member:
 - !private ["P7Drakken10Collidable", "Script"]
 - !private ["P7Drakken10Collidable", "Texture"]
 - !private ["P7Drakken10Collidable", "Transform"]
+- !private ["P7Drakken10Collidable", "Vector2D"]
 - !private ["P7Drakken10Collidable", "_animator"]
 - !private ["P7Drakken10Collidable", "_children"]
 - !private ["P7Drakken10Collidable", "_hasRigidbody"]
+- !private ["P7Drakken10Collidable", "_maskTexture"]
 - !private ["P7Drakken10Collidable", "_mesh"]
 - !private ["P7Drakken10Collidable", "_rigidbody"]
 - !private ["P7Drakken10Collidable", "_scripts"]
@@ -293,6 +306,7 @@ depends-member:
 - ["P7Drakken10Collidable", "createInWorld"]
 - !private ["P7Drakken10Collidable", "delete"]
 - ["P7Drakken10Collidable", "descriptor"]
+- ["P7Drakken10Collidable", "destroy"]
 - ["P7Drakken10Collidable", "draw"]
 - !private ["P7Drakken10Collidable", "float2"]
 - ["P7Drakken10Collidable", "getComponent"]
@@ -310,6 +324,8 @@ depends-member:
 - !private ["P7Drakken10Collidable", "setMaskTexture"]
 - !private ["P7Drakken10Collidable", "setParentModelMatrix"]
 - !private ["P7Drakken10Collidable", "setTexture"]
+- !private ["P7Drakken10Collidable", "sizeof"]
+- !private ["P7Drakken10Collidable", "textureCoordOffset"]
 - ["P7Drakken10Collidable", "transform"]
 - ["P7Drakken10Collidable", "update"]
 - ["P7Drakken10Collidable", "updateWorldQuad"]
@@ -329,9 +345,11 @@ depends-member:
 - !private ["P7Drakken9Component", "Script"]
 - !private ["P7Drakken9Component", "Texture"]
 - !private ["P7Drakken9Component", "Transform"]
+- !private ["P7Drakken9Component", "Vector2D"]
 - !private ["P7Drakken9Component", "_animator"]
 - !private ["P7Drakken9Component", "_children"]
 - !private ["P7Drakken9Component", "_hasRigidbody"]
+- !private ["P7Drakken9Component", "_maskTexture"]
 - !private ["P7Drakken9Component", "_mesh"]
 - !private ["P7Drakken9Component", "_rigidbody"]
 - !private ["P7Drakken9Component", "_scripts"]
@@ -341,6 +359,7 @@ depends-member:
 - ["P7Drakken9Component", "createInWorld"]
 - !private ["P7Drakken9Component", "delete"]
 - ["P7Drakken9Component", "descriptor"]
+- ["P7Drakken9Component", "destroy"]
 - ["P7Drakken9Component", "draw"]
 - !private ["P7Drakken9Component", "float2"]
 - ["P7Drakken9Component", "getComponent"]
@@ -358,6 +377,8 @@ depends-member:
 - !private ["P7Drakken9Component", "setMaskTexture"]
 - !private ["P7Drakken9Component", "setParentModelMatrix"]
 - !private ["P7Drakken9Component", "setTexture"]
+- !private ["P7Drakken9Component", "sizeof"]
+- !private ["P7Drakken9Component", "textureCoordOffset"]
 - ["P7Drakken9Component", "transform"]
 - ["P7Drakken9Component", "update"]
 - ["P7Drakken9Component", "updateWorldQuad"]
@@ -368,6 +389,7 @@ depends-member:
 - !private ["PSs28CustomDebugStringConvertible", "_Element"]
 - !private ["PSs28CustomDebugStringConvertible", "append"]
 - !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "removeAll"]
 - !private ["PSs28CustomDebugStringConvertible", "subscript"]
 - !private ["PSs28CustomDebugStringConvertible", "x"]
 - !private ["PSs28CustomDebugStringConvertible", "y"]
@@ -388,11 +410,13 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "SubSequence"]
 - !private ["PSs23CustomStringConvertible", "Texture"]
 - !private ["PSs23CustomStringConvertible", "Transform"]
+- !private ["PSs23CustomStringConvertible", "Vector2D"]
 - !private ["PSs23CustomStringConvertible", "_Element"]
 - ["PSs23CustomStringConvertible", "_animator"]
 - ["PSs23CustomStringConvertible", "_children"]
 - !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
 - ["PSs23CustomStringConvertible", "_hasRigidbody"]
+- ["PSs23CustomStringConvertible", "_maskTexture"]
 - ["PSs23CustomStringConvertible", "_mesh"]
 - ["PSs23CustomStringConvertible", "_rigidbody"]
 - ["PSs23CustomStringConvertible", "_scripts"]
@@ -409,6 +433,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "deleteBodyFromWorld"]
 - ["PSs23CustomStringConvertible", "deleteRigidbody"]
 - ["PSs23CustomStringConvertible", "descriptor"]
+- ["PSs23CustomStringConvertible", "destroy"]
 - ["PSs23CustomStringConvertible", "draw"]
 - !private ["PSs23CustomStringConvertible", "float2"]
 - !private ["PSs23CustomStringConvertible", "getBodyType"]
@@ -420,16 +445,17 @@ depends-member:
 - ["PSs23CustomStringConvertible", "index"]
 - ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "kWorldQuadSize"]
-- ["PSs23CustomStringConvertible", "maskTexture"]
 - ["PSs23CustomStringConvertible", "onCollisionEnter"]
 - ["PSs23CustomStringConvertible", "onCollisionEnterWithFluid"]
 - ["PSs23CustomStringConvertible", "onCollisionEnterWithTerrain"]
 - ["PSs23CustomStringConvertible", "onCollisionExit"]
 - ["PSs23CustomStringConvertible", "onCollisionExitWithTerrain"]
+- !private ["PSs23CustomStringConvertible", "removeAll"]
 - !private ["PSs23CustomStringConvertible", "removeComponent"]
 - ["PSs23CustomStringConvertible", "rigidbody"]
 - ["PSs23CustomStringConvertible", "scene"]
 - ["PSs23CustomStringConvertible", "setAnimator"]
+- !private ["PSs23CustomStringConvertible", "setFragmentData"]
 - ["PSs23CustomStringConvertible", "setMaskTexture"]
 - ["PSs23CustomStringConvertible", "setMaterial"]
 - ["PSs23CustomStringConvertible", "setMesh"]
@@ -437,10 +463,10 @@ depends-member:
 - ["PSs23CustomStringConvertible", "setParentModelMatrix"]
 - !private ["PSs23CustomStringConvertible", "setRigidbody"]
 - ["PSs23CustomStringConvertible", "setTexture"]
-- ["PSs23CustomStringConvertible", "setTexture1"]
-- ["PSs23CustomStringConvertible", "setTexture2"]
 - ["PSs23CustomStringConvertible", "setTextureCoordOffset"]
+- !private ["PSs23CustomStringConvertible", "sizeof"]
 - !private ["PSs23CustomStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", "textureCoordOffset"]
 - ["PSs23CustomStringConvertible", "transform"]
 - ["PSs23CustomStringConvertible", "update"]
 - ["PSs23CustomStringConvertible", "updateWorldQuad"]
@@ -465,10 +491,12 @@ depends-member:
 - !private ["PSs9Equatable", "Texture"]
 - !private ["PSs9Equatable", "Transform"]
 - !private ["PSs9Equatable", "Triangle"]
+- !private ["PSs9Equatable", "Vector2D"]
 - ["PSs9Equatable", "_animator"]
 - ["PSs9Equatable", "_children"]
 - !private ["PSs9Equatable", "_getBuiltinLogicValue"]
 - ["PSs9Equatable", "_hasRigidbody"]
+- ["PSs9Equatable", "_maskTexture"]
 - ["PSs9Equatable", "_mesh"]
 - ["PSs9Equatable", "_rigidbody"]
 - ["PSs9Equatable", "_scripts"]
@@ -484,6 +512,7 @@ depends-member:
 - !private ["PSs9Equatable", "deleteBodyFromWorld"]
 - ["PSs9Equatable", "deleteRigidbody"]
 - ["PSs9Equatable", "descriptor"]
+- ["PSs9Equatable", "destroy"]
 - ["PSs9Equatable", "draw"]
 - !private ["PSs9Equatable", "float2"]
 - !private ["PSs9Equatable", "getBodyType"]
@@ -495,7 +524,6 @@ depends-member:
 - ["PSs9Equatable", "index"]
 - ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "kWorldQuadSize"]
-- ["PSs9Equatable", "maskTexture"]
 - ["PSs9Equatable", "onCollisionEnter"]
 - ["PSs9Equatable", "onCollisionEnterWithFluid"]
 - ["PSs9Equatable", "onCollisionEnterWithTerrain"]
@@ -505,6 +533,7 @@ depends-member:
 - ["PSs9Equatable", "rigidbody"]
 - ["PSs9Equatable", "scene"]
 - ["PSs9Equatable", "setAnimator"]
+- !private ["PSs9Equatable", "setFragmentData"]
 - ["PSs9Equatable", "setMaskTexture"]
 - ["PSs9Equatable", "setMaterial"]
 - ["PSs9Equatable", "setMesh"]
@@ -512,9 +541,9 @@ depends-member:
 - ["PSs9Equatable", "setParentModelMatrix"]
 - !private ["PSs9Equatable", "setRigidbody"]
 - ["PSs9Equatable", "setTexture"]
-- ["PSs9Equatable", "setTexture1"]
-- ["PSs9Equatable", "setTexture2"]
 - ["PSs9Equatable", "setTextureCoordOffset"]
+- !private ["PSs9Equatable", "sizeof"]
+- ["PSs9Equatable", "textureCoordOffset"]
 - ["PSs9Equatable", "transform"]
 - ["PSs9Equatable", "update"]
 - ["PSs9Equatable", "updateWorldQuad"]
@@ -551,10 +580,12 @@ depends-member:
 - ["C7Drakken13GameComponent", "Texture"]
 - ["C7Drakken13GameComponent", "Transform"]
 - ["C7Drakken13GameComponent", "Transformable"]
+- ["C7Drakken13GameComponent", "Vector2D"]
 - ["C7Drakken13GameComponent", "World"]
 - !private ["C7Drakken13GameComponent", "_animator"]
 - !private ["C7Drakken13GameComponent", "_children"]
 - !private ["C7Drakken13GameComponent", "_hasRigidbody"]
+- ["C7Drakken13GameComponent", "_maskTexture"]
 - !private ["C7Drakken13GameComponent", "_mesh"]
 - !private ["C7Drakken13GameComponent", "_rigidbody"]
 - !private ["C7Drakken13GameComponent", "_scripts"]
@@ -569,15 +600,15 @@ depends-member:
 - ["C7Drakken13GameComponent", "delete"]
 - ["C7Drakken13GameComponent", "deleteRigidbody"]
 - ["C7Drakken13GameComponent", "descriptor"]
+- ["C7Drakken13GameComponent", "destroy"]
 - ["C7Drakken13GameComponent", "draw"]
-- ["C7Drakken13GameComponent", "float2"]
+- !private ["C7Drakken13GameComponent", "float2"]
 - ["C7Drakken13GameComponent", "float4x4"]
 - ["C7Drakken13GameComponent", "getComponent"]
 - ["C7Drakken13GameComponent", "hidden"]
 - ["C7Drakken13GameComponent", "index"]
 - ["C7Drakken13GameComponent", "init"]
 - !private ["C7Drakken13GameComponent", "kWorldQuadSize"]
-- ["C7Drakken13GameComponent", "maskTexture"]
 - ["C7Drakken13GameComponent", "onCollisionEnter"]
 - ["C7Drakken13GameComponent", "onCollisionEnterWithFluid"]
 - ["C7Drakken13GameComponent", "onCollisionEnterWithTerrain"]
@@ -591,9 +622,9 @@ depends-member:
 - ["C7Drakken13GameComponent", "setMesh"]
 - ["C7Drakken13GameComponent", "setParentModelMatrix"]
 - ["C7Drakken13GameComponent", "setTexture"]
-- ["C7Drakken13GameComponent", "setTexture1"]
-- ["C7Drakken13GameComponent", "setTexture2"]
 - ["C7Drakken13GameComponent", "setTextureCoordOffset"]
+- !private ["C7Drakken13GameComponent", "sizeof"]
+- ["C7Drakken13GameComponent", "textureCoordOffset"]
 - ["C7Drakken13GameComponent", "transform"]
 - ["C7Drakken13GameComponent", "update"]
 - ["C7Drakken13GameComponent", "updateWorldQuad"]
@@ -616,10 +647,12 @@ depends-member:
 - !private ["PSs8Hashable", "Texture"]
 - !private ["PSs8Hashable", "Transform"]
 - !private ["PSs8Hashable", "Triangle"]
+- !private ["PSs8Hashable", "Vector2D"]
 - ["PSs8Hashable", "_animator"]
 - ["PSs8Hashable", "_children"]
 - !private ["PSs8Hashable", "_getBuiltinLogicValue"]
 - ["PSs8Hashable", "_hasRigidbody"]
+- ["PSs8Hashable", "_maskTexture"]
 - ["PSs8Hashable", "_mesh"]
 - ["PSs8Hashable", "_rigidbody"]
 - ["PSs8Hashable", "_scripts"]
@@ -635,6 +668,7 @@ depends-member:
 - !private ["PSs8Hashable", "deleteBodyFromWorld"]
 - ["PSs8Hashable", "deleteRigidbody"]
 - ["PSs8Hashable", "descriptor"]
+- ["PSs8Hashable", "destroy"]
 - ["PSs8Hashable", "draw"]
 - !private ["PSs8Hashable", "float2"]
 - !private ["PSs8Hashable", "getBodyType"]
@@ -646,7 +680,6 @@ depends-member:
 - ["PSs8Hashable", "index"]
 - ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "kWorldQuadSize"]
-- ["PSs8Hashable", "maskTexture"]
 - ["PSs8Hashable", "onCollisionEnter"]
 - ["PSs8Hashable", "onCollisionEnterWithFluid"]
 - ["PSs8Hashable", "onCollisionEnterWithTerrain"]
@@ -656,6 +689,7 @@ depends-member:
 - ["PSs8Hashable", "rigidbody"]
 - ["PSs8Hashable", "scene"]
 - ["PSs8Hashable", "setAnimator"]
+- !private ["PSs8Hashable", "setFragmentData"]
 - ["PSs8Hashable", "setMaskTexture"]
 - ["PSs8Hashable", "setMaterial"]
 - ["PSs8Hashable", "setMesh"]
@@ -663,9 +697,9 @@ depends-member:
 - ["PSs8Hashable", "setParentModelMatrix"]
 - !private ["PSs8Hashable", "setRigidbody"]
 - ["PSs8Hashable", "setTexture"]
-- ["PSs8Hashable", "setTexture1"]
-- ["PSs8Hashable", "setTexture2"]
 - ["PSs8Hashable", "setTextureCoordOffset"]
+- !private ["PSs8Hashable", "sizeof"]
+- ["PSs8Hashable", "textureCoordOffset"]
 - ["PSs8Hashable", "transform"]
 - ["PSs8Hashable", "update"]
 - ["PSs8Hashable", "updateWorldQuad"]
@@ -678,6 +712,7 @@ depends-member:
 - !private ["PSs9Indexable", "_Element"]
 - !private ["PSs9Indexable", "append"]
 - !private ["PSs9Indexable", "init"]
+- !private ["PSs9Indexable", "removeAll"]
 - !private ["PSs9Indexable", "subscript"]
 - !private ["VSs17IndexingGenerator", "Element"]
 - !private ["Si", "Distance"]
@@ -704,9 +739,11 @@ depends-member:
 - !private ["P7Drakken17InternalComponent", "Script"]
 - !private ["P7Drakken17InternalComponent", "Texture"]
 - !private ["P7Drakken17InternalComponent", "Transform"]
+- !private ["P7Drakken17InternalComponent", "Vector2D"]
 - !private ["P7Drakken17InternalComponent", "_animator"]
 - !private ["P7Drakken17InternalComponent", "_children"]
 - !private ["P7Drakken17InternalComponent", "_hasRigidbody"]
+- !private ["P7Drakken17InternalComponent", "_maskTexture"]
 - !private ["P7Drakken17InternalComponent", "_mesh"]
 - !private ["P7Drakken17InternalComponent", "_rigidbody"]
 - !private ["P7Drakken17InternalComponent", "_scripts"]
@@ -716,6 +753,7 @@ depends-member:
 - ["P7Drakken17InternalComponent", "createInWorld"]
 - !private ["P7Drakken17InternalComponent", "delete"]
 - ["P7Drakken17InternalComponent", "descriptor"]
+- ["P7Drakken17InternalComponent", "destroy"]
 - ["P7Drakken17InternalComponent", "draw"]
 - !private ["P7Drakken17InternalComponent", "float2"]
 - ["P7Drakken17InternalComponent", "getComponent"]
@@ -733,20 +771,18 @@ depends-member:
 - !private ["P7Drakken17InternalComponent", "setMaskTexture"]
 - !private ["P7Drakken17InternalComponent", "setParentModelMatrix"]
 - !private ["P7Drakken17InternalComponent", "setTexture"]
+- !private ["P7Drakken17InternalComponent", "sizeof"]
+- !private ["P7Drakken17InternalComponent", "textureCoordOffset"]
 - ["P7Drakken17InternalComponent", "transform"]
 - ["P7Drakken17InternalComponent", "update"]
 - ["P7Drakken17InternalComponent", "updateWorldQuad"]
 - ["P7Drakken17InternalComponent", ""]
 - !private ["OSC16MTLPrimitiveType", "Triangle"]
-- !private ["C7Drakken4Mesh", "deinit"]
+- !private ["C7Drakken4Mesh", "_shader"]
 - !private ["C7Drakken4Mesh", "draw"]
 - !private ["C7Drakken4Mesh", "drawMode"]
-- !private ["C7Drakken4Mesh", "maskTexture"]
 - !private ["C7Drakken4Mesh", "prepareToDraw"]
 - !private ["C7Drakken4Mesh", "setMaterial"]
-- !private ["C7Drakken4Mesh", "texcoordsOffset"]
-- !private ["C7Drakken4Mesh", "texture1"]
-- !private ["C7Drakken4Mesh", "texture2"]
 - !private ["PSs14MirrorPathType", "Distance"]
 - !private ["PSs14MirrorPathType", "IntegerLiteralType"]
 - !private ["PSs14MirrorPathType", "init"]
@@ -756,18 +792,21 @@ depends-member:
 - !private ["PSs21MutableCollectionType", "_Element"]
 - !private ["PSs21MutableCollectionType", "append"]
 - !private ["PSs21MutableCollectionType", "init"]
+- !private ["PSs21MutableCollectionType", "removeAll"]
 - !private ["PSs16MutableIndexable", "Generator"]
 - !private ["PSs16MutableIndexable", "Index"]
 - !private ["PSs16MutableIndexable", "SubSequence"]
 - !private ["PSs16MutableIndexable", "_Element"]
 - !private ["PSs16MutableIndexable", "append"]
 - !private ["PSs16MutableIndexable", "init"]
+- !private ["PSs16MutableIndexable", "removeAll"]
 - !private ["PSs16MutableSliceable", "Generator"]
 - !private ["PSs16MutableSliceable", "Index"]
 - !private ["PSs16MutableSliceable", "SubSequence"]
 - !private ["PSs16MutableSliceable", "_Element"]
 - !private ["PSs16MutableSliceable", "append"]
 - !private ["PSs16MutableSliceable", "init"]
+- !private ["PSs16MutableSliceable", "removeAll"]
 - ["CSo8NSObject", "Animator"]
 - !private ["CSo8NSObject", "BodyType"]
 - ["CSo8NSObject", "Bool"]
@@ -792,10 +831,12 @@ depends-member:
 - ["CSo8NSObject", "Texture"]
 - ["CSo8NSObject", "Transform"]
 - ["CSo8NSObject", "Transformable"]
+- ["CSo8NSObject", "Vector2D"]
 - ["CSo8NSObject", "World"]
 - ["CSo8NSObject", "_animator"]
 - ["CSo8NSObject", "_children"]
 - ["CSo8NSObject", "_hasRigidbody"]
+- ["CSo8NSObject", "_maskTexture"]
 - ["CSo8NSObject", "_mesh"]
 - ["CSo8NSObject", "_rigidbody"]
 - ["CSo8NSObject", "_scripts"]
@@ -811,8 +852,9 @@ depends-member:
 - !private ["CSo8NSObject", "deleteBodyFromWorld"]
 - ["CSo8NSObject", "deleteRigidbody"]
 - ["CSo8NSObject", "descriptor"]
+- ["CSo8NSObject", "destroy"]
 - ["CSo8NSObject", "draw"]
-- ["CSo8NSObject", "float2"]
+- !private ["CSo8NSObject", "float2"]
 - ["CSo8NSObject", "float4x4"]
 - !private ["CSo8NSObject", "getBodyType"]
 - ["CSo8NSObject", "getComponent"]
@@ -823,7 +865,6 @@ depends-member:
 - ["CSo8NSObject", "index"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "kWorldQuadSize"]
-- ["CSo8NSObject", "maskTexture"]
 - ["CSo8NSObject", "onCollisionEnter"]
 - ["CSo8NSObject", "onCollisionEnterWithFluid"]
 - ["CSo8NSObject", "onCollisionEnterWithTerrain"]
@@ -833,6 +874,7 @@ depends-member:
 - ["CSo8NSObject", "rigidbody"]
 - ["CSo8NSObject", "scene"]
 - ["CSo8NSObject", "setAnimator"]
+- !private ["CSo8NSObject", "setFragmentData"]
 - ["CSo8NSObject", "setMaskTexture"]
 - ["CSo8NSObject", "setMaterial"]
 - ["CSo8NSObject", "setMesh"]
@@ -840,9 +882,9 @@ depends-member:
 - ["CSo8NSObject", "setParentModelMatrix"]
 - !private ["CSo8NSObject", "setRigidbody"]
 - ["CSo8NSObject", "setTexture"]
-- ["CSo8NSObject", "setTexture1"]
-- ["CSo8NSObject", "setTexture2"]
 - ["CSo8NSObject", "setTextureCoordOffset"]
+- !private ["CSo8NSObject", "sizeof"]
+- ["CSo8NSObject", "textureCoordOffset"]
 - ["CSo8NSObject", "transform"]
 - ["CSo8NSObject", "update"]
 - ["CSo8NSObject", "updateWorldQuad"]
@@ -859,9 +901,11 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "Script"]
 - !private ["PSo16NSObjectProtocol", "Texture"]
 - !private ["PSo16NSObjectProtocol", "Transform"]
+- !private ["PSo16NSObjectProtocol", "Vector2D"]
 - ["PSo16NSObjectProtocol", "_animator"]
 - ["PSo16NSObjectProtocol", "_children"]
 - ["PSo16NSObjectProtocol", "_hasRigidbody"]
+- ["PSo16NSObjectProtocol", "_maskTexture"]
 - ["PSo16NSObjectProtocol", "_mesh"]
 - ["PSo16NSObjectProtocol", "_rigidbody"]
 - ["PSo16NSObjectProtocol", "_scripts"]
@@ -878,6 +922,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "deleteBodyFromWorld"]
 - ["PSo16NSObjectProtocol", "deleteRigidbody"]
 - ["PSo16NSObjectProtocol", "descriptor"]
+- ["PSo16NSObjectProtocol", "destroy"]
 - ["PSo16NSObjectProtocol", "draw"]
 - !private ["PSo16NSObjectProtocol", "float2"]
 - !private ["PSo16NSObjectProtocol", "getBodyType"]
@@ -890,7 +935,6 @@ depends-member:
 - ["PSo16NSObjectProtocol", "index"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "kWorldQuadSize"]
-- ["PSo16NSObjectProtocol", "maskTexture"]
 - ["PSo16NSObjectProtocol", "onCollisionEnter"]
 - ["PSo16NSObjectProtocol", "onCollisionEnterWithFluid"]
 - ["PSo16NSObjectProtocol", "onCollisionEnterWithTerrain"]
@@ -900,6 +944,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "rigidbody"]
 - ["PSo16NSObjectProtocol", "scene"]
 - ["PSo16NSObjectProtocol", "setAnimator"]
+- !private ["PSo16NSObjectProtocol", "setFragmentData"]
 - ["PSo16NSObjectProtocol", "setMaskTexture"]
 - ["PSo16NSObjectProtocol", "setMaterial"]
 - ["PSo16NSObjectProtocol", "setMesh"]
@@ -908,10 +953,10 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "setPosition"]
 - !private ["PSo16NSObjectProtocol", "setRigidbody"]
 - ["PSo16NSObjectProtocol", "setTexture"]
-- ["PSo16NSObjectProtocol", "setTexture1"]
-- ["PSo16NSObjectProtocol", "setTexture2"]
 - ["PSo16NSObjectProtocol", "setTextureCoordOffset"]
 - !private ["PSo16NSObjectProtocol", "setZRotationRadian"]
+- !private ["PSo16NSObjectProtocol", "sizeof"]
+- ["PSo16NSObjectProtocol", "textureCoordOffset"]
 - ["PSo16NSObjectProtocol", "transform"]
 - ["PSo16NSObjectProtocol", "update"]
 - ["PSo16NSObjectProtocol", "updateWorldQuad"]
@@ -930,9 +975,11 @@ depends-member:
 - !private ["P7Drakken8Physical", "Script"]
 - !private ["P7Drakken8Physical", "Texture"]
 - !private ["P7Drakken8Physical", "Transform"]
+- !private ["P7Drakken8Physical", "Vector2D"]
 - !private ["P7Drakken8Physical", "_animator"]
 - !private ["P7Drakken8Physical", "_children"]
 - !private ["P7Drakken8Physical", "_hasRigidbody"]
+- !private ["P7Drakken8Physical", "_maskTexture"]
 - !private ["P7Drakken8Physical", "_mesh"]
 - !private ["P7Drakken8Physical", "_rigidbody"]
 - !private ["P7Drakken8Physical", "_scripts"]
@@ -942,6 +989,7 @@ depends-member:
 - ["P7Drakken8Physical", "createInWorld"]
 - !private ["P7Drakken8Physical", "delete"]
 - ["P7Drakken8Physical", "descriptor"]
+- ["P7Drakken8Physical", "destroy"]
 - ["P7Drakken8Physical", "draw"]
 - !private ["P7Drakken8Physical", "float2"]
 - ["P7Drakken8Physical", "getComponent"]
@@ -959,6 +1007,8 @@ depends-member:
 - !private ["P7Drakken8Physical", "setMaskTexture"]
 - !private ["P7Drakken8Physical", "setParentModelMatrix"]
 - !private ["P7Drakken8Physical", "setTexture"]
+- !private ["P7Drakken8Physical", "sizeof"]
+- !private ["P7Drakken8Physical", "textureCoordOffset"]
 - ["P7Drakken8Physical", "transform"]
 - ["P7Drakken8Physical", "update"]
 - ["P7Drakken8Physical", "updateWorldQuad"]
@@ -972,6 +1022,7 @@ depends-member:
 - !private ["PSs30RangeReplaceableCollectionType", "_Element"]
 - !private ["PSs30RangeReplaceableCollectionType", "append"]
 - !private ["PSs30RangeReplaceableCollectionType", "init"]
+- !private ["PSs30RangeReplaceableCollectionType", "removeAll"]
 - !private ["PSs16RawRepresentable", "RawValue"]
 - !private ["PSs16RawRepresentable", "Static"]
 - !private ["PSs16RawRepresentable", "Triangle"]
@@ -1027,9 +1078,11 @@ depends-member:
 - !private ["P7Drakken10Scriptable", "Script"]
 - !private ["P7Drakken10Scriptable", "Texture"]
 - !private ["P7Drakken10Scriptable", "Transform"]
+- !private ["P7Drakken10Scriptable", "Vector2D"]
 - !private ["P7Drakken10Scriptable", "_animator"]
 - !private ["P7Drakken10Scriptable", "_children"]
 - !private ["P7Drakken10Scriptable", "_hasRigidbody"]
+- !private ["P7Drakken10Scriptable", "_maskTexture"]
 - !private ["P7Drakken10Scriptable", "_mesh"]
 - !private ["P7Drakken10Scriptable", "_rigidbody"]
 - !private ["P7Drakken10Scriptable", "_scripts"]
@@ -1039,6 +1092,7 @@ depends-member:
 - ["P7Drakken10Scriptable", "createInWorld"]
 - !private ["P7Drakken10Scriptable", "delete"]
 - ["P7Drakken10Scriptable", "descriptor"]
+- ["P7Drakken10Scriptable", "destroy"]
 - ["P7Drakken10Scriptable", "draw"]
 - !private ["P7Drakken10Scriptable", "float2"]
 - ["P7Drakken10Scriptable", "getComponent"]
@@ -1056,6 +1110,8 @@ depends-member:
 - !private ["P7Drakken10Scriptable", "setMaskTexture"]
 - !private ["P7Drakken10Scriptable", "setParentModelMatrix"]
 - !private ["P7Drakken10Scriptable", "setTexture"]
+- !private ["P7Drakken10Scriptable", "sizeof"]
+- !private ["P7Drakken10Scriptable", "textureCoordOffset"]
 - ["P7Drakken10Scriptable", "transform"]
 - ["P7Drakken10Scriptable", "update"]
 - ["P7Drakken10Scriptable", "updateWorldQuad"]
@@ -1067,34 +1123,10 @@ depends-member:
 - !private ["PSs12SequenceType", "_Element"]
 - !private ["PSs12SequenceType", "append"]
 - !private ["PSs12SequenceType", "init"]
+- !private ["PSs12SequenceType", "removeAll"]
 - !private ["PSs12SequenceType", "subscript"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "draw"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "drawMode"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "init"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "maskTexture"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "prepareToDraw"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "setMaterial"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "texcoordsOffset"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "texture1"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "texture2"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "draw"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "drawMode"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "init"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "maskTexture"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "prepareToDraw"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "setMaterial"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "texcoordsOffset"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "texture1"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "texture2"]
-- !private ["P7Drakken16ShaderVertexData", "draw"]
-- !private ["P7Drakken16ShaderVertexData", "drawMode"]
-- !private ["P7Drakken16ShaderVertexData", "init"]
-- !private ["P7Drakken16ShaderVertexData", "maskTexture"]
-- !private ["P7Drakken16ShaderVertexData", "prepareToDraw"]
-- !private ["P7Drakken16ShaderVertexData", "setMaterial"]
-- !private ["P7Drakken16ShaderVertexData", "texcoordsOffset"]
-- !private ["P7Drakken16ShaderVertexData", "texture1"]
-- !private ["P7Drakken16ShaderVertexData", "texture2"]
+- !private ["C7Drakken6Shader", "setFragmentData"]
+- !private ["C7Drakken6Shader", "setTexture"]
 - !private ["PSs17SignedIntegerType", "Distance"]
 - !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
 - !private ["PSs17SignedIntegerType", "init"]
@@ -1125,12 +1157,17 @@ depends-member:
 - !private ["P7Drakken13Transformable", "setPosition"]
 - !private ["P7Drakken13Transformable", "setRigidbody"]
 - !private ["P7Drakken13Transformable", "setZRotationRadian"]
+- !private ["C7Drakken8Vector2D", "float2"]
+- !private ["C7Drakken8Vector2D", "init"]
+- !private ["C7Drakken8Vector2D", "x"]
+- !private ["C7Drakken8Vector2D", "y"]
 - !private ["PSs10_ArrayType", "Generator"]
 - !private ["PSs10_ArrayType", "Index"]
 - !private ["PSs10_ArrayType", "SubSequence"]
 - !private ["PSs10_ArrayType", "_Element"]
 - !private ["PSs10_ArrayType", "append"]
 - !private ["PSs10_ArrayType", "init"]
+- !private ["PSs10_ArrayType", "removeAll"]
 - !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs31_BuiltinFloatLiteralConvertible", "init"]
 - !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
@@ -1144,6 +1181,7 @@ depends-member:
 - !private ["PSs24_DestructorSafeContainer", "_Element"]
 - !private ["PSs24_DestructorSafeContainer", "append"]
 - !private ["PSs24_DestructorSafeContainer", "init"]
+- !private ["PSs24_DestructorSafeContainer", "removeAll"]
 - !private ["PSs14_Incrementable", "Distance"]
 - !private ["PSs14_Incrementable", "IntegerLiteralType"]
 - !private ["PSs14_Incrementable", "init"]
@@ -1162,6 +1200,7 @@ depends-member:
 - !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["PSs21_ObjectiveCBridgeable", "append"]
 - !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "removeAll"]
 - !private ["PSs21_ObjectiveCBridgeable", "subscript"]
 - !private ["PSs22_RandomAccessAmbiguity", "Distance"]
 - !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
@@ -1175,6 +1214,7 @@ depends-member:
 - !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["PSs12_Reflectable", "append"]
 - !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "removeAll"]
 - !private ["PSs12_Reflectable", "subscript"]
 - !private ["PSs12_Reflectable", "x"]
 - !private ["PSs12_Reflectable", "y"]
@@ -1250,9 +1290,7 @@ depends-nominal:
 - "C7Drakken6Script"
 - "P7Drakken10Scriptable"
 - !private "PSs12SequenceType"
-- !private "P7Drakken24ShaderFragmentBufferData"
-- !private "P7Drakken25ShaderFragmentTextureData"
-- !private "P7Drakken16ShaderVertexData"
+- !private "C7Drakken6Shader"
 - !private "PSs17SignedIntegerType"
 - !private "PSs16SignedNumberType"
 - !private "VSs5Slice"
@@ -1261,6 +1299,7 @@ depends-nominal:
 - !private "C7Drakken7Texture"
 - !private "C7Drakken9Transform"
 - !private "P7Drakken13Transformable"
+- !private "C7Drakken8Vector2D"
 - !private "PSs10_ArrayType"
 - !private "PSs33_BuiltinBooleanLiteralConvertible"
 - !private "PSs31_BuiltinFloatLiteralConvertible"
@@ -1306,4 +1345,4 @@ depends-external:
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
-interface-hash: "9527a26d3111d7aad0390ad0541746ea"
+interface-hash: "427e018375c1c0356128030cdb845a1c"

@@ -7,14 +7,14 @@ provides-member:
 - ["C7Drakken8Vector2D", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "CGPointMake"
 - "Float"
-- "CoreGraphics"
-- "simd"
-- "Int"
-- !private "CGFloat"
-- !private "CGVectorMake"
 - "Vector2D"
+- "Int"
+- "CoreGraphics"
+- !private "CGVectorMake"
+- !private "CGPointMake"
+- !private "CGFloat"
+- "simd"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "CGFloat"]

@@ -158,9 +158,7 @@
 		2EC386F61BFFE87D00720FD6 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC385D61BFFE87D00720FD6 /* Vertex.swift */; };
 		2EC386F71BFFE87D00720FD6 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC385D91BFFE87D00720FD6 /* Core.swift */; };
 		2EC386F81BFFE87D00720FD6 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC385DA1BFFE87D00720FD6 /* Renderer.swift */; };
-		2EC386F91BFFE87D00720FD6 /* ShaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC385DB1BFFE87D00720FD6 /* ShaderManager.swift */; };
-		2EC386FA1BFFE87D00720FD6 /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC385DD1BFFE87D00720FD6 /* Material.swift */; };
-		2EC386FB1BFFE87D00720FD6 /* MaterialManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC385DE1BFFE87D00720FD6 /* MaterialManager.swift */; };
+		2EC386FA1BFFE87D00720FD6 /* Shader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC385DD1BFFE87D00720FD6 /* Shader.swift */; };
 		2EC386FC1BFFE87D00720FD6 /* FluidMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC385E01BFFE87D00720FD6 /* FluidMesh.swift */; };
 		2EC386FD1BFFE87D00720FD6 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC385E11BFFE87D00720FD6 /* Grid.swift */; };
 		2EC386FE1BFFE87D00720FD6 /* Mesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC385E21BFFE87D00720FD6 /* Mesh.swift */; };
@@ -168,7 +166,6 @@
 		2EC387001BFFE87D00720FD6 /* BuffersProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC385E51BFFE87D00720FD6 /* BuffersProtocols.swift */; };
 		2EC387011BFFE87D00720FD6 /* ComponentProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC385E61BFFE87D00720FD6 /* ComponentProtocols.swift */; };
 		2EC387021BFFE87D00720FD6 /* OtherAbstract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC385E71BFFE87D00720FD6 /* OtherAbstract.swift */; };
-		2EC387031BFFE87D00720FD6 /* BaseShader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC385E91BFFE87D00720FD6 /* BaseShader.swift */; };
 		2EC387041BFFE87D00720FD6 /* DataBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC385EA1BFFE87D00720FD6 /* DataBuffer.swift */; };
 		2EC387051BFFE87D00720FD6 /* IndexBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC385EB1BFFE87D00720FD6 /* IndexBuffer.swift */; };
 		2EC387061BFFE87D00720FD6 /* BasicShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 2EC385ED1BFFE87D00720FD6 /* BasicShader.metal */; };
@@ -214,6 +211,59 @@
 		2EC387311BFFE8F900720FD6 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC3872F1BFFE8F900720FD6 /* Metal.framework */; };
 		2EC387321BFFE8F900720FD6 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC387301BFFE8F900720FD6 /* MetalKit.framework */; };
 		2EC387361BFFEAEB00720FD6 /* Drakken.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EC387351BFFEA9700720FD6 /* Drakken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EEBABA71C1749B5007B3E37 /* GameComponent.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385B51BFFE87D00720FD6 /* GameComponent.swift */; };
+		2EEBABA81C174A00007B3E37 /* Animation.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385AD1BFFE87D00720FD6 /* Animation.swift */; };
+		2EEBABA91C174A00007B3E37 /* AnimationMode.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385AE1BFFE87D00720FD6 /* AnimationMode.swift */; };
+		2EEBABAA1C174A00007B3E37 /* AnimationSheet.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385AF1BFFE87D00720FD6 /* AnimationSheet.swift */; };
+		2EEBABAB1C174A00007B3E37 /* Animator.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385B01BFFE87D00720FD6 /* Animator.swift */; };
+		2EEBABAC1C174A00007B3E37 /* CanvasComponent.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385B21BFFE87D00720FD6 /* CanvasComponent.swift */; };
+		2EEBABAD1C174A00007B3E37 /* EffectCanvasComponent.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385B31BFFE87D00720FD6 /* EffectCanvasComponent.swift */; };
+		2EEBABAE1C174A00007B3E37 /* FluidComponent.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385B41BFFE87D00720FD6 /* FluidComponent.swift */; };
+		2EEBABAF1C174A00007B3E37 /* TerrainComponent.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385B61BFFE87D00720FD6 /* TerrainComponent.swift */; };
+		2EEBABB01C174A00007B3E37 /* Descriptor.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385B81BFFE87D00720FD6 /* Descriptor.swift */; };
+		2EEBABB11C174A00007B3E37 /* Transform.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385B91BFFE87D00720FD6 /* Transform.swift */; };
+		2EEBABB21C174A00007B3E37 /* ExplosionPolygon.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385BB1BFFE87D00720FD6 /* ExplosionPolygon.swift */; };
+		2EEBABB31C174A00007B3E37 /* Resource.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385BC1BFFE87D00720FD6 /* Resource.swift */; };
+		2EEBABB41C174A00007B3E37 /* Utils.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385BD1BFFE87D00720FD6 /* Utils.swift */; };
+		2EEBABB51C174A00007B3E37 /* GameViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385BF1BFFE87D00720FD6 /* GameViewController.swift */; };
+		2EEBABB61C174A00007B3E37 /* Scene.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385C01BFFE87D00720FD6 /* Scene.swift */; };
+		2EEBABB71C174A00007B3E37 /* Math.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385C21BFFE87D00720FD6 /* Math.swift */; };
+		2EEBABB81C174A00007B3E37 /* QuadTree.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385C31BFFE87D00720FD6 /* QuadTree.swift */; };
+		2EEBABB91C174A00007B3E37 /* Simplifier.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385C41BFFE87D00720FD6 /* Simplifier.swift */; };
+		2EEBABBA1C174A00007B3E37 /* Vertex.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385D61BFFE87D00720FD6 /* Vertex.swift */; };
+		2EEBABBB1C174A00007B3E37 /* Size2D+CGSize.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385C61BFFE87D00720FD6 /* Size2D+CGSize.swift */; };
+		2EEBABBC1C174A00007B3E37 /* Size2D+Double.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385C71BFFE87D00720FD6 /* Size2D+Double.swift */; };
+		2EEBABBD1C174A00007B3E37 /* Size2D+Float.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385C81BFFE87D00720FD6 /* Size2D+Float.swift */; };
+		2EEBABBE1C174A00007B3E37 /* Size2D+float2.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385C91BFFE87D00720FD6 /* Size2D+float2.swift */; };
+		2EEBABBF1C174A00007B3E37 /* Size2D+Int.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385CA1BFFE87D00720FD6 /* Size2D+Int.swift */; };
+		2EEBABC01C174A00007B3E37 /* Size2D+Size2D.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385CB1BFFE87D00720FD6 /* Size2D+Size2D.swift */; };
+		2EEBABC11C174A00007B3E37 /* Size2D.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385CC1BFFE87D00720FD6 /* Size2D.swift */; };
+		2EEBABC21C174A00007B3E37 /* Vector2D+CGPoint.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385CE1BFFE87D00720FD6 /* Vector2D+CGPoint.swift */; };
+		2EEBABC31C174A00007B3E37 /* Vector2D+CGVector.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385CF1BFFE87D00720FD6 /* Vector2D+CGVector.swift */; };
+		2EEBABC41C174A00007B3E37 /* Vector2D+Double.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385D01BFFE87D00720FD6 /* Vector2D+Double.swift */; };
+		2EEBABC51C174A00007B3E37 /* Vector2D+Float.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385D11BFFE87D00720FD6 /* Vector2D+Float.swift */; };
+		2EEBABC61C174A00007B3E37 /* Vector2D+float2.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385D21BFFE87D00720FD6 /* Vector2D+float2.swift */; };
+		2EEBABC71C174A00007B3E37 /* Vector2D+Int.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385D31BFFE87D00720FD6 /* Vector2D+Int.swift */; };
+		2EEBABC81C174A00007B3E37 /* Vector2D+Vector2D.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385D41BFFE87D00720FD6 /* Vector2D+Vector2D.swift */; };
+		2EEBABC91C174A00007B3E37 /* Vector2D.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385D51BFFE87D00720FD6 /* Vector2D.swift */; };
+		2EEBABCA1C174A00007B3E37 /* Core.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385D91BFFE87D00720FD6 /* Core.swift */; };
+		2EEBABCB1C174A00007B3E37 /* Renderer.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385DA1BFFE87D00720FD6 /* Renderer.swift */; };
+		2EEBABCC1C174A00007B3E37 /* Shader.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385DD1BFFE87D00720FD6 /* Shader.swift */; };
+		2EEBABCD1C174A00007B3E37 /* FluidMesh.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385E01BFFE87D00720FD6 /* FluidMesh.swift */; };
+		2EEBABCE1C174A00007B3E37 /* Grid.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385E11BFFE87D00720FD6 /* Grid.swift */; };
+		2EEBABCF1C174A00007B3E37 /* Mesh.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385E21BFFE87D00720FD6 /* Mesh.swift */; };
+		2EEBABD01C174A00007B3E37 /* TerrainMesh.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385E31BFFE87D00720FD6 /* TerrainMesh.swift */; };
+		2EEBABD11C174A00007B3E37 /* BuffersProtocols.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385E51BFFE87D00720FD6 /* BuffersProtocols.swift */; };
+		2EEBABD21C174A00007B3E37 /* ComponentProtocols.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385E61BFFE87D00720FD6 /* ComponentProtocols.swift */; };
+		2EEBABD31C174A00007B3E37 /* OtherAbstract.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385E71BFFE87D00720FD6 /* OtherAbstract.swift */; };
+		2EEBABD41C174A00007B3E37 /* DataBuffer.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385EA1BFFE87D00720FD6 /* DataBuffer.swift */; };
+		2EEBABD51C174A00007B3E37 /* IndexBuffer.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385EB1BFFE87D00720FD6 /* IndexBuffer.swift */; };
+		2EEBABD61C174A00007B3E37 /* TextureBuffer.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385F11BFFE87D00720FD6 /* TextureBuffer.swift */; };
+		2EEBABD71C174A00007B3E37 /* BasicShader.metal in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385ED1BFFE87D00720FD6 /* BasicShader.metal */; };
+		2EEBABD81C174A00007B3E37 /* FluidShader.metal in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385EE1BFFE87D00720FD6 /* FluidShader.metal */; };
+		2EEBABD91C174A00007B3E37 /* WhiteParticleShader.metal in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385EF1BFFE87D00720FD6 /* WhiteParticleShader.metal */; };
+		2EEBABDA1C174A00007B3E37 /* WhiteShader.metal in Resources */ = {isa = PBXBuildFile; fileRef = 2EC385F01BFFE87D00720FD6 /* WhiteShader.metal */; };
+		2EEBABDB1C174A00007B3E37 /* TextureParticleShader.metal in Resources */ = {isa = PBXBuildFile; fileRef = 2E2DFC161C04F1DE000AC3F4 /* TextureParticleShader.metal */; };
 		BE7961E6C8B1B408A734AB4A /* Pods_Drakken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D26D00A074E81291BEEA3A1 /* Pods_Drakken.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -372,9 +422,7 @@
 		2EC385D61BFFE87D00720FD6 /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
 		2EC385D91BFFE87D00720FD6 /* Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
 		2EC385DA1BFFE87D00720FD6 /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
-		2EC385DB1BFFE87D00720FD6 /* ShaderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShaderManager.swift; sourceTree = "<group>"; };
-		2EC385DD1BFFE87D00720FD6 /* Material.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Material.swift; sourceTree = "<group>"; };
-		2EC385DE1BFFE87D00720FD6 /* MaterialManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialManager.swift; sourceTree = "<group>"; };
+		2EC385DD1BFFE87D00720FD6 /* Shader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shader.swift; sourceTree = "<group>"; };
 		2EC385E01BFFE87D00720FD6 /* FluidMesh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluidMesh.swift; sourceTree = "<group>"; };
 		2EC385E11BFFE87D00720FD6 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		2EC385E21BFFE87D00720FD6 /* Mesh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mesh.swift; sourceTree = "<group>"; };
@@ -382,7 +430,6 @@
 		2EC385E51BFFE87D00720FD6 /* BuffersProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuffersProtocols.swift; sourceTree = "<group>"; };
 		2EC385E61BFFE87D00720FD6 /* ComponentProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentProtocols.swift; sourceTree = "<group>"; };
 		2EC385E71BFFE87D00720FD6 /* OtherAbstract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherAbstract.swift; sourceTree = "<group>"; };
-		2EC385E91BFFE87D00720FD6 /* BaseShader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseShader.swift; sourceTree = "<group>"; };
 		2EC385EA1BFFE87D00720FD6 /* DataBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBuffer.swift; sourceTree = "<group>"; };
 		2EC385EB1BFFE87D00720FD6 /* IndexBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexBuffer.swift; sourceTree = "<group>"; };
 		2EC385ED1BFFE87D00720FD6 /* BasicShader.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = BasicShader.metal; sourceTree = "<group>"; };
@@ -795,7 +842,6 @@
 			children = (
 				2EC385D91BFFE87D00720FD6 /* Core.swift */,
 				2EC385DA1BFFE87D00720FD6 /* Renderer.swift */,
-				2EC385DB1BFFE87D00720FD6 /* ShaderManager.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -803,8 +849,7 @@
 		2EC385DC1BFFE87D00720FD6 /* Material */ = {
 			isa = PBXGroup;
 			children = (
-				2EC385DD1BFFE87D00720FD6 /* Material.swift */,
-				2EC385DE1BFFE87D00720FD6 /* MaterialManager.swift */,
+				2EC385DD1BFFE87D00720FD6 /* Shader.swift */,
 			);
 			path = Material;
 			sourceTree = "<group>";
@@ -833,7 +878,6 @@
 		2EC385E81BFFE87D00720FD6 /* Shaders */ = {
 			isa = PBXGroup;
 			children = (
-				2EC385E91BFFE87D00720FD6 /* BaseShader.swift */,
 				2EC385EA1BFFE87D00720FD6 /* DataBuffer.swift */,
 				2EC385EB1BFFE87D00720FD6 /* IndexBuffer.swift */,
 				2EC385F11BFFE87D00720FD6 /* TextureBuffer.swift */,
@@ -1133,6 +1177,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EEBABA81C174A00007B3E37 /* Animation.swift in Resources */,
+				2EEBABA91C174A00007B3E37 /* AnimationMode.swift in Resources */,
+				2EEBABAA1C174A00007B3E37 /* AnimationSheet.swift in Resources */,
+				2EEBABAB1C174A00007B3E37 /* Animator.swift in Resources */,
+				2EEBABAC1C174A00007B3E37 /* CanvasComponent.swift in Resources */,
+				2EEBABAD1C174A00007B3E37 /* EffectCanvasComponent.swift in Resources */,
+				2EEBABAE1C174A00007B3E37 /* FluidComponent.swift in Resources */,
+				2EEBABAF1C174A00007B3E37 /* TerrainComponent.swift in Resources */,
+				2EEBABB01C174A00007B3E37 /* Descriptor.swift in Resources */,
+				2EEBABB11C174A00007B3E37 /* Transform.swift in Resources */,
+				2EEBABB21C174A00007B3E37 /* ExplosionPolygon.swift in Resources */,
+				2EEBABB31C174A00007B3E37 /* Resource.swift in Resources */,
+				2EEBABB41C174A00007B3E37 /* Utils.swift in Resources */,
+				2EEBABB51C174A00007B3E37 /* GameViewController.swift in Resources */,
+				2EEBABB61C174A00007B3E37 /* Scene.swift in Resources */,
+				2EEBABB71C174A00007B3E37 /* Math.swift in Resources */,
+				2EEBABB81C174A00007B3E37 /* QuadTree.swift in Resources */,
+				2EEBABB91C174A00007B3E37 /* Simplifier.swift in Resources */,
+				2EEBABBA1C174A00007B3E37 /* Vertex.swift in Resources */,
+				2EEBABBB1C174A00007B3E37 /* Size2D+CGSize.swift in Resources */,
+				2EEBABBC1C174A00007B3E37 /* Size2D+Double.swift in Resources */,
+				2EEBABBD1C174A00007B3E37 /* Size2D+Float.swift in Resources */,
+				2EEBABBE1C174A00007B3E37 /* Size2D+float2.swift in Resources */,
+				2EEBABBF1C174A00007B3E37 /* Size2D+Int.swift in Resources */,
+				2EEBABC01C174A00007B3E37 /* Size2D+Size2D.swift in Resources */,
+				2EEBABC11C174A00007B3E37 /* Size2D.swift in Resources */,
+				2EEBABC21C174A00007B3E37 /* Vector2D+CGPoint.swift in Resources */,
+				2EEBABC31C174A00007B3E37 /* Vector2D+CGVector.swift in Resources */,
+				2EEBABC41C174A00007B3E37 /* Vector2D+Double.swift in Resources */,
+				2EEBABC51C174A00007B3E37 /* Vector2D+Float.swift in Resources */,
+				2EEBABC61C174A00007B3E37 /* Vector2D+float2.swift in Resources */,
+				2EEBABC71C174A00007B3E37 /* Vector2D+Int.swift in Resources */,
+				2EEBABC81C174A00007B3E37 /* Vector2D+Vector2D.swift in Resources */,
+				2EEBABC91C174A00007B3E37 /* Vector2D.swift in Resources */,
+				2EEBABCA1C174A00007B3E37 /* Core.swift in Resources */,
+				2EEBABCB1C174A00007B3E37 /* Renderer.swift in Resources */,
+				2EEBABCC1C174A00007B3E37 /* Shader.swift in Resources */,
+				2EEBABCD1C174A00007B3E37 /* FluidMesh.swift in Resources */,
+				2EEBABCE1C174A00007B3E37 /* Grid.swift in Resources */,
+				2EEBABCF1C174A00007B3E37 /* Mesh.swift in Resources */,
+				2EEBABD01C174A00007B3E37 /* TerrainMesh.swift in Resources */,
+				2EEBABD11C174A00007B3E37 /* BuffersProtocols.swift in Resources */,
+				2EEBABD21C174A00007B3E37 /* ComponentProtocols.swift in Resources */,
+				2EEBABD31C174A00007B3E37 /* OtherAbstract.swift in Resources */,
+				2EEBABD41C174A00007B3E37 /* DataBuffer.swift in Resources */,
+				2EEBABD51C174A00007B3E37 /* IndexBuffer.swift in Resources */,
+				2EEBABD61C174A00007B3E37 /* TextureBuffer.swift in Resources */,
+				2EEBABD71C174A00007B3E37 /* BasicShader.metal in Resources */,
+				2EEBABD81C174A00007B3E37 /* FluidShader.metal in Resources */,
+				2EEBABD91C174A00007B3E37 /* WhiteParticleShader.metal in Resources */,
+				2EEBABDA1C174A00007B3E37 /* WhiteShader.metal in Resources */,
+				2EEBABDB1C174A00007B3E37 /* TextureParticleShader.metal in Resources */,
+				2EEBABA71C1749B5007B3E37 /* GameComponent.swift in Resources */,
 				2E2DFC191C04F3FF000AC3F4 /* ellipse.png in Resources */,
 				2EC3872C1BFFE87D00720FD6 /* white_pixel.png in Resources */,
 				2EC3872B1BFFE87D00720FD6 /* black_pixel.png in Resources */,
@@ -1167,7 +1264,6 @@
 			);
 			name = "Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1219,7 +1315,7 @@
 				2EC386BD1BFFE87D00720FD6 /* b2RevoluteJoint.cpp in Sources */,
 				2EC3870F1BFFE87D00720FD6 /* Body.mm in Sources */,
 				2EC387051BFFE87D00720FD6 /* IndexBuffer.swift in Sources */,
-				2EC386FA1BFFE87D00720FD6 /* Material.swift in Sources */,
+				2EC386FA1BFFE87D00720FD6 /* Shader.swift in Sources */,
 				2EC386D71BFFE87D00720FD6 /* Animator.swift in Sources */,
 				2EC3862C1BFFE87D00720FD6 /* b2ChainShape.cpp in Sources */,
 				2EC387011BFFE87D00720FD6 /* ComponentProtocols.swift in Sources */,
@@ -1277,7 +1373,6 @@
 				2EC386471BFFE87D00720FD6 /* b2Timer.cpp in Sources */,
 				2EC386DD1BFFE87D00720FD6 /* Descriptor.swift in Sources */,
 				2E2DFC171C04F1DE000AC3F4 /* TextureParticleShader.metal in Sources */,
-				2EC386F91BFFE87D00720FD6 /* ShaderManager.swift in Sources */,
 				2EC3872A1BFFE87D00720FD6 /* World.mm in Sources */,
 				2EC386EA1BFFE87D00720FD6 /* Size2D+float2.swift in Sources */,
 				2EC386A71BFFE87D00720FD6 /* b2EdgeAndPolygonContact.cpp in Sources */,
@@ -1292,7 +1387,6 @@
 				2EC386EE1BFFE87D00720FD6 /* Vector2D+CGPoint.swift in Sources */,
 				2EC386221BFFE87D00720FD6 /* b2CollideEdge.cpp in Sources */,
 				2EC386F11BFFE87D00720FD6 /* Vector2D+Float.swift in Sources */,
-				2EC387031BFFE87D00720FD6 /* BaseShader.swift in Sources */,
 				2EC387001BFFE87D00720FD6 /* BuffersProtocols.swift in Sources */,
 				2EC386DF1BFFE87D00720FD6 /* ExplosionPolygon.swift in Sources */,
 				2EC386991BFFE87D00720FD6 /* b2WorldCallbacks.cpp in Sources */,
@@ -1301,7 +1395,6 @@
 				2EC386FD1BFFE87D00720FD6 /* Grid.swift in Sources */,
 				2EC3870C1BFFE87D00720FD6 /* MaskTexture.mm in Sources */,
 				2EC386D91BFFE87D00720FD6 /* EffectCanvasComponent.swift in Sources */,
-				2EC386FB1BFFE87D00720FD6 /* MaterialManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1345,6 +1438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1387,6 +1481,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;

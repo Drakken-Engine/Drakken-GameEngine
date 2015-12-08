@@ -7,25 +7,26 @@ provides-member:
 - ["C7Drakken9FluidMesh", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Fluid"
-- "World"
-- !private "UnsafeMutablePointer"
-- !private "Int"
-- "Component"
-- !private "newScale"
-- !private "Texture"
-- !private "*"
-- "String"
+- "UnsafeMutablePointer"
 - !private "Core"
+- "Void"
+- !private "newScale"
+- "Renderer"
+- "Component"
 - !private "sizeof"
-- "Float"
-- "Mesh"
-- "Transform"
-- "FluidMesh"
+- "Fluid"
+- !private "Int"
 - !private "StringLiteralType"
+- "Transform"
+- "World"
+- !private "*"
 - !private ">"
 - !private "MTLResourceOptions"
-- "Renderer"
+- !private "Texture"
+- "Mesh"
+- "Float"
+- "String"
+- "FluidMesh"
 depends-member:
 - !private ["PSs9AnyObject", "Core"]
 - !private ["PSs9AnyObject", "Float"]
@@ -36,6 +37,7 @@ depends-member:
 - !private ["PSs9AnyObject", "UnsafeMutablePointer"]
 - ["PSs9AnyObject", "_component"]
 - ["PSs9AnyObject", "_fluid"]
+- !private ["PSs9AnyObject", "_shader"]
 - !private ["PSs9AnyObject", "device"]
 - ["PSs9AnyObject", "draw"]
 - !private ["PSs9AnyObject", "drawMode"]
@@ -45,11 +47,12 @@ depends-member:
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "modelMatrix"]
 - !private ["PSs9AnyObject", "newScale"]
-- !private ["PSs9AnyObject", "particlesPositions"]
-- !private ["PSs9AnyObject", "pointSize"]
+- ["PSs9AnyObject", "particlesPosition"]
+- ["PSs9AnyObject", "pointSize"]
 - ["PSs9AnyObject", "prepareToDraw"]
+- !private ["PSs9AnyObject", "setTexture"]
+- !private ["PSs9AnyObject", "setVertexData"]
 - !private ["PSs9AnyObject", "sizeof"]
-- !private ["PSs9AnyObject", "texture1"]
 - ["PSs9AnyObject", "updatePositionBuffer"]
 - !private ["PSs9AnyObject", "vertexCount"]
 - ["PSs9AnyObject", ""]
@@ -64,6 +67,8 @@ depends-member:
 - !private ["PSs11CVarArgType", "getParticleCount"]
 - !private ["PSs11CVarArgType", "getPositionBuffer"]
 - !private ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "setTexture"]
+- !private ["PSs11CVarArgType", "setVertexData"]
 - !private ["PSs10Comparable", "init"]
 - !private ["C7Drakken4Core", "device"]
 - !private ["PSs28CustomDebugStringConvertible", "init"]
@@ -72,6 +77,8 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "getParticleCount"]
 - !private ["PSs23CustomStringConvertible", "getPositionBuffer"]
 - !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "setTexture"]
+- !private ["PSs23CustomStringConvertible", "setVertexData"]
 - !private ["PSs9Equatable", "CPUCacheModeDefaultCache"]
 - !private ["PSs9Equatable", "Point"]
 - !private ["PSs9Equatable", "_getBuiltinLogicValue"]
@@ -79,6 +86,8 @@ depends-member:
 - !private ["PSs9Equatable", "getParticleCount"]
 - !private ["PSs9Equatable", "getPositionBuffer"]
 - !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "setTexture"]
+- !private ["PSs9Equatable", "setVertexData"]
 - !private ["CSo5Fluid", "getParticleCount"]
 - !private ["CSo5Fluid", "getPositionBuffer"]
 - !private ["CSo5Fluid", "init"]
@@ -92,10 +101,12 @@ depends-member:
 - ["C7Drakken9FluidMesh", "String"]
 - !private ["C7Drakken9FluidMesh", "Texture"]
 - ["C7Drakken9FluidMesh", "Transform"]
-- !private ["C7Drakken9FluidMesh", "UnsafeMutablePointer"]
+- ["C7Drakken9FluidMesh", "UnsafeMutablePointer"]
+- ["C7Drakken9FluidMesh", "Void"]
 - ["C7Drakken9FluidMesh", "World"]
 - !private ["C7Drakken9FluidMesh", "_component"]
 - !private ["C7Drakken9FluidMesh", "_fluid"]
+- !private ["C7Drakken9FluidMesh", "_shader"]
 - ["C7Drakken9FluidMesh", "deinit"]
 - ["C7Drakken9FluidMesh", "draw"]
 - !private ["C7Drakken9FluidMesh", "drawMode"]
@@ -103,11 +114,10 @@ depends-member:
 - ["C7Drakken9FluidMesh", "init"]
 - !private ["C7Drakken9FluidMesh", "modelMatrix"]
 - !private ["C7Drakken9FluidMesh", "newScale"]
-- !private ["C7Drakken9FluidMesh", "particlesPositions"]
+- !private ["C7Drakken9FluidMesh", "particlesPosition"]
 - !private ["C7Drakken9FluidMesh", "pointSize"]
 - ["C7Drakken9FluidMesh", "prepareToDraw"]
 - !private ["C7Drakken9FluidMesh", "sizeof"]
-- !private ["C7Drakken9FluidMesh", "texture1"]
 - ["C7Drakken9FluidMesh", "updatePositionBuffer"]
 - !private ["C7Drakken9FluidMesh", "vertexCount"]
 - !private ["PSs16ForwardIndexType", "init"]
@@ -117,6 +127,8 @@ depends-member:
 - !private ["PSs8Hashable", "getParticleCount"]
 - !private ["PSs8Hashable", "getPositionBuffer"]
 - !private ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "setTexture"]
+- !private ["PSs8Hashable", "setVertexData"]
 - !private ["Si", "init"]
 - !private ["PSs21IntegerArithmeticType", "init"]
 - !private ["PSs25IntegerLiteralConvertible", "init"]
@@ -134,21 +146,22 @@ depends-member:
 - ["C7Drakken4Mesh", "String"]
 - !private ["C7Drakken4Mesh", "Texture"]
 - ["C7Drakken4Mesh", "Transform"]
-- !private ["C7Drakken4Mesh", "UnsafeMutablePointer"]
+- ["C7Drakken4Mesh", "UnsafeMutablePointer"]
+- ["C7Drakken4Mesh", "Void"]
 - ["C7Drakken4Mesh", "World"]
 - ["C7Drakken4Mesh", "_component"]
 - ["C7Drakken4Mesh", "_fluid"]
+- !private ["C7Drakken4Mesh", "_shader"]
 - ["C7Drakken4Mesh", "draw"]
 - !private ["C7Drakken4Mesh", "drawMode"]
 - ["C7Drakken4Mesh", "getFluid"]
 - ["C7Drakken4Mesh", "init"]
 - !private ["C7Drakken4Mesh", "modelMatrix"]
 - !private ["C7Drakken4Mesh", "newScale"]
-- !private ["C7Drakken4Mesh", "particlesPositions"]
-- !private ["C7Drakken4Mesh", "pointSize"]
+- ["C7Drakken4Mesh", "particlesPosition"]
+- ["C7Drakken4Mesh", "pointSize"]
 - ["C7Drakken4Mesh", "prepareToDraw"]
 - !private ["C7Drakken4Mesh", "sizeof"]
-- !private ["C7Drakken4Mesh", "texture1"]
 - ["C7Drakken4Mesh", "updatePositionBuffer"]
 - !private ["C7Drakken4Mesh", "vertexCount"]
 - ["C7Drakken4Mesh", ""]
@@ -157,86 +170,23 @@ depends-member:
 - !private ["CSo8NSObject", "getParticleCount"]
 - !private ["CSo8NSObject", "getPositionBuffer"]
 - !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "setTexture"]
+- !private ["CSo8NSObject", "setVertexData"]
 - !private ["PSo16NSObjectProtocol", "device"]
 - !private ["PSo16NSObjectProtocol", "getParticleCount"]
 - !private ["PSo16NSObjectProtocol", "getPositionBuffer"]
 - !private ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "newBufferWithBytes"]
+- !private ["PSo16NSObjectProtocol", "setTexture"]
+- !private ["PSo16NSObjectProtocol", "setVertexData"]
 - !private ["PSs21NilLiteralConvertible", "init"]
 - !private ["PSs13OptionSetType", "CPUCacheModeDefaultCache"]
 - !private ["PSs21RandomAccessIndexType", "init"]
 - !private ["PSs16RawRepresentable", "CPUCacheModeDefaultCache"]
 - !private ["PSs16RawRepresentable", "Point"]
 - !private ["PSs14SetAlgebraType", "CPUCacheModeDefaultCache"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "Core"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "Float"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "Fluid"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "Int"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "MTLResourceOptions"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "Texture"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "UnsafeMutablePointer"]
-- ["P7Drakken24ShaderFragmentBufferData", "_component"]
-- ["P7Drakken24ShaderFragmentBufferData", "_fluid"]
-- ["P7Drakken24ShaderFragmentBufferData", "draw"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "drawMode"]
-- ["P7Drakken24ShaderFragmentBufferData", "getFluid"]
-- ["P7Drakken24ShaderFragmentBufferData", "init"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "modelMatrix"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "newScale"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "particlesPositions"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "pointSize"]
-- ["P7Drakken24ShaderFragmentBufferData", "prepareToDraw"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "sizeof"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "texture1"]
-- ["P7Drakken24ShaderFragmentBufferData", "updatePositionBuffer"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "vertexCount"]
-- ["P7Drakken24ShaderFragmentBufferData", ""]
-- !private ["P7Drakken25ShaderFragmentTextureData", "Core"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "Float"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "Fluid"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "Int"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "MTLResourceOptions"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "Texture"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "UnsafeMutablePointer"]
-- ["P7Drakken25ShaderFragmentTextureData", "_component"]
-- ["P7Drakken25ShaderFragmentTextureData", "_fluid"]
-- ["P7Drakken25ShaderFragmentTextureData", "draw"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "drawMode"]
-- ["P7Drakken25ShaderFragmentTextureData", "getFluid"]
-- ["P7Drakken25ShaderFragmentTextureData", "init"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "modelMatrix"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "newScale"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "particlesPositions"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "pointSize"]
-- ["P7Drakken25ShaderFragmentTextureData", "prepareToDraw"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "sizeof"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "texture1"]
-- ["P7Drakken25ShaderFragmentTextureData", "updatePositionBuffer"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "vertexCount"]
-- ["P7Drakken25ShaderFragmentTextureData", ""]
-- !private ["P7Drakken16ShaderVertexData", "Core"]
-- !private ["P7Drakken16ShaderVertexData", "Float"]
-- !private ["P7Drakken16ShaderVertexData", "Fluid"]
-- !private ["P7Drakken16ShaderVertexData", "Int"]
-- !private ["P7Drakken16ShaderVertexData", "MTLResourceOptions"]
-- !private ["P7Drakken16ShaderVertexData", "Texture"]
-- !private ["P7Drakken16ShaderVertexData", "UnsafeMutablePointer"]
-- ["P7Drakken16ShaderVertexData", "_component"]
-- ["P7Drakken16ShaderVertexData", "_fluid"]
-- ["P7Drakken16ShaderVertexData", "draw"]
-- !private ["P7Drakken16ShaderVertexData", "drawMode"]
-- ["P7Drakken16ShaderVertexData", "getFluid"]
-- ["P7Drakken16ShaderVertexData", "init"]
-- !private ["P7Drakken16ShaderVertexData", "modelMatrix"]
-- !private ["P7Drakken16ShaderVertexData", "newScale"]
-- !private ["P7Drakken16ShaderVertexData", "particlesPositions"]
-- !private ["P7Drakken16ShaderVertexData", "pointSize"]
-- ["P7Drakken16ShaderVertexData", "prepareToDraw"]
-- !private ["P7Drakken16ShaderVertexData", "sizeof"]
-- !private ["P7Drakken16ShaderVertexData", "texture1"]
-- ["P7Drakken16ShaderVertexData", "updatePositionBuffer"]
-- !private ["P7Drakken16ShaderVertexData", "vertexCount"]
-- ["P7Drakken16ShaderVertexData", ""]
+- !private ["C7Drakken6Shader", "setTexture"]
+- !private ["C7Drakken6Shader", "setVertexData"]
 - !private ["PSs17SignedIntegerType", "init"]
 - !private ["PSs16SignedNumberType", "init"]
 - !private ["VSs12StaticString", "deinit"]
@@ -291,9 +241,7 @@ depends-nominal:
 - !private "PSs21RandomAccessIndexType"
 - !private "PSs16RawRepresentable"
 - !private "PSs14SetAlgebraType"
-- "P7Drakken24ShaderFragmentBufferData"
-- "P7Drakken25ShaderFragmentTextureData"
-- "P7Drakken16ShaderVertexData"
+- !private "C7Drakken6Shader"
 - !private "PSs17SignedIntegerType"
 - !private "PSs16SignedNumberType"
 - !private "VSs12StaticString"
@@ -340,4 +288,4 @@ depends-external:
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
-interface-hash: "af8f1721d6214e2d33a7ef4dc78fa24b"
+interface-hash: "310b57a5167d4e0cbcb8d2d79e2d7013"

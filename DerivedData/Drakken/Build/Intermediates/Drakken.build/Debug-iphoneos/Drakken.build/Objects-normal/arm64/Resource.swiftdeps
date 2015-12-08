@@ -8,22 +8,22 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "NSBundle"
-- !private "MTLPixelFormat"
-- !private "BooleanLiteralType"
-- !private "Core"
-- "MTLTexture"
-- !private "MTLTextureDescriptor"
 - !private "Int"
-- !private "*"
-- !private "UIImage"
-- !private "print"
-- "Resource"
-- !private "=="
+- "String"
 - !private "MTKTextureLoader"
 - "CGSize"
+- !private "print"
+- !private "BooleanLiteralType"
+- !private "MTLTextureDescriptor"
+- "Resource"
+- !private "UIImage"
+- !private "Core"
+- !private "=="
+- "MTLTexture"
 - !private "!="
+- !private "MTLPixelFormat"
 - !private "StringLiteralType"
-- "String"
+- !private "*"
 depends-member:
 - !private ["PSs9AnyObject", "CGImage"]
 - !private ["PSs9AnyObject", "Core"]

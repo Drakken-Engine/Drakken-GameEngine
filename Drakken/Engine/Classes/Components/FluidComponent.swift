@@ -69,6 +69,10 @@ import simd
 	
 	internal func updateWorldQuad(var worldQuad: [Int: [Int: [Component]]]) {
 	}
+	
+	func destroy() {
+		//Do not have any child
+	}
 
 	internal func update(deltaTime: CFTimeInterval) {
 		for fluid: (String, FluidMesh) in _fluids {

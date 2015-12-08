@@ -1,0 +1,443 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Mesh"
+provides-nominal:
+- "C7Drakken4Mesh"
+provides-member:
+- ["C7Drakken4Mesh", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "float4x4"
+- "Transform"
+- "Mesh"
+- !private ">"
+- !private "newScale"
+- !private "!="
+- !private "Core"
+- "ModelUniforms"
+- !private "!"
+- !private "sizeof"
+- !private "*"
+- "Renderer"
+- "UInt32"
+- "MTLPrimitiveType"
+- "String"
+- "Int"
+- !private "StringLiteralType"
+- !private "+"
+- !private "IndexBuffer"
+- "Shader"
+depends-member:
+- !private ["PSs9AnyObject", "Core"]
+- !private ["PSs9AnyObject", "IndexBuffer"]
+- !private ["PSs9AnyObject", "ModelUniforms"]
+- !private ["PSs9AnyObject", "Shader"]
+- !private ["PSs9AnyObject", "UInt32"]
+- !private ["PSs9AnyObject", "_modelUniform"]
+- !private ["PSs9AnyObject", "_shader"]
+- !private ["PSs9AnyObject", "device"]
+- !private ["PSs9AnyObject", "draw"]
+- !private ["PSs9AnyObject", "drawMode"]
+- !private ["PSs9AnyObject", "float4x4"]
+- !private ["PSs9AnyObject", "getMeshScale"]
+- !private ["PSs9AnyObject", "getModelMatrix"]
+- !private ["PSs9AnyObject", "indexBuffer"]
+- !private ["PSs9AnyObject", "indices"]
+- !private ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "lastRenderPipelineState"]
+- !private ["PSs9AnyObject", "materialPropertiesUniformBuffer"]
+- !private ["PSs9AnyObject", "modelMatrix"]
+- !private ["PSs9AnyObject", "newScale"]
+- !private ["PSs9AnyObject", "prepareToDraw"]
+- !private ["PSs9AnyObject", "renderCommandEncoder"]
+- !private ["PSs9AnyObject", "renderPipelineState"]
+- !private ["PSs9AnyObject", "sizeof"]
+- !private ["PSs9AnyObject", "updateModelUniform"]
+- !private ["PSs9AnyObject", "vertexCount"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "CPUCacheModeDefaultCache"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "count"]
+- !private ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "x"]
+- !private ["PSs23ArrayLiteralConvertible", "y"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "device"]
+- !private ["PSs11CVarArgType", "draw"]
+- !private ["PSs11CVarArgType", "drawMode"]
+- !private ["PSs11CVarArgType", "getMeshScale"]
+- !private ["PSs11CVarArgType", "getModelMatrix"]
+- !private ["PSs11CVarArgType", "indexBuffer"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "lastRenderPipelineState"]
+- !private ["PSs11CVarArgType", "materialPropertiesUniformBuffer"]
+- !private ["PSs11CVarArgType", "prepareToDraw"]
+- !private ["PSs11CVarArgType", "renderCommandEncoder"]
+- !private ["PSs11CVarArgType", "renderPipelineState"]
+- !private ["PSs11CVarArgType", "vertexCount"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "count"]
+- !private ["PSs14CollectionType", "init"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["C7Drakken4Core", "device"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "count"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "x"]
+- !private ["PSs28CustomDebugStringConvertible", "y"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "count"]
+- !private ["PSs23CustomStringConvertible", "device"]
+- !private ["PSs23CustomStringConvertible", "draw"]
+- !private ["PSs23CustomStringConvertible", "drawMode"]
+- !private ["PSs23CustomStringConvertible", "getMeshScale"]
+- !private ["PSs23CustomStringConvertible", "getModelMatrix"]
+- !private ["PSs23CustomStringConvertible", "indexBuffer"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "lastRenderPipelineState"]
+- !private ["PSs23CustomStringConvertible", "materialPropertiesUniformBuffer"]
+- !private ["PSs23CustomStringConvertible", "prepareToDraw"]
+- !private ["PSs23CustomStringConvertible", "renderCommandEncoder"]
+- !private ["PSs23CustomStringConvertible", "renderPipelineState"]
+- !private ["PSs23CustomStringConvertible", "vertexCount"]
+- !private ["PSs9Equatable", "CPUCacheModeDefaultCache"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "Triangle"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "device"]
+- !private ["PSs9Equatable", "draw"]
+- !private ["PSs9Equatable", "drawMode"]
+- !private ["PSs9Equatable", "getMeshScale"]
+- !private ["PSs9Equatable", "getModelMatrix"]
+- !private ["PSs9Equatable", "indexBuffer"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "lastRenderPipelineState"]
+- !private ["PSs9Equatable", "materialPropertiesUniformBuffer"]
+- !private ["PSs9Equatable", "prepareToDraw"]
+- !private ["PSs9Equatable", "renderCommandEncoder"]
+- !private ["PSs9Equatable", "renderPipelineState"]
+- !private ["PSs9Equatable", "vertexCount"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "Triangle"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "device"]
+- !private ["PSs8Hashable", "draw"]
+- !private ["PSs8Hashable", "drawMode"]
+- !private ["PSs8Hashable", "getMeshScale"]
+- !private ["PSs8Hashable", "getModelMatrix"]
+- !private ["PSs8Hashable", "indexBuffer"]
+- !private ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "lastRenderPipelineState"]
+- !private ["PSs8Hashable", "materialPropertiesUniformBuffer"]
+- !private ["PSs8Hashable", "prepareToDraw"]
+- !private ["PSs8Hashable", "renderCommandEncoder"]
+- !private ["PSs8Hashable", "renderPipelineState"]
+- !private ["PSs8Hashable", "vertexCount"]
+- !private ["SQ", "deinit"]
+- !private ["C7Drakken11IndexBuffer", "init"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "count"]
+- !private ["PSs9Indexable", "init"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSo17MTLCommandEncoder", "setFragmentBuffer"]
+- !private ["PSo17MTLCommandEncoder", "setRenderPipelineState"]
+- !private ["PSo17MTLCommandEncoder", "setVertexBuffer"]
+- !private ["PSo9MTLDevice", "newBufferWithBytes"]
+- !private ["OSC16MTLPrimitiveType", "Triangle"]
+- !private ["PSo23MTLRenderCommandEncoder", "setFragmentBuffer"]
+- !private ["PSo23MTLRenderCommandEncoder", "setRenderPipelineState"]
+- !private ["PSo23MTLRenderCommandEncoder", "setVertexBuffer"]
+- !private ["PSo22MTLRenderPipelineState", "deinit"]
+- !private ["PSo22MTLRenderPipelineState", "isEqual"]
+- !private ["VSC18MTLResourceOptions", "CPUCacheModeDefaultCache"]
+- !private ["C7Drakken4Mesh", "Core"]
+- !private ["C7Drakken4Mesh", "IndexBuffer"]
+- ["C7Drakken4Mesh", "Int"]
+- ["C7Drakken4Mesh", "MTLPrimitiveType"]
+- ["C7Drakken4Mesh", "ModelUniforms"]
+- ["C7Drakken4Mesh", "Renderer"]
+- ["C7Drakken4Mesh", "Shader"]
+- ["C7Drakken4Mesh", "String"]
+- ["C7Drakken4Mesh", "Transform"]
+- ["C7Drakken4Mesh", "UInt32"]
+- !private ["C7Drakken4Mesh", "_modelUniform"]
+- ["C7Drakken4Mesh", "_shader"]
+- ["C7Drakken4Mesh", "deinit"]
+- ["C7Drakken4Mesh", "draw"]
+- ["C7Drakken4Mesh", "drawMode"]
+- ["C7Drakken4Mesh", "float4x4"]
+- ["C7Drakken4Mesh", "indices"]
+- ["C7Drakken4Mesh", "init"]
+- ["C7Drakken4Mesh", "modelMatrix"]
+- !private ["C7Drakken4Mesh", "newScale"]
+- ["C7Drakken4Mesh", "prepareToDraw"]
+- ["C7Drakken4Mesh", "setMaterial"]
+- !private ["C7Drakken4Mesh", "sizeof"]
+- ["C7Drakken4Mesh", "updateModelUniform"]
+- ["C7Drakken4Mesh", "vertexCount"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["V7Drakken13ModelUniforms", "init"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "count"]
+- !private ["PSs21MutableCollectionType", "init"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "count"]
+- !private ["PSs16MutableIndexable", "init"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "count"]
+- !private ["PSs16MutableSliceable", "init"]
+- !private ["CSo8NSObject", "device"]
+- !private ["CSo8NSObject", "draw"]
+- !private ["CSo8NSObject", "drawMode"]
+- !private ["CSo8NSObject", "getMeshScale"]
+- !private ["CSo8NSObject", "getModelMatrix"]
+- !private ["CSo8NSObject", "indexBuffer"]
+- !private ["CSo8NSObject", "lastRenderPipelineState"]
+- !private ["CSo8NSObject", "materialPropertiesUniformBuffer"]
+- !private ["CSo8NSObject", "prepareToDraw"]
+- !private ["CSo8NSObject", "renderCommandEncoder"]
+- !private ["CSo8NSObject", "renderPipelineState"]
+- !private ["CSo8NSObject", "vertexCount"]
+- !private ["PSo16NSObjectProtocol", "device"]
+- !private ["PSo16NSObjectProtocol", "draw"]
+- !private ["PSo16NSObjectProtocol", "drawMode"]
+- !private ["PSo16NSObjectProtocol", "getMeshScale"]
+- !private ["PSo16NSObjectProtocol", "getModelMatrix"]
+- !private ["PSo16NSObjectProtocol", "indexBuffer"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEqual"]
+- !private ["PSo16NSObjectProtocol", "lastRenderPipelineState"]
+- !private ["PSo16NSObjectProtocol", "materialPropertiesUniformBuffer"]
+- !private ["PSo16NSObjectProtocol", "newBufferWithBytes"]
+- !private ["PSo16NSObjectProtocol", "prepareToDraw"]
+- !private ["PSo16NSObjectProtocol", "renderCommandEncoder"]
+- !private ["PSo16NSObjectProtocol", "renderPipelineState"]
+- !private ["PSo16NSObjectProtocol", "setFragmentBuffer"]
+- !private ["PSo16NSObjectProtocol", "setRenderPipelineState"]
+- !private ["PSo16NSObjectProtocol", "setVertexBuffer"]
+- !private ["PSo16NSObjectProtocol", "vertexCount"]
+- !private ["PSs13OptionSetType", "CPUCacheModeDefaultCache"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "count"]
+- !private ["PSs30RangeReplaceableCollectionType", "init"]
+- !private ["PSs16RawRepresentable", "CPUCacheModeDefaultCache"]
+- !private ["PSs16RawRepresentable", "Triangle"]
+- !private ["C7Drakken8Renderer", "lastRenderPipelineState"]
+- !private ["C7Drakken8Renderer", "renderCommandEncoder"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "count"]
+- !private ["PSs12SequenceType", "init"]
+- !private ["PSs14SetAlgebraType", "CPUCacheModeDefaultCache"]
+- !private ["C7Drakken6Shader", "draw"]
+- !private ["C7Drakken6Shader", "drawMode"]
+- !private ["C7Drakken6Shader", "indexBuffer"]
+- !private ["C7Drakken6Shader", "init"]
+- !private ["C7Drakken6Shader", "materialPropertiesUniformBuffer"]
+- !private ["C7Drakken6Shader", "prepareToDraw"]
+- !private ["C7Drakken6Shader", "renderPipelineState"]
+- !private ["C7Drakken6Shader", "vertexCount"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["C7Drakken9Transform", "deinit"]
+- !private ["C7Drakken9Transform", "getMeshScale"]
+- !private ["C7Drakken9Transform", "getModelMatrix"]
+- !private ["P7Drakken13Transformable", "getMeshScale"]
+- !private ["P7Drakken13Transformable", "getModelMatrix"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "count"]
+- !private ["PSs10_ArrayType", "init"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "count"]
+- !private ["PSs24_DestructorSafeContainer", "init"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "count"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "count"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["V4simd6float2", "x"]
+- !private ["V4simd6float2", "y"]
+- !private ["V4simd8float4x4", "init"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "C7Drakken4Core"
+- !private "PSs28CustomDebugStringConvertible"
+- !private "PSs23CustomStringConvertible"
+- !private "PSs9Equatable"
+- !private "PSs16ForwardIndexType"
+- !private "PSs8Hashable"
+- !private "SQ"
+- !private "C7Drakken11IndexBuffer"
+- !private "PSs9Indexable"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSo17MTLCommandEncoder"
+- !private "PSo9MTLDevice"
+- !private "OSC16MTLPrimitiveType"
+- !private "PSo23MTLRenderCommandEncoder"
+- !private "PSo22MTLRenderPipelineState"
+- !private "VSC18MTLResourceOptions"
+- "C7Drakken4Mesh"
+- !private "PSs14MirrorPathType"
+- !private "V7Drakken13ModelUniforms"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSs13OptionSetType"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs16RawRepresentable"
+- !private "C7Drakken8Renderer"
+- !private "PSs12SequenceType"
+- !private "PSs14SetAlgebraType"
+- !private "C7Drakken6Shader"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- !private "C7Drakken9Transform"
+- !private "P7Drakken13Transformable"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+- !private "V4simd6float2"
+- !private "V4simd8float4x4"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/GlobalHeader.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Engine/Textures Generator/MaskTexture.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Shapes/Shape.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/FluidType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/Fluid.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/RigidbodyProtocol.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Bodies/BodyType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/Rigidbody.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/World.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Header.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Drakken.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/RSClipperWrapper.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-Swift.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
+interface-hash: "60217640aa9759e1edc6e68b49e28906"

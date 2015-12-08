@@ -15,20 +15,20 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "Vector2D"
-- "=="
-- "+"
-- "!="
-- !private "!"
-- "Bool"
 - "/"
-- "-"
-- "+="
-- "*"
-- "/="
 - "-="
-- !private "&&"
+- !private "!"
+- "*"
+- "+"
+- "+="
 - "*="
+- !private "&&"
+- "!="
+- "Bool"
+- "-"
+- "Vector2D"
+- "/="
+- "=="
 depends-member:
 - !private ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "x"]

@@ -6,17 +6,17 @@ provides-nominal:
 provides-member:
 - ["C7Drakken22OtherComponentAbstract", ""]
 provides-dynamic-lookup:
-- "descriptor"
-- "transform"
-- "component"
 - "rigidbody"
+- "descriptor"
+- "component"
+- "transform"
 depends-top-level:
-- "Descriptor"
+- "NSObject"
 - "OtherComponent"
+- "Descriptor"
+- "Component"
 - "Transformable"
 - "OtherComponentAbstract"
-- "Component"
-- "NSObject"
 - "RigidbodyProtocol"
 depends-member:
 - !private ["PSs9AnyObject", "Descriptor"]

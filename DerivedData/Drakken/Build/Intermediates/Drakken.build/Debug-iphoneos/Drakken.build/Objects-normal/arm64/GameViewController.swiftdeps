@@ -9,32 +9,34 @@ provides-member:
 - ["C7Drakken8GameView", ""]
 - ["C7Drakken18GameViewController", ""]
 provides-dynamic-lookup:
-- "scene"
-- "scene"
-- "metalLayer"
-- "beforeUpdate"
-- "afterUpdate"
 - "didReceiveMemoryWarning"
+- "metalLayer"
+- "scene"
+- "scene"
 - "drawRect"
-- "prefersStatusBarHidden"
 - "viewDidLoad"
+- "afterUpdate"
+- "prefersStatusBarHidden"
+- "beforeUpdate"
 depends-top-level:
-- "MTLDevice"
-- !private "BooleanLiteralType"
-- "CGRect"
-- "GameView"
-- "CAMetalLayer"
-- !private "Float"
-- "Bool"
-- "GameViewController"
+- "MTKView"
+- !private "Core"
+- "Scene"
 - !private "StringLiteralType"
+- "GameView"
+- !private "UIScreen"
 - !private "MTLClearColorMake"
 - "NSCoder"
+- !private "BooleanLiteralType"
 - "UIViewController"
-- "Scene"
-- "MTKView"
-- !private "UIScreen"
-- !private "Core"
+- "String"
+- "CAMetalLayer"
+- "Bool"
+- "NSBundle"
+- !private "Float"
+- "MTLDevice"
+- "CGRect"
+- "GameViewController"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "Core"]
@@ -58,6 +60,7 @@ depends-member:
 - !private ["PSs9AnyObject", "layer"]
 - !private ["PSs9AnyObject", "mainScreen"]
 - ["PSs9AnyObject", "metalLayer"]
+- !private ["PSs9AnyObject", "preferredFramesPerSecond"]
 - ["PSs9AnyObject", "prefersStatusBarHidden"]
 - !private ["PSs9AnyObject", "scale"]
 - ["PSs9AnyObject", "scene"]
@@ -94,6 +97,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "layer"]
 - !private ["PSs11CVarArgType", "mainScreen"]
 - ["PSs11CVarArgType", "metalLayer"]
+- !private ["PSs11CVarArgType", "preferredFramesPerSecond"]
 - ["PSs11CVarArgType", "prefersStatusBarHidden"]
 - !private ["PSs11CVarArgType", "scale"]
 - ["PSs11CVarArgType", "scene"]
@@ -128,6 +132,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "layer"]
 - !private ["PSs23CustomStringConvertible", "mainScreen"]
 - ["PSs23CustomStringConvertible", "metalLayer"]
+- !private ["PSs23CustomStringConvertible", "preferredFramesPerSecond"]
 - ["PSs23CustomStringConvertible", "prefersStatusBarHidden"]
 - !private ["PSs23CustomStringConvertible", "scale"]
 - ["PSs23CustomStringConvertible", "scene"]
@@ -159,6 +164,7 @@ depends-member:
 - !private ["PSs9Equatable", "layer"]
 - !private ["PSs9Equatable", "mainScreen"]
 - ["PSs9Equatable", "metalLayer"]
+- !private ["PSs9Equatable", "preferredFramesPerSecond"]
 - ["PSs9Equatable", "prefersStatusBarHidden"]
 - !private ["PSs9Equatable", "scale"]
 - ["PSs9Equatable", "scene"]
@@ -187,12 +193,16 @@ depends-member:
 - ["C7Drakken8GameView", "drawRect"]
 - ["C7Drakken8GameView", "init"]
 - !private ["C7Drakken8GameView", "layer"]
+- !private ["C7Drakken8GameView", "preferredFramesPerSecond"]
 - ["C7Drakken8GameView", "scene"]
 - ["C7Drakken18GameViewController", "Bool"]
 - ["C7Drakken18GameViewController", "CAMetalLayer"]
 - !private ["C7Drakken18GameViewController", "Core"]
 - ["C7Drakken18GameViewController", "GameView"]
+- ["C7Drakken18GameViewController", "NSBundle"]
+- ["C7Drakken18GameViewController", "NSCoder"]
 - ["C7Drakken18GameViewController", "Scene"]
+- ["C7Drakken18GameViewController", "String"]
 - !private ["C7Drakken18GameViewController", "_gameView"]
 - ["C7Drakken18GameViewController", "afterUpdate"]
 - ["C7Drakken18GameViewController", "beforeUpdate"]
@@ -226,6 +236,7 @@ depends-member:
 - !private ["PSs8Hashable", "layer"]
 - !private ["PSs8Hashable", "mainScreen"]
 - ["PSs8Hashable", "metalLayer"]
+- !private ["PSs8Hashable", "preferredFramesPerSecond"]
 - ["PSs8Hashable", "prefersStatusBarHidden"]
 - !private ["PSs8Hashable", "scale"]
 - ["PSs8Hashable", "scene"]
@@ -251,6 +262,7 @@ depends-member:
 - ["CSo7MTKView", "drawRect"]
 - ["CSo7MTKView", "init"]
 - !private ["CSo7MTKView", "layer"]
+- !private ["CSo7MTKView", "preferredFramesPerSecond"]
 - ["CSo7MTKView", "scene"]
 - ["CSo7MTKView", ""]
 - !private ["OSC14MTLPixelFormat", "BGRA8Unorm"]
@@ -272,6 +284,7 @@ depends-member:
 - ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "layer"]
 - ["PSo8NSCoding", "metalLayer"]
+- !private ["PSo8NSCoding", "preferredFramesPerSecond"]
 - ["PSo8NSCoding", "prefersStatusBarHidden"]
 - ["PSo8NSCoding", "scene"]
 - !private ["PSo8NSCoding", "view"]
@@ -300,8 +313,10 @@ depends-member:
 - ["CSo8NSObject", "GameViewController"]
 - !private ["CSo8NSObject", "MTLClearColorMake"]
 - ["CSo8NSObject", "MTLDevice"]
+- ["CSo8NSObject", "NSBundle"]
 - ["CSo8NSObject", "NSCoder"]
 - ["CSo8NSObject", "Scene"]
+- ["CSo8NSObject", "String"]
 - !private ["CSo8NSObject", "UIScreen"]
 - ["CSo8NSObject", "_gameView"]
 - !private ["CSo8NSObject", "addSublayer"]
@@ -318,6 +333,7 @@ depends-member:
 - !private ["CSo8NSObject", "layer"]
 - !private ["CSo8NSObject", "mainScreen"]
 - ["CSo8NSObject", "metalLayer"]
+- !private ["CSo8NSObject", "preferredFramesPerSecond"]
 - ["CSo8NSObject", "prefersStatusBarHidden"]
 - !private ["CSo8NSObject", "scale"]
 - ["CSo8NSObject", "scene"]
@@ -347,6 +363,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "layer"]
 - !private ["PSo16NSObjectProtocol", "mainScreen"]
 - ["PSo16NSObjectProtocol", "metalLayer"]
+- !private ["PSo16NSObjectProtocol", "preferredFramesPerSecond"]
 - ["PSo16NSObjectProtocol", "prefersStatusBarHidden"]
 - !private ["PSo16NSObjectProtocol", "scale"]
 - ["PSo16NSObjectProtocol", "scene"]
@@ -373,6 +390,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "frame"]
 - ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "layer"]
+- !private ["PSo29UIAccessibilityIdentification", "preferredFramesPerSecond"]
 - ["PSo29UIAccessibilityIdentification", "scene"]
 - ["PSo29UIAccessibilityIdentification", ""]
 - !private ["PSo12UIAppearance", "Core"]
@@ -386,6 +404,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "frame"]
 - ["PSo12UIAppearance", "init"]
 - !private ["PSo12UIAppearance", "layer"]
+- !private ["PSo12UIAppearance", "preferredFramesPerSecond"]
 - ["PSo12UIAppearance", "scene"]
 - ["PSo12UIAppearance", ""]
 - !private ["PSo21UIAppearanceContainer", "Core"]
@@ -405,6 +424,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "layer"]
 - ["PSo21UIAppearanceContainer", "metalLayer"]
+- !private ["PSo21UIAppearanceContainer", "preferredFramesPerSecond"]
 - ["PSo21UIAppearanceContainer", "prefersStatusBarHidden"]
 - ["PSo21UIAppearanceContainer", "scene"]
 - !private ["PSo21UIAppearanceContainer", "view"]
@@ -434,6 +454,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "frame"]
 - ["PSo17UICoordinateSpace", "init"]
 - !private ["PSo17UICoordinateSpace", "layer"]
+- !private ["PSo17UICoordinateSpace", "preferredFramesPerSecond"]
 - ["PSo17UICoordinateSpace", "scene"]
 - ["PSo17UICoordinateSpace", ""]
 - !private ["PSo13UIDynamicItem", "Core"]
@@ -447,6 +468,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "frame"]
 - ["PSo13UIDynamicItem", "init"]
 - !private ["PSo13UIDynamicItem", "layer"]
+- !private ["PSo13UIDynamicItem", "preferredFramesPerSecond"]
 - ["PSo13UIDynamicItem", "scene"]
 - ["PSo13UIDynamicItem", ""]
 - !private ["PSo18UIFocusEnvironment", "Core"]
@@ -466,6 +488,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "layer"]
 - ["PSo18UIFocusEnvironment", "metalLayer"]
+- !private ["PSo18UIFocusEnvironment", "preferredFramesPerSecond"]
 - ["PSo18UIFocusEnvironment", "prefersStatusBarHidden"]
 - ["PSo18UIFocusEnvironment", "scene"]
 - !private ["PSo18UIFocusEnvironment", "view"]
@@ -480,8 +503,10 @@ depends-member:
 - ["CSo11UIResponder", "GameViewController"]
 - !private ["CSo11UIResponder", "MTLClearColorMake"]
 - ["CSo11UIResponder", "MTLDevice"]
+- ["CSo11UIResponder", "NSBundle"]
 - ["CSo11UIResponder", "NSCoder"]
 - ["CSo11UIResponder", "Scene"]
+- ["CSo11UIResponder", "String"]
 - !private ["CSo11UIResponder", "UIScreen"]
 - ["CSo11UIResponder", "_gameView"]
 - ["CSo11UIResponder", "afterUpdate"]
@@ -494,6 +519,7 @@ depends-member:
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "layer"]
 - ["CSo11UIResponder", "metalLayer"]
+- !private ["CSo11UIResponder", "preferredFramesPerSecond"]
 - ["CSo11UIResponder", "prefersStatusBarHidden"]
 - ["CSo11UIResponder", "scene"]
 - !private ["CSo11UIResponder", "view"]
@@ -531,6 +557,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "layer"]
 - !private ["PSo18UITraitEnvironment", "mainScreen"]
 - ["PSo18UITraitEnvironment", "metalLayer"]
+- !private ["PSo18UITraitEnvironment", "preferredFramesPerSecond"]
 - ["PSo18UITraitEnvironment", "prefersStatusBarHidden"]
 - !private ["PSo18UITraitEnvironment", "scale"]
 - ["PSo18UITraitEnvironment", "scene"]
@@ -552,12 +579,16 @@ depends-member:
 - !private ["CSo6UIView", "frame"]
 - ["CSo6UIView", "init"]
 - !private ["CSo6UIView", "layer"]
+- !private ["CSo6UIView", "preferredFramesPerSecond"]
 - ["CSo6UIView", "scene"]
 - ["CSo16UIViewController", "Bool"]
 - ["CSo16UIViewController", "CAMetalLayer"]
 - !private ["CSo16UIViewController", "Core"]
 - ["CSo16UIViewController", "GameView"]
+- ["CSo16UIViewController", "NSBundle"]
+- ["CSo16UIViewController", "NSCoder"]
 - ["CSo16UIViewController", "Scene"]
+- ["CSo16UIViewController", "String"]
 - ["CSo16UIViewController", "_gameView"]
 - ["CSo16UIViewController", "afterUpdate"]
 - ["CSo16UIViewController", "beforeUpdate"]
@@ -585,6 +616,7 @@ depends-member:
 - !private ["PSs12_Reflectable", "frame"]
 - ["PSs12_Reflectable", "init"]
 - !private ["PSs12_Reflectable", "layer"]
+- !private ["PSs12_Reflectable", "preferredFramesPerSecond"]
 - ["PSs12_Reflectable", "scene"]
 - !private ["PSs12_Reflectable", "size"]
 - ["PSs12_Reflectable", ""]
@@ -669,4 +701,4 @@ depends-external:
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
-interface-hash: "b5c2c27b99c8d89c02637786e9f23e48"
+interface-hash: "f46864ad909c78f77a0bdbeed0eb2b9b"

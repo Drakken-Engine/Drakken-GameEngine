@@ -86,6 +86,10 @@ import Metal
 	
 	internal func updateWorldQuad(var worldQuad: [Int: [Int: [Component]]]) {
 	}
+	
+	func destroy() {
+		_canvas.destroy()
+	}
 
 	func update(deltaTime: CFTimeInterval) {
 		_canvas.update(deltaTime)
@@ -98,7 +102,7 @@ import Metal
 		_renderer.startFrame(texture: texture)
 		_renderer.renderCommandEncoder.setVertexBuffer(sharedUniformBuffer, offset: 0, atIndex: 0)
 
-		_target.setTexture(texture1: _texture)
+		_target.setTexture(_texture)
 		_target.setMaskTexture(_maskTexture)
 		_target.setParentModelMatrix(_transform.getModelMatrix())
 		_target.draw(_renderer)
@@ -110,7 +114,7 @@ import Metal
 		_texture = Texture(metalTexture: Resource.emptyTexture(_size))
 		_canvas.drawOnTargetTexture(_texture.texture)
 
-		_target.setTexture(texture1: _texture)
+		_target.setTexture(_texture)
 		_target.setMaskTexture(_maskTexture)
 		_target.setParentModelMatrix(_transform.getModelMatrix())
 

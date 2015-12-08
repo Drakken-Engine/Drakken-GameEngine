@@ -16,17 +16,17 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "+="
-- "-"
-- "CGVector"
-- "Vector2D"
-- "/"
 - "*"
 - !private "Float"
-- "/="
-- "*="
-- "-="
+- "CGVector"
+- "Vector2D"
 - "+"
+- "+="
+- "-="
+- "/="
+- "-"
+- "*="
+- "/"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "init"]

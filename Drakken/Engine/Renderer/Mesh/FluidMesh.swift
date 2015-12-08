@@ -7,12 +7,16 @@
 //
 
 import Foundation
+import Metal
 import simd
 
 class FluidMesh: Mesh {
 	
 	private var _fluid: Fluid
 	private var _component: Component
+
+	private var pointSize: Float
+	private var particlesPosition: UnsafeMutablePointer<Void>!
 	
 	init(	materialName: 		String,
 			radius: 			Float,
@@ -32,11 +36,15 @@ class FluidMesh: Mesh {
 		)
 		_component = node
 
-		super.init(materialName: "texture_particle")
-		
-		self.texture1 = Texture(fileName: "circle")
 		pointSize = radius * 1.8
+		particlesPosition = _fluid.getPositionBuffer()
+		
+		super.init(shaderName: "texture_particle")
+
 		modelMatrix = newScale(1)
+
+		_shader.setVertexData(float: &pointSize, length: sizeof(Float), index: 3)
+		_shader.setTexture(Texture(fileName: "circle"), index: 0)
 	}
 	
 	func getFluid() -> Fluid {
@@ -44,20 +52,22 @@ class FluidMesh: Mesh {
 	}
 	
 	func updatePositionBuffer() {
+		particlesPosition = _fluid.getPositionBuffer()
+		
 		if _fluid.getParticleCount() > 0 {
-			let _particleBuffer = Core.device.newBufferWithBytes(
-												_fluid.getPositionBuffer(),
+			let particlesBuffer = Core.device.newBufferWithBytes(
+												particlesPosition,
 												length: sizeof(Float) * 2 * Int(_fluid.getParticleCount()),
 												options: MTLResourceOptions.CPUCacheModeDefaultCache
 											)
 			
-			particlesPositions = _particleBuffer
+			_shader.setVertexData(buffer: particlesBuffer, index: 2)
 		} else {
-			let _particleBuffer = Core.device.newBufferWithBytes(
+			let particlesBuffer = Core.device.newBufferWithBytes(
 				UnsafeMutablePointer(bitPattern: 0), length: 0, options: MTLResourceOptions.CPUCacheModeDefaultCache
 			)
 			
-			particlesPositions = _particleBuffer
+			_shader.setVertexData(buffer: particlesBuffer, index: 2)
 		}
 	}
 	

@@ -6,28 +6,26 @@ provides-nominal:
 provides-member:
 - ["C7Drakken4Core", ""]
 provides-dynamic-lookup:
-- "drawableSize"
+- "device"
 - "commandQueue"
-- "materialManager"
 - "library"
 - "sharedInstance"
-- "device"
+- "drawableSize"
 depends-top-level:
-- !private "CGFloat"
-- "Int"
-- "Core"
-- "CGSize"
-- "MaterialManager"
 - !private "*"
-- !private "CGSizeMake"
 - "MTLCommandQueue"
-- !private "MTLCreateSystemDefaultDevice"
-- !private "NSBundle"
-- "MTLLibrary"
+- !private "CGFloat"
+- !private "CGSizeMake"
 - "Float"
 - !private "StringLiteralType"
 - "NSObject"
+- "CGSize"
+- !private "MTLCreateSystemDefaultDevice"
+- !private "NSBundle"
+- "Int"
 - "MTLDevice"
+- "Core"
+- "MTLLibrary"
 - !private "print"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
@@ -37,12 +35,10 @@ depends-member:
 - !private ["PSs9AnyObject", "Float"]
 - !private ["PSs9AnyObject", "Int"]
 - !private ["PSs9AnyObject", "MTLCreateSystemDefaultDevice"]
-- !private ["PSs9AnyObject", "MaterialManager"]
 - !private ["PSs9AnyObject", "NSBundle"]
 - ["PSs9AnyObject", "_commandQueue"]
 - ["PSs9AnyObject", "_device"]
 - ["PSs9AnyObject", "_library"]
-- ["PSs9AnyObject", "_materialManager"]
 - ["PSs9AnyObject", "_screenScale"]
 - ["PSs9AnyObject", "_screenSize"]
 - ["PSs9AnyObject", "commandQueue"]
@@ -51,7 +47,6 @@ depends-member:
 - ["PSs9AnyObject", "init"]
 - ["PSs9AnyObject", "library"]
 - !private ["PSs9AnyObject", "mainBundle"]
-- ["PSs9AnyObject", "materialManager"]
 - !private ["PSs9AnyObject", "pathForResource"]
 - !private ["PSs9AnyObject", "print"]
 - ["PSs9AnyObject", "screenScale"]
@@ -70,12 +65,10 @@ depends-member:
 - !private ["PSs11CVarArgType", "Float"]
 - !private ["PSs11CVarArgType", "Int"]
 - !private ["PSs11CVarArgType", "MTLCreateSystemDefaultDevice"]
-- !private ["PSs11CVarArgType", "MaterialManager"]
 - !private ["PSs11CVarArgType", "NSBundle"]
 - ["PSs11CVarArgType", "_commandQueue"]
 - ["PSs11CVarArgType", "_device"]
 - ["PSs11CVarArgType", "_library"]
-- ["PSs11CVarArgType", "_materialManager"]
 - ["PSs11CVarArgType", "_screenScale"]
 - ["PSs11CVarArgType", "_screenSize"]
 - ["PSs11CVarArgType", "commandQueue"]
@@ -84,7 +77,6 @@ depends-member:
 - ["PSs11CVarArgType", "init"]
 - ["PSs11CVarArgType", "library"]
 - !private ["PSs11CVarArgType", "mainBundle"]
-- ["PSs11CVarArgType", "materialManager"]
 - !private ["PSs11CVarArgType", "pathForResource"]
 - !private ["PSs11CVarArgType", "print"]
 - ["PSs11CVarArgType", "screenScale"]
@@ -103,12 +95,10 @@ depends-member:
 - !private ["C7Drakken4Core", "MTLCreateSystemDefaultDevice"]
 - ["C7Drakken4Core", "MTLDevice"]
 - ["C7Drakken4Core", "MTLLibrary"]
-- ["C7Drakken4Core", "MaterialManager"]
 - !private ["C7Drakken4Core", "NSBundle"]
 - !private ["C7Drakken4Core", "_commandQueue"]
 - !private ["C7Drakken4Core", "_device"]
 - !private ["C7Drakken4Core", "_library"]
-- !private ["C7Drakken4Core", "_materialManager"]
 - !private ["C7Drakken4Core", "_screenScale"]
 - !private ["C7Drakken4Core", "_screenSize"]
 - ["C7Drakken4Core", "commandQueue"]
@@ -117,7 +107,6 @@ depends-member:
 - ["C7Drakken4Core", "drawableSize"]
 - ["C7Drakken4Core", "init"]
 - ["C7Drakken4Core", "library"]
-- ["C7Drakken4Core", "materialManager"]
 - !private ["C7Drakken4Core", "print"]
 - ["C7Drakken4Core", "screenScale"]
 - ["C7Drakken4Core", "screenScale_i"]
@@ -129,12 +118,10 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "Float"]
 - !private ["PSs23CustomStringConvertible", "Int"]
 - !private ["PSs23CustomStringConvertible", "MTLCreateSystemDefaultDevice"]
-- !private ["PSs23CustomStringConvertible", "MaterialManager"]
 - !private ["PSs23CustomStringConvertible", "NSBundle"]
 - ["PSs23CustomStringConvertible", "_commandQueue"]
 - ["PSs23CustomStringConvertible", "_device"]
 - ["PSs23CustomStringConvertible", "_library"]
-- ["PSs23CustomStringConvertible", "_materialManager"]
 - ["PSs23CustomStringConvertible", "_screenScale"]
 - ["PSs23CustomStringConvertible", "_screenSize"]
 - ["PSs23CustomStringConvertible", "commandQueue"]
@@ -143,7 +130,6 @@ depends-member:
 - ["PSs23CustomStringConvertible", "init"]
 - ["PSs23CustomStringConvertible", "library"]
 - !private ["PSs23CustomStringConvertible", "mainBundle"]
-- ["PSs23CustomStringConvertible", "materialManager"]
 - !private ["PSs23CustomStringConvertible", "pathForResource"]
 - !private ["PSs23CustomStringConvertible", "print"]
 - ["PSs23CustomStringConvertible", "screenScale"]
@@ -157,12 +143,10 @@ depends-member:
 - !private ["PSs9Equatable", "Float"]
 - !private ["PSs9Equatable", "Int"]
 - !private ["PSs9Equatable", "MTLCreateSystemDefaultDevice"]
-- !private ["PSs9Equatable", "MaterialManager"]
 - !private ["PSs9Equatable", "NSBundle"]
 - ["PSs9Equatable", "_commandQueue"]
 - ["PSs9Equatable", "_device"]
 - ["PSs9Equatable", "_library"]
-- ["PSs9Equatable", "_materialManager"]
 - ["PSs9Equatable", "_screenScale"]
 - ["PSs9Equatable", "_screenSize"]
 - ["PSs9Equatable", "commandQueue"]
@@ -172,7 +156,6 @@ depends-member:
 - ["PSs9Equatable", "init"]
 - ["PSs9Equatable", "library"]
 - !private ["PSs9Equatable", "mainBundle"]
-- ["PSs9Equatable", "materialManager"]
 - !private ["PSs9Equatable", "pathForResource"]
 - !private ["PSs9Equatable", "print"]
 - ["PSs9Equatable", "screenScale"]
@@ -191,12 +174,10 @@ depends-member:
 - !private ["PSs8Hashable", "Float"]
 - !private ["PSs8Hashable", "Int"]
 - !private ["PSs8Hashable", "MTLCreateSystemDefaultDevice"]
-- !private ["PSs8Hashable", "MaterialManager"]
 - !private ["PSs8Hashable", "NSBundle"]
 - ["PSs8Hashable", "_commandQueue"]
 - ["PSs8Hashable", "_device"]
 - ["PSs8Hashable", "_library"]
-- ["PSs8Hashable", "_materialManager"]
 - ["PSs8Hashable", "_screenScale"]
 - ["PSs8Hashable", "_screenSize"]
 - ["PSs8Hashable", "commandQueue"]
@@ -205,7 +186,6 @@ depends-member:
 - ["PSs8Hashable", "init"]
 - ["PSs8Hashable", "library"]
 - !private ["PSs8Hashable", "mainBundle"]
-- ["PSs8Hashable", "materialManager"]
 - !private ["PSs8Hashable", "pathForResource"]
 - !private ["PSs8Hashable", "print"]
 - ["PSs8Hashable", "screenScale"]
@@ -220,7 +200,6 @@ depends-member:
 - !private ["PSs11IntegerType", "init"]
 - !private ["PSo9MTLDevice", "newCommandQueue"]
 - !private ["PSo9MTLDevice", "newLibraryWithFile"]
-- !private ["C7Drakken15MaterialManager", "init"]
 - !private ["PSs14MirrorPathType", "init"]
 - !private ["CSo8NSBundle", "mainBundle"]
 - !private ["CSo8NSBundle", "pathForResource"]
@@ -234,12 +213,10 @@ depends-member:
 - !private ["CSo8NSObject", "MTLCreateSystemDefaultDevice"]
 - ["CSo8NSObject", "MTLDevice"]
 - ["CSo8NSObject", "MTLLibrary"]
-- ["CSo8NSObject", "MaterialManager"]
 - !private ["CSo8NSObject", "NSBundle"]
 - ["CSo8NSObject", "_commandQueue"]
 - ["CSo8NSObject", "_device"]
 - ["CSo8NSObject", "_library"]
-- ["CSo8NSObject", "_materialManager"]
 - ["CSo8NSObject", "_screenScale"]
 - ["CSo8NSObject", "_screenSize"]
 - ["CSo8NSObject", "commandQueue"]
@@ -248,7 +225,6 @@ depends-member:
 - ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "library"]
 - !private ["CSo8NSObject", "mainBundle"]
-- ["CSo8NSObject", "materialManager"]
 - !private ["CSo8NSObject", "pathForResource"]
 - !private ["CSo8NSObject", "print"]
 - ["CSo8NSObject", "screenScale"]
@@ -262,12 +238,10 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "Float"]
 - !private ["PSo16NSObjectProtocol", "Int"]
 - !private ["PSo16NSObjectProtocol", "MTLCreateSystemDefaultDevice"]
-- !private ["PSo16NSObjectProtocol", "MaterialManager"]
 - !private ["PSo16NSObjectProtocol", "NSBundle"]
 - ["PSo16NSObjectProtocol", "_commandQueue"]
 - ["PSo16NSObjectProtocol", "_device"]
 - ["PSo16NSObjectProtocol", "_library"]
-- ["PSo16NSObjectProtocol", "_materialManager"]
 - ["PSo16NSObjectProtocol", "_screenScale"]
 - ["PSo16NSObjectProtocol", "_screenSize"]
 - ["PSo16NSObjectProtocol", "commandQueue"]
@@ -276,7 +250,6 @@ depends-member:
 - ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", "library"]
 - !private ["PSo16NSObjectProtocol", "mainBundle"]
-- ["PSo16NSObjectProtocol", "materialManager"]
 - !private ["PSo16NSObjectProtocol", "newCommandQueue"]
 - !private ["PSo16NSObjectProtocol", "newLibraryWithFile"]
 - !private ["PSo16NSObjectProtocol", "pathForResource"]
@@ -328,7 +301,6 @@ depends-nominal:
 - !private "PSs25IntegerLiteralConvertible"
 - !private "PSs11IntegerType"
 - !private "PSo9MTLDevice"
-- !private "C7Drakken15MaterialManager"
 - !private "PSs14MirrorPathType"
 - !private "CSo8NSBundle"
 - "CSo8NSObject"
@@ -379,4 +351,4 @@ depends-external:
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
-interface-hash: "7e7edcdd24d5f8d975c0a33f31133924"
+interface-hash: "17b6a68ad385b6249f7cd1f8b84d47f8"

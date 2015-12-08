@@ -44,12 +44,8 @@ struct Light
 
 vertex VertexOut basic_vertex ( constant	SharedUniforms	&sharedUniforms		[[ buffer(0) ]],
 							    constant	ModelUniforms	&modelUniforms		[[ buffer(1) ]],
-							    constant	float3			*position			[[ buffer(2) ]],
-							    constant	float3			*normal				[[ buffer(3) ]],
-							    constant	float2			*texcoord			[[ buffer(4) ]],
-							    constant	float4			*color				[[ buffer(5) ]],
-							    constant	float			&pointSize			[[ buffer(6) ]],
-							    constant	float2			*particlePositions	[[ buffer(7) ]],
+							    constant	float2			*position			[[ buffer(2) ]],
+							    constant	float2			*texcoord			[[ buffer(3) ]],
 							    uint						vid					[[ vertex_id ]])
 {
 	VertexOut v_out;
@@ -57,23 +53,18 @@ vertex VertexOut basic_vertex ( constant	SharedUniforms	&sharedUniforms		[[ buff
 	v_out.position =	sharedUniforms.projectionMatrix *
 						sharedUniforms.viewProjection *
 						modelUniforms.modelMatrix *
-						float4(position[vid], 1.0);
-	
-	v_out.normal = normalize(modelUniforms.modelMatrix * float4(normal[vid], 0.0)).xyz;
+						float4(position[vid], 0.0, 1.0);
 	v_out.texcoord = texcoord[vid];
 	
 	return v_out;
 }
 
-fragment float4 basic_fragment (			VertexOut			vert				[[ stage_in ]],
-								constant	Light				&light			[[ buffer(0) ]],
-								constant	Material			&material		[[ buffer(1) ]],
-								constant	float2				&texRepeat		[[ buffer(2) ]],
-								constant	bool				&repeatMask		[[ buffer(3) ]],
-								constant	float2				&texcoordOffset	[[ buffer(4) ]],
-											texture2d<float>	texture1			[[ texture(3) ]],
-											texture2d<float>	texture2			[[ texture(4) ]],
-											texture2d<float>	maskTexture		[[ texture(5) ]],
+fragment float4 basic_fragment (			VertexOut			vert			[[ stage_in ]],
+								constant	float2				&texRepeat		[[ buffer(0) ]],
+								constant	bool				&repeatMask		[[ buffer(1) ]],
+								constant	float2				&texcoordOffset	[[ buffer(2) ]],
+											texture2d<float>	texture1		[[ texture(0) ]],
+											texture2d<float>	maskTexture		[[ texture(1) ]],
 											sampler				s				[[ sampler(0) ]] )
 {
 	float2 texcoord = vert.texcoord;

@@ -7,45 +7,48 @@ provides-member:
 - ["C7Drakken4Grid", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "BooleanLiteralType"
-- !private "float2"
-- "Grid"
-- !private "UInt32"
-- !private "++"
-- !private "Float"
-- "Mesh"
-- "FloatLiteralType"
-- "String"
-- !private "float3"
-- !private "+"
-- !private "/"
 - !private "<"
 - !private "*"
-- !private "StringLiteralType"
-- !private "-"
-- "Core"
+- "Mesh"
+- "Bool"
 - "Int"
+- !private "Float"
+- "FloatLiteralType"
+- "BooleanLiteralType"
+- !private "sizeof"
+- !private "UInt32"
 - "IntegerLiteralType"
+- !private "StringLiteralType"
+- "Grid"
+- !private "/"
+- "String"
+- !private "+"
+- "float2"
+- !private "-"
+- !private "++"
+- "Core"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "IntegerLiteralType"]
 - !private ["PSs16AbsoluteValuable", "Stride"]
 - !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "Bool"]
 - !private ["PSs9AnyObject", "Float"]
 - !private ["PSs9AnyObject", "UInt32"]
+- !private ["PSs9AnyObject", "_shader"]
 - ["PSs9AnyObject", "core"]
-- ["PSs9AnyObject", "createWithDepth"]
 - ["PSs9AnyObject", "createWithHeight"]
 - ["PSs9AnyObject", "depth"]
-- !private ["PSs9AnyObject", "float2"]
-- !private ["PSs9AnyObject", "float3"]
+- ["PSs9AnyObject", "float2"]
 - ["PSs9AnyObject", "height"]
 - !private ["PSs9AnyObject", "indices"]
 - ["PSs9AnyObject", "init"]
-- !private ["PSs9AnyObject", "normals"]
-- !private ["PSs9AnyObject", "positions"]
-- !private ["PSs9AnyObject", "repeatMask"]
-- !private ["PSs9AnyObject", "texcoords"]
-- !private ["PSs9AnyObject", "textureRepeat"]
+- ["PSs9AnyObject", "positions"]
+- ["PSs9AnyObject", "repeatMask"]
+- !private ["PSs9AnyObject", "setFragmentData"]
+- !private ["PSs9AnyObject", "setVertexData"]
+- !private ["PSs9AnyObject", "sizeof"]
+- ["PSs9AnyObject", "textureCoords"]
+- ["PSs9AnyObject", "textureRepeat"]
 - ["PSs9AnyObject", "textureRepeatXCount"]
 - ["PSs9AnyObject", "textureRepeatYCount"]
 - ["PSs9AnyObject", "width"]
@@ -55,13 +58,17 @@ depends-member:
 - !private ["Sa", "SubSequence"]
 - !private ["Sa", "_Element"]
 - !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- ["Sa", "deinit"]
+- ["Sa", "init"]
 - !private ["Sa", "insert"]
 - !private ["PSs23ArrayLiteralConvertible", "Generator"]
 - !private ["PSs23ArrayLiteralConvertible", "Index"]
 - !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
 - !private ["PSs23ArrayLiteralConvertible", "_Element"]
 - !private ["PSs23ArrayLiteralConvertible", "append"]
-- !private ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "count"]
+- ["PSs23ArrayLiteralConvertible", "init"]
 - !private ["PSs23ArrayLiteralConvertible", "insert"]
 - !private ["VSs10ArraySlice", "Generator"]
 - !private ["VSs10ArraySlice", "Index"]
@@ -81,18 +88,20 @@ depends-member:
 - !private ["V12CoreGraphics7CGFloat", "IntegerLiteralType"]
 - !private ["V12CoreGraphics7CGFloat", "Stride"]
 - !private ["V12CoreGraphics7CGFloat", "deinit"]
-- !private ["VSC7CGPoint", "deinit"]
-- !private ["VSC8CGVector", "deinit"]
 - !private ["PSs11CVarArgType", "Distance"]
 - !private ["PSs11CVarArgType", "IntegerLiteralType"]
 - !private ["PSs11CVarArgType", "Stride"]
 - !private ["PSs11CVarArgType", "_DisallowMixedSignArithmetic"]
 - !private ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "setFragmentData"]
+- !private ["PSs11CVarArgType", "setVertexData"]
 - !private ["PSs14CollectionType", "Generator"]
 - !private ["PSs14CollectionType", "Index"]
 - !private ["PSs14CollectionType", "SubSequence"]
 - !private ["PSs14CollectionType", "_Element"]
 - !private ["PSs14CollectionType", "append"]
+- !private ["PSs14CollectionType", "count"]
+- ["PSs14CollectionType", "init"]
 - !private ["PSs14CollectionType", "insert"]
 - !private ["PSs10Comparable", "Distance"]
 - !private ["PSs10Comparable", "IntegerLiteralType"]
@@ -104,7 +113,8 @@ depends-member:
 - !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
 - !private ["PSs28CustomDebugStringConvertible", "_Element"]
 - !private ["PSs28CustomDebugStringConvertible", "append"]
-- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "count"]
+- ["PSs28CustomDebugStringConvertible", "init"]
 - !private ["PSs28CustomDebugStringConvertible", "insert"]
 - !private ["PSs23CustomStringConvertible", "Distance"]
 - !private ["PSs23CustomStringConvertible", "Generator"]
@@ -116,8 +126,11 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "_Element"]
 - !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs23CustomStringConvertible", "append"]
-- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "count"]
+- ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "insert"]
+- !private ["PSs23CustomStringConvertible", "setFragmentData"]
+- !private ["PSs23CustomStringConvertible", "setVertexData"]
 - !private ["Sd", "IntegerLiteralType"]
 - !private ["Sd", "Stride"]
 - !private ["Sd", "deinit"]
@@ -127,6 +140,8 @@ depends-member:
 - !private ["PSs9Equatable", "_DisallowMixedSignArithmetic"]
 - !private ["PSs9Equatable", "_getBuiltinLogicValue"]
 - !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "setFragmentData"]
+- !private ["PSs9Equatable", "setVertexData"]
 - !private ["Sf", "IntegerLiteralType"]
 - !private ["Sf", "Stride"]
 - !private ["Sf", "deinit"]
@@ -143,25 +158,25 @@ depends-member:
 - !private ["PSs16ForwardIndexType", "_DisallowMixedSignArithmetic"]
 - !private ["PSs16ForwardIndexType", "init"]
 - !private ["PSs13GeneratorType", "Element"]
+- ["C7Drakken4Grid", "Bool"]
 - ["C7Drakken4Grid", "Core"]
 - !private ["C7Drakken4Grid", "Float"]
 - ["C7Drakken4Grid", "Int"]
 - ["C7Drakken4Grid", "String"]
 - !private ["C7Drakken4Grid", "UInt32"]
+- !private ["C7Drakken4Grid", "_shader"]
 - !private ["C7Drakken4Grid", "core"]
-- ["C7Drakken4Grid", "createWithDepth"]
 - ["C7Drakken4Grid", "createWithHeight"]
 - ["C7Drakken4Grid", "deinit"]
 - !private ["C7Drakken4Grid", "depth"]
-- !private ["C7Drakken4Grid", "float2"]
-- !private ["C7Drakken4Grid", "float3"]
+- ["C7Drakken4Grid", "float2"]
 - !private ["C7Drakken4Grid", "height"]
 - !private ["C7Drakken4Grid", "indices"]
 - ["C7Drakken4Grid", "init"]
-- !private ["C7Drakken4Grid", "normals"]
 - !private ["C7Drakken4Grid", "positions"]
 - !private ["C7Drakken4Grid", "repeatMask"]
-- !private ["C7Drakken4Grid", "texcoords"]
+- !private ["C7Drakken4Grid", "sizeof"]
+- !private ["C7Drakken4Grid", "textureCoords"]
 - !private ["C7Drakken4Grid", "textureRepeat"]
 - !private ["C7Drakken4Grid", "textureRepeatXCount"]
 - !private ["C7Drakken4Grid", "textureRepeatYCount"]
@@ -172,12 +187,16 @@ depends-member:
 - !private ["PSs8Hashable", "_DisallowMixedSignArithmetic"]
 - !private ["PSs8Hashable", "_getBuiltinLogicValue"]
 - !private ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "setFragmentData"]
+- !private ["PSs8Hashable", "setVertexData"]
 - ["SQ", "deinit"]
 - !private ["PSs9Indexable", "Generator"]
 - !private ["PSs9Indexable", "Index"]
 - !private ["PSs9Indexable", "SubSequence"]
 - !private ["PSs9Indexable", "_Element"]
 - !private ["PSs9Indexable", "append"]
+- !private ["PSs9Indexable", "count"]
+- ["PSs9Indexable", "init"]
 - !private ["PSs9Indexable", "insert"]
 - !private ["VSs17IndexingGenerator", "Element"]
 - !private ["Si", "Distance"]
@@ -211,25 +230,25 @@ depends-member:
 - !private ["PSs11IntegerType", "Stride"]
 - !private ["PSs11IntegerType", "_DisallowMixedSignArithmetic"]
 - !private ["PSs11IntegerType", "init"]
+- ["C7Drakken4Mesh", "Bool"]
 - ["C7Drakken4Mesh", "Core"]
 - !private ["C7Drakken4Mesh", "Float"]
 - ["C7Drakken4Mesh", "Int"]
 - ["C7Drakken4Mesh", "String"]
 - !private ["C7Drakken4Mesh", "UInt32"]
+- !private ["C7Drakken4Mesh", "_shader"]
 - ["C7Drakken4Mesh", "core"]
-- ["C7Drakken4Mesh", "createWithDepth"]
 - ["C7Drakken4Mesh", "createWithHeight"]
 - ["C7Drakken4Mesh", "depth"]
-- !private ["C7Drakken4Mesh", "float2"]
-- !private ["C7Drakken4Mesh", "float3"]
+- ["C7Drakken4Mesh", "float2"]
 - ["C7Drakken4Mesh", "height"]
 - !private ["C7Drakken4Mesh", "indices"]
 - ["C7Drakken4Mesh", "init"]
-- !private ["C7Drakken4Mesh", "normals"]
-- !private ["C7Drakken4Mesh", "positions"]
-- !private ["C7Drakken4Mesh", "repeatMask"]
-- !private ["C7Drakken4Mesh", "texcoords"]
-- !private ["C7Drakken4Mesh", "textureRepeat"]
+- ["C7Drakken4Mesh", "positions"]
+- ["C7Drakken4Mesh", "repeatMask"]
+- !private ["C7Drakken4Mesh", "sizeof"]
+- ["C7Drakken4Mesh", "textureCoords"]
+- ["C7Drakken4Mesh", "textureRepeat"]
 - ["C7Drakken4Mesh", "textureRepeatXCount"]
 - ["C7Drakken4Mesh", "textureRepeatYCount"]
 - ["C7Drakken4Mesh", "width"]
@@ -242,20 +261,30 @@ depends-member:
 - !private ["PSs21MutableCollectionType", "SubSequence"]
 - !private ["PSs21MutableCollectionType", "_Element"]
 - !private ["PSs21MutableCollectionType", "append"]
+- !private ["PSs21MutableCollectionType", "count"]
+- ["PSs21MutableCollectionType", "init"]
 - !private ["PSs21MutableCollectionType", "insert"]
 - !private ["PSs16MutableIndexable", "Generator"]
 - !private ["PSs16MutableIndexable", "Index"]
 - !private ["PSs16MutableIndexable", "SubSequence"]
 - !private ["PSs16MutableIndexable", "_Element"]
 - !private ["PSs16MutableIndexable", "append"]
+- !private ["PSs16MutableIndexable", "count"]
+- ["PSs16MutableIndexable", "init"]
 - !private ["PSs16MutableIndexable", "insert"]
 - !private ["PSs16MutableSliceable", "Generator"]
 - !private ["PSs16MutableSliceable", "Index"]
 - !private ["PSs16MutableSliceable", "SubSequence"]
 - !private ["PSs16MutableSliceable", "_Element"]
 - !private ["PSs16MutableSliceable", "append"]
+- !private ["PSs16MutableSliceable", "count"]
+- ["PSs16MutableSliceable", "init"]
 - !private ["PSs16MutableSliceable", "insert"]
 - !private ["CSo8NSNumber", "deinit"]
+- !private ["CSo8NSObject", "setFragmentData"]
+- !private ["CSo8NSObject", "setVertexData"]
+- !private ["PSo16NSObjectProtocol", "setFragmentData"]
+- !private ["PSo16NSObjectProtocol", "setVertexData"]
 - !private ["Sq", "deinit"]
 - !private ["PSs21RandomAccessIndexType", "Distance"]
 - !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
@@ -267,6 +296,8 @@ depends-member:
 - !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
 - !private ["PSs30RangeReplaceableCollectionType", "_Element"]
 - !private ["PSs30RangeReplaceableCollectionType", "append"]
+- !private ["PSs30RangeReplaceableCollectionType", "count"]
+- ["PSs30RangeReplaceableCollectionType", "init"]
 - !private ["PSs30RangeReplaceableCollectionType", "insert"]
 - !private ["PSs12SequenceType", "Element"]
 - !private ["PSs12SequenceType", "Generator"]
@@ -274,67 +305,11 @@ depends-member:
 - !private ["PSs12SequenceType", "SubSequence"]
 - !private ["PSs12SequenceType", "_Element"]
 - !private ["PSs12SequenceType", "append"]
+- !private ["PSs12SequenceType", "count"]
+- ["PSs12SequenceType", "init"]
 - !private ["PSs12SequenceType", "insert"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "Float"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "UInt32"]
-- ["P7Drakken24ShaderFragmentBufferData", "core"]
-- ["P7Drakken24ShaderFragmentBufferData", "createWithDepth"]
-- ["P7Drakken24ShaderFragmentBufferData", "createWithHeight"]
-- ["P7Drakken24ShaderFragmentBufferData", "depth"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "float2"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "float3"]
-- ["P7Drakken24ShaderFragmentBufferData", "height"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "indices"]
-- ["P7Drakken24ShaderFragmentBufferData", "init"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "normals"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "positions"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "repeatMask"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "texcoords"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "textureRepeat"]
-- ["P7Drakken24ShaderFragmentBufferData", "textureRepeatXCount"]
-- ["P7Drakken24ShaderFragmentBufferData", "textureRepeatYCount"]
-- ["P7Drakken24ShaderFragmentBufferData", "width"]
-- ["P7Drakken24ShaderFragmentBufferData", ""]
-- !private ["P7Drakken25ShaderFragmentTextureData", "Float"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "UInt32"]
-- ["P7Drakken25ShaderFragmentTextureData", "core"]
-- ["P7Drakken25ShaderFragmentTextureData", "createWithDepth"]
-- ["P7Drakken25ShaderFragmentTextureData", "createWithHeight"]
-- ["P7Drakken25ShaderFragmentTextureData", "depth"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "float2"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "float3"]
-- ["P7Drakken25ShaderFragmentTextureData", "height"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "indices"]
-- ["P7Drakken25ShaderFragmentTextureData", "init"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "normals"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "positions"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "repeatMask"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "texcoords"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "textureRepeat"]
-- ["P7Drakken25ShaderFragmentTextureData", "textureRepeatXCount"]
-- ["P7Drakken25ShaderFragmentTextureData", "textureRepeatYCount"]
-- ["P7Drakken25ShaderFragmentTextureData", "width"]
-- ["P7Drakken25ShaderFragmentTextureData", ""]
-- !private ["P7Drakken16ShaderVertexData", "Float"]
-- !private ["P7Drakken16ShaderVertexData", "UInt32"]
-- ["P7Drakken16ShaderVertexData", "core"]
-- ["P7Drakken16ShaderVertexData", "createWithDepth"]
-- ["P7Drakken16ShaderVertexData", "createWithHeight"]
-- ["P7Drakken16ShaderVertexData", "depth"]
-- !private ["P7Drakken16ShaderVertexData", "float2"]
-- !private ["P7Drakken16ShaderVertexData", "float3"]
-- ["P7Drakken16ShaderVertexData", "height"]
-- !private ["P7Drakken16ShaderVertexData", "indices"]
-- ["P7Drakken16ShaderVertexData", "init"]
-- !private ["P7Drakken16ShaderVertexData", "normals"]
-- !private ["P7Drakken16ShaderVertexData", "positions"]
-- !private ["P7Drakken16ShaderVertexData", "repeatMask"]
-- !private ["P7Drakken16ShaderVertexData", "texcoords"]
-- !private ["P7Drakken16ShaderVertexData", "textureRepeat"]
-- ["P7Drakken16ShaderVertexData", "textureRepeatXCount"]
-- ["P7Drakken16ShaderVertexData", "textureRepeatYCount"]
-- ["P7Drakken16ShaderVertexData", "width"]
-- ["P7Drakken16ShaderVertexData", ""]
+- !private ["C7Drakken6Shader", "setFragmentData"]
+- !private ["C7Drakken6Shader", "setVertexData"]
 - !private ["PSs17SignedIntegerType", "Distance"]
 - !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
 - !private ["PSs17SignedIntegerType", "Stride"]
@@ -342,7 +317,6 @@ depends-member:
 - !private ["PSs16SignedNumberType", "IntegerLiteralType"]
 - !private ["PSs16SignedNumberType", "Stride"]
 - !private ["PSs16SignedNumberType", "init"]
-- !private ["C7Drakken6Size2D", "deinit"]
 - !private ["VSs12StaticString", "deinit"]
 - !private ["PSs10Strideable", "Distance"]
 - !private ["PSs10Strideable", "IntegerLiteralType"]
@@ -374,12 +348,13 @@ depends-member:
 - !private ["PSs19UnsignedIntegerType", "Stride"]
 - !private ["PSs19UnsignedIntegerType", "_DisallowMixedSignArithmetic"]
 - !private ["PSs19UnsignedIntegerType", "init"]
-- !private ["C7Drakken8Vector2D", "deinit"]
 - !private ["PSs10_ArrayType", "Generator"]
 - !private ["PSs10_ArrayType", "Index"]
 - !private ["PSs10_ArrayType", "SubSequence"]
 - !private ["PSs10_ArrayType", "_Element"]
 - !private ["PSs10_ArrayType", "append"]
+- !private ["PSs10_ArrayType", "count"]
+- ["PSs10_ArrayType", "init"]
 - !private ["PSs10_ArrayType", "insert"]
 - !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs31_BuiltinFloatLiteralConvertible", "IntegerLiteralType"]
@@ -402,6 +377,8 @@ depends-member:
 - !private ["PSs24_DestructorSafeContainer", "SubSequence"]
 - !private ["PSs24_DestructorSafeContainer", "_Element"]
 - !private ["PSs24_DestructorSafeContainer", "append"]
+- !private ["PSs24_DestructorSafeContainer", "count"]
+- ["PSs24_DestructorSafeContainer", "init"]
 - !private ["PSs24_DestructorSafeContainer", "insert"]
 - !private ["PSs28_DisallowMixedSignArithmetic", "IntegerLiteralType"]
 - !private ["PSs28_DisallowMixedSignArithmetic", "Stride"]
@@ -432,7 +409,8 @@ depends-member:
 - !private ["PSs21_ObjectiveCBridgeable", "_Element"]
 - !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["PSs21_ObjectiveCBridgeable", "append"]
-- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "count"]
+- ["PSs21_ObjectiveCBridgeable", "init"]
 - !private ["PSs21_ObjectiveCBridgeable", "insert"]
 - !private ["PSs22_RandomAccessAmbiguity", "Distance"]
 - !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
@@ -449,7 +427,8 @@ depends-member:
 - !private ["PSs12_Reflectable", "_Element"]
 - !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["PSs12_Reflectable", "append"]
-- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "count"]
+- ["PSs12_Reflectable", "init"]
 - !private ["PSs12_Reflectable", "insert"]
 - !private ["PSs18_SignedIntegerType", "Distance"]
 - !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
@@ -462,22 +441,12 @@ depends-member:
 - !private ["PSs18_StringElementType", "IntegerLiteralType"]
 - !private ["PSs18_StringElementType", "Stride"]
 - !private ["PSs18_StringElementType", "_DisallowMixedSignArithmetic"]
-- !private ["V4simd7double2", "deinit"]
-- !private ["V4simd7double3", "deinit"]
-- !private ["V4simd7double4", "deinit"]
-- !private ["V4simd6float2", "deinit"]
-- !private ["V4simd6float2", "init"]
-- !private ["V4simd6float3", "deinit"]
-- !private ["V4simd6float3", "init"]
-- !private ["V4simd6float4", "deinit"]
-- !private ["V4simd4int2", "deinit"]
-- !private ["V4simd4int3", "deinit"]
-- !private ["V4simd4int4", "deinit"]
+- ["V4simd6float2", "init"]
 depends-nominal:
 - !private "PSs16AbsoluteValuable"
 - "PSs9AnyObject"
-- !private "Sa"
-- !private "PSs23ArrayLiteralConvertible"
+- "Sa"
+- "PSs23ArrayLiteralConvertible"
 - !private "VSs10ArraySlice"
 - !private "PSs22BidirectionalIndexType"
 - !private "PSs21BitwiseOperationsType"
@@ -485,13 +454,11 @@ depends-nominal:
 - !private "PSs25BooleanLiteralConvertible"
 - !private "PSs11BooleanType"
 - !private "V12CoreGraphics7CGFloat"
-- !private "VSC7CGPoint"
-- !private "VSC8CGVector"
 - !private "PSs11CVarArgType"
-- !private "PSs14CollectionType"
+- "PSs14CollectionType"
 - !private "PSs10Comparable"
-- !private "PSs28CustomDebugStringConvertible"
-- !private "PSs23CustomStringConvertible"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
 - !private "Sd"
 - !private "PSs9Equatable"
 - !private "Sf"
@@ -502,7 +469,7 @@ depends-nominal:
 - "C7Drakken4Grid"
 - !private "PSs8Hashable"
 - "SQ"
-- !private "PSs9Indexable"
+- "PSs9Indexable"
 - !private "VSs17IndexingGenerator"
 - !private "Si"
 - !private "VSs5Int16"
@@ -514,20 +481,19 @@ depends-nominal:
 - !private "PSs11IntegerType"
 - "C7Drakken4Mesh"
 - !private "PSs14MirrorPathType"
-- !private "PSs21MutableCollectionType"
-- !private "PSs16MutableIndexable"
-- !private "PSs16MutableSliceable"
+- "PSs21MutableCollectionType"
+- "PSs16MutableIndexable"
+- "PSs16MutableSliceable"
 - !private "CSo8NSNumber"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
 - !private "Sq"
 - !private "PSs21RandomAccessIndexType"
-- !private "PSs30RangeReplaceableCollectionType"
-- !private "PSs12SequenceType"
-- "P7Drakken24ShaderFragmentBufferData"
-- "P7Drakken25ShaderFragmentTextureData"
-- "P7Drakken16ShaderVertexData"
+- "PSs30RangeReplaceableCollectionType"
+- "PSs12SequenceType"
+- !private "C7Drakken6Shader"
 - !private "PSs17SignedIntegerType"
 - !private "PSs16SignedNumberType"
-- !private "C7Drakken6Size2D"
 - !private "VSs12StaticString"
 - !private "PSs10Strideable"
 - !private "Su"
@@ -536,33 +502,24 @@ depends-nominal:
 - !private "VSs6UInt64"
 - !private "VSs5UInt8"
 - !private "PSs19UnsignedIntegerType"
-- !private "C7Drakken8Vector2D"
-- !private "PSs10_ArrayType"
+- "PSs10_ArrayType"
 - !private "PSs33_BuiltinBooleanLiteralConvertible"
 - !private "PSs31_BuiltinFloatLiteralConvertible"
 - !private "PSs33_BuiltinIntegerLiteralConvertible"
 - !private "PSs19_CVarArgAlignedType"
 - !private "PSs22_CVarArgPassedAsDouble"
-- !private "PSs24_DestructorSafeContainer"
+- "PSs24_DestructorSafeContainer"
 - !private "PSs28_DisallowMixedSignArithmetic"
 - !private "PSs14_Incrementable"
 - !private "PSs22_IntegerArithmeticType"
 - !private "PSs12_IntegerType"
-- !private "PSs21_ObjectiveCBridgeable"
+- "PSs21_ObjectiveCBridgeable"
 - !private "PSs22_RandomAccessAmbiguity"
-- !private "PSs12_Reflectable"
+- "PSs12_Reflectable"
 - !private "PSs18_SignedIntegerType"
 - !private "PSs11_Strideable"
 - !private "PSs18_StringElementType"
-- !private "V4simd7double2"
-- !private "V4simd7double3"
-- !private "V4simd7double4"
-- !private "V4simd6float2"
-- !private "V4simd6float3"
-- !private "V4simd6float4"
-- !private "V4simd4int2"
-- !private "V4simd4int3"
-- !private "V4simd4int4"
+- "V4simd6float2"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
@@ -592,4 +549,4 @@ depends-external:
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
-interface-hash: "780130febb0dc4089972c86f424eb8d5"
+interface-hash: "bcd7d3ad925c74f52aac8b8491bbafad"

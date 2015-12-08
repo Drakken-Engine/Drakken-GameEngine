@@ -95,6 +95,14 @@ import simd
 	internal func updateWorldQuad(var worldQuad: [Int: [Int: [Component]]]) {
 	}
 	
+	func destroy() {
+		for child: InternalComponent in _children {
+			child.destroy()
+		}
+		
+		_children.removeAll()
+	}
+	
 	func update(deltaTime: CFTimeInterval) {
 		for child: InternalComponent in _children {
 			child.update(deltaTime)

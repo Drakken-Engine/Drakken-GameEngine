@@ -7,22 +7,22 @@ provides-member:
 - ["C7Drakken14AnimationSheet", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "++"
-- !private "--"
-- !private "sizeof"
-- !private "UInt32"
-- !private "-"
-- !private "/"
-- !private "*"
-- "String"
-- "Int"
-- !private "<"
-- !private "MTLRegionMake2D"
-- !private ">="
-- "AnimationSheet"
-- !private "Core"
 - "Texture"
+- "AnimationSheet"
+- !private "++"
+- !private "MTLRegionMake2D"
+- !private "-"
+- !private "Core"
+- !private "/"
+- !private "sizeof"
 - "Size2D"
+- !private "*"
+- "Int"
+- !private "UInt32"
+- !private "--"
+- !private "<"
+- "String"
+- !private ">="
 depends-member:
 - !private ["C7Drakken14AnimationSheet", "Core"]
 - ["C7Drakken14AnimationSheet", "Int"]

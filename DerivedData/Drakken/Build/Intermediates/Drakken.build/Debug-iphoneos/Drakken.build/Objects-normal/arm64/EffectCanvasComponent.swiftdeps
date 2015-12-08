@@ -6,46 +6,47 @@ provides-nominal:
 provides-member:
 - ["C7Drakken21EffectCanvasComponent", ""]
 provides-dynamic-lookup:
-- "transform"
-- "updateSharedUniformBuffer"
-- "update"
-- "_transform"
-- "index"
-- "setMaskTexture"
-- "addNode"
-- "updateWorldQuad"
 - "setEffectMaterial"
 - "drawOnTargetTexture"
+- "update"
+- "_transform"
+- "addNode"
+- "transform"
+- "destroy"
+- "updateWorldQuad"
 - "draw"
+- "setMaskTexture"
 - "sharedUniformBuffer"
+- "index"
 - "descriptor"
+- "updateSharedUniformBuffer"
 depends-top-level:
-- "EffectCanvasComponent"
-- "CFTimeInterval"
-- !private "float2"
-- !private "StringLiteralType"
-- "NSObject"
-- "Int"
-- "Texture"
-- !private "Grid"
-- "String"
-- !private "Core"
-- "Component"
-- "Transform"
-- "InternalComponent"
-- "GameComponent"
-- "CGSize"
 - "float4x4"
-- "CGPoint"
-- "Descriptor"
-- !private "Float"
 - "SharedUniforms"
-- !private "*"
-- "Transformable"
 - "MTLBuffer"
 - "CanvasComponent"
-- "MTLTexture"
+- "Texture"
+- "Transform"
+- "CFTimeInterval"
+- "CGSize"
+- "InternalComponent"
+- "Component"
+- "String"
+- "Int"
 - !private "Resource"
+- "Transformable"
+- "EffectCanvasComponent"
+- !private "*"
+- "CGPoint"
+- !private "float2"
+- !private "Grid"
+- !private "StringLiteralType"
+- "NSObject"
+- "Descriptor"
+- "MTLTexture"
+- !private "Float"
+- !private "Core"
+- "GameComponent"
 - "Renderer"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
@@ -67,6 +68,7 @@ depends-member:
 - ["PSs9AnyObject", "_transform"]
 - ["PSs9AnyObject", "addNode"]
 - ["PSs9AnyObject", "descriptor"]
+- ["PSs9AnyObject", "destroy"]
 - ["PSs9AnyObject", "draw"]
 - ["PSs9AnyObject", "drawOnTargetTexture"]
 - !private ["PSs9AnyObject", "emptyTexture"]
@@ -118,6 +120,7 @@ depends-member:
 - ["PSs11CVarArgType", "_transform"]
 - ["PSs11CVarArgType", "addNode"]
 - ["PSs11CVarArgType", "descriptor"]
+- ["PSs11CVarArgType", "destroy"]
 - ["PSs11CVarArgType", "draw"]
 - ["PSs11CVarArgType", "drawOnTargetTexture"]
 - !private ["PSs11CVarArgType", "endFrame"]
@@ -147,6 +150,7 @@ depends-member:
 - ["PSs11CVarArgType", ""]
 - !private ["C7Drakken15CanvasComponent", "addNode"]
 - !private ["C7Drakken15CanvasComponent", "deinit"]
+- !private ["C7Drakken15CanvasComponent", "destroy"]
 - !private ["C7Drakken15CanvasComponent", "drawOnTargetTexture"]
 - !private ["C7Drakken15CanvasComponent", "init"]
 - !private ["C7Drakken15CanvasComponent", "setMaskTexture"]
@@ -179,6 +183,7 @@ depends-member:
 - ["P7Drakken9Component", "_transform"]
 - !private ["P7Drakken9Component", "addNode"]
 - ["P7Drakken9Component", "descriptor"]
+- ["P7Drakken9Component", "destroy"]
 - ["P7Drakken9Component", "draw"]
 - !private ["P7Drakken9Component", "drawOnTargetTexture"]
 - !private ["P7Drakken9Component", "float2"]
@@ -216,6 +221,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "_transform"]
 - ["PSs23CustomStringConvertible", "addNode"]
 - ["PSs23CustomStringConvertible", "descriptor"]
+- ["PSs23CustomStringConvertible", "destroy"]
 - ["PSs23CustomStringConvertible", "draw"]
 - ["PSs23CustomStringConvertible", "drawOnTargetTexture"]
 - !private ["PSs23CustomStringConvertible", "endFrame"]
@@ -274,6 +280,7 @@ depends-member:
 - ["C7Drakken21EffectCanvasComponent", "addNode"]
 - ["C7Drakken21EffectCanvasComponent", "deinit"]
 - ["C7Drakken21EffectCanvasComponent", "descriptor"]
+- ["C7Drakken21EffectCanvasComponent", "destroy"]
 - ["C7Drakken21EffectCanvasComponent", "draw"]
 - ["C7Drakken21EffectCanvasComponent", "drawOnTargetTexture"]
 - !private ["C7Drakken21EffectCanvasComponent", "float2"]
@@ -309,6 +316,7 @@ depends-member:
 - ["PSs9Equatable", "_transform"]
 - ["PSs9Equatable", "addNode"]
 - ["PSs9Equatable", "descriptor"]
+- ["PSs9Equatable", "destroy"]
 - ["PSs9Equatable", "draw"]
 - ["PSs9Equatable", "drawOnTargetTexture"]
 - !private ["PSs9Equatable", "endFrame"]
@@ -370,6 +378,7 @@ depends-member:
 - ["PSs8Hashable", "_transform"]
 - ["PSs8Hashable", "addNode"]
 - ["PSs8Hashable", "descriptor"]
+- ["PSs8Hashable", "destroy"]
 - ["PSs8Hashable", "draw"]
 - ["PSs8Hashable", "drawOnTargetTexture"]
 - !private ["PSs8Hashable", "endFrame"]
@@ -417,6 +426,7 @@ depends-member:
 - ["P7Drakken17InternalComponent", "_transform"]
 - !private ["P7Drakken17InternalComponent", "addNode"]
 - ["P7Drakken17InternalComponent", "descriptor"]
+- ["P7Drakken17InternalComponent", "destroy"]
 - ["P7Drakken17InternalComponent", "draw"]
 - !private ["P7Drakken17InternalComponent", "drawOnTargetTexture"]
 - !private ["P7Drakken17InternalComponent", "float2"]
@@ -466,6 +476,7 @@ depends-member:
 - ["CSo8NSObject", "_transform"]
 - ["CSo8NSObject", "addNode"]
 - ["CSo8NSObject", "descriptor"]
+- ["CSo8NSObject", "destroy"]
 - ["CSo8NSObject", "draw"]
 - ["CSo8NSObject", "drawOnTargetTexture"]
 - !private ["CSo8NSObject", "endFrame"]
@@ -512,6 +523,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "_transform"]
 - ["PSo16NSObjectProtocol", "addNode"]
 - ["PSo16NSObjectProtocol", "descriptor"]
+- ["PSo16NSObjectProtocol", "destroy"]
 - ["PSo16NSObjectProtocol", "draw"]
 - ["PSo16NSObjectProtocol", "drawOnTargetTexture"]
 - !private ["PSo16NSObjectProtocol", "endFrame"]
@@ -562,9 +574,6 @@ depends-member:
 - !private ["P7Drakken10Scriptable", "setParentModelMatrix"]
 - !private ["P7Drakken10Scriptable", "setTexture"]
 - !private ["P7Drakken10Scriptable", "transform"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "init"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "init"]
-- !private ["P7Drakken16ShaderVertexData", "init"]
 - !private ["PSs16SignedNumberType", "init"]
 - !private ["VSs12StaticString", "deinit"]
 - !private ["PSs10Strideable", "init"]
@@ -619,9 +628,6 @@ depends-nominal:
 - !private "C7Drakken8Renderer"
 - !private "C7Drakken8Resource"
 - !private "P7Drakken10Scriptable"
-- !private "P7Drakken24ShaderFragmentBufferData"
-- !private "P7Drakken25ShaderFragmentTextureData"
-- !private "P7Drakken16ShaderVertexData"
 - !private "PSs16SignedNumberType"
 - !private "VSs12StaticString"
 - !private "PSs10Strideable"
@@ -665,4 +671,4 @@ depends-external:
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
-interface-hash: "b7b872a34edc685b203323f1efb3a2e8"
+interface-hash: "48f608dd7426f08e93508c369d9e1706"

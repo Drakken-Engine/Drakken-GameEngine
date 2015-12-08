@@ -56,9 +56,8 @@ public class GameComponent: NSObject, InternalComponent, Component, Scriptable, 
 	internal var index: Int = 0
 	var scene: Scene!
 	
-	public var maskTexture: Texture {
-		return _mesh.maskTexture
-	}
+	internal var _maskTexture: Texture!
+	internal var textureCoordOffset: Vector2D
 
 	public var animator: Animator {
 		return _animator
@@ -82,12 +81,14 @@ public class GameComponent: NSObject, InternalComponent, Component, Scriptable, 
 
 		descriptor = Descriptor()
 		hidden = false
+		textureCoordOffset = Vector2D(0.0, 0.0)
 
 		super.init()
 
 		_animator = Animator(self)
 
 		setMaskTexture(Texture(fileName: "white_pixel"))
+		_mesh._shader.setFragmentData(float2: &textureCoordOffset.float2, length: sizeof(float2), index: 2)
 	}
 	
 	internal func getComponent() -> InternalComponent {
@@ -129,34 +130,35 @@ public class GameComponent: NSObject, InternalComponent, Component, Scriptable, 
 		_mesh = mesh
     }
 	
-	public func setTexture1(fileName file: String, fileExtension ext: String = ".png") {
-		setTexture(texture1: Texture(fileName: file, fileExtension: ext))
+	public func setTexture(fileName file: String, fileExtension ext: String = ".png") {
+		setTexture(Texture(fileName: file, fileExtension: ext))
 	}
 
-	public func setTexture2(fileName file: String, fileExtension ext: String = ".png") {
-		setTexture(texture2: Texture(fileName: file, fileExtension: ext))
+	public func setTexture(texture: Texture) {
+		_mesh._shader.setTexture(texture, index: 0)
+		if index == 0 {
+			_animator._defaultTexture = texture
+		}
 	}
 
-	public func setTexture(texture1 texture: Texture) {
-		_mesh.texture1 = texture
-		_animator._defaultTexture = texture
-	}
-
-	public func setTexture(texture2 texture: Texture) {
-		_mesh.texture2 = texture
+	public func setMaskTexture(fileName file: String, fileExtension ext: String = ".png") {
+		setMaskTexture(Texture(fileName: file, fileExtension: ext))
 	}
 
 	public func setMaskTexture(texture: Texture) {
-		_mesh.maskTexture = texture
+		_maskTexture = texture
+		_mesh._shader.setTexture(texture, index: 1)
 	}
 	
 	public func setMaterial(materialName: String) {
 		_mesh.setMaterial(materialName)
 	}
 	
-	public func setTextureCoordOffset(offset: float2) {
-		_mesh.texcoordsOffset = float2(	offset.x / _transform.getMeshScale().x,
+	public func setTextureCoordOffset(offset: Vector2D) {
+		textureCoordOffset = Vector2D(	offset.x / _transform.getMeshScale().x,
 										offset.y / _transform.getMeshScale().y)
+
+		_mesh._shader.setFragmentData(float2: &offset.float2, length: sizeof(float2), index: 2)
 	}
 
 	public func addScript(script: Script) {
@@ -212,6 +214,14 @@ public class GameComponent: NSObject, InternalComponent, Component, Scriptable, 
 			worldQuad[x]![y]!.append(self)
 		}
 	}
+	
+	func destroy() {
+		for child: InternalComponent in _children {
+			child.destroy()
+		}
+		
+		_children.removeAll()
+	}
 
 	public func update(deltaTime: CFTimeInterval) {
 		if rigidbody != nil && _hasRigidbody {
@@ -241,7 +251,7 @@ public class GameComponent: NSObject, InternalComponent, Component, Scriptable, 
 		if !hidden {
 			if transform.getMeshScale().x > 0 && transform.getMeshScale().y > 0 {
 				_mesh.drawMode = .Triangle
-				_mesh.texture1 = _animator.getCurrentFrameTexture()
+				_mesh._shader.setTexture(_animator.getCurrentFrameTexture(), index: 0)
 				_mesh.prepareToDraw(renderer, transform: _transform)
 				_mesh.draw(renderer)
 			}

@@ -17,6 +17,10 @@ public class Grid: Mesh {
 	private var depth: Int! = 0
 	private var textureRepeatXCount: Int! = 0
 	private var textureRepeatYCount: Int! = 0
+	private var positions: [float2] = [float2]()
+	private var textureCoords: [float2] = [float2]()
+	private var textureRepeat: float2 = float2(0.0)
+	private var repeatMask: Bool = false
 
 	public init (materialName: String, width: Int, height: Int, depth: Int, textureRepeatXCount: Int, textureRepeatYCount: Int) {
 		self.width = width
@@ -26,23 +30,35 @@ public class Grid: Mesh {
 		self.textureRepeatXCount = textureRepeatXCount
 		self.textureRepeatYCount = textureRepeatYCount
 
-		super.init(materialName: materialName)
+		super.init(shaderName: materialName)
 
 		self.textureRepeat = float2(Float(textureRepeatXCount), Float(textureRepeatYCount))
 		self.repeatMask = false
+
+		var textureCoordOffset: float2 = float2(0.0)
+		_shader.setFragmentData(float2: &self.textureRepeat, length: sizeof(float2), index: 0)
+		_shader.setFragmentData(bool: &self.repeatMask, length: sizeof(Bool), index: 1)
+		_shader.setFragmentData(float2: &textureCoordOffset, length: sizeof(float2), index: 2)
+
+//		if depth != 0 {
+//			createWithDepth()
+//		} else if height != 0 {
+//			createWithHeight()
+//		}
+
+		createWithHeight()
 	}
 
-	public convenience init(width: Int, depth: Int, textureRepeatXCount: Int, textureRepeatYCount: Int) {
-		self.init (
-			materialName: "basic",
-			width: width,
-			height: 0,
-			depth: depth,
-			textureRepeatXCount: textureRepeatXCount,
-			textureRepeatYCount: textureRepeatYCount
-		)
-		createWithDepth()
-	}
+//	public convenience init(width: Int, depth: Int, textureRepeatXCount: Int, textureRepeatYCount: Int) {
+//		self.init (
+//			materialName: "basic",
+//			width: width,
+//			height: 0,
+//			depth: depth,
+//			textureRepeatXCount: textureRepeatXCount,
+//			textureRepeatYCount: textureRepeatYCount
+//		)
+//	}
 	
 	public convenience init(width: Int, height: Int, textureRepeatXCount: Int, textureRepeatYCount: Int) {
 		self.init (
@@ -53,20 +69,18 @@ public class Grid: Mesh {
 				textureRepeatXCount: textureRepeatXCount,
 				textureRepeatYCount: textureRepeatYCount
 		)
-		createWithHeight()
 	}
 	
-	public convenience init(materialName: String, width: Int, depth: Int, textureRepeatXCount: Int, textureRepeatYCount: Int) {
-		self.init (
-				materialName: materialName,
-				width: width,
-				height: 0,
-				depth: depth,
-				textureRepeatXCount: textureRepeatXCount,
-				textureRepeatYCount: textureRepeatYCount
-		)
-		createWithDepth()
-	}
+//	public convenience init(materialName: String, width: Int, depth: Int, textureRepeatXCount: Int, textureRepeatYCount: Int) {
+//		self.init (
+//				materialName: materialName,
+//				width: width,
+//				height: 0,
+//				depth: depth,
+//				textureRepeatXCount: textureRepeatXCount,
+//				textureRepeatYCount: textureRepeatYCount
+//		)
+//	}
 	
 	public convenience init(materialName: String, width: Int, height: Int, textureRepeatXCount: Int, textureRepeatYCount: Int) {
 		self.init (
@@ -77,51 +91,49 @@ public class Grid: Mesh {
 				textureRepeatXCount: textureRepeatXCount,
 				textureRepeatYCount: textureRepeatYCount
 		)
-		createWithHeight()
 	}
 	
-	internal func createWithDepth() {
-		let hW = (Float(width) - 1.0) / 2.0
-		let hD = (Float(depth) - 1.0) / 2.0
-		
-		//Tamanho de cada passo da textura
-		let textureRepeatUnitX = (Float(textureRepeatXCount) / Float(width - 1))
-		let textureRepeatUnitY = (Float(textureRepeatYCount) / Float(depth - 1))
-		
-		for(var z = 0; z < depth; z++) {
-			for(var x = 0; x < width; x++) {
-				
-				positions.append(	float3(	x: Float(x) - hW,
-											y: Float(0.0),
-											z: Float(z) - hD))
-				
-				normals.append(		float3( x: 0.0,
-											y: 1.0,
-											z: 0.0))
-				
-				texcoords.append(	float2( x: textureRepeatUnitX * Float(x),
-											y: textureRepeatUnitY * Float(z)))
-			}
-		}
-		
-		for(var z = 0; z < depth - 1; z++) {
-			for(var x = 0; x < width - 1; x++) {
-				
-				let zero  = UInt32(x + z * width)
-				let one   = UInt32((x + 1) + z * width)
-				let two   = UInt32(x + (z + 1) * width)
-				let three = UInt32((x + 1) + (z + 1) * width)
-				
-				indices.append(one)
-				indices.append(three)
-				indices.append(zero)
-				
-				indices.append(three)
-				indices.append(two)
-				indices.append(zero)
-			}
-		}
-	}
+//	internal func createWithDepth() {
+//		let hW = (Float(width) - 1.0) / 2.0
+//		let hD = (Float(depth) - 1.0) / 2.0
+//
+//		//Tamanho de cada passo da textura
+//		let textureRepeatUnitX = (Float(textureRepeatXCount) / Float(width - 1))
+//		let textureRepeatUnitY = (Float(textureRepeatYCount) / Float(depth - 1))
+//
+//		for(var z = 0; z < depth; z++) {
+//			for(var x = 0; x < width; x++) {
+//
+//				positions.append(	float3(	x: Float(x) - hW,
+//											y: Float(0.0),
+//											z: Float(z) - hD))
+//
+//				textureCoords.append(	float2( x: textureRepeatUnitX * Float(x),
+//												y: textureRepeatUnitY * Float(z)))
+//			}
+//		}
+//
+//		for(var z = 0; z < depth - 1; z++) {
+//			for(var x = 0; x < width - 1; x++) {
+//
+//				let zero  = UInt32(x + z * width)
+//				let one   = UInt32((x + 1) + z * width)
+//				let two   = UInt32(x + (z + 1) * width)
+//				let three = UInt32((x + 1) + (z + 1) * width)
+//
+//				indices.append(one)
+//				indices.append(three)
+//				indices.append(zero)
+//
+//				indices.append(three)
+//				indices.append(two)
+//				indices.append(zero)
+//			}
+//		}
+//
+//		_shader.setVertexData(float2: positions, 	 length: sizeof(float2) * positions.count, 		index: 2)
+//		_shader.setVertexData(float2: textureCoords, length: sizeof(float2) * textureCoords.count, 	index: 3)
+//	}
 	
 	internal func createWithHeight() {
 		let hW: Float = (Float(width) - 1.0) / 2.0
@@ -135,16 +147,11 @@ public class Grid: Mesh {
 			for(var x = 0; x < width; x++) {
 				
 				
-				positions.append(	float3(	x: Float(x) - hW,
-											y: Float(y) - hH,
-											z: 0.0))
-				
-				normals.append(		float3(	x: 0.0,
-											y: 0.0,
-											z: 1.0))
-				
-				texcoords.append(	float2( x: textureRepeatUnitX * Float(x),
-											y: textureRepeatUnitY * Float(y)))
+				positions.append(	float2(	x: Float(x) - hW,
+											y: Float(y) - hH))
+
+				textureCoords.append(	float2( x: textureRepeatUnitX * Float(x),
+												y: textureRepeatUnitY * Float(y)))
 			}
 		}
 		
@@ -166,5 +173,8 @@ public class Grid: Mesh {
 				indices.insert(three, atIndex: count++)
 			}
 		}
+
+		_shader.setVertexData(float2: &positions, 	 length: sizeof(float2) * positions.count, 		index: 2)
+		_shader.setVertexData(float2: &textureCoords, length: sizeof(float2) * textureCoords.count, 	index: 3)
 	}
 }

@@ -28,6 +28,7 @@ internal class GameView: MTKView {
 		self.colorPixelFormat = .BGRA8Unorm
 		self.clearColor = MTLClearColorMake(0.0, 0.0, 0.0, 1.0)
 		self.layer.zPosition = -10
+		self.preferredFramesPerSecond = 60
 	}
 
 	required internal init(coder: NSCoder) {
@@ -47,9 +48,16 @@ public class GameViewController: UIViewController {
 		return _gameView.scene
 	}
 	
-    override public func viewDidLoad() {
+	override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
+		super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+	}
+
+	required public init?(coder aDecoder: NSCoder) {
+		super.init(coder: aDecoder)
+	}
+	
+	override public func viewDidLoad() {
 		_gameView = GameView(frame: self.view.frame, device: Core.device, viewController: self)
-		
 		super.view.layer.addSublayer(_gameView.layer)
 		
 		super.viewDidLoad()

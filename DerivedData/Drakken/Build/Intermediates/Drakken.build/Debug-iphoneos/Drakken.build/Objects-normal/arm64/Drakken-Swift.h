@@ -117,7 +117,6 @@ SWIFT_PROTOCOL("_TtP7Drakken9Component_")
 @protocol MTLDevice;
 @protocol MTLCommandQueue;
 @protocol MTLLibrary;
-@class MaterialManager;
 
 SWIFT_CLASS("_TtC7Drakken4Core")
 @interface Core : NSObject
@@ -127,8 +126,6 @@ SWIFT_CLASS("_TtC7Drakken4Core")
 + (void)setCommandQueue:(id <MTLCommandQueue> __null_unspecified)newValue;
 + (id <MTLLibrary> __null_unspecified)library;
 + (void)setLibrary:(id <MTLLibrary> __null_unspecified)newValue;
-+ (MaterialManager * __null_unspecified)materialManager;
-+ (void)setMaterialManager:(MaterialManager * __null_unspecified)newValue;
 + (CGSize)drawableSize;
 @end
 
@@ -154,8 +151,8 @@ SWIFT_CLASS("_TtC7Drakken14FluidComponent")
 @end
 
 @protocol RigidbodyProtocol;
-@class Texture;
 @class Rigidbody;
+@class Texture;
 @class Renderer;
 
 SWIFT_CLASS("_TtC7Drakken13GameComponent")
@@ -164,19 +161,16 @@ SWIFT_CLASS("_TtC7Drakken13GameComponent")
 @property (nonatomic, strong) id <Transformable> __null_unspecified transform;
 @property (nonatomic, strong) Descriptor * __null_unspecified descriptor;
 @property (nonatomic) BOOL hidden;
-@property (nonatomic, readonly, strong) Texture * __nonnull maskTexture;
 - (nonnull instancetype)initWithTextureRepeatX:(NSInteger)textureRepeatX textureRepeatY:(NSInteger)textureRepeatY;
 - (nonnull instancetype)initWithMaterialName:(NSString * __nonnull)materialName textureRepeatX:(NSInteger)textureRepeatX textureRepeatY:(NSInteger)textureRepeatY OBJC_DESIGNATED_INITIALIZER;
 - (void)delete;
 - (void)createInWorld:(World * __nonnull)world;
 - (void)addRigibody:(Rigidbody * __nonnull)rigidbody;
-- (void)setTexture1WithFileName:(NSString * __nonnull)file fileExtension:(NSString * __nonnull)ext;
-- (void)setTexture2WithFileName:(NSString * __nonnull)file fileExtension:(NSString * __nonnull)ext;
-- (void)setTextureWithTexture1:(Texture * __nonnull)texture;
-- (void)setTextureWithTexture2:(Texture * __nonnull)texture;
+- (void)setTextureWithFileName:(NSString * __nonnull)file fileExtension:(NSString * __nonnull)ext;
+- (void)setTexture:(Texture * __nonnull)texture;
+- (void)setMaskTextureWithFileName:(NSString * __nonnull)file fileExtension:(NSString * __nonnull)ext;
 - (void)setMaskTexture:(Texture * __nonnull)texture;
 - (void)setMaterial:(NSString * __nonnull)materialName;
-- (void)setTextureCoordOffset:(swift_float2)offset;
 - (void)addNode:(GameComponent * __nonnull)node;
 - (void)onCollisionEnter:(id <OtherComponent> __nonnull)other collisionPoint:(CGPoint)collisionPoint;
 - (void)onCollisionExit:(id <OtherComponent> __nonnull)other collisionPoint:(CGPoint)collisionPoint;
@@ -188,30 +182,17 @@ SWIFT_CLASS("_TtC7Drakken13GameComponent")
 @end
 
 @class Scene;
-@class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC7Drakken18GameViewController")
 @interface GameViewController : UIViewController
 @property (nonatomic, readonly, strong) Scene * __nonnull scene;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)viewDidLoad;
 - (void)afterUpdate;
 - (void)beforeUpdate;
 - (void)didReceiveMemoryWarning;
 - (BOOL)prefersStatusBarHidden;
-- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC7Drakken8Material")
-@interface Material : NSObject
-@end
-
-
-SWIFT_CLASS("_TtC7Drakken15MaterialManager")
-@interface MaterialManager : NSObject
-- (Material * __nonnull)getMaterial:(NSString * __nonnull)name;
 @end
 
 
@@ -254,6 +235,26 @@ SWIFT_CLASS("_TtC7Drakken5Scene")
 - (void)destroy;
 @end
 
+@protocol MTLBuffer;
+
+SWIFT_CLASS("_TtC7Drakken6Shader")
+@interface Shader : NSObject
+- (void)setVertexDataWithBuffer:(id <MTLBuffer> __nonnull)data index:(NSInteger)index;
+- (void)setVertexDataWithFloat:(float * __null_unspecified)data length:(NSInteger)length index:(NSInteger)index;
+- (void)setVertexDataWithFloat2:(swift_float2 * __null_unspecified)data length:(NSInteger)length index:(NSInteger)index;
+- (void)setVertexDataWithFloat3:(swift_float3 * __null_unspecified)data length:(NSInteger)length index:(NSInteger)index;
+- (void)setVertexDataWithFloat4:(swift_float4 * __null_unspecified)data length:(NSInteger)length index:(NSInteger)index;
+- (void)setVertexDataWithBool:(BOOL * __null_unspecified)data length:(NSInteger)length index:(NSInteger)index;
+- (void)setVertexDataWithVoid:(void * __null_unspecified)data length:(NSInteger)length index:(NSInteger)index;
+- (void)setFragmentDataWithFloat:(float * __null_unspecified)data length:(NSInteger)length index:(NSInteger)index;
+- (void)setFragmentDataWithFloat2:(swift_float2 * __null_unspecified)data length:(NSInteger)length index:(NSInteger)index;
+- (void)setFragmentDataWithFloat3:(swift_float3 * __null_unspecified)data length:(NSInteger)length index:(NSInteger)index;
+- (void)setFragmentDataWithFloat4:(swift_float4 * __null_unspecified)data length:(NSInteger)length index:(NSInteger)index;
+- (void)setFragmentDataWithBool:(BOOL * __null_unspecified)data length:(NSInteger)length index:(NSInteger)index;
+- (void)setFragmentDataWithVoid:(void * __null_unspecified)data length:(NSInteger)length index:(NSInteger)index;
+- (void)setTexture:(Texture * __nonnull)texture index:(NSInteger)index;
+@end
+
 
 SWIFT_CLASS("_TtC7Drakken16TerrainComponent")
 @interface TerrainComponent : NSObject <Component>
@@ -261,12 +262,10 @@ SWIFT_CLASS("_TtC7Drakken16TerrainComponent")
 @property (nonatomic, strong) Descriptor * __null_unspecified descriptor;
 - (nonnull instancetype)initWithCollisionMaskTexture:(Texture * __nonnull)collisionMaskTexture world:(World * __nonnull)world renderMaskTexture:(Texture * __nonnull)renderMaskTexture texture1:(Texture * __nonnull)texture1 textureRepeatXCount:(NSInteger)textureRepeatXCount textureRepeatYCount:(NSInteger)textureRepeatYCount gridScale:(NSInteger)gridScale OBJC_DESIGNATED_INITIALIZER;
 - (void)createWithMaskTexture:(Texture * __nonnull)texture;
-- (void)setTextureWithTexture:(Texture * __nonnull)texture;
-- (void)setTexture1WithFileName:(NSString * __nonnull)file fileExtension:(NSString * __nonnull)ext;
-- (void)setTexture2WithFileName:(NSString * __nonnull)file fileExtension:(NSString * __nonnull)ext;
+- (void)setTexture:(Texture * __nonnull)texture;
+- (void)setTextureWithFileName:(NSString * __nonnull)file fileExtension:(NSString * __nonnull)ext;
 - (void)setMaskTextureWithTexture:(Texture * __nonnull)texture;
 - (void)setMaskTextureWithFileName:(NSString * __nonnull)file fileExtension:(NSString * __nonnull)ext;
-- (void)setTextureCoordOffset:(swift_float2)offset;
 - (void)createInWorld:(World * __nonnull)world;
 @end
 

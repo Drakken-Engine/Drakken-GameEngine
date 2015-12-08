@@ -7,35 +7,36 @@ provides-member:
 - ["C7Drakken14FluidComponent", ""]
 provides-dynamic-lookup:
 - "index"
-- "descriptor"
+- "destroy"
+- "updateWorldQuad"
+- "getCanvas"
 - "draw"
 - "update"
 - "_transform"
-- "updateWorldQuad"
+- "descriptor"
 - "addNewFluid"
-- "transform"
 - "getFluid"
-- "getCanvas"
+- "transform"
 depends-top-level:
+- "Renderer"
 - "Transformable"
+- "InternalComponent"
+- "NSObject"
 - !private "StringLiteralType"
 - "Component"
-- "NSObject"
-- "InternalComponent"
+- "String"
+- "World"
+- !private "Core"
 - !private "CGPointZero"
 - "Descriptor"
 - "FluidMesh"
 - "Float"
-- "Fluid"
-- "String"
-- "Int"
-- "Renderer"
-- !private "Core"
 - "Transform"
-- "FluidComponent"
 - "CFTimeInterval"
+- "Int"
+- "FluidComponent"
 - "EffectCanvasComponent"
-- "World"
+- "Fluid"
 depends-member:
 - !private ["PSs9AnyObject", "CGPointZero"]
 - !private ["PSs9AnyObject", "Core"]
@@ -51,6 +52,7 @@ depends-member:
 - ["PSs9AnyObject", "addNewFluid"]
 - !private ["PSs9AnyObject", "addNode"]
 - ["PSs9AnyObject", "descriptor"]
+- ["PSs9AnyObject", "destroy"]
 - ["PSs9AnyObject", "draw"]
 - ["PSs9AnyObject", "getCanvas"]
 - ["PSs9AnyObject", "getComponent"]
@@ -82,6 +84,7 @@ depends-member:
 - ["PSs11CVarArgType", "addNewFluid"]
 - !private ["PSs11CVarArgType", "addNode"]
 - ["PSs11CVarArgType", "descriptor"]
+- ["PSs11CVarArgType", "destroy"]
 - ["PSs11CVarArgType", "draw"]
 - ["PSs11CVarArgType", "getCanvas"]
 - ["PSs11CVarArgType", "getComponent"]
@@ -118,6 +121,7 @@ depends-member:
 - !private ["P7Drakken9Component", "_world"]
 - !private ["P7Drakken9Component", "addNode"]
 - ["P7Drakken9Component", "descriptor"]
+- ["P7Drakken9Component", "destroy"]
 - ["P7Drakken9Component", "draw"]
 - ["P7Drakken9Component", "getComponent"]
 - ["P7Drakken9Component", "index"]
@@ -154,6 +158,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "addNewFluid"]
 - !private ["PSs23CustomStringConvertible", "addNode"]
 - ["PSs23CustomStringConvertible", "descriptor"]
+- ["PSs23CustomStringConvertible", "destroy"]
 - ["PSs23CustomStringConvertible", "draw"]
 - ["PSs23CustomStringConvertible", "getCanvas"]
 - ["PSs23CustomStringConvertible", "getComponent"]
@@ -210,6 +215,7 @@ depends-member:
 - ["PSs9Equatable", "addNewFluid"]
 - !private ["PSs9Equatable", "addNode"]
 - ["PSs9Equatable", "descriptor"]
+- ["PSs9Equatable", "destroy"]
 - ["PSs9Equatable", "draw"]
 - ["PSs9Equatable", "getCanvas"]
 - ["PSs9Equatable", "getComponent"]
@@ -247,6 +253,7 @@ depends-member:
 - ["C7Drakken14FluidComponent", "addNewFluid"]
 - ["C7Drakken14FluidComponent", "deinit"]
 - ["C7Drakken14FluidComponent", "descriptor"]
+- ["C7Drakken14FluidComponent", "destroy"]
 - ["C7Drakken14FluidComponent", "draw"]
 - ["C7Drakken14FluidComponent", "getCanvas"]
 - ["C7Drakken14FluidComponent", "getComponent"]
@@ -279,6 +286,7 @@ depends-member:
 - ["PSs8Hashable", "addNewFluid"]
 - !private ["PSs8Hashable", "addNode"]
 - ["PSs8Hashable", "descriptor"]
+- ["PSs8Hashable", "destroy"]
 - ["PSs8Hashable", "draw"]
 - ["PSs8Hashable", "getCanvas"]
 - ["PSs8Hashable", "getComponent"]
@@ -319,6 +327,7 @@ depends-member:
 - !private ["P7Drakken17InternalComponent", "_world"]
 - !private ["P7Drakken17InternalComponent", "addNode"]
 - ["P7Drakken17InternalComponent", "descriptor"]
+- ["P7Drakken17InternalComponent", "destroy"]
 - ["P7Drakken17InternalComponent", "draw"]
 - ["P7Drakken17InternalComponent", "getComponent"]
 - ["P7Drakken17InternalComponent", "index"]
@@ -355,6 +364,7 @@ depends-member:
 - ["CSo8NSObject", "addNewFluid"]
 - !private ["CSo8NSObject", "addNode"]
 - ["CSo8NSObject", "descriptor"]
+- ["CSo8NSObject", "destroy"]
 - ["CSo8NSObject", "draw"]
 - ["CSo8NSObject", "getCanvas"]
 - ["CSo8NSObject", "getComponent"]
@@ -382,6 +392,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "addNewFluid"]
 - !private ["PSo16NSObjectProtocol", "addNode"]
 - ["PSo16NSObjectProtocol", "descriptor"]
+- ["PSo16NSObjectProtocol", "destroy"]
 - ["PSo16NSObjectProtocol", "draw"]
 - ["PSo16NSObjectProtocol", "getCanvas"]
 - ["PSo16NSObjectProtocol", "getComponent"]
@@ -406,18 +417,6 @@ depends-member:
 - !private ["PSs12SequenceType", "init"]
 - !private ["PSs12SequenceType", "subscript"]
 - !private ["PSs12SequenceType", "updateValue"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "draw"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "getFluid"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "init"]
-- !private ["P7Drakken24ShaderFragmentBufferData", "prepareToDraw"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "draw"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "getFluid"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "init"]
-- !private ["P7Drakken25ShaderFragmentTextureData", "prepareToDraw"]
-- !private ["P7Drakken16ShaderVertexData", "draw"]
-- !private ["P7Drakken16ShaderVertexData", "getFluid"]
-- !private ["P7Drakken16ShaderVertexData", "init"]
-- !private ["P7Drakken16ShaderVertexData", "prepareToDraw"]
 - !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
 - !private ["PSs16SignedNumberType", "IntegerLiteralType"]
 - !private ["VSs5Slice", "Generator"]
@@ -496,9 +495,6 @@ depends-nominal:
 - !private "PSs21NilLiteralConvertible"
 - !private "PSs21RandomAccessIndexType"
 - !private "PSs12SequenceType"
-- !private "P7Drakken24ShaderFragmentBufferData"
-- !private "P7Drakken25ShaderFragmentTextureData"
-- !private "P7Drakken16ShaderVertexData"
 - !private "PSs17SignedIntegerType"
 - !private "PSs16SignedNumberType"
 - !private "VSs5Slice"
@@ -544,4 +540,4 @@ depends-external:
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
-interface-hash: "efc7e1973671018125f885c9a2fa4a4e"
+interface-hash: "e289d1e014badd15a3e515b07bbfbe07"

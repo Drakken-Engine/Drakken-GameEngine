@@ -18,10 +18,12 @@ class TerrainMesh: Mesh, AxisAligned {
 	
 	static var idCount = 0
 
+	private var positions: [float2] = [float2]()
+
 	init(materialName: String, terrainVertices: [CGPoint] ) {
 		id = TerrainMesh.idCount++
 
-		super.init(materialName: materialName)
+		super.init(shaderName: materialName)
 		
 		updateVertices(terrainVertices)
 		drawMode = .Line
@@ -46,8 +48,7 @@ class TerrainMesh: Mesh, AxisAligned {
 		polygon = terrainVertices
 		
 		indices = [UInt32]()
-		positions = [float3]()
-		normals = [float3]()
+		positions = [float2]()
 		
 		var min: CGPoint = terrainVertices[0]
 		var max: CGPoint = terrainVertices[0]
@@ -71,13 +72,9 @@ class TerrainMesh: Mesh, AxisAligned {
 				max.y = point.y
 			}
 			
-			positions.append(	float3(	x: Float(point.x),
-										y: Float(point.y),
-										z: 0.0))
-			
-			normals.append(		float3( x: 0.0,
-										y: 0.0,
-										z: 1.0))
+			positions.append(	float2(	x: Float(point.x),
+										y: Float(point.y))
+							)
 
 			if lastPoint == nil {
 				lastPoint = point
@@ -99,5 +96,8 @@ class TerrainMesh: Mesh, AxisAligned {
 
 		//Define Rect for QuadTree
 		aabb = CGRectMake(min.x, min.y, max.x - min.x, max.y - min.y)
+
+		_shader.setVertexData(float2: &positions, 	 length: sizeof(float2) * positions.count, 		index: 2)
+		_shader.vertexCount = positions.count
 	}
 }

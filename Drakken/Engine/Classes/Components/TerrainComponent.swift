@@ -45,10 +45,21 @@ import RSClipperWrapper
 		_explosionsQueue = [ExplosionPolygon]()
 
 		_drawComponent = GameComponent()
-		_drawComponent.setMesh(Grid(width: 2, height: 2, textureRepeatXCount: textureRepeatXCount, textureRepeatYCount: textureRepeatYCount))
-		_drawComponent.setTexture(texture1: texture1)
+		_drawComponent.setMesh(
+			Grid(
+				width: 2, height: 2,
+				textureRepeatXCount: textureRepeatXCount,
+				textureRepeatYCount: textureRepeatYCount
+			)
+		)
+		_drawComponent.setTexture(texture1)
 		_drawComponent.setMaskTexture(renderMaskTexture)
-		_drawComponent.transform.setMeshScale(float2(Float(renderMaskTexture.size.width), Float(renderMaskTexture.size.height)))
+		_drawComponent.transform.setMeshScale(
+			float2(
+				Float(renderMaskTexture.size.width),
+				Float(renderMaskTexture.size.height)
+			)
+		)
 
 		_gridScale = gridScale
 		_world = world
@@ -56,7 +67,7 @@ import RSClipperWrapper
 		transform = _transform
 
 		descriptor = Descriptor()
-		
+
 		super.init()
 
 		createWithMaskTexture(collisionMaskTexture)
@@ -98,16 +109,12 @@ import RSClipperWrapper
 		}
 	}
 
-	public func setTexture(texture texture: Texture) {
-		_drawComponent.setTexture(texture1: texture)
+	public func setTexture(texture: Texture) {
+		_drawComponent.setTexture(texture)
 	}
 
-	public func setTexture1(fileName file: String, fileExtension ext: String) {
-		_drawComponent.setTexture1(fileName: file, fileExtension: ext)
-	}
-
-	public func setTexture2(fileName file: String, fileExtension ext: String) {
-		_drawComponent.setTexture2(fileName: file, fileExtension: ext)
+	public func setTexture(fileName file: String, fileExtension ext: String = ".png") {
+		_drawComponent.setTexture(fileName: file, fileExtension: ext)
 	}
 
 	public func setMaskTexture(texture texture: Texture) {
@@ -115,10 +122,10 @@ import RSClipperWrapper
 	}
 
 	public func setMaskTexture(fileName file: String, fileExtension ext: String) {
-		_drawComponent.setMaskTexture(Texture(fileName: file, fileExtension: ext))
+		_drawComponent.setMaskTexture(fileName: file, fileExtension: ext)
 	}
 	
-	public func setTextureCoordOffset(offset: float2) {
+	public func setTextureCoordOffset(offset: Vector2D) {
 		_drawComponent.setTextureCoordOffset(offset)
 	}
 	
@@ -156,7 +163,7 @@ import RSClipperWrapper
 			}
 		}
 
-		let texture = _drawComponent.maskTexture
+		let texture = _drawComponent._maskTexture
 		let maskTexture = MaskTexture.cropCircleAtPosition(
 				explosionPolygon.position,
 				withRadius: Int32(explosionPolygon.radius),
@@ -175,6 +182,10 @@ import RSClipperWrapper
 	}
 	
 	internal func updateWorldQuad(var worldQuad: [Int: [Int: [Component]]]) {
+	}
+	
+	func destroy() {
+		//Do not have any child
 	}
 	
 	internal func update(deltaTime: CFTimeInterval) {

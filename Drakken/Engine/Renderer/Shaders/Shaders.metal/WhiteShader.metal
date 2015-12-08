@@ -44,12 +44,7 @@ struct Light
 
 vertex VertexOut white_vertex ( constant	SharedUniforms	&sharedUniforms		[[ buffer(0) ]],
 							    constant	ModelUniforms	&modelUniforms		[[ buffer(1) ]],
-							    constant	float3			*position			[[ buffer(2) ]],
-							    constant	float3			*normal				[[ buffer(3) ]],
-							    constant	float2			*texcoord			[[ buffer(4) ]],
-							    constant	float4			*color				[[ buffer(5) ]],
-							    constant	float			&pointSize			[[ buffer(6) ]],
-							    constant	float2			*particlePositions	[[ buffer(7) ]],
+							    constant	float2			*position			[[ buffer(2) ]],
 							    uint						vid					[[ vertex_id ]])
 {
 	VertexOut v_out;
@@ -57,22 +52,12 @@ vertex VertexOut white_vertex ( constant	SharedUniforms	&sharedUniforms		[[ buff
 	v_out.position =	sharedUniforms.projectionMatrix *
 						sharedUniforms.viewProjection *
 						modelUniforms.modelMatrix *
-						float4(position[vid].xyz, 1.0);
-	
-	v_out.normal = normalize(modelUniforms.modelMatrix * float4(normal[vid], 0.0)).xyz;
+						float4(position[vid], 0.0, 1.0);
 	
 	return v_out;
 }
 
-fragment float4 white_fragment (			VertexOut			vert		[[ stage_in ]],
-								constant	Light				&light		[[ buffer(0) ]],
-								constant	Material			&material	[[ buffer(1) ]],
-								constant	float2				&texRepeat	[[ buffer(2) ]],
-								constant	bool				&repeatMask	[[ buffer(3) ]],
-											texture2d<float>	texture1	[[ texture(3) ]],
-											texture2d<float>	texture2	[[ texture(4) ]],
-											texture2d<float>	maskTexture	[[ texture(5) ]],
-											sampler				s			[[ sampler(0) ]] )
+fragment float4 white_fragment (	VertexOut	vert	[[ stage_in ]])
 {
 	float4 color = float4(1.0, 1.0, 1.0, 1.0);
 	

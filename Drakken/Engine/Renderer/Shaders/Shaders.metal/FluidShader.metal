@@ -44,12 +44,8 @@ struct Light
 
 vertex VertexOut fluid_vertex ( constant	SharedUniforms	&sharedUniforms		[[ buffer(0) ]],
 								constant	ModelUniforms	&modelUniforms		[[ buffer(1) ]],
-								constant	float3			*position			[[ buffer(2) ]],
-								constant	float3			*normal				[[ buffer(3) ]],
-								constant	float2			*texcoord			[[ buffer(4) ]],
-								constant	float4			*color				[[ buffer(5) ]],
-								constant	float			&pointSize			[[ buffer(6) ]],
-							    constant	float2			*particlePositions	[[ buffer(7) ]],
+								constant	float2			*position			[[ buffer(2) ]],
+								constant	float2			*texcoord			[[ buffer(3) ]],
 								uint						vid					[[ vertex_id ]])
 {
 	VertexOut v_out;
@@ -57,22 +53,17 @@ vertex VertexOut fluid_vertex ( constant	SharedUniforms	&sharedUniforms		[[ buff
 	v_out.position =	sharedUniforms.projectionMatrix *
 						sharedUniforms.viewProjection *
 						modelUniforms.modelMatrix *
-						float4(position[vid], 1.0);
+						float4(position[vid], 0.0, 1.0);
 
-	v_out.normal = normalize(modelUniforms.modelMatrix * float4(normal[vid], 0.0)).xyz;
 	v_out.texcoord = texcoord[vid];
 
 	return v_out;
 }
 
 fragment float4 fluid_fragment (			VertexOut			vert		[[ stage_in ]],
-								constant	Light				&light		[[ buffer(0) ]],
-								constant	Material			&material	[[ buffer(1) ]],
-								constant	float2				&texRepeat	[[ buffer(2) ]],
-								constant	bool				&repeatMask	[[ buffer(3) ]],
-											texture2d<float>	texture1	[[ texture(3) ]],
-											texture2d<float>	texture2	[[ texture(4) ]],
-											texture2d<float>	maskTexture	[[ texture(5) ]],
+								constant	float4				*th_color	[[ buffer(0) ]],
+											texture2d<float>	texture1	[[ texture(0) ]],
+											texture2d<float>	maskTexture	[[ texture(1) ]],
 											sampler				s			[[ sampler(0) ]] )
 {
 	float2 texcoord = vert.texcoord;
@@ -179,19 +170,19 @@ fragment float4 fluid_fragment (			VertexOut			vert		[[ stage_in ]],
 		
 		if ((grayScale) >= range)
 		{
-			color = float4(0.3, 0.3, 0.9, 0.60);
+			color = float4(0.3, 0.3, 0.9, 0.6);
 		}
 		else if ((grayScale) >= range - 0.1)
 		{
-			color = float4(0.25, 0.25, 0.9, 0.55);
+			color = float4(0.25, 0.25, 0.9, 0.5);
 		}
-		else if ((grayScale) >= range - 0.25)
+		else if ((grayScale) >= range - 0.15)
 		{
-			color = float4(0.225, 0.225, 0.9, 0.50);
+			color = float4(0.225, 0.225, 0.9, 0.4);
 		}
-		else if ((grayScale) >= range - 0.3)
+		else if ((grayScale) >= range - 0.2)
 		{
-			color = float4(0.2, 0.2, 0.9, 0.40);
+			color = float4(0.2, 0.2, 0.9, 0.2);
 		}
 		else {
 			discard_fragment();

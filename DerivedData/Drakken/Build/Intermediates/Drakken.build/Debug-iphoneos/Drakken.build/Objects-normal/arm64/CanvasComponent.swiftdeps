@@ -6,46 +6,47 @@ provides-nominal:
 provides-member:
 - ["C7Drakken15CanvasComponent", ""]
 provides-dynamic-lookup:
-- "addNode"
-- "sharedUniformBuffer"
-- "draw"
+- "updateSharedUniformBuffer"
+- "drawOnTargetTexture"
 - "transform"
+- "addNode"
+- "updateWorldQuad"
+- "destroy"
+- "index"
+- "draw"
 - "descriptor"
 - "_transform"
-- "setMaskTexture"
-- "drawOnTargetTexture"
-- "updateSharedUniformBuffer"
-- "updateWorldQuad"
-- "index"
 - "update"
+- "sharedUniformBuffer"
+- "setMaskTexture"
 depends-top-level:
-- "Transformable"
-- !private "Resource"
-- !private "/"
-- "Renderer"
-- "CGSize"
-- !private "*"
-- "Descriptor"
-- !private "newTranslation"
-- "InternalComponent"
-- !private "Float"
-- "Int"
-- "Component"
-- "Transform"
-- !private "newOrtho"
-- "MTLBuffer"
-- !private "-"
 - "MTLTexture"
-- "CFTimeInterval"
-- !private "Core"
+- "Descriptor"
+- "MTLBuffer"
+- !private "Resource"
 - !private "float3"
 - "CGPoint"
-- "SharedUniforms"
-- "CanvasComponent"
-- !private "StringLiteralType"
-- "NSObject"
-- "float4x4"
+- "CGSize"
+- "Renderer"
+- "Transformable"
+- !private "/"
+- !private "Core"
+- !private "newTranslation"
+- "Int"
+- !private "newOrtho"
+- "Component"
+- !private "-"
+- "InternalComponent"
 - !private "sizeof"
+- "CanvasComponent"
+- "CFTimeInterval"
+- !private "Float"
+- "Transform"
+- "NSObject"
+- !private "StringLiteralType"
+- "float4x4"
+- !private "*"
+- "SharedUniforms"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "Core"]
@@ -63,6 +64,7 @@ depends-member:
 - ["PSs9AnyObject", "_transform"]
 - ["PSs9AnyObject", "addNode"]
 - ["PSs9AnyObject", "descriptor"]
+- ["PSs9AnyObject", "destroy"]
 - !private ["PSs9AnyObject", "device"]
 - ["PSs9AnyObject", "draw"]
 - ["PSs9AnyObject", "drawOnTargetTexture"]
@@ -95,6 +97,7 @@ depends-member:
 - !private ["Sa", "_Element"]
 - !private ["Sa", "append"]
 - !private ["Sa", "init"]
+- !private ["Sa", "removeAll"]
 - !private ["PSs23ArrayLiteralConvertible", "CPUCacheModeDefaultCache"]
 - !private ["PSs23ArrayLiteralConvertible", "Generator"]
 - !private ["PSs23ArrayLiteralConvertible", "Index"]
@@ -102,6 +105,7 @@ depends-member:
 - !private ["PSs23ArrayLiteralConvertible", "_Element"]
 - !private ["PSs23ArrayLiteralConvertible", "append"]
 - !private ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "removeAll"]
 - !private ["VSs10ArraySlice", "Generator"]
 - !private ["VSs10ArraySlice", "Index"]
 - !private ["PSs22BidirectionalIndexType", "Distance"]
@@ -128,6 +132,7 @@ depends-member:
 - ["PSs11CVarArgType", "_transform"]
 - ["PSs11CVarArgType", "addNode"]
 - ["PSs11CVarArgType", "descriptor"]
+- ["PSs11CVarArgType", "destroy"]
 - !private ["PSs11CVarArgType", "device"]
 - ["PSs11CVarArgType", "draw"]
 - ["PSs11CVarArgType", "drawOnTargetTexture"]
@@ -177,6 +182,7 @@ depends-member:
 - ["C7Drakken15CanvasComponent", "addNode"]
 - ["C7Drakken15CanvasComponent", "deinit"]
 - ["C7Drakken15CanvasComponent", "descriptor"]
+- ["C7Drakken15CanvasComponent", "destroy"]
 - ["C7Drakken15CanvasComponent", "draw"]
 - ["C7Drakken15CanvasComponent", "drawOnTargetTexture"]
 - !private ["C7Drakken15CanvasComponent", "float3"]
@@ -202,6 +208,7 @@ depends-member:
 - !private ["PSs14CollectionType", "_Element"]
 - !private ["PSs14CollectionType", "append"]
 - !private ["PSs14CollectionType", "init"]
+- !private ["PSs14CollectionType", "removeAll"]
 - !private ["PSs10Comparable", "Distance"]
 - !private ["PSs10Comparable", "IntegerLiteralType"]
 - !private ["PSs10Comparable", "init"]
@@ -219,6 +226,7 @@ depends-member:
 - !private ["P7Drakken9Component", "_texture"]
 - ["P7Drakken9Component", "_transform"]
 - ["P7Drakken9Component", "descriptor"]
+- ["P7Drakken9Component", "destroy"]
 - ["P7Drakken9Component", "draw"]
 - !private ["P7Drakken9Component", "float3"]
 - ["P7Drakken9Component", "getComponent"]
@@ -243,6 +251,7 @@ depends-member:
 - !private ["PSs28CustomDebugStringConvertible", "_Element"]
 - !private ["PSs28CustomDebugStringConvertible", "append"]
 - !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "removeAll"]
 - !private ["PSs23CustomStringConvertible", "Core"]
 - !private ["PSs23CustomStringConvertible", "Distance"]
 - !private ["PSs23CustomStringConvertible", "Float"]
@@ -265,6 +274,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "addNode"]
 - !private ["PSs23CustomStringConvertible", "append"]
 - ["PSs23CustomStringConvertible", "descriptor"]
+- ["PSs23CustomStringConvertible", "destroy"]
 - !private ["PSs23CustomStringConvertible", "device"]
 - ["PSs23CustomStringConvertible", "draw"]
 - ["PSs23CustomStringConvertible", "drawOnTargetTexture"]
@@ -276,6 +286,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "newOrtho"]
 - !private ["PSs23CustomStringConvertible", "newTranslation"]
 - ["PSs23CustomStringConvertible", "projectionMatrix"]
+- !private ["PSs23CustomStringConvertible", "removeAll"]
 - !private ["PSs23CustomStringConvertible", "renderCommandEncoder"]
 - !private ["PSs23CustomStringConvertible", "screenScale"]
 - ["PSs23CustomStringConvertible", "setMaskTexture"]
@@ -307,6 +318,7 @@ depends-member:
 - ["PSs9Equatable", "_transform"]
 - ["PSs9Equatable", "addNode"]
 - ["PSs9Equatable", "descriptor"]
+- ["PSs9Equatable", "destroy"]
 - !private ["PSs9Equatable", "device"]
 - ["PSs9Equatable", "draw"]
 - ["PSs9Equatable", "drawOnTargetTexture"]
@@ -356,6 +368,7 @@ depends-member:
 - ["PSs8Hashable", "_transform"]
 - ["PSs8Hashable", "addNode"]
 - ["PSs8Hashable", "descriptor"]
+- ["PSs8Hashable", "destroy"]
 - !private ["PSs8Hashable", "device"]
 - ["PSs8Hashable", "draw"]
 - ["PSs8Hashable", "drawOnTargetTexture"]
@@ -388,6 +401,7 @@ depends-member:
 - !private ["PSs9Indexable", "_Element"]
 - !private ["PSs9Indexable", "append"]
 - !private ["PSs9Indexable", "init"]
+- !private ["PSs9Indexable", "removeAll"]
 - !private ["VSs17IndexingGenerator", "Element"]
 - !private ["Si", "Distance"]
 - !private ["Si", "IntegerLiteralType"]
@@ -412,6 +426,7 @@ depends-member:
 - !private ["P7Drakken17InternalComponent", "_texture"]
 - ["P7Drakken17InternalComponent", "_transform"]
 - ["P7Drakken17InternalComponent", "descriptor"]
+- ["P7Drakken17InternalComponent", "destroy"]
 - ["P7Drakken17InternalComponent", "draw"]
 - !private ["P7Drakken17InternalComponent", "float3"]
 - ["P7Drakken17InternalComponent", "getComponent"]
@@ -440,18 +455,21 @@ depends-member:
 - !private ["PSs21MutableCollectionType", "_Element"]
 - !private ["PSs21MutableCollectionType", "append"]
 - !private ["PSs21MutableCollectionType", "init"]
+- !private ["PSs21MutableCollectionType", "removeAll"]
 - !private ["PSs16MutableIndexable", "Generator"]
 - !private ["PSs16MutableIndexable", "Index"]
 - !private ["PSs16MutableIndexable", "SubSequence"]
 - !private ["PSs16MutableIndexable", "_Element"]
 - !private ["PSs16MutableIndexable", "append"]
 - !private ["PSs16MutableIndexable", "init"]
+- !private ["PSs16MutableIndexable", "removeAll"]
 - !private ["PSs16MutableSliceable", "Generator"]
 - !private ["PSs16MutableSliceable", "Index"]
 - !private ["PSs16MutableSliceable", "SubSequence"]
 - !private ["PSs16MutableSliceable", "_Element"]
 - !private ["PSs16MutableSliceable", "append"]
 - !private ["PSs16MutableSliceable", "init"]
+- !private ["PSs16MutableSliceable", "removeAll"]
 - ["CSo8NSObject", "CFTimeInterval"]
 - ["CSo8NSObject", "CGPoint"]
 - ["CSo8NSObject", "CGSize"]
@@ -476,6 +494,7 @@ depends-member:
 - ["CSo8NSObject", "_transform"]
 - ["CSo8NSObject", "addNode"]
 - ["CSo8NSObject", "descriptor"]
+- ["CSo8NSObject", "destroy"]
 - !private ["CSo8NSObject", "device"]
 - ["CSo8NSObject", "draw"]
 - ["CSo8NSObject", "drawOnTargetTexture"]
@@ -516,6 +535,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "_transform"]
 - ["PSo16NSObjectProtocol", "addNode"]
 - ["PSo16NSObjectProtocol", "descriptor"]
+- ["PSo16NSObjectProtocol", "destroy"]
 - !private ["PSo16NSObjectProtocol", "device"]
 - ["PSo16NSObjectProtocol", "draw"]
 - ["PSo16NSObjectProtocol", "drawOnTargetTexture"]
@@ -552,6 +572,7 @@ depends-member:
 - !private ["PSs30RangeReplaceableCollectionType", "_Element"]
 - !private ["PSs30RangeReplaceableCollectionType", "append"]
 - !private ["PSs30RangeReplaceableCollectionType", "init"]
+- !private ["PSs30RangeReplaceableCollectionType", "removeAll"]
 - !private ["PSs16RawRepresentable", "CPUCacheModeDefaultCache"]
 - !private ["C7Drakken8Renderer", "endFrame"]
 - !private ["C7Drakken8Renderer", "init"]
@@ -566,6 +587,7 @@ depends-member:
 - !private ["PSs12SequenceType", "_Element"]
 - !private ["PSs12SequenceType", "append"]
 - !private ["PSs12SequenceType", "init"]
+- !private ["PSs12SequenceType", "removeAll"]
 - !private ["PSs14SetAlgebraType", "CPUCacheModeDefaultCache"]
 - !private ["V7Drakken14SharedUniforms", "init"]
 - !private ["PSs17SignedIntegerType", "Distance"]
@@ -586,6 +608,7 @@ depends-member:
 - !private ["PSs10_ArrayType", "_Element"]
 - !private ["PSs10_ArrayType", "append"]
 - !private ["PSs10_ArrayType", "init"]
+- !private ["PSs10_ArrayType", "removeAll"]
 - !private ["PSs31_BuiltinFloatLiteralConvertible", "init"]
 - !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
 - !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
@@ -598,6 +621,7 @@ depends-member:
 - !private ["PSs24_DestructorSafeContainer", "_Element"]
 - !private ["PSs24_DestructorSafeContainer", "append"]
 - !private ["PSs24_DestructorSafeContainer", "init"]
+- !private ["PSs24_DestructorSafeContainer", "removeAll"]
 - !private ["PSs14_Incrementable", "Distance"]
 - !private ["PSs14_Incrementable", "IntegerLiteralType"]
 - !private ["PSs22_IntegerArithmeticType", "Distance"]
@@ -612,6 +636,7 @@ depends-member:
 - !private ["PSs21_ObjectiveCBridgeable", "_Element"]
 - !private ["PSs21_ObjectiveCBridgeable", "append"]
 - !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "removeAll"]
 - !private ["PSs22_RandomAccessAmbiguity", "Distance"]
 - !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
 - !private ["PSs12_Reflectable", "Distance"]
@@ -623,6 +648,7 @@ depends-member:
 - !private ["PSs12_Reflectable", "append"]
 - !private ["PSs12_Reflectable", "height"]
 - !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "removeAll"]
 - !private ["PSs12_Reflectable", "width"]
 - !private ["PSs18_SignedIntegerType", "Distance"]
 - !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
@@ -733,4 +759,4 @@ depends-external:
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
 - "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
-interface-hash: "d3d93b3b7aa78dcb1f61fa5c20e07e12"
+interface-hash: "886995b94ed617bd5b292a2b2bfe1cac"
