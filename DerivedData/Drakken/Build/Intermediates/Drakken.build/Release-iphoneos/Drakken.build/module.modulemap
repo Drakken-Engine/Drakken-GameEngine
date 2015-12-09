@@ -1,0 +1,10 @@
+framework module Drakken {
+  umbrella header "Drakken.h"
+
+  export *
+  module * { export * }
+}
+
+module Drakken.Swift {
+    header "Drakken-Swift.h"
+}

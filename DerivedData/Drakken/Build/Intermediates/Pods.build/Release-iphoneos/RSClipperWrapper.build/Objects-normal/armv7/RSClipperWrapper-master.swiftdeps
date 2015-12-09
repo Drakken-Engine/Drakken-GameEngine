@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "10608045ab80afc3bc1f6e976efa47a4"
+build_time: [503009230, 363873000]
+inputs:
+  "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Pods/RSClipperWrapper/RSClipperWrapper/RSClipperWrapper/Clipper.swift": [501378517, 0]

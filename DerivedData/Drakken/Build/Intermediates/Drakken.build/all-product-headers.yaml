@@ -4,7 +4,7 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/Drakken.framework/Headers",
+      'name': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/Drakken.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -14,7 +14,7 @@
         {
           'type': 'file',
           'name': "Drakken-Swift.h",
-          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/Drakken.framework/Headers/Drakken-Swift.h"
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/Drakken.framework/Headers/Drakken-Swift.h"
         },
         {
           'type': 'file',
@@ -70,12 +70,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Debug-iphoneos/Drakken.framework/Modules",
+      'name': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/Drakken.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Intermediates/Drakken.build/Debug-iphoneos/Drakken.build/module.modulemap"
+          'external-contents': "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Intermediates/Drakken.build/Release-iphoneos/Drakken.build/module.modulemap"
         }
       ]
     }

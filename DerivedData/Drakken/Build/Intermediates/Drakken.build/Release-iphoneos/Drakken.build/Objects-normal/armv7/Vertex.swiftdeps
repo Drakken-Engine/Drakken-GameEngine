@@ -1,0 +1,128 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ParticlesPositions"
+- "SharedUniforms"
+- "ModelUniforms"
+- "MaterialProperties"
+- "LightProperties"
+provides-nominal:
+- "V7Drakken18ParticlesPositions"
+- "V7Drakken14SharedUniforms"
+- "V7Drakken13ModelUniforms"
+- "V7Drakken18MaterialProperties"
+- "V7Drakken15LightProperties"
+provides-member:
+- ["V7Drakken18ParticlesPositions", ""]
+- ["V7Drakken14SharedUniforms", ""]
+- ["V7Drakken13ModelUniforms", ""]
+- ["V7Drakken18MaterialProperties", ""]
+- ["V7Drakken15LightProperties", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "float3"
+- "Float"
+- "ParticlesPositions"
+- "Void"
+- "float4x4"
+- !private "IntegerLiteralType"
+- "SharedUniforms"
+- "Int"
+- "UnsafeMutablePointer"
+- "MaterialProperties"
+- "ModelUniforms"
+- !private "FloatLiteralType"
+- "LightProperties"
+depends-member:
+- !private ["PSs22BidirectionalIndexType", "init"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs16ForwardIndexType", "init"]
+- !private ["PSs8Hashable", "init"]
+- ["V7Drakken15LightProperties", "Float"]
+- ["V7Drakken15LightProperties", "ambientIntensity"]
+- ["V7Drakken15LightProperties", "color"]
+- ["V7Drakken15LightProperties", "diffuseIntensity"]
+- ["V7Drakken15LightProperties", "direction"]
+- ["V7Drakken15LightProperties", "float3"]
+- ["V7Drakken15LightProperties", "init"]
+- ["V7Drakken18MaterialProperties", "Float"]
+- ["V7Drakken18MaterialProperties", "init"]
+- ["V7Drakken18MaterialProperties", "shininess"]
+- ["V7Drakken18MaterialProperties", "specularIntensity"]
+- ["V7Drakken13ModelUniforms", "float4x4"]
+- ["V7Drakken13ModelUniforms", "init"]
+- ["V7Drakken13ModelUniforms", "modelMatrix"]
+- ["V7Drakken13ModelUniforms", "parentModelMatrix"]
+- !private ["PSs21NilLiteralConvertible", "init"]
+- ["V7Drakken18ParticlesPositions", "Int"]
+- ["V7Drakken18ParticlesPositions", "UnsafeMutablePointer"]
+- ["V7Drakken18ParticlesPositions", "Void"]
+- ["V7Drakken18ParticlesPositions", "init"]
+- ["V7Drakken18ParticlesPositions", "length"]
+- ["V7Drakken18ParticlesPositions", "positions"]
+- !private ["PSs21RandomAccessIndexType", "init"]
+- ["V7Drakken14SharedUniforms", "float4x4"]
+- ["V7Drakken14SharedUniforms", "init"]
+- ["V7Drakken14SharedUniforms", "projectionMatrix"]
+- ["V7Drakken14SharedUniforms", "viewMatrix"]
+- !private ["PSs10Strideable", "init"]
+- !private ["VSs20UnsafeMutablePointer", "init"]
+- !private ["PSs14_Incrementable", "init"]
+- !private ["PSs12_PointerType", "init"]
+- !private ["PSs22_RandomAccessAmbiguity", "init"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs11_Strideable", "init"]
+depends-nominal:
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs11CVarArgType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- !private "PSs9Equatable"
+- !private "PSs16ForwardIndexType"
+- !private "PSs8Hashable"
+- "V7Drakken15LightProperties"
+- "V7Drakken18MaterialProperties"
+- "V7Drakken13ModelUniforms"
+- !private "PSs21NilLiteralConvertible"
+- "V7Drakken18ParticlesPositions"
+- !private "PSs21RandomAccessIndexType"
+- "V7Drakken14SharedUniforms"
+- !private "PSs10Strideable"
+- !private "VSs20UnsafeMutablePointer"
+- !private "PSs14_Incrementable"
+- !private "PSs12_PointerType"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/GlobalHeader.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Engine/Textures Generator/MaskTexture.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Shapes/Shape.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/FluidType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/Fluid.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/RigidbodyProtocol.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Bodies/BodyType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/Rigidbody.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/World.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Header.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Drakken.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Intermediates/Drakken.build/Release-iphoneos/Drakken.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/simd.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Modules/RSClipperWrapper.swiftmodule/arm.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-Swift.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
+interface-hash: "762d43ddd75acb6524db163040b1c6c7"

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Drakken.xcscheme</key>
+		<key>Drakken.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,6 +12,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>2EA504E11C18ACB4003CE673</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>2EC384D81BFFE85000720FD6</key>
 		<dict>
 			<key>primary</key>

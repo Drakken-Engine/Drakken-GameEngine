@@ -1,0 +1,875 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Shader"
+provides-nominal:
+- "C7Drakken6Shader"
+provides-member:
+- ["C7Drakken6Shader", ""]
+provides-dynamic-lookup:
+- "setFragmentData"
+- "setFragmentData"
+- "setFragmentData"
+- "setFragmentData"
+- "setFragmentData"
+- "setFragmentData"
+- "buildRenderPipelineDescriptor"
+- "setVertexData"
+- "setVertexData"
+- "setVertexData"
+- "setVertexData"
+- "setVertexData"
+- "setVertexData"
+- "setVertexData"
+- "samplerState"
+- "materialPropertiesUniformBuffer"
+- "setTexture"
+- "vertexCount"
+- "draw"
+- "prepareToDraw"
+- "renderPipelineState"
+depends-top-level:
+- "MTLBuffer"
+- "Shader"
+- !private "BooleanLiteralType"
+- "String"
+- "MTLPrimitiveType"
+- !private "MTLBlendFactor"
+- "MTLRenderPipelineReflection"
+- "DataBuffer"
+- "float4"
+- "Renderer"
+- "MTLFunction"
+- "Float"
+- "float3"
+- !private "MTLSamplerDescriptor"
+- !private ">"
+- "Void"
+- "MTLSamplerState"
+- "TextureBuffer"
+- "Texture"
+- !private "StringLiteralType"
+- "NSObject"
+- "MaterialProperties"
+- !private "Core"
+- "MTLRenderPipelineDescriptor"
+- "Bool"
+- !private "MTLBlendOperation"
+- "IndexBuffer"
+- !private "print"
+- "MTLRenderPipelineState"
+- !private "FLT_MAX"
+- "float2"
+- "UnsafeMutablePointer"
+- "Int"
+depends-member:
+- !private ["PSs9AnyObject", "Core"]
+- !private ["PSs9AnyObject", "DataBuffer"]
+- !private ["PSs9AnyObject", "FLT_MAX"]
+- !private ["PSs9AnyObject", "IndexBuffer"]
+- !private ["PSs9AnyObject", "Int"]
+- !private ["PSs9AnyObject", "MTLBlendFactor"]
+- !private ["PSs9AnyObject", "MTLBlendOperation"]
+- !private ["PSs9AnyObject", "MTLRenderPipelineDescriptor"]
+- !private ["PSs9AnyObject", "MTLSamplerDescriptor"]
+- !private ["PSs9AnyObject", "TextureBuffer"]
+- ["PSs9AnyObject", "_indexBuffer"]
+- ["PSs9AnyObject", "_modelMatrixBuffer"]
+- ["PSs9AnyObject", "_shaderReflextion"]
+- ["PSs9AnyObject", "_vertexCount"]
+- !private ["PSs9AnyObject", "alphaBlendOperation"]
+- !private ["PSs9AnyObject", "blendingEnabled"]
+- !private ["PSs9AnyObject", "buffer"]
+- ["PSs9AnyObject", "buildRenderPipelineDescriptor"]
+- !private ["PSs9AnyObject", "colorAttachments"]
+- !private ["PSs9AnyObject", "depthAttachmentPixelFormat"]
+- !private ["PSs9AnyObject", "destinationAlphaBlendFactor"]
+- !private ["PSs9AnyObject", "destinationRGBBlendFactor"]
+- !private ["PSs9AnyObject", "device"]
+- ["PSs9AnyObject", "draw"]
+- ["PSs9AnyObject", "drawMode"]
+- ["PSs9AnyObject", "fragmentBuffer"]
+- !private ["PSs9AnyObject", "fragmentFunction"]
+- ["PSs9AnyObject", "fragmentShaderFunction"]
+- !private ["PSs9AnyObject", "index"]
+- ["PSs9AnyObject", "indexBuffer"]
+- !private ["PSs9AnyObject", "indexCount"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "library"]
+- !private ["PSs9AnyObject", "lodMaxClamp"]
+- !private ["PSs9AnyObject", "lodMinClamp"]
+- !private ["PSs9AnyObject", "magFilter"]
+- ["PSs9AnyObject", "materialPropertiesUniform"]
+- ["PSs9AnyObject", "materialPropertiesUniformBuffer"]
+- !private ["PSs9AnyObject", "minFilter"]
+- !private ["PSs9AnyObject", "normalizedCoordinates"]
+- !private ["PSs9AnyObject", "pixelFormat"]
+- ["PSs9AnyObject", "prepareToDraw"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "rAddressMode"]
+- !private ["PSs9AnyObject", "renderCommandEncoder"]
+- ["PSs9AnyObject", "renderPipelineState"]
+- !private ["PSs9AnyObject", "rgbBlendOperation"]
+- !private ["PSs9AnyObject", "sAddressMode"]
+- ["PSs9AnyObject", "samplerState"]
+- ["PSs9AnyObject", "setFragmentData"]
+- ["PSs9AnyObject", "setTexture"]
+- ["PSs9AnyObject", "setVertexData"]
+- !private ["PSs9AnyObject", "sourceAlphaBlendFactor"]
+- !private ["PSs9AnyObject", "sourceRGBBlendFactor"]
+- !private ["PSs9AnyObject", "stencilAttachmentPixelFormat"]
+- !private ["PSs9AnyObject", "subscript"]
+- !private ["PSs9AnyObject", "tAddressMode"]
+- !private ["PSs9AnyObject", "texture"]
+- ["PSs9AnyObject", "textureBuffer"]
+- ["PSs9AnyObject", "vertexBuffer"]
+- ["PSs9AnyObject", "vertexCount"]
+- !private ["PSs9AnyObject", "vertexFunction"]
+- ["PSs9AnyObject", "vertexShaderFunction"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "Core"]
+- !private ["PSs11CVarArgType", "DataBuffer"]
+- !private ["PSs11CVarArgType", "FLT_MAX"]
+- !private ["PSs11CVarArgType", "IndexBuffer"]
+- !private ["PSs11CVarArgType", "Int"]
+- !private ["PSs11CVarArgType", "MTLBlendFactor"]
+- !private ["PSs11CVarArgType", "MTLBlendOperation"]
+- !private ["PSs11CVarArgType", "MTLRenderPipelineDescriptor"]
+- !private ["PSs11CVarArgType", "MTLSamplerDescriptor"]
+- !private ["PSs11CVarArgType", "TextureBuffer"]
+- ["PSs11CVarArgType", "_indexBuffer"]
+- ["PSs11CVarArgType", "_modelMatrixBuffer"]
+- ["PSs11CVarArgType", "_shaderReflextion"]
+- ["PSs11CVarArgType", "_vertexCount"]
+- !private ["PSs11CVarArgType", "alphaBlendOperation"]
+- !private ["PSs11CVarArgType", "blendingEnabled"]
+- ["PSs11CVarArgType", "buildRenderPipelineDescriptor"]
+- !private ["PSs11CVarArgType", "colorAttachments"]
+- !private ["PSs11CVarArgType", "depthAttachmentPixelFormat"]
+- !private ["PSs11CVarArgType", "destinationAlphaBlendFactor"]
+- !private ["PSs11CVarArgType", "destinationRGBBlendFactor"]
+- !private ["PSs11CVarArgType", "device"]
+- ["PSs11CVarArgType", "draw"]
+- ["PSs11CVarArgType", "drawMode"]
+- ["PSs11CVarArgType", "fragmentBuffer"]
+- !private ["PSs11CVarArgType", "fragmentFunction"]
+- ["PSs11CVarArgType", "fragmentShaderFunction"]
+- ["PSs11CVarArgType", "indexBuffer"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "library"]
+- !private ["PSs11CVarArgType", "lodMaxClamp"]
+- !private ["PSs11CVarArgType", "lodMinClamp"]
+- !private ["PSs11CVarArgType", "magFilter"]
+- ["PSs11CVarArgType", "materialPropertiesUniform"]
+- ["PSs11CVarArgType", "materialPropertiesUniformBuffer"]
+- !private ["PSs11CVarArgType", "minFilter"]
+- !private ["PSs11CVarArgType", "normalizedCoordinates"]
+- !private ["PSs11CVarArgType", "pixelFormat"]
+- ["PSs11CVarArgType", "prepareToDraw"]
+- !private ["PSs11CVarArgType", "print"]
+- !private ["PSs11CVarArgType", "rAddressMode"]
+- !private ["PSs11CVarArgType", "renderCommandEncoder"]
+- ["PSs11CVarArgType", "renderPipelineState"]
+- !private ["PSs11CVarArgType", "rgbBlendOperation"]
+- !private ["PSs11CVarArgType", "sAddressMode"]
+- ["PSs11CVarArgType", "samplerState"]
+- ["PSs11CVarArgType", "setFragmentData"]
+- ["PSs11CVarArgType", "setTexture"]
+- ["PSs11CVarArgType", "setVertexData"]
+- !private ["PSs11CVarArgType", "sourceAlphaBlendFactor"]
+- !private ["PSs11CVarArgType", "sourceRGBBlendFactor"]
+- !private ["PSs11CVarArgType", "stencilAttachmentPixelFormat"]
+- !private ["PSs11CVarArgType", "subscript"]
+- !private ["PSs11CVarArgType", "tAddressMode"]
+- ["PSs11CVarArgType", "textureBuffer"]
+- ["PSs11CVarArgType", "vertexBuffer"]
+- ["PSs11CVarArgType", "vertexCount"]
+- !private ["PSs11CVarArgType", "vertexFunction"]
+- ["PSs11CVarArgType", "vertexShaderFunction"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "init"]
+- !private ["PSs14CollectionType", "updateValue"]
+- !private ["PSs10Comparable", "init"]
+- !private ["C7Drakken4Core", "device"]
+- !private ["C7Drakken4Core", "library"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "updateValue"]
+- !private ["PSs23CustomStringConvertible", "Core"]
+- !private ["PSs23CustomStringConvertible", "DataBuffer"]
+- !private ["PSs23CustomStringConvertible", "FLT_MAX"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "IndexBuffer"]
+- !private ["PSs23CustomStringConvertible", "Int"]
+- !private ["PSs23CustomStringConvertible", "MTLBlendFactor"]
+- !private ["PSs23CustomStringConvertible", "MTLBlendOperation"]
+- !private ["PSs23CustomStringConvertible", "MTLRenderPipelineDescriptor"]
+- !private ["PSs23CustomStringConvertible", "MTLSamplerDescriptor"]
+- !private ["PSs23CustomStringConvertible", "TextureBuffer"]
+- !private ["PSs23CustomStringConvertible", "Triangle"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "_indexBuffer"]
+- ["PSs23CustomStringConvertible", "_modelMatrixBuffer"]
+- ["PSs23CustomStringConvertible", "_shaderReflextion"]
+- ["PSs23CustomStringConvertible", "_vertexCount"]
+- !private ["PSs23CustomStringConvertible", "alphaBlendOperation"]
+- !private ["PSs23CustomStringConvertible", "blendingEnabled"]
+- ["PSs23CustomStringConvertible", "buildRenderPipelineDescriptor"]
+- !private ["PSs23CustomStringConvertible", "colorAttachments"]
+- !private ["PSs23CustomStringConvertible", "depthAttachmentPixelFormat"]
+- !private ["PSs23CustomStringConvertible", "destinationAlphaBlendFactor"]
+- !private ["PSs23CustomStringConvertible", "destinationRGBBlendFactor"]
+- !private ["PSs23CustomStringConvertible", "device"]
+- ["PSs23CustomStringConvertible", "draw"]
+- ["PSs23CustomStringConvertible", "drawMode"]
+- ["PSs23CustomStringConvertible", "fragmentBuffer"]
+- !private ["PSs23CustomStringConvertible", "fragmentFunction"]
+- ["PSs23CustomStringConvertible", "fragmentShaderFunction"]
+- ["PSs23CustomStringConvertible", "indexBuffer"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "library"]
+- !private ["PSs23CustomStringConvertible", "lodMaxClamp"]
+- !private ["PSs23CustomStringConvertible", "lodMinClamp"]
+- !private ["PSs23CustomStringConvertible", "magFilter"]
+- ["PSs23CustomStringConvertible", "materialPropertiesUniform"]
+- ["PSs23CustomStringConvertible", "materialPropertiesUniformBuffer"]
+- !private ["PSs23CustomStringConvertible", "minFilter"]
+- !private ["PSs23CustomStringConvertible", "normalizedCoordinates"]
+- !private ["PSs23CustomStringConvertible", "pixelFormat"]
+- ["PSs23CustomStringConvertible", "prepareToDraw"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "rAddressMode"]
+- !private ["PSs23CustomStringConvertible", "renderCommandEncoder"]
+- ["PSs23CustomStringConvertible", "renderPipelineState"]
+- !private ["PSs23CustomStringConvertible", "rgbBlendOperation"]
+- !private ["PSs23CustomStringConvertible", "sAddressMode"]
+- ["PSs23CustomStringConvertible", "samplerState"]
+- ["PSs23CustomStringConvertible", "setFragmentData"]
+- ["PSs23CustomStringConvertible", "setTexture"]
+- ["PSs23CustomStringConvertible", "setVertexData"]
+- !private ["PSs23CustomStringConvertible", "sourceAlphaBlendFactor"]
+- !private ["PSs23CustomStringConvertible", "sourceRGBBlendFactor"]
+- !private ["PSs23CustomStringConvertible", "stencilAttachmentPixelFormat"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "tAddressMode"]
+- ["PSs23CustomStringConvertible", "textureBuffer"]
+- !private ["PSs23CustomStringConvertible", "updateValue"]
+- ["PSs23CustomStringConvertible", "vertexBuffer"]
+- ["PSs23CustomStringConvertible", "vertexCount"]
+- !private ["PSs23CustomStringConvertible", "vertexFunction"]
+- ["PSs23CustomStringConvertible", "vertexShaderFunction"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["C7Drakken10DataBuffer", "buffer"]
+- ["C7Drakken10DataBuffer", "deinit"]
+- !private ["C7Drakken10DataBuffer", "index"]
+- !private ["C7Drakken10DataBuffer", "init"]
+- !private ["VSs10Dictionary", "Generator"]
+- !private ["VSs10Dictionary", "init"]
+- !private ["VSs10Dictionary", "updateValue"]
+- !private ["VSs19DictionaryGenerator", "Element"]
+- !private ["PSs28DictionaryLiteralConvertible", "Generator"]
+- !private ["PSs28DictionaryLiteralConvertible", "init"]
+- !private ["PSs28DictionaryLiteralConvertible", "updateValue"]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "Add"]
+- !private ["PSs9Equatable", "BGRA8Unorm"]
+- !private ["PSs9Equatable", "ClampToEdge"]
+- !private ["PSs9Equatable", "Core"]
+- !private ["PSs9Equatable", "DataBuffer"]
+- !private ["PSs9Equatable", "Depth32Float_Stencil8"]
+- !private ["PSs9Equatable", "FLT_MAX"]
+- !private ["PSs9Equatable", "IndexBuffer"]
+- !private ["PSs9Equatable", "Int"]
+- !private ["PSs9Equatable", "Linear"]
+- !private ["PSs9Equatable", "MTLBlendFactor"]
+- !private ["PSs9Equatable", "MTLBlendOperation"]
+- !private ["PSs9Equatable", "MTLRenderPipelineDescriptor"]
+- !private ["PSs9Equatable", "MTLSamplerDescriptor"]
+- !private ["PSs9Equatable", "Nearest"]
+- !private ["PSs9Equatable", "OneMinusSourceAlpha"]
+- !private ["PSs9Equatable", "Repeat"]
+- !private ["PSs9Equatable", "SourceAlpha"]
+- !private ["PSs9Equatable", "TextureBuffer"]
+- !private ["PSs9Equatable", "Triangle"]
+- !private ["PSs9Equatable", "UInt32"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "_indexBuffer"]
+- ["PSs9Equatable", "_modelMatrixBuffer"]
+- ["PSs9Equatable", "_shaderReflextion"]
+- ["PSs9Equatable", "_vertexCount"]
+- !private ["PSs9Equatable", "alphaBlendOperation"]
+- !private ["PSs9Equatable", "blendingEnabled"]
+- ["PSs9Equatable", "buildRenderPipelineDescriptor"]
+- !private ["PSs9Equatable", "colorAttachments"]
+- !private ["PSs9Equatable", "depthAttachmentPixelFormat"]
+- !private ["PSs9Equatable", "destinationAlphaBlendFactor"]
+- !private ["PSs9Equatable", "destinationRGBBlendFactor"]
+- !private ["PSs9Equatable", "device"]
+- ["PSs9Equatable", "draw"]
+- ["PSs9Equatable", "drawMode"]
+- ["PSs9Equatable", "fragmentBuffer"]
+- !private ["PSs9Equatable", "fragmentFunction"]
+- ["PSs9Equatable", "fragmentShaderFunction"]
+- ["PSs9Equatable", "indexBuffer"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "library"]
+- !private ["PSs9Equatable", "lodMaxClamp"]
+- !private ["PSs9Equatable", "lodMinClamp"]
+- !private ["PSs9Equatable", "magFilter"]
+- ["PSs9Equatable", "materialPropertiesUniform"]
+- ["PSs9Equatable", "materialPropertiesUniformBuffer"]
+- !private ["PSs9Equatable", "minFilter"]
+- !private ["PSs9Equatable", "normalizedCoordinates"]
+- !private ["PSs9Equatable", "pixelFormat"]
+- ["PSs9Equatable", "prepareToDraw"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "rAddressMode"]
+- !private ["PSs9Equatable", "renderCommandEncoder"]
+- ["PSs9Equatable", "renderPipelineState"]
+- !private ["PSs9Equatable", "rgbBlendOperation"]
+- !private ["PSs9Equatable", "sAddressMode"]
+- ["PSs9Equatable", "samplerState"]
+- ["PSs9Equatable", "setFragmentData"]
+- ["PSs9Equatable", "setTexture"]
+- ["PSs9Equatable", "setVertexData"]
+- !private ["PSs9Equatable", "sourceAlphaBlendFactor"]
+- !private ["PSs9Equatable", "sourceRGBBlendFactor"]
+- !private ["PSs9Equatable", "stencilAttachmentPixelFormat"]
+- !private ["PSs9Equatable", "subscript"]
+- !private ["PSs9Equatable", "tAddressMode"]
+- ["PSs9Equatable", "textureBuffer"]
+- ["PSs9Equatable", "vertexBuffer"]
+- ["PSs9Equatable", "vertexCount"]
+- !private ["PSs9Equatable", "vertexFunction"]
+- ["PSs9Equatable", "vertexShaderFunction"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "Add"]
+- !private ["PSs8Hashable", "BGRA8Unorm"]
+- !private ["PSs8Hashable", "ClampToEdge"]
+- !private ["PSs8Hashable", "Core"]
+- !private ["PSs8Hashable", "DataBuffer"]
+- !private ["PSs8Hashable", "Depth32Float_Stencil8"]
+- !private ["PSs8Hashable", "FLT_MAX"]
+- !private ["PSs8Hashable", "IndexBuffer"]
+- !private ["PSs8Hashable", "Int"]
+- !private ["PSs8Hashable", "Linear"]
+- !private ["PSs8Hashable", "MTLBlendFactor"]
+- !private ["PSs8Hashable", "MTLBlendOperation"]
+- !private ["PSs8Hashable", "MTLRenderPipelineDescriptor"]
+- !private ["PSs8Hashable", "MTLSamplerDescriptor"]
+- !private ["PSs8Hashable", "Nearest"]
+- !private ["PSs8Hashable", "OneMinusSourceAlpha"]
+- !private ["PSs8Hashable", "Repeat"]
+- !private ["PSs8Hashable", "SourceAlpha"]
+- !private ["PSs8Hashable", "TextureBuffer"]
+- !private ["PSs8Hashable", "Triangle"]
+- !private ["PSs8Hashable", "UInt32"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "_indexBuffer"]
+- ["PSs8Hashable", "_modelMatrixBuffer"]
+- ["PSs8Hashable", "_shaderReflextion"]
+- ["PSs8Hashable", "_vertexCount"]
+- !private ["PSs8Hashable", "alphaBlendOperation"]
+- !private ["PSs8Hashable", "blendingEnabled"]
+- ["PSs8Hashable", "buildRenderPipelineDescriptor"]
+- !private ["PSs8Hashable", "colorAttachments"]
+- !private ["PSs8Hashable", "depthAttachmentPixelFormat"]
+- !private ["PSs8Hashable", "destinationAlphaBlendFactor"]
+- !private ["PSs8Hashable", "destinationRGBBlendFactor"]
+- !private ["PSs8Hashable", "device"]
+- ["PSs8Hashable", "draw"]
+- ["PSs8Hashable", "drawMode"]
+- ["PSs8Hashable", "fragmentBuffer"]
+- !private ["PSs8Hashable", "fragmentFunction"]
+- ["PSs8Hashable", "fragmentShaderFunction"]
+- ["PSs8Hashable", "indexBuffer"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "library"]
+- !private ["PSs8Hashable", "lodMaxClamp"]
+- !private ["PSs8Hashable", "lodMinClamp"]
+- !private ["PSs8Hashable", "magFilter"]
+- ["PSs8Hashable", "materialPropertiesUniform"]
+- ["PSs8Hashable", "materialPropertiesUniformBuffer"]
+- !private ["PSs8Hashable", "minFilter"]
+- !private ["PSs8Hashable", "normalizedCoordinates"]
+- !private ["PSs8Hashable", "pixelFormat"]
+- ["PSs8Hashable", "prepareToDraw"]
+- !private ["PSs8Hashable", "print"]
+- !private ["PSs8Hashable", "rAddressMode"]
+- !private ["PSs8Hashable", "renderCommandEncoder"]
+- ["PSs8Hashable", "renderPipelineState"]
+- !private ["PSs8Hashable", "rgbBlendOperation"]
+- !private ["PSs8Hashable", "sAddressMode"]
+- ["PSs8Hashable", "samplerState"]
+- ["PSs8Hashable", "setFragmentData"]
+- ["PSs8Hashable", "setTexture"]
+- ["PSs8Hashable", "setVertexData"]
+- !private ["PSs8Hashable", "sourceAlphaBlendFactor"]
+- !private ["PSs8Hashable", "sourceRGBBlendFactor"]
+- !private ["PSs8Hashable", "stencilAttachmentPixelFormat"]
+- !private ["PSs8Hashable", "subscript"]
+- !private ["PSs8Hashable", "tAddressMode"]
+- ["PSs8Hashable", "textureBuffer"]
+- ["PSs8Hashable", "vertexBuffer"]
+- ["PSs8Hashable", "vertexCount"]
+- !private ["PSs8Hashable", "vertexFunction"]
+- ["PSs8Hashable", "vertexShaderFunction"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "Triangle"]
+- !private ["SQ", "deinit"]
+- !private ["C7Drakken11IndexBuffer", "buffer"]
+- !private ["C7Drakken11IndexBuffer", "indexCount"]
+- !private ["C7Drakken11IndexBuffer", "init"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "init"]
+- !private ["PSs9Indexable", "updateValue"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["OSC14MTLBlendFactor", "OneMinusSourceAlpha"]
+- !private ["OSC14MTLBlendFactor", "SourceAlpha"]
+- !private ["OSC17MTLBlendOperation", "Add"]
+- !private ["PSo17MTLCommandEncoder", "drawIndexedPrimitives"]
+- !private ["PSo17MTLCommandEncoder", "drawPrimitives"]
+- !private ["PSo17MTLCommandEncoder", "setFragmentBuffer"]
+- !private ["PSo17MTLCommandEncoder", "setFragmentSamplerState"]
+- !private ["PSo17MTLCommandEncoder", "setFragmentTexture"]
+- !private ["PSo17MTLCommandEncoder", "setVertexBuffer"]
+- !private ["PSo9MTLDevice", "newRenderPipelineStateWithDescriptor"]
+- !private ["PSo9MTLDevice", "newSamplerStateWithDescriptor"]
+- !private ["OSC12MTLIndexType", "UInt32"]
+- !private ["PSo10MTLLibrary", "newFunctionWithName"]
+- !private ["OSC14MTLPixelFormat", "BGRA8Unorm"]
+- !private ["OSC14MTLPixelFormat", "Depth32Float_Stencil8"]
+- !private ["OSC16MTLPrimitiveType", "Triangle"]
+- !private ["PSo23MTLRenderCommandEncoder", "drawIndexedPrimitives"]
+- !private ["PSo23MTLRenderCommandEncoder", "drawPrimitives"]
+- !private ["PSo23MTLRenderCommandEncoder", "setFragmentBuffer"]
+- !private ["PSo23MTLRenderCommandEncoder", "setFragmentSamplerState"]
+- !private ["PSo23MTLRenderCommandEncoder", "setFragmentTexture"]
+- !private ["PSo23MTLRenderCommandEncoder", "setVertexBuffer"]
+- !private ["CSo42MTLRenderPipelineColorAttachmentDescriptor", "alphaBlendOperation"]
+- !private ["CSo42MTLRenderPipelineColorAttachmentDescriptor", "blendingEnabled"]
+- !private ["CSo42MTLRenderPipelineColorAttachmentDescriptor", "destinationAlphaBlendFactor"]
+- !private ["CSo42MTLRenderPipelineColorAttachmentDescriptor", "destinationRGBBlendFactor"]
+- !private ["CSo42MTLRenderPipelineColorAttachmentDescriptor", "pixelFormat"]
+- !private ["CSo42MTLRenderPipelineColorAttachmentDescriptor", "rgbBlendOperation"]
+- !private ["CSo42MTLRenderPipelineColorAttachmentDescriptor", "sourceAlphaBlendFactor"]
+- !private ["CSo42MTLRenderPipelineColorAttachmentDescriptor", "sourceRGBBlendFactor"]
+- !private ["CSo47MTLRenderPipelineColorAttachmentDescriptorArray", "subscript"]
+- !private ["CSo27MTLRenderPipelineDescriptor", "colorAttachments"]
+- !private ["CSo27MTLRenderPipelineDescriptor", "depthAttachmentPixelFormat"]
+- !private ["CSo27MTLRenderPipelineDescriptor", "fragmentFunction"]
+- !private ["CSo27MTLRenderPipelineDescriptor", "init"]
+- !private ["CSo27MTLRenderPipelineDescriptor", "stencilAttachmentPixelFormat"]
+- !private ["CSo27MTLRenderPipelineDescriptor", "vertexFunction"]
+- !private ["OSC21MTLSamplerAddressMode", "ClampToEdge"]
+- !private ["OSC21MTLSamplerAddressMode", "Repeat"]
+- !private ["CSo20MTLSamplerDescriptor", "init"]
+- !private ["CSo20MTLSamplerDescriptor", "lodMaxClamp"]
+- !private ["CSo20MTLSamplerDescriptor", "lodMinClamp"]
+- !private ["CSo20MTLSamplerDescriptor", "magFilter"]
+- !private ["CSo20MTLSamplerDescriptor", "minFilter"]
+- !private ["CSo20MTLSamplerDescriptor", "normalizedCoordinates"]
+- !private ["CSo20MTLSamplerDescriptor", "rAddressMode"]
+- !private ["CSo20MTLSamplerDescriptor", "sAddressMode"]
+- !private ["CSo20MTLSamplerDescriptor", "tAddressMode"]
+- !private ["OSC22MTLSamplerMinMagFilter", "Linear"]
+- !private ["OSC22MTLSamplerMinMagFilter", "Nearest"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "alphaBlendOperation"]
+- !private ["PSo9NSCopying", "blendingEnabled"]
+- !private ["PSo9NSCopying", "colorAttachments"]
+- !private ["PSo9NSCopying", "depthAttachmentPixelFormat"]
+- !private ["PSo9NSCopying", "destinationAlphaBlendFactor"]
+- !private ["PSo9NSCopying", "destinationRGBBlendFactor"]
+- !private ["PSo9NSCopying", "fragmentFunction"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "lodMaxClamp"]
+- !private ["PSo9NSCopying", "lodMinClamp"]
+- !private ["PSo9NSCopying", "magFilter"]
+- !private ["PSo9NSCopying", "minFilter"]
+- !private ["PSo9NSCopying", "normalizedCoordinates"]
+- !private ["PSo9NSCopying", "pixelFormat"]
+- !private ["PSo9NSCopying", "rAddressMode"]
+- !private ["PSo9NSCopying", "rgbBlendOperation"]
+- !private ["PSo9NSCopying", "sAddressMode"]
+- !private ["PSo9NSCopying", "sourceAlphaBlendFactor"]
+- !private ["PSo9NSCopying", "sourceRGBBlendFactor"]
+- !private ["PSo9NSCopying", "stencilAttachmentPixelFormat"]
+- !private ["PSo9NSCopying", "tAddressMode"]
+- !private ["PSo9NSCopying", "vertexFunction"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "Core"]
+- ["CSo8NSObject", "DataBuffer"]
+- !private ["CSo8NSObject", "FLT_MAX"]
+- ["CSo8NSObject", "Float"]
+- ["CSo8NSObject", "IndexBuffer"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "MTLBlendFactor"]
+- !private ["CSo8NSObject", "MTLBlendOperation"]
+- ["CSo8NSObject", "MTLBuffer"]
+- ["CSo8NSObject", "MTLFunction"]
+- ["CSo8NSObject", "MTLPrimitiveType"]
+- ["CSo8NSObject", "MTLRenderPipelineDescriptor"]
+- ["CSo8NSObject", "MTLRenderPipelineReflection"]
+- ["CSo8NSObject", "MTLRenderPipelineState"]
+- !private ["CSo8NSObject", "MTLSamplerDescriptor"]
+- ["CSo8NSObject", "MTLSamplerState"]
+- ["CSo8NSObject", "MaterialProperties"]
+- ["CSo8NSObject", "Renderer"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Texture"]
+- ["CSo8NSObject", "TextureBuffer"]
+- ["CSo8NSObject", "UnsafeMutablePointer"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "_indexBuffer"]
+- ["CSo8NSObject", "_modelMatrixBuffer"]
+- ["CSo8NSObject", "_shaderReflextion"]
+- ["CSo8NSObject", "_vertexCount"]
+- !private ["CSo8NSObject", "alphaBlendOperation"]
+- !private ["CSo8NSObject", "blendingEnabled"]
+- ["CSo8NSObject", "buildRenderPipelineDescriptor"]
+- !private ["CSo8NSObject", "colorAttachments"]
+- !private ["CSo8NSObject", "depthAttachmentPixelFormat"]
+- !private ["CSo8NSObject", "destinationAlphaBlendFactor"]
+- !private ["CSo8NSObject", "destinationRGBBlendFactor"]
+- !private ["CSo8NSObject", "device"]
+- ["CSo8NSObject", "draw"]
+- ["CSo8NSObject", "drawMode"]
+- ["CSo8NSObject", "float2"]
+- ["CSo8NSObject", "float3"]
+- ["CSo8NSObject", "float4"]
+- ["CSo8NSObject", "fragmentBuffer"]
+- !private ["CSo8NSObject", "fragmentFunction"]
+- ["CSo8NSObject", "fragmentShaderFunction"]
+- ["CSo8NSObject", "indexBuffer"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "library"]
+- !private ["CSo8NSObject", "lodMaxClamp"]
+- !private ["CSo8NSObject", "lodMinClamp"]
+- !private ["CSo8NSObject", "magFilter"]
+- ["CSo8NSObject", "materialPropertiesUniform"]
+- ["CSo8NSObject", "materialPropertiesUniformBuffer"]
+- !private ["CSo8NSObject", "minFilter"]
+- !private ["CSo8NSObject", "normalizedCoordinates"]
+- !private ["CSo8NSObject", "pixelFormat"]
+- ["CSo8NSObject", "prepareToDraw"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "rAddressMode"]
+- !private ["CSo8NSObject", "renderCommandEncoder"]
+- ["CSo8NSObject", "renderPipelineState"]
+- !private ["CSo8NSObject", "rgbBlendOperation"]
+- !private ["CSo8NSObject", "sAddressMode"]
+- ["CSo8NSObject", "samplerState"]
+- ["CSo8NSObject", "setFragmentData"]
+- ["CSo8NSObject", "setTexture"]
+- ["CSo8NSObject", "setVertexData"]
+- !private ["CSo8NSObject", "sourceAlphaBlendFactor"]
+- !private ["CSo8NSObject", "sourceRGBBlendFactor"]
+- !private ["CSo8NSObject", "stencilAttachmentPixelFormat"]
+- !private ["CSo8NSObject", "subscript"]
+- !private ["CSo8NSObject", "tAddressMode"]
+- ["CSo8NSObject", "textureBuffer"]
+- ["CSo8NSObject", "vertexBuffer"]
+- ["CSo8NSObject", "vertexCount"]
+- !private ["CSo8NSObject", "vertexFunction"]
+- ["CSo8NSObject", "vertexShaderFunction"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "Core"]
+- !private ["PSo16NSObjectProtocol", "DataBuffer"]
+- !private ["PSo16NSObjectProtocol", "FLT_MAX"]
+- !private ["PSo16NSObjectProtocol", "IndexBuffer"]
+- !private ["PSo16NSObjectProtocol", "Int"]
+- !private ["PSo16NSObjectProtocol", "MTLBlendFactor"]
+- !private ["PSo16NSObjectProtocol", "MTLBlendOperation"]
+- !private ["PSo16NSObjectProtocol", "MTLRenderPipelineDescriptor"]
+- !private ["PSo16NSObjectProtocol", "MTLSamplerDescriptor"]
+- !private ["PSo16NSObjectProtocol", "TextureBuffer"]
+- ["PSo16NSObjectProtocol", "_indexBuffer"]
+- ["PSo16NSObjectProtocol", "_modelMatrixBuffer"]
+- ["PSo16NSObjectProtocol", "_shaderReflextion"]
+- ["PSo16NSObjectProtocol", "_vertexCount"]
+- !private ["PSo16NSObjectProtocol", "alphaBlendOperation"]
+- !private ["PSo16NSObjectProtocol", "blendingEnabled"]
+- ["PSo16NSObjectProtocol", "buildRenderPipelineDescriptor"]
+- !private ["PSo16NSObjectProtocol", "colorAttachments"]
+- !private ["PSo16NSObjectProtocol", "depthAttachmentPixelFormat"]
+- !private ["PSo16NSObjectProtocol", "destinationAlphaBlendFactor"]
+- !private ["PSo16NSObjectProtocol", "destinationRGBBlendFactor"]
+- !private ["PSo16NSObjectProtocol", "device"]
+- ["PSo16NSObjectProtocol", "draw"]
+- !private ["PSo16NSObjectProtocol", "drawIndexedPrimitives"]
+- ["PSo16NSObjectProtocol", "drawMode"]
+- !private ["PSo16NSObjectProtocol", "drawPrimitives"]
+- ["PSo16NSObjectProtocol", "fragmentBuffer"]
+- !private ["PSo16NSObjectProtocol", "fragmentFunction"]
+- ["PSo16NSObjectProtocol", "fragmentShaderFunction"]
+- ["PSo16NSObjectProtocol", "indexBuffer"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "library"]
+- !private ["PSo16NSObjectProtocol", "lodMaxClamp"]
+- !private ["PSo16NSObjectProtocol", "lodMinClamp"]
+- !private ["PSo16NSObjectProtocol", "magFilter"]
+- ["PSo16NSObjectProtocol", "materialPropertiesUniform"]
+- ["PSo16NSObjectProtocol", "materialPropertiesUniformBuffer"]
+- !private ["PSo16NSObjectProtocol", "minFilter"]
+- !private ["PSo16NSObjectProtocol", "newFunctionWithName"]
+- !private ["PSo16NSObjectProtocol", "newRenderPipelineStateWithDescriptor"]
+- !private ["PSo16NSObjectProtocol", "newSamplerStateWithDescriptor"]
+- !private ["PSo16NSObjectProtocol", "normalizedCoordinates"]
+- !private ["PSo16NSObjectProtocol", "pixelFormat"]
+- ["PSo16NSObjectProtocol", "prepareToDraw"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "rAddressMode"]
+- !private ["PSo16NSObjectProtocol", "renderCommandEncoder"]
+- ["PSo16NSObjectProtocol", "renderPipelineState"]
+- !private ["PSo16NSObjectProtocol", "rgbBlendOperation"]
+- !private ["PSo16NSObjectProtocol", "sAddressMode"]
+- ["PSo16NSObjectProtocol", "samplerState"]
+- !private ["PSo16NSObjectProtocol", "setFragmentBuffer"]
+- ["PSo16NSObjectProtocol", "setFragmentData"]
+- !private ["PSo16NSObjectProtocol", "setFragmentSamplerState"]
+- !private ["PSo16NSObjectProtocol", "setFragmentTexture"]
+- ["PSo16NSObjectProtocol", "setTexture"]
+- !private ["PSo16NSObjectProtocol", "setVertexBuffer"]
+- ["PSo16NSObjectProtocol", "setVertexData"]
+- !private ["PSo16NSObjectProtocol", "sourceAlphaBlendFactor"]
+- !private ["PSo16NSObjectProtocol", "sourceRGBBlendFactor"]
+- !private ["PSo16NSObjectProtocol", "stencilAttachmentPixelFormat"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- !private ["PSo16NSObjectProtocol", "tAddressMode"]
+- ["PSo16NSObjectProtocol", "textureBuffer"]
+- ["PSo16NSObjectProtocol", "vertexBuffer"]
+- ["PSo16NSObjectProtocol", "vertexCount"]
+- !private ["PSo16NSObjectProtocol", "vertexFunction"]
+- ["PSo16NSObjectProtocol", "vertexShaderFunction"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["PSs21NilLiteralConvertible", "Triangle"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs16RawRepresentable", "Add"]
+- !private ["PSs16RawRepresentable", "BGRA8Unorm"]
+- !private ["PSs16RawRepresentable", "ClampToEdge"]
+- !private ["PSs16RawRepresentable", "Depth32Float_Stencil8"]
+- !private ["PSs16RawRepresentable", "Linear"]
+- !private ["PSs16RawRepresentable", "Nearest"]
+- !private ["PSs16RawRepresentable", "OneMinusSourceAlpha"]
+- !private ["PSs16RawRepresentable", "Repeat"]
+- !private ["PSs16RawRepresentable", "SourceAlpha"]
+- !private ["PSs16RawRepresentable", "Triangle"]
+- !private ["PSs16RawRepresentable", "UInt32"]
+- !private ["C7Drakken8Renderer", "renderCommandEncoder"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "init"]
+- !private ["PSs12SequenceType", "updateValue"]
+- ["C7Drakken6Shader", "Bool"]
+- !private ["C7Drakken6Shader", "Core"]
+- ["C7Drakken6Shader", "DataBuffer"]
+- !private ["C7Drakken6Shader", "FLT_MAX"]
+- ["C7Drakken6Shader", "Float"]
+- ["C7Drakken6Shader", "IndexBuffer"]
+- ["C7Drakken6Shader", "Int"]
+- !private ["C7Drakken6Shader", "MTLBlendFactor"]
+- !private ["C7Drakken6Shader", "MTLBlendOperation"]
+- ["C7Drakken6Shader", "MTLBuffer"]
+- ["C7Drakken6Shader", "MTLFunction"]
+- ["C7Drakken6Shader", "MTLPrimitiveType"]
+- ["C7Drakken6Shader", "MTLRenderPipelineDescriptor"]
+- ["C7Drakken6Shader", "MTLRenderPipelineReflection"]
+- ["C7Drakken6Shader", "MTLRenderPipelineState"]
+- !private ["C7Drakken6Shader", "MTLSamplerDescriptor"]
+- ["C7Drakken6Shader", "MTLSamplerState"]
+- ["C7Drakken6Shader", "MaterialProperties"]
+- ["C7Drakken6Shader", "Renderer"]
+- ["C7Drakken6Shader", "String"]
+- ["C7Drakken6Shader", "Texture"]
+- ["C7Drakken6Shader", "TextureBuffer"]
+- ["C7Drakken6Shader", "UnsafeMutablePointer"]
+- ["C7Drakken6Shader", "Void"]
+- !private ["C7Drakken6Shader", "_indexBuffer"]
+- !private ["C7Drakken6Shader", "_modelMatrixBuffer"]
+- !private ["C7Drakken6Shader", "_shaderReflextion"]
+- !private ["C7Drakken6Shader", "_vertexCount"]
+- ["C7Drakken6Shader", "buildRenderPipelineDescriptor"]
+- ["C7Drakken6Shader", "deinit"]
+- ["C7Drakken6Shader", "draw"]
+- ["C7Drakken6Shader", "drawMode"]
+- ["C7Drakken6Shader", "float2"]
+- ["C7Drakken6Shader", "float3"]
+- ["C7Drakken6Shader", "float4"]
+- ["C7Drakken6Shader", "fragmentBuffer"]
+- !private ["C7Drakken6Shader", "fragmentShaderFunction"]
+- ["C7Drakken6Shader", "indexBuffer"]
+- ["C7Drakken6Shader", "init"]
+- ["C7Drakken6Shader", "materialPropertiesUniform"]
+- ["C7Drakken6Shader", "materialPropertiesUniformBuffer"]
+- ["C7Drakken6Shader", "prepareToDraw"]
+- !private ["C7Drakken6Shader", "print"]
+- ["C7Drakken6Shader", "renderPipelineState"]
+- ["C7Drakken6Shader", "samplerState"]
+- ["C7Drakken6Shader", "setFragmentData"]
+- ["C7Drakken6Shader", "setTexture"]
+- ["C7Drakken6Shader", "setVertexData"]
+- ["C7Drakken6Shader", "textureBuffer"]
+- ["C7Drakken6Shader", "vertexBuffer"]
+- ["C7Drakken6Shader", "vertexCount"]
+- !private ["C7Drakken6Shader", "vertexShaderFunction"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["PSs10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- ["C7Drakken13TextureBuffer", "deinit"]
+- !private ["C7Drakken13TextureBuffer", "index"]
+- !private ["C7Drakken13TextureBuffer", "init"]
+- !private ["C7Drakken13TextureBuffer", "texture"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Triangle"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "updateValue"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Triangle"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "updateValue"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "C7Drakken4Core"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "C7Drakken10DataBuffer"
+- !private "VSs10Dictionary"
+- !private "VSs19DictionaryGenerator"
+- !private "PSs28DictionaryLiteralConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "C7Drakken11IndexBuffer"
+- !private "PSs9Indexable"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "OSC14MTLBlendFactor"
+- !private "OSC17MTLBlendOperation"
+- !private "PSo17MTLCommandEncoder"
+- !private "PSo9MTLDevice"
+- !private "OSC12MTLIndexType"
+- !private "PSo10MTLLibrary"
+- !private "OSC14MTLPixelFormat"
+- !private "OSC16MTLPrimitiveType"
+- !private "PSo23MTLRenderCommandEncoder"
+- !private "CSo42MTLRenderPipelineColorAttachmentDescriptor"
+- !private "CSo47MTLRenderPipelineColorAttachmentDescriptorArray"
+- !private "CSo27MTLRenderPipelineDescriptor"
+- !private "OSC21MTLSamplerAddressMode"
+- !private "CSo20MTLSamplerDescriptor"
+- !private "OSC22MTLSamplerMinMagFilter"
+- !private "PSs14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "PSs21NilLiteralConvertible"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs16RawRepresentable"
+- !private "C7Drakken8Renderer"
+- !private "PSs12SequenceType"
+- "C7Drakken6Shader"
+- !private "VSs12StaticString"
+- !private "PSs10Streamable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- "C7Drakken13TextureBuffer"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/GlobalHeader.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Engine/Textures Generator/MaskTexture.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Shapes/Shape.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/FluidType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/Fluid.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/RigidbodyProtocol.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Bodies/BodyType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/Rigidbody.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/World.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Header.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Drakken.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Intermediates/Drakken.build/Release-iphoneos/Drakken.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/simd.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Modules/RSClipperWrapper.swiftmodule/arm.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-Swift.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
+interface-hash: "6da92ffcc4e97636cf48e06961a0412a"

@@ -158,7 +158,7 @@ public class GameComponent: NSObject, InternalComponent, Component, Scriptable, 
 		textureCoordOffset = Vector2D(	offset.x / _transform.getMeshScale().x,
 										offset.y / _transform.getMeshScale().y)
 
-		_mesh._shader.setFragmentData(float2: &offset.float2, length: sizeof(float2), index: 2)
+		_mesh._shader.setFragmentData(float2: &textureCoordOffset.float2, length: sizeof(float2), index: 2)
 	}
 
 	public func addScript(script: Script) {

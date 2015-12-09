@@ -59,12 +59,12 @@ vertex VertexOut basic_vertex ( constant	SharedUniforms	&sharedUniforms		[[ buff
 	return v_out;
 }
 
-fragment float4 basic_fragment (			VertexOut			vert			[[ stage_in ]],
-								constant	float2				&texRepeat		[[ buffer(0) ]],
-								constant	bool				&repeatMask		[[ buffer(1) ]],
-								constant	float2				&texcoordOffset	[[ buffer(2) ]],
-											texture2d<float>	texture1		[[ texture(0) ]],
-											texture2d<float>	maskTexture		[[ texture(1) ]],
+fragment float4 basic_fragment (			VertexOut			vert				[[ stage_in ]],
+								constant		float2				&texRepeat		[[ buffer(0) ]],
+								constant		bool					&repeatMask		[[ buffer(1) ]],
+								constant		float2				&texcoordOffset	[[ buffer(2) ]],
+											texture2d<float>		texture1			[[ texture(0) ]],
+											texture2d<float>		maskTexture		[[ texture(1) ]],
 											sampler				s				[[ sampler(0) ]] )
 {
 	float2 texcoord = vert.texcoord;

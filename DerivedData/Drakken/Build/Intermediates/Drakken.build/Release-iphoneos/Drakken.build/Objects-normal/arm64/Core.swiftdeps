@@ -1,0 +1,354 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Core"
+provides-nominal:
+- "C7Drakken4Core"
+provides-member:
+- ["C7Drakken4Core", ""]
+provides-dynamic-lookup:
+- "sharedInstance"
+- "drawableSize"
+- "commandQueue"
+- "device"
+- "library"
+depends-top-level:
+- "Int"
+- !private "CGSizeMake"
+- !private "*"
+- "MTLDevice"
+- !private "MTLCreateSystemDefaultDevice"
+- "Float"
+- "MTLLibrary"
+- !private "CGFloat"
+- !private "NSBundle"
+- "CGSize"
+- "MTLCommandQueue"
+- "Core"
+- !private "StringLiteralType"
+- "NSObject"
+- !private "print"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "CGFloat"]
+- !private ["PSs9AnyObject", "CGSizeMake"]
+- ["PSs9AnyObject", "Core"]
+- !private ["PSs9AnyObject", "Float"]
+- !private ["PSs9AnyObject", "Int"]
+- !private ["PSs9AnyObject", "MTLCreateSystemDefaultDevice"]
+- !private ["PSs9AnyObject", "NSBundle"]
+- ["PSs9AnyObject", "_commandQueue"]
+- ["PSs9AnyObject", "_device"]
+- ["PSs9AnyObject", "_library"]
+- ["PSs9AnyObject", "_screenScale"]
+- ["PSs9AnyObject", "_screenSize"]
+- ["PSs9AnyObject", "commandQueue"]
+- ["PSs9AnyObject", "device"]
+- ["PSs9AnyObject", "drawableSize"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "library"]
+- !private ["PSs9AnyObject", "mainBundle"]
+- !private ["PSs9AnyObject", "pathForResource"]
+- !private ["PSs9AnyObject", "print"]
+- ["PSs9AnyObject", "screenScale"]
+- ["PSs9AnyObject", "screenScale_i"]
+- ["PSs9AnyObject", "screenSize"]
+- ["PSs9AnyObject", "sharedInstance"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs22BidirectionalIndexType", "init"]
+- !private ["PSs21BitwiseOperationsType", "init"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
+- !private ["PSs11CVarArgType", "CGFloat"]
+- !private ["PSs11CVarArgType", "CGSizeMake"]
+- ["PSs11CVarArgType", "Core"]
+- !private ["PSs11CVarArgType", "Float"]
+- !private ["PSs11CVarArgType", "Int"]
+- !private ["PSs11CVarArgType", "MTLCreateSystemDefaultDevice"]
+- !private ["PSs11CVarArgType", "NSBundle"]
+- ["PSs11CVarArgType", "_commandQueue"]
+- ["PSs11CVarArgType", "_device"]
+- ["PSs11CVarArgType", "_library"]
+- ["PSs11CVarArgType", "_screenScale"]
+- ["PSs11CVarArgType", "_screenSize"]
+- ["PSs11CVarArgType", "commandQueue"]
+- ["PSs11CVarArgType", "device"]
+- ["PSs11CVarArgType", "drawableSize"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "library"]
+- !private ["PSs11CVarArgType", "mainBundle"]
+- !private ["PSs11CVarArgType", "pathForResource"]
+- !private ["PSs11CVarArgType", "print"]
+- ["PSs11CVarArgType", "screenScale"]
+- ["PSs11CVarArgType", "screenScale_i"]
+- ["PSs11CVarArgType", "screenSize"]
+- ["PSs11CVarArgType", "sharedInstance"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs10Comparable", "init"]
+- !private ["C7Drakken4Core", "CGFloat"]
+- ["C7Drakken4Core", "CGSize"]
+- !private ["C7Drakken4Core", "CGSizeMake"]
+- ["C7Drakken4Core", "Core"]
+- ["C7Drakken4Core", "Float"]
+- ["C7Drakken4Core", "Int"]
+- ["C7Drakken4Core", "MTLCommandQueue"]
+- !private ["C7Drakken4Core", "MTLCreateSystemDefaultDevice"]
+- ["C7Drakken4Core", "MTLDevice"]
+- ["C7Drakken4Core", "MTLLibrary"]
+- !private ["C7Drakken4Core", "NSBundle"]
+- !private ["C7Drakken4Core", "_commandQueue"]
+- !private ["C7Drakken4Core", "_device"]
+- !private ["C7Drakken4Core", "_library"]
+- !private ["C7Drakken4Core", "_screenScale"]
+- !private ["C7Drakken4Core", "_screenSize"]
+- ["C7Drakken4Core", "commandQueue"]
+- ["C7Drakken4Core", "deinit"]
+- ["C7Drakken4Core", "device"]
+- ["C7Drakken4Core", "drawableSize"]
+- ["C7Drakken4Core", "init"]
+- ["C7Drakken4Core", "library"]
+- !private ["C7Drakken4Core", "print"]
+- ["C7Drakken4Core", "screenScale"]
+- ["C7Drakken4Core", "screenScale_i"]
+- ["C7Drakken4Core", "screenSize"]
+- ["C7Drakken4Core", "sharedInstance"]
+- !private ["PSs23CustomStringConvertible", "CGFloat"]
+- !private ["PSs23CustomStringConvertible", "CGSizeMake"]
+- ["PSs23CustomStringConvertible", "Core"]
+- !private ["PSs23CustomStringConvertible", "Float"]
+- !private ["PSs23CustomStringConvertible", "Int"]
+- !private ["PSs23CustomStringConvertible", "MTLCreateSystemDefaultDevice"]
+- !private ["PSs23CustomStringConvertible", "NSBundle"]
+- ["PSs23CustomStringConvertible", "_commandQueue"]
+- ["PSs23CustomStringConvertible", "_device"]
+- ["PSs23CustomStringConvertible", "_library"]
+- ["PSs23CustomStringConvertible", "_screenScale"]
+- ["PSs23CustomStringConvertible", "_screenSize"]
+- ["PSs23CustomStringConvertible", "commandQueue"]
+- ["PSs23CustomStringConvertible", "device"]
+- ["PSs23CustomStringConvertible", "drawableSize"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "library"]
+- !private ["PSs23CustomStringConvertible", "mainBundle"]
+- !private ["PSs23CustomStringConvertible", "pathForResource"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- ["PSs23CustomStringConvertible", "screenScale"]
+- ["PSs23CustomStringConvertible", "screenScale_i"]
+- ["PSs23CustomStringConvertible", "screenSize"]
+- ["PSs23CustomStringConvertible", "sharedInstance"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "CGFloat"]
+- !private ["PSs9Equatable", "CGSizeMake"]
+- ["PSs9Equatable", "Core"]
+- !private ["PSs9Equatable", "Float"]
+- !private ["PSs9Equatable", "Int"]
+- !private ["PSs9Equatable", "MTLCreateSystemDefaultDevice"]
+- !private ["PSs9Equatable", "NSBundle"]
+- ["PSs9Equatable", "_commandQueue"]
+- ["PSs9Equatable", "_device"]
+- ["PSs9Equatable", "_library"]
+- ["PSs9Equatable", "_screenScale"]
+- ["PSs9Equatable", "_screenSize"]
+- ["PSs9Equatable", "commandQueue"]
+- ["PSs9Equatable", "device"]
+- ["PSs9Equatable", "drawableSize"]
+- !private ["PSs9Equatable", "height"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "library"]
+- !private ["PSs9Equatable", "mainBundle"]
+- !private ["PSs9Equatable", "pathForResource"]
+- !private ["PSs9Equatable", "print"]
+- ["PSs9Equatable", "screenScale"]
+- ["PSs9Equatable", "screenScale_i"]
+- ["PSs9Equatable", "screenSize"]
+- ["PSs9Equatable", "sharedInstance"]
+- !private ["PSs9Equatable", "width"]
+- ["PSs9Equatable", ""]
+- !private ["Sf", "init"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs16ForwardIndexType", "init"]
+- !private ["PSs8Hashable", "CGFloat"]
+- !private ["PSs8Hashable", "CGSizeMake"]
+- ["PSs8Hashable", "Core"]
+- !private ["PSs8Hashable", "Float"]
+- !private ["PSs8Hashable", "Int"]
+- !private ["PSs8Hashable", "MTLCreateSystemDefaultDevice"]
+- !private ["PSs8Hashable", "NSBundle"]
+- ["PSs8Hashable", "_commandQueue"]
+- ["PSs8Hashable", "_device"]
+- ["PSs8Hashable", "_library"]
+- ["PSs8Hashable", "_screenScale"]
+- ["PSs8Hashable", "_screenSize"]
+- ["PSs8Hashable", "commandQueue"]
+- ["PSs8Hashable", "device"]
+- ["PSs8Hashable", "drawableSize"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "library"]
+- !private ["PSs8Hashable", "mainBundle"]
+- !private ["PSs8Hashable", "pathForResource"]
+- !private ["PSs8Hashable", "print"]
+- ["PSs8Hashable", "screenScale"]
+- ["PSs8Hashable", "screenScale_i"]
+- ["PSs8Hashable", "screenSize"]
+- ["PSs8Hashable", "sharedInstance"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["Si", "init"]
+- !private ["PSs21IntegerArithmeticType", "init"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs11IntegerType", "init"]
+- !private ["PSo9MTLDevice", "newCommandQueue"]
+- !private ["PSo9MTLDevice", "newLibraryWithFile"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["CSo8NSBundle", "mainBundle"]
+- !private ["CSo8NSBundle", "pathForResource"]
+- !private ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGSize"]
+- !private ["CSo8NSObject", "CGSizeMake"]
+- ["CSo8NSObject", "Core"]
+- ["CSo8NSObject", "Float"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "MTLCommandQueue"]
+- !private ["CSo8NSObject", "MTLCreateSystemDefaultDevice"]
+- ["CSo8NSObject", "MTLDevice"]
+- ["CSo8NSObject", "MTLLibrary"]
+- !private ["CSo8NSObject", "NSBundle"]
+- ["CSo8NSObject", "_commandQueue"]
+- ["CSo8NSObject", "_device"]
+- ["CSo8NSObject", "_library"]
+- ["CSo8NSObject", "_screenScale"]
+- ["CSo8NSObject", "_screenSize"]
+- ["CSo8NSObject", "commandQueue"]
+- ["CSo8NSObject", "device"]
+- ["CSo8NSObject", "drawableSize"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "library"]
+- !private ["CSo8NSObject", "mainBundle"]
+- !private ["CSo8NSObject", "pathForResource"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "screenScale"]
+- ["CSo8NSObject", "screenScale_i"]
+- ["CSo8NSObject", "screenSize"]
+- ["CSo8NSObject", "sharedInstance"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "CGSizeMake"]
+- ["PSo16NSObjectProtocol", "Core"]
+- !private ["PSo16NSObjectProtocol", "Float"]
+- !private ["PSo16NSObjectProtocol", "Int"]
+- !private ["PSo16NSObjectProtocol", "MTLCreateSystemDefaultDevice"]
+- !private ["PSo16NSObjectProtocol", "NSBundle"]
+- ["PSo16NSObjectProtocol", "_commandQueue"]
+- ["PSo16NSObjectProtocol", "_device"]
+- ["PSo16NSObjectProtocol", "_library"]
+- ["PSo16NSObjectProtocol", "_screenScale"]
+- ["PSo16NSObjectProtocol", "_screenSize"]
+- ["PSo16NSObjectProtocol", "commandQueue"]
+- ["PSo16NSObjectProtocol", "device"]
+- ["PSo16NSObjectProtocol", "drawableSize"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "library"]
+- !private ["PSo16NSObjectProtocol", "mainBundle"]
+- !private ["PSo16NSObjectProtocol", "newCommandQueue"]
+- !private ["PSo16NSObjectProtocol", "newLibraryWithFile"]
+- !private ["PSo16NSObjectProtocol", "pathForResource"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "screenScale"]
+- ["PSo16NSObjectProtocol", "screenScale_i"]
+- ["PSo16NSObjectProtocol", "screenSize"]
+- ["PSo16NSObjectProtocol", "sharedInstance"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["PSs21RandomAccessIndexType", "init"]
+- !private ["PSs17SignedIntegerType", "init"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs10Strideable", "init"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs14_Incrementable", "init"]
+- !private ["PSs22_IntegerArithmeticType", "init"]
+- !private ["PSs12_IntegerType", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs22_RandomAccessAmbiguity", "init"]
+- !private ["PSs12_Reflectable", "height"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "width"]
+- !private ["PSs18_SignedIntegerType", "init"]
+- !private ["PSs11_Strideable", "init"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC6CGSize"
+- "PSs11CVarArgType"
+- !private "PSs10Comparable"
+- "C7Drakken4Core"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "Sf"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSo9MTLDevice"
+- !private "PSs14MirrorPathType"
+- !private "CSo8NSBundle"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- !private "PSs31_BuiltinFloatLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/GlobalHeader.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Engine/Textures Generator/MaskTexture.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Shapes/Shape.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/FluidType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/Fluid.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/RigidbodyProtocol.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Bodies/BodyType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/Rigidbody.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/World.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Header.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Drakken.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Intermediates/Drakken.build/Release-iphoneos/Drakken.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Modules/RSClipperWrapper.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-Swift.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
+interface-hash: "17b6a68ad385b6249f7cd1f8b84d47f8"

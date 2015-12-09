@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Volumes/Files/allisonlindner/Library/Developer/Xcode/DerivedData/Drakken-drfoqeypxcxeodcrewbvtidfhhij/Build/Products/Release-iphoneos/Drakken.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/build/Drakken.build/Release-iphoneos/Drakken.build/unextended-module.modulemap',
+    }]
+  }]
+}

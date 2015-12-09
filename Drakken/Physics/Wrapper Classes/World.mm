@@ -38,7 +38,7 @@
 }
 
 - (void) step {
-	_world->Step(0.016f, 3, 3);
+	_world->Step(0.016f, 6, 8);
 }
 
 - (void) step:(float) timeInterval {

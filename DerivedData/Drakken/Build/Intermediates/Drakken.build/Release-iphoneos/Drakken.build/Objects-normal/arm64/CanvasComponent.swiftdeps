@@ -1,0 +1,762 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CanvasComponent"
+provides-nominal:
+- "C7Drakken15CanvasComponent"
+provides-member:
+- ["C7Drakken15CanvasComponent", ""]
+provides-dynamic-lookup:
+- "_transform"
+- "update"
+- "addNode"
+- "transform"
+- "updateWorldQuad"
+- "destroy"
+- "sharedUniformBuffer"
+- "draw"
+- "setMaskTexture"
+- "descriptor"
+- "index"
+- "drawOnTargetTexture"
+- "updateSharedUniformBuffer"
+depends-top-level:
+- "Int"
+- "CGSize"
+- "Renderer"
+- "CFTimeInterval"
+- "Transform"
+- "MTLTexture"
+- "CanvasComponent"
+- !private "Float"
+- !private "Resource"
+- !private "newOrtho"
+- "CGPoint"
+- !private "float3"
+- !private "/"
+- "SharedUniforms"
+- !private "*"
+- "float4x4"
+- "Component"
+- !private "sizeof"
+- "Transformable"
+- "InternalComponent"
+- !private "newTranslation"
+- !private "StringLiteralType"
+- "NSObject"
+- "MTLBuffer"
+- "Descriptor"
+- !private "Core"
+- !private "-"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "Core"]
+- !private ["PSs9AnyObject", "Float"]
+- !private ["PSs9AnyObject", "InternalComponent"]
+- !private ["PSs9AnyObject", "Renderer"]
+- !private ["PSs9AnyObject", "Resource"]
+- !private ["PSs9AnyObject", "SharedUniforms"]
+- !private ["PSs9AnyObject", "Transform"]
+- ["PSs9AnyObject", "_children"]
+- ["PSs9AnyObject", "_maskTexture"]
+- ["PSs9AnyObject", "_renderer"]
+- ["PSs9AnyObject", "_size"]
+- ["PSs9AnyObject", "_texture"]
+- ["PSs9AnyObject", "_transform"]
+- ["PSs9AnyObject", "addNode"]
+- ["PSs9AnyObject", "descriptor"]
+- ["PSs9AnyObject", "destroy"]
+- !private ["PSs9AnyObject", "device"]
+- ["PSs9AnyObject", "draw"]
+- ["PSs9AnyObject", "drawOnTargetTexture"]
+- !private ["PSs9AnyObject", "emptyTexture"]
+- !private ["PSs9AnyObject", "endFrame"]
+- !private ["PSs9AnyObject", "float3"]
+- ["PSs9AnyObject", "getComponent"]
+- ["PSs9AnyObject", "index"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "loadTexture"]
+- !private ["PSs9AnyObject", "newOrtho"]
+- !private ["PSs9AnyObject", "newTranslation"]
+- ["PSs9AnyObject", "projectionMatrix"]
+- !private ["PSs9AnyObject", "renderCommandEncoder"]
+- !private ["PSs9AnyObject", "screenScale"]
+- ["PSs9AnyObject", "setMaskTexture"]
+- ["PSs9AnyObject", "sharedUniform"]
+- ["PSs9AnyObject", "sharedUniformBuffer"]
+- !private ["PSs9AnyObject", "sizeof"]
+- !private ["PSs9AnyObject", "startFrame"]
+- ["PSs9AnyObject", "transform"]
+- ["PSs9AnyObject", "update"]
+- ["PSs9AnyObject", "updateSharedUniformBuffer"]
+- ["PSs9AnyObject", "updateWorldQuad"]
+- ["PSs9AnyObject", "viewMatrix"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["Sa", "removeAll"]
+- !private ["PSs23ArrayLiteralConvertible", "CPUCacheModeDefaultCache"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "_Element"]
+- !private ["PSs23ArrayLiteralConvertible", "append"]
+- !private ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "removeAll"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
+- !private ["PSs11CVarArgType", "Core"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "Float"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "InternalComponent"]
+- !private ["PSs11CVarArgType", "Renderer"]
+- !private ["PSs11CVarArgType", "Resource"]
+- !private ["PSs11CVarArgType", "SharedUniforms"]
+- !private ["PSs11CVarArgType", "Transform"]
+- ["PSs11CVarArgType", "_children"]
+- ["PSs11CVarArgType", "_maskTexture"]
+- ["PSs11CVarArgType", "_renderer"]
+- ["PSs11CVarArgType", "_size"]
+- ["PSs11CVarArgType", "_texture"]
+- ["PSs11CVarArgType", "_transform"]
+- ["PSs11CVarArgType", "addNode"]
+- ["PSs11CVarArgType", "descriptor"]
+- ["PSs11CVarArgType", "destroy"]
+- !private ["PSs11CVarArgType", "device"]
+- ["PSs11CVarArgType", "draw"]
+- ["PSs11CVarArgType", "drawOnTargetTexture"]
+- !private ["PSs11CVarArgType", "endFrame"]
+- !private ["PSs11CVarArgType", "float3"]
+- ["PSs11CVarArgType", "getComponent"]
+- ["PSs11CVarArgType", "index"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "newOrtho"]
+- !private ["PSs11CVarArgType", "newTranslation"]
+- ["PSs11CVarArgType", "projectionMatrix"]
+- !private ["PSs11CVarArgType", "renderCommandEncoder"]
+- !private ["PSs11CVarArgType", "screenScale"]
+- ["PSs11CVarArgType", "setMaskTexture"]
+- ["PSs11CVarArgType", "sharedUniform"]
+- ["PSs11CVarArgType", "sharedUniformBuffer"]
+- !private ["PSs11CVarArgType", "sizeof"]
+- !private ["PSs11CVarArgType", "startFrame"]
+- ["PSs11CVarArgType", "transform"]
+- ["PSs11CVarArgType", "update"]
+- ["PSs11CVarArgType", "updateSharedUniformBuffer"]
+- ["PSs11CVarArgType", "updateWorldQuad"]
+- ["PSs11CVarArgType", "viewMatrix"]
+- ["PSs11CVarArgType", ""]
+- ["C7Drakken15CanvasComponent", "CFTimeInterval"]
+- ["C7Drakken15CanvasComponent", "CGPoint"]
+- ["C7Drakken15CanvasComponent", "CGSize"]
+- ["C7Drakken15CanvasComponent", "Component"]
+- !private ["C7Drakken15CanvasComponent", "Core"]
+- ["C7Drakken15CanvasComponent", "Descriptor"]
+- !private ["C7Drakken15CanvasComponent", "Float"]
+- ["C7Drakken15CanvasComponent", "Int"]
+- ["C7Drakken15CanvasComponent", "InternalComponent"]
+- ["C7Drakken15CanvasComponent", "MTLBuffer"]
+- ["C7Drakken15CanvasComponent", "MTLTexture"]
+- ["C7Drakken15CanvasComponent", "Renderer"]
+- !private ["C7Drakken15CanvasComponent", "Resource"]
+- ["C7Drakken15CanvasComponent", "SharedUniforms"]
+- ["C7Drakken15CanvasComponent", "Transform"]
+- ["C7Drakken15CanvasComponent", "Transformable"]
+- !private ["C7Drakken15CanvasComponent", "_children"]
+- !private ["C7Drakken15CanvasComponent", "_maskTexture"]
+- !private ["C7Drakken15CanvasComponent", "_renderer"]
+- !private ["C7Drakken15CanvasComponent", "_size"]
+- !private ["C7Drakken15CanvasComponent", "_texture"]
+- ["C7Drakken15CanvasComponent", "_transform"]
+- ["C7Drakken15CanvasComponent", "addNode"]
+- ["C7Drakken15CanvasComponent", "deinit"]
+- ["C7Drakken15CanvasComponent", "descriptor"]
+- ["C7Drakken15CanvasComponent", "destroy"]
+- ["C7Drakken15CanvasComponent", "draw"]
+- ["C7Drakken15CanvasComponent", "drawOnTargetTexture"]
+- !private ["C7Drakken15CanvasComponent", "float3"]
+- ["C7Drakken15CanvasComponent", "float4x4"]
+- ["C7Drakken15CanvasComponent", "getComponent"]
+- ["C7Drakken15CanvasComponent", "index"]
+- ["C7Drakken15CanvasComponent", "init"]
+- !private ["C7Drakken15CanvasComponent", "newOrtho"]
+- !private ["C7Drakken15CanvasComponent", "newTranslation"]
+- ["C7Drakken15CanvasComponent", "projectionMatrix"]
+- ["C7Drakken15CanvasComponent", "setMaskTexture"]
+- ["C7Drakken15CanvasComponent", "sharedUniform"]
+- ["C7Drakken15CanvasComponent", "sharedUniformBuffer"]
+- !private ["C7Drakken15CanvasComponent", "sizeof"]
+- ["C7Drakken15CanvasComponent", "transform"]
+- ["C7Drakken15CanvasComponent", "update"]
+- ["C7Drakken15CanvasComponent", "updateSharedUniformBuffer"]
+- ["C7Drakken15CanvasComponent", "updateWorldQuad"]
+- ["C7Drakken15CanvasComponent", "viewMatrix"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "append"]
+- !private ["PSs14CollectionType", "init"]
+- !private ["PSs14CollectionType", "removeAll"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "init"]
+- !private ["P7Drakken9Component", "Core"]
+- !private ["P7Drakken9Component", "Float"]
+- !private ["P7Drakken9Component", "InternalComponent"]
+- !private ["P7Drakken9Component", "Renderer"]
+- !private ["P7Drakken9Component", "Resource"]
+- !private ["P7Drakken9Component", "SharedUniforms"]
+- !private ["P7Drakken9Component", "Transform"]
+- !private ["P7Drakken9Component", "_children"]
+- !private ["P7Drakken9Component", "_maskTexture"]
+- !private ["P7Drakken9Component", "_renderer"]
+- !private ["P7Drakken9Component", "_size"]
+- !private ["P7Drakken9Component", "_texture"]
+- ["P7Drakken9Component", "_transform"]
+- ["P7Drakken9Component", "descriptor"]
+- ["P7Drakken9Component", "destroy"]
+- ["P7Drakken9Component", "draw"]
+- !private ["P7Drakken9Component", "float3"]
+- ["P7Drakken9Component", "getComponent"]
+- ["P7Drakken9Component", "index"]
+- !private ["P7Drakken9Component", "newOrtho"]
+- !private ["P7Drakken9Component", "newTranslation"]
+- !private ["P7Drakken9Component", "projectionMatrix"]
+- !private ["P7Drakken9Component", "sharedUniform"]
+- !private ["P7Drakken9Component", "sharedUniformBuffer"]
+- !private ["P7Drakken9Component", "sizeof"]
+- ["P7Drakken9Component", "transform"]
+- ["P7Drakken9Component", "update"]
+- !private ["P7Drakken9Component", "updateSharedUniformBuffer"]
+- ["P7Drakken9Component", "updateWorldQuad"]
+- !private ["P7Drakken9Component", "viewMatrix"]
+- ["P7Drakken9Component", ""]
+- !private ["C7Drakken4Core", "device"]
+- !private ["C7Drakken4Core", "screenScale"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "append"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "removeAll"]
+- !private ["PSs23CustomStringConvertible", "Core"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Float"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "InternalComponent"]
+- !private ["PSs23CustomStringConvertible", "Renderer"]
+- !private ["PSs23CustomStringConvertible", "Resource"]
+- !private ["PSs23CustomStringConvertible", "SharedUniforms"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "Transform"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- ["PSs23CustomStringConvertible", "_children"]
+- ["PSs23CustomStringConvertible", "_maskTexture"]
+- ["PSs23CustomStringConvertible", "_renderer"]
+- ["PSs23CustomStringConvertible", "_size"]
+- ["PSs23CustomStringConvertible", "_texture"]
+- ["PSs23CustomStringConvertible", "_transform"]
+- ["PSs23CustomStringConvertible", "addNode"]
+- !private ["PSs23CustomStringConvertible", "append"]
+- ["PSs23CustomStringConvertible", "descriptor"]
+- ["PSs23CustomStringConvertible", "destroy"]
+- !private ["PSs23CustomStringConvertible", "device"]
+- ["PSs23CustomStringConvertible", "draw"]
+- ["PSs23CustomStringConvertible", "drawOnTargetTexture"]
+- !private ["PSs23CustomStringConvertible", "endFrame"]
+- !private ["PSs23CustomStringConvertible", "float3"]
+- ["PSs23CustomStringConvertible", "getComponent"]
+- ["PSs23CustomStringConvertible", "index"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "newOrtho"]
+- !private ["PSs23CustomStringConvertible", "newTranslation"]
+- ["PSs23CustomStringConvertible", "projectionMatrix"]
+- !private ["PSs23CustomStringConvertible", "removeAll"]
+- !private ["PSs23CustomStringConvertible", "renderCommandEncoder"]
+- !private ["PSs23CustomStringConvertible", "screenScale"]
+- ["PSs23CustomStringConvertible", "setMaskTexture"]
+- ["PSs23CustomStringConvertible", "sharedUniform"]
+- ["PSs23CustomStringConvertible", "sharedUniformBuffer"]
+- !private ["PSs23CustomStringConvertible", "sizeof"]
+- !private ["PSs23CustomStringConvertible", "startFrame"]
+- ["PSs23CustomStringConvertible", "transform"]
+- ["PSs23CustomStringConvertible", "update"]
+- ["PSs23CustomStringConvertible", "updateSharedUniformBuffer"]
+- ["PSs23CustomStringConvertible", "updateWorldQuad"]
+- ["PSs23CustomStringConvertible", "viewMatrix"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "CPUCacheModeDefaultCache"]
+- !private ["PSs9Equatable", "Core"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "Float"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "InternalComponent"]
+- !private ["PSs9Equatable", "Renderer"]
+- !private ["PSs9Equatable", "Resource"]
+- !private ["PSs9Equatable", "SharedUniforms"]
+- !private ["PSs9Equatable", "Transform"]
+- ["PSs9Equatable", "_children"]
+- ["PSs9Equatable", "_maskTexture"]
+- ["PSs9Equatable", "_renderer"]
+- ["PSs9Equatable", "_size"]
+- ["PSs9Equatable", "_texture"]
+- ["PSs9Equatable", "_transform"]
+- ["PSs9Equatable", "addNode"]
+- ["PSs9Equatable", "descriptor"]
+- ["PSs9Equatable", "destroy"]
+- !private ["PSs9Equatable", "device"]
+- ["PSs9Equatable", "draw"]
+- ["PSs9Equatable", "drawOnTargetTexture"]
+- !private ["PSs9Equatable", "endFrame"]
+- !private ["PSs9Equatable", "float3"]
+- ["PSs9Equatable", "getComponent"]
+- !private ["PSs9Equatable", "height"]
+- ["PSs9Equatable", "index"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "newOrtho"]
+- !private ["PSs9Equatable", "newTranslation"]
+- ["PSs9Equatable", "projectionMatrix"]
+- !private ["PSs9Equatable", "renderCommandEncoder"]
+- !private ["PSs9Equatable", "screenScale"]
+- ["PSs9Equatable", "setMaskTexture"]
+- ["PSs9Equatable", "sharedUniform"]
+- ["PSs9Equatable", "sharedUniformBuffer"]
+- !private ["PSs9Equatable", "sizeof"]
+- !private ["PSs9Equatable", "startFrame"]
+- ["PSs9Equatable", "transform"]
+- ["PSs9Equatable", "update"]
+- ["PSs9Equatable", "updateSharedUniformBuffer"]
+- ["PSs9Equatable", "updateWorldQuad"]
+- ["PSs9Equatable", "viewMatrix"]
+- !private ["PSs9Equatable", "width"]
+- ["PSs9Equatable", ""]
+- !private ["Sf", "init"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "Core"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "Float"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "InternalComponent"]
+- !private ["PSs8Hashable", "Renderer"]
+- !private ["PSs8Hashable", "Resource"]
+- !private ["PSs8Hashable", "SharedUniforms"]
+- !private ["PSs8Hashable", "Transform"]
+- ["PSs8Hashable", "_children"]
+- ["PSs8Hashable", "_maskTexture"]
+- ["PSs8Hashable", "_renderer"]
+- ["PSs8Hashable", "_size"]
+- ["PSs8Hashable", "_texture"]
+- ["PSs8Hashable", "_transform"]
+- ["PSs8Hashable", "addNode"]
+- ["PSs8Hashable", "descriptor"]
+- ["PSs8Hashable", "destroy"]
+- !private ["PSs8Hashable", "device"]
+- ["PSs8Hashable", "draw"]
+- ["PSs8Hashable", "drawOnTargetTexture"]
+- !private ["PSs8Hashable", "endFrame"]
+- !private ["PSs8Hashable", "float3"]
+- ["PSs8Hashable", "getComponent"]
+- ["PSs8Hashable", "index"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "newOrtho"]
+- !private ["PSs8Hashable", "newTranslation"]
+- ["PSs8Hashable", "projectionMatrix"]
+- !private ["PSs8Hashable", "renderCommandEncoder"]
+- !private ["PSs8Hashable", "screenScale"]
+- ["PSs8Hashable", "setMaskTexture"]
+- ["PSs8Hashable", "sharedUniform"]
+- ["PSs8Hashable", "sharedUniformBuffer"]
+- !private ["PSs8Hashable", "sizeof"]
+- !private ["PSs8Hashable", "startFrame"]
+- ["PSs8Hashable", "transform"]
+- ["PSs8Hashable", "update"]
+- ["PSs8Hashable", "updateSharedUniformBuffer"]
+- ["PSs8Hashable", "updateWorldQuad"]
+- ["PSs8Hashable", "viewMatrix"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "Generator"]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "append"]
+- !private ["PSs9Indexable", "init"]
+- !private ["PSs9Indexable", "removeAll"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["P7Drakken17InternalComponent", "Core"]
+- !private ["P7Drakken17InternalComponent", "Float"]
+- !private ["P7Drakken17InternalComponent", "InternalComponent"]
+- !private ["P7Drakken17InternalComponent", "Renderer"]
+- !private ["P7Drakken17InternalComponent", "Resource"]
+- !private ["P7Drakken17InternalComponent", "SharedUniforms"]
+- !private ["P7Drakken17InternalComponent", "Transform"]
+- !private ["P7Drakken17InternalComponent", "_children"]
+- !private ["P7Drakken17InternalComponent", "_maskTexture"]
+- !private ["P7Drakken17InternalComponent", "_renderer"]
+- !private ["P7Drakken17InternalComponent", "_size"]
+- !private ["P7Drakken17InternalComponent", "_texture"]
+- ["P7Drakken17InternalComponent", "_transform"]
+- ["P7Drakken17InternalComponent", "descriptor"]
+- ["P7Drakken17InternalComponent", "destroy"]
+- ["P7Drakken17InternalComponent", "draw"]
+- !private ["P7Drakken17InternalComponent", "float3"]
+- ["P7Drakken17InternalComponent", "getComponent"]
+- ["P7Drakken17InternalComponent", "index"]
+- !private ["P7Drakken17InternalComponent", "newOrtho"]
+- !private ["P7Drakken17InternalComponent", "newTranslation"]
+- !private ["P7Drakken17InternalComponent", "projectionMatrix"]
+- !private ["P7Drakken17InternalComponent", "sharedUniform"]
+- !private ["P7Drakken17InternalComponent", "sharedUniformBuffer"]
+- !private ["P7Drakken17InternalComponent", "sizeof"]
+- ["P7Drakken17InternalComponent", "transform"]
+- ["P7Drakken17InternalComponent", "update"]
+- !private ["P7Drakken17InternalComponent", "updateSharedUniformBuffer"]
+- ["P7Drakken17InternalComponent", "updateWorldQuad"]
+- !private ["P7Drakken17InternalComponent", "viewMatrix"]
+- ["P7Drakken17InternalComponent", ""]
+- !private ["PSo17MTLCommandEncoder", "setVertexBuffer"]
+- !private ["PSo9MTLDevice", "newBufferWithBytes"]
+- !private ["PSo23MTLRenderCommandEncoder", "setVertexBuffer"]
+- !private ["VSC18MTLResourceOptions", "CPUCacheModeDefaultCache"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "_Element"]
+- !private ["PSs21MutableCollectionType", "append"]
+- !private ["PSs21MutableCollectionType", "init"]
+- !private ["PSs21MutableCollectionType", "removeAll"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "_Element"]
+- !private ["PSs16MutableIndexable", "append"]
+- !private ["PSs16MutableIndexable", "init"]
+- !private ["PSs16MutableIndexable", "removeAll"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "_Element"]
+- !private ["PSs16MutableSliceable", "append"]
+- !private ["PSs16MutableSliceable", "init"]
+- !private ["PSs16MutableSliceable", "removeAll"]
+- ["CSo8NSObject", "CFTimeInterval"]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "CGSize"]
+- ["CSo8NSObject", "Component"]
+- !private ["CSo8NSObject", "Core"]
+- ["CSo8NSObject", "Descriptor"]
+- !private ["CSo8NSObject", "Float"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "InternalComponent"]
+- ["CSo8NSObject", "MTLBuffer"]
+- ["CSo8NSObject", "MTLTexture"]
+- ["CSo8NSObject", "Renderer"]
+- !private ["CSo8NSObject", "Resource"]
+- ["CSo8NSObject", "SharedUniforms"]
+- ["CSo8NSObject", "Transform"]
+- ["CSo8NSObject", "Transformable"]
+- ["CSo8NSObject", "_children"]
+- ["CSo8NSObject", "_maskTexture"]
+- ["CSo8NSObject", "_renderer"]
+- ["CSo8NSObject", "_size"]
+- ["CSo8NSObject", "_texture"]
+- ["CSo8NSObject", "_transform"]
+- ["CSo8NSObject", "addNode"]
+- ["CSo8NSObject", "descriptor"]
+- ["CSo8NSObject", "destroy"]
+- !private ["CSo8NSObject", "device"]
+- ["CSo8NSObject", "draw"]
+- ["CSo8NSObject", "drawOnTargetTexture"]
+- !private ["CSo8NSObject", "endFrame"]
+- !private ["CSo8NSObject", "float3"]
+- ["CSo8NSObject", "float4x4"]
+- ["CSo8NSObject", "getComponent"]
+- ["CSo8NSObject", "index"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "newOrtho"]
+- !private ["CSo8NSObject", "newTranslation"]
+- ["CSo8NSObject", "projectionMatrix"]
+- !private ["CSo8NSObject", "renderCommandEncoder"]
+- !private ["CSo8NSObject", "screenScale"]
+- ["CSo8NSObject", "setMaskTexture"]
+- ["CSo8NSObject", "sharedUniform"]
+- ["CSo8NSObject", "sharedUniformBuffer"]
+- !private ["CSo8NSObject", "sizeof"]
+- !private ["CSo8NSObject", "startFrame"]
+- ["CSo8NSObject", "transform"]
+- ["CSo8NSObject", "update"]
+- ["CSo8NSObject", "updateSharedUniformBuffer"]
+- ["CSo8NSObject", "updateWorldQuad"]
+- ["CSo8NSObject", "viewMatrix"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "Core"]
+- !private ["PSo16NSObjectProtocol", "Float"]
+- !private ["PSo16NSObjectProtocol", "InternalComponent"]
+- !private ["PSo16NSObjectProtocol", "Renderer"]
+- !private ["PSo16NSObjectProtocol", "Resource"]
+- !private ["PSo16NSObjectProtocol", "SharedUniforms"]
+- !private ["PSo16NSObjectProtocol", "Transform"]
+- ["PSo16NSObjectProtocol", "_children"]
+- ["PSo16NSObjectProtocol", "_maskTexture"]
+- ["PSo16NSObjectProtocol", "_renderer"]
+- ["PSo16NSObjectProtocol", "_size"]
+- ["PSo16NSObjectProtocol", "_texture"]
+- ["PSo16NSObjectProtocol", "_transform"]
+- ["PSo16NSObjectProtocol", "addNode"]
+- ["PSo16NSObjectProtocol", "descriptor"]
+- ["PSo16NSObjectProtocol", "destroy"]
+- !private ["PSo16NSObjectProtocol", "device"]
+- ["PSo16NSObjectProtocol", "draw"]
+- ["PSo16NSObjectProtocol", "drawOnTargetTexture"]
+- !private ["PSo16NSObjectProtocol", "endFrame"]
+- !private ["PSo16NSObjectProtocol", "float3"]
+- ["PSo16NSObjectProtocol", "getComponent"]
+- ["PSo16NSObjectProtocol", "index"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "newBufferWithBytes"]
+- !private ["PSo16NSObjectProtocol", "newOrtho"]
+- !private ["PSo16NSObjectProtocol", "newTranslation"]
+- ["PSo16NSObjectProtocol", "projectionMatrix"]
+- !private ["PSo16NSObjectProtocol", "renderCommandEncoder"]
+- !private ["PSo16NSObjectProtocol", "screenScale"]
+- ["PSo16NSObjectProtocol", "setMaskTexture"]
+- !private ["PSo16NSObjectProtocol", "setVertexBuffer"]
+- ["PSo16NSObjectProtocol", "sharedUniform"]
+- ["PSo16NSObjectProtocol", "sharedUniformBuffer"]
+- !private ["PSo16NSObjectProtocol", "sizeof"]
+- !private ["PSo16NSObjectProtocol", "startFrame"]
+- ["PSo16NSObjectProtocol", "transform"]
+- ["PSo16NSObjectProtocol", "update"]
+- ["PSo16NSObjectProtocol", "updateSharedUniformBuffer"]
+- ["PSo16NSObjectProtocol", "updateWorldQuad"]
+- ["PSo16NSObjectProtocol", "viewMatrix"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSs21NilLiteralConvertible", "Generator"]
+- !private ["PSs13OptionSetType", "CPUCacheModeDefaultCache"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "append"]
+- !private ["PSs30RangeReplaceableCollectionType", "init"]
+- !private ["PSs30RangeReplaceableCollectionType", "removeAll"]
+- !private ["PSs16RawRepresentable", "CPUCacheModeDefaultCache"]
+- !private ["C7Drakken8Renderer", "endFrame"]
+- !private ["C7Drakken8Renderer", "init"]
+- !private ["C7Drakken8Renderer", "renderCommandEncoder"]
+- !private ["C7Drakken8Renderer", "startFrame"]
+- !private ["C7Drakken8Resource", "emptyTexture"]
+- !private ["C7Drakken8Resource", "loadTexture"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "append"]
+- !private ["PSs12SequenceType", "init"]
+- !private ["PSs12SequenceType", "removeAll"]
+- !private ["PSs14SetAlgebraType", "CPUCacheModeDefaultCache"]
+- !private ["V7Drakken14SharedUniforms", "init"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "init"]
+- !private ["C7Drakken9Transform", "deinit"]
+- !private ["C7Drakken9Transform", "init"]
+- !private ["P7Drakken13Transformable", "init"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "_Element"]
+- !private ["PSs10_ArrayType", "append"]
+- !private ["PSs10_ArrayType", "init"]
+- !private ["PSs10_ArrayType", "removeAll"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "_Element"]
+- !private ["PSs24_DestructorSafeContainer", "append"]
+- !private ["PSs24_DestructorSafeContainer", "init"]
+- !private ["PSs24_DestructorSafeContainer", "removeAll"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "append"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "removeAll"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "append"]
+- !private ["PSs12_Reflectable", "height"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "removeAll"]
+- !private ["PSs12_Reflectable", "width"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "init"]
+- !private ["V4simd6float3", "init"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC6CGSize"
+- "PSs11CVarArgType"
+- "C7Drakken15CanvasComponent"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "P7Drakken9Component"
+- !private "C7Drakken4Core"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "Sf"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- "P7Drakken17InternalComponent"
+- !private "PSo17MTLCommandEncoder"
+- !private "PSo9MTLDevice"
+- !private "PSo23MTLRenderCommandEncoder"
+- !private "VSC18MTLResourceOptions"
+- !private "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSs21NilLiteralConvertible"
+- !private "PSs13OptionSetType"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs16RawRepresentable"
+- !private "C7Drakken8Renderer"
+- !private "C7Drakken8Resource"
+- !private "PSs12SequenceType"
+- !private "PSs14SetAlgebraType"
+- !private "V7Drakken14SharedUniforms"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs12StaticString"
+- !private "PSs10Strideable"
+- !private "C7Drakken9Transform"
+- !private "P7Drakken13Transformable"
+- !private "PSs10_ArrayType"
+- !private "PSs31_BuiltinFloatLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+- !private "V4simd6float3"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/GlobalHeader.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Engine/Textures Generator/MaskTexture.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Shapes/Shape.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/FluidType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Fluids/Fluid.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/RigidbodyProtocol.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Bodies/BodyType.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/Rigidbody.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Physics/Wrapper Classes/World.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Header.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/Drakken/Drakken.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Intermediates/Drakken.build/Release-iphoneos/Drakken.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Modules/RSClipperWrapper.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-Swift.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Headers/_Clipper.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Headers/RSClipperWrapper-umbrella.h"
+- "/Volumes/Files/BEPiD/Main Challenge/XCode RC/Drakken/DerivedData/Drakken/Build/Products/Release-iphoneos/RSClipperWrapper.framework/Modules/module.modulemap"
+interface-hash: "886995b94ed617bd5b292a2b2bfe1cac"
