@@ -1,0 +1,1 @@
+ const unsigned char RSClipperWrapperVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:RSClipperWrapper  PROJECT:Pods-1.1.0" "\n"; const double RSClipperWrapperVersionNumber __attribute__ ((used)) = (double)1.1;

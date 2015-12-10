@@ -10,20 +10,20 @@ provides-dynamic-lookup:
 depends-top-level:
 - "..."
 - !private "<="
-- "Any"
 - "inspect"
-- !private "=="
 - "Component"
-- !private "StringLiteralType"
+- "Any"
+- !private "BooleanLiteralType"
+- !private ">="
 - "Int"
 - !private "--"
-- "String"
 - !private "Mirror"
+- !private "StringLiteralType"
 - !private "++"
 - "Bool"
+- !private "=="
+- "String"
 - !private "print"
-- !private ">="
-- !private "BooleanLiteralType"
 depends-member:
 - !private ["PSs17AnyCollectionType", "Generator"]
 - !private ["PSs17AnyCollectionType", "Index"]

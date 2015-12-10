@@ -7,14 +7,14 @@ provides-member:
 - ["C7Drakken6Size2D", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "simd"
 - !private "CGFloat"
-- "Float"
+- "Int"
+- "Size2D"
 - !private "CGSizeMake"
 - "CoreGraphics"
+- "simd"
 - "UInt32"
-- "Size2D"
-- "Int"
+- "Float"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "CGFloat"]

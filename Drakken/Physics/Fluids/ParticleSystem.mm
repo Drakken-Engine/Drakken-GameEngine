@@ -9,6 +9,7 @@
 #import "ParticleSystem.h"
 #import "b2ParticleSystem.h"
 #import "b2World.h"
+#import "GlobalHeader.h"
 
 @implementation ParticleSystem {
 	b2ParticleSystem * _particleSystem;
@@ -32,6 +33,16 @@
 		_particleSystem = _world->CreateParticleSystem(&_particleSystemDef);
 	}
 	return self;
+}
+
+- (void) createParticleWithPosition:(CGPoint) position velocity:(CGVector) velocity lifeTime:(float) lifeTime {
+	b2ParticleDef particleDef;
+	
+	particleDef.position = b2Vec2(position.x / kWorldScale, position.y / kWorldScale);
+	particleDef.velocity = b2Vec2(velocity.dx, velocity.dy);
+	particleDef.lifetime = lifeTime;
+	
+	_particleSystem->CreateParticle(particleDef);
 }
 
 - (void *) getParticleSystem {

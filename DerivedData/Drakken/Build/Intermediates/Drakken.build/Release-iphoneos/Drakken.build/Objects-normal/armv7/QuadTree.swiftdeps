@@ -10,25 +10,25 @@ provides-member:
 - ["C7Drakken8QuadTree", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Int"
-- "QuadNode"
-- !private "=="
-- "CGRect"
-- "CGFloat"
-- !private "/"
-- !private "<="
-- !private "||"
-- !private "!"
 - "QuadTree"
+- "QuadNode"
+- "CGFloat"
+- !private "||"
 - !private "Array"
-- !private "&&"
+- "CGRect"
 - !private "!="
-- "AxisAligned"
-- !private "CGRectIntersectsRect"
+- !private "=="
 - !private "+"
-- "FloatLiteralType"
+- !private "/"
 - !private "BooleanLiteralType"
 - !private "Bool"
+- !private "<="
+- !private "CGRectIntersectsRect"
+- "FloatLiteralType"
+- !private "&&"
+- "AxisAligned"
+- !private "!"
+- "Int"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "Array"]

@@ -7,14 +7,14 @@ provides-member:
 - ["C7Drakken11IndexBuffer", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Core"
 - "UInt32"
-- "Int"
 - "MTLBuffer"
-- !private "MTLResourceOptions"
-- "IndexBuffer"
-- !private "sizeof"
+- !private "Core"
 - !private "*"
+- "Int"
+- "IndexBuffer"
+- !private "MTLResourceOptions"
+- !private "sizeof"
 depends-member:
 - !private ["PSs9AnyObject", "Core"]
 - !private ["PSs9AnyObject", "MTLResourceOptions"]

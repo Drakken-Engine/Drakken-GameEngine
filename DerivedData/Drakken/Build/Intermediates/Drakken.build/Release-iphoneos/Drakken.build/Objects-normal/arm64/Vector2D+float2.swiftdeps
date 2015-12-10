@@ -17,15 +17,15 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "/="
-- "+"
-- "float2"
 - "Vector2D"
-- "/"
-- "-"
-- "+="
-- "*"
 - "*="
 - "-="
+- "-"
+- "float2"
+- "+="
+- "/"
+- "*"
+- "+"
 depends-member:
 - !private ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "x"]

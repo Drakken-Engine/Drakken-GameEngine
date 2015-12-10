@@ -21,4 +21,5 @@ dependencies: \
   /Volumes/Files/BEPiD/Main\ Challenge/XCode\ RC/Drakken/Drakken/Box2D/Collision/b2Collision.h \
   /Volumes/Files/BEPiD/Main\ Challenge/XCode\ RC/Drakken/Drakken/Box2D/Collision/b2DynamicTree.h \
   /Volumes/Files/BEPiD/Main\ Challenge/XCode\ RC/Drakken/Drakken/Box2D/Common/b2GrowableStack.h \
-  /Volumes/Files/BEPiD/Main\ Challenge/XCode\ RC/Drakken/Drakken/Box2D/Dynamics/b2WorldCallbacks.h
+  /Volumes/Files/BEPiD/Main\ Challenge/XCode\ RC/Drakken/Drakken/Box2D/Dynamics/b2WorldCallbacks.h \
+  /Volumes/Files/BEPiD/Main\ Challenge/XCode\ RC/Drakken/Drakken/Physics/GlobalHeader.h

@@ -13,15 +13,15 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "-"
 - "/="
+- "Size2D"
+- "-="
 - "*="
 - "/"
-- "+="
-- "-="
 - "*"
+- "-"
 - "+"
-- "Size2D"
+- "+="
 depends-member:
 - !private ["PSs16AbsoluteValuable", "Stride"]
 - !private ["PSs9AnyObject", "height"]

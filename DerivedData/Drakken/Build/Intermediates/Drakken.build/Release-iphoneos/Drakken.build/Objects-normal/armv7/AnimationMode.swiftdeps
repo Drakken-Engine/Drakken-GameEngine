@@ -8,9 +8,9 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "=="
+- "AnimationMode"
 - !private "IntegerLiteralType"
 - !private "FloatLiteralType"
-- "AnimationMode"
 depends-member:
 - ["O7Drakken13AnimationMode", "Iddle"]
 - ["O7Drakken13AnimationMode", "Loop"]

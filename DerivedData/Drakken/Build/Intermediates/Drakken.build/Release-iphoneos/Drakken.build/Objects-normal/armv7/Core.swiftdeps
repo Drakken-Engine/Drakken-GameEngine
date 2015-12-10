@@ -6,27 +6,27 @@ provides-nominal:
 provides-member:
 - ["C7Drakken4Core", ""]
 provides-dynamic-lookup:
-- "library"
-- "device"
-- "drawableSize"
 - "commandQueue"
+- "drawableSize"
 - "sharedInstance"
+- "device"
+- "library"
 depends-top-level:
-- !private "MTLCreateSystemDefaultDevice"
-- "MTLDevice"
-- "Float"
-- "NSObject"
-- "MTLLibrary"
-- "CGSize"
-- !private "NSBundle"
-- !private "StringLiteralType"
 - !private "print"
 - "MTLCommandQueue"
-- !private "*"
+- !private "MTLCreateSystemDefaultDevice"
 - !private "CGSizeMake"
-- "Core"
+- !private "NSBundle"
+- "MTLDevice"
+- "NSObject"
+- "Float"
+- "CGSize"
+- !private "StringLiteralType"
 - !private "CGFloat"
 - "Int"
+- !private "*"
+- "Core"
+- "MTLLibrary"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "CGFloat"]

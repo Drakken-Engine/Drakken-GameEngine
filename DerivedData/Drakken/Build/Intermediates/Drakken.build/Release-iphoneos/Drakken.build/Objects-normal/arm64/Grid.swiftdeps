@@ -7,26 +7,26 @@ provides-member:
 - ["C7Drakken4Grid", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Bool"
-- "float2"
-- "String"
-- !private "/"
-- "Int"
-- !private "*"
-- "Mesh"
+- !private "+"
 - !private "Float"
-- !private "++"
+- "String"
+- !private "<"
 - "FloatLiteralType"
 - "BooleanLiteralType"
-- "Grid"
 - !private "UInt32"
-- !private "+"
+- "float2"
+- "Bool"
 - !private "-"
+- !private "/"
+- !private "sizeof"
 - "Core"
 - "IntegerLiteralType"
+- !private "*"
+- "Int"
+- "Mesh"
 - !private "StringLiteralType"
-- !private "sizeof"
-- !private "<"
+- "Grid"
+- !private "++"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "IntegerLiteralType"]
 - !private ["PSs16AbsoluteValuable", "Stride"]

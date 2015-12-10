@@ -8,13 +8,13 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "simd"
-- "Vector2D"
 - !private "CGPointMake"
+- "Float"
+- "Vector2D"
 - "Int"
+- !private "CGVectorMake"
 - !private "CGFloat"
 - "CoreGraphics"
-- "Float"
-- !private "CGVectorMake"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "CGFloat"]

@@ -1,0 +1,12 @@
+framework module RSClipperWrapper {
+  umbrella header "RSClipperWrapper-umbrella.h"
+
+  export *
+  module * { export * }
+
+  private header "clipper.hpp"
+}
+
+module RSClipperWrapper.__Swift {
+    exclude header "RSClipperWrapper-Swift.h"
+}

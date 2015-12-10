@@ -9,10 +9,10 @@ provides-dynamic-lookup:
 - "label"
 - "tag"
 depends-top-level:
-- "Descriptor"
 - !private "StringLiteralType"
 - "NSObject"
 - "String"
+- "Descriptor"
 depends-member:
 - ["PSs9AnyObject", "init"]
 - ["PSs9AnyObject", "label"]

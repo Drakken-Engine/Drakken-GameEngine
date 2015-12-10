@@ -9,24 +9,24 @@ provides-member:
 - ["C7Drakken13TextureBuffer", ""]
 - ["C7Drakken7Texture", ""]
 provides-dynamic-lookup:
-- "index"
-- "setupOnRenderer"
-- "texture"
 - "loadFromFile"
+- "setupOnRenderer"
+- "index"
+- "texture"
 depends-top-level:
-- !private "+"
-- "String"
-- "Texture"
 - "TextureBuffer"
-- "Bufferable"
-- "Renderer"
-- "StringLiteralType"
-- "NSObject"
 - !private "UnicodeScalarType"
-- "Size2D"
+- "Texture"
+- "Bufferable"
 - "Int"
+- "Renderer"
 - !private "Resource"
 - "MTLTexture"
+- "Size2D"
+- "NSObject"
+- !private "+"
+- "StringLiteralType"
+- "String"
 depends-member:
 - !private ["PSs9AnyObject", "CGSize"]
 - !private ["PSs9AnyObject", "Resource"]

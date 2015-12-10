@@ -101,6 +101,10 @@
 	[self addWithShape:circleShape atPosition:position ofType:type lifetime:lifetime];
 }
 
+- (void) addParticleWithPosition:(CGPoint) position velocity:(CGVector) velocity lifeTime:(float) lifeTime {
+	[_particleSystem createParticleWithPosition:position velocity:velocity lifeTime:lifeTime];
+}
+
 - (void *) getPositionBuffer {
 	return [_particleSystem getPositionBuffer];
 }

@@ -39,7 +39,9 @@
 - (void) addCircleShapeFluidWithRadius:(float) radius
 							atPosition:(CGPoint) position
 								ofType:(FluidType) type
-							  lifetime:(float) lifetime;;
+							  lifetime:(float) lifetime;
+
+- (void) addParticleWithPosition:(CGPoint) position velocity:(CGVector) velocity lifeTime:(float) lifeTime;
 
 - (void *) getPositionBuffer;
 - (int) getParticleCount;

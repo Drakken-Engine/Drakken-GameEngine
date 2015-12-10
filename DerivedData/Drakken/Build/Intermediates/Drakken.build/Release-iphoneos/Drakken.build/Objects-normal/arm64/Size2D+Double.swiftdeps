@@ -12,17 +12,17 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
+- "*="
+- "Double"
+- "/"
 - "-"
 - "+"
+- "/="
 - "+="
 - "-="
-- "Size2D"
-- "/"
-- "Double"
 - "*"
-- "/="
-- "*="
 - !private "Float"
+- "Size2D"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "Stride"]
 - !private ["PSs16AbsoluteValuable", "init"]

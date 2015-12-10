@@ -18,6 +18,7 @@
 						density:(float)density
 						  world:(World *)world;
 
+- (void) createParticleWithPosition:(CGPoint) position velocity:(CGVector) velocity lifeTime:(float) lifeTime;
 - (void *) getParticleSystem;
 - (int) getParticleCount;
 - (void *) getPositionBuffer;

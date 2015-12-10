@@ -19,19 +19,19 @@ provides-member:
 - ["V7Drakken15LightProperties", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "float3"
-- "Float"
 - "ParticlesPositions"
-- "Void"
-- "float4x4"
-- !private "IntegerLiteralType"
 - "SharedUniforms"
-- "Int"
 - "UnsafeMutablePointer"
+- "Int"
+- !private "IntegerLiteralType"
+- "Float"
+- "float4x4"
+- "LightProperties"
+- "float3"
+- "Void"
+- !private "FloatLiteralType"
 - "MaterialProperties"
 - "ModelUniforms"
-- !private "FloatLiteralType"
-- "LightProperties"
 depends-member:
 - !private ["PSs22BidirectionalIndexType", "init"]
 - !private ["PSs11CVarArgType", "init"]

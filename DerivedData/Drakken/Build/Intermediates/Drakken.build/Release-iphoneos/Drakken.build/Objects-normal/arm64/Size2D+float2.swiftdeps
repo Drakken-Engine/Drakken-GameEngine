@@ -12,15 +12,15 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "-="
-- "/"
-- "Size2D"
-- "float2"
-- "*"
-- "+="
 - "/="
-- "+"
 - "*="
+- "float2"
+- "-="
+- "Size2D"
+- "+="
+- "/"
+- "+"
+- "*"
 - "-"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "Stride"]

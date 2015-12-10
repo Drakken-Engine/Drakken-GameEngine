@@ -7,21 +7,21 @@ provides-member:
 - ["C7Drakken9Animation", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "/"
-- !private "-"
-- !private "++"
-- !private "FloatLiteralType"
-- !private "BooleanLiteralType"
 - "AnimationMode"
-- "Float"
 - !private ">="
+- "Animation"
 - "Bool"
 - "String"
+- !private "FloatLiteralType"
+- "Float"
+- !private "BooleanLiteralType"
+- !private "-"
+- !private "/"
 - !private "=="
 - !private "IntegerLiteralType"
 - !private "&&"
+- !private "++"
 - "Int"
-- "Animation"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - ["C7Drakken9Animation", "AnimationMode"]
